@@ -1,14 +1,71 @@
+@import "normalize.css";
+@import "icons.css";
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2em;
-  color: #333;
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  line-height: 1.4;
+  color: #5c5c5c;
+  background-color: white;
   margin: 0;
   border-top: 5px #ff8000 solid;
+  border-bottom: 20px #5c5c5c solid;
 }
-.main {
-  width: 40em;
-  margin: 3em auto;
+h1,
+h2,
+h3 {
+  color: #333333;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+b {
+  color: #333333;
+}
+ul {
+  padding-left: 1em;
+  margin: -1em 0 1.4em;
+}
+ul li {
+  margin-bottom: .4em;
+}
+a {
+  color: #4c9ae6;
+  text-decoration: none;
+}
+a:visited {
+  color: #8b6fbb ;
+  font-weight: normal;
+}
+a:hover {
+  border-bottom: 1px #5c5c5c dotted;
 }
 .main p {
-  color: #555;
+  margin: 0 0 1.5em;
+}
+.icon-logo {
+  margin: .5em;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 200px;
+  text-indent: -9999px;
+}
+@media only screen and (min-width: 900px) {
+  .main {
+    width: 35em;
+    margin: 0 auto;
+    padding-bottom: 3em;
+  }
+}
+@media only screen and (max-width: 899px) {
+  body {
+    font-size: 1em;
+  }
+  .main {
+    padding: 10px;
+    padding-bottom: 3em;
+  }
+  .icon-logo {
+    margin: 10px;
+    margin-bottom: -10px;
+  }
 }

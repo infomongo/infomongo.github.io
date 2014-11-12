@@ -1,18 +1,92 @@
+@import "normalize.css";
+
 @accent-color: #ff8000;
+@font-color: #5c5c5c;
+@dark-font: #333;
 
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 1.2em;
-	color: #333;
+	font-family: 'Bitter', serif;
+	font-size: 1.1em;
+	line-height: 1.4;
+	color: @font-color;
+	background-color: white;
 	margin: 0;
 	border-top: 5px @accent-color solid;
+	border-bottom: 20px @font-color solid;
 }
 
-.main {
-	width: 40em;
-	margin: 3em auto;
+h1, h2, h3 {
+	color: @dark-font;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
+
+b {color:@dark-font;}
+
+ul {
+	padding-left: 1em;
+	margin: -1em 0 1.4em;
+	li {
+		margin-bottom: .4em;
+	}
+}
+
+a {
+	color: #4c9ae6;
+	text-decoration: none;
+	//font-weight: bold;
+}
+
+a:visited {
+	color: #8b6fbb ;
+	font-weight: normal;
+}
+
+a:hover {
+	border-bottom: 1px @font-color dotted;
+}
+
 
 .main p {
-	color: #555;
+	margin: 0 0 1.5em;
 }
+
+
+.icon-logo {
+	margin: .5em;
+	margin-bottom: 0;
+	padding: 0;
+	padding-left: 200px;
+	//color: white;
+	text-indent: -9999px;
+}
+
+//screens wider than 900px, ie not mobile
+@media only screen and (min-width : 900px) {
+	.main {
+		width: 35em;
+		margin: 0 auto;
+		padding-bottom: 3em;
+	}
+
+}
+
+//mobile
+@media only screen and (max-width : 899px) {
+	body {
+		font-size: 1em;
+	}
+	.main {
+		padding: 10px;
+		padding-bottom: 3em;
+	}
+	.icon-logo {
+		margin: 10px;
+		margin-bottom: -10px;
+	}
+	
+}
+
+
+@import "icons.css";
