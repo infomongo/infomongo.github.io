@@ -9,7 +9,8 @@ body {
   background-color: white;
   margin: 0;
   border-top: 5px #ff8000 solid;
-  border-bottom: 20px #5c5c5c solid;
+  /* 	border-bottom: 2px @font-color solid;
+	margin-bottom: 1em; */
 }
 h1,
 h2,
