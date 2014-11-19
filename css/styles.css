@@ -41,7 +41,7 @@ a:hover {
   border-bottom: 1px #5c5c5c dotted;
 }
 .main p {
-  margin: 0 0 1.5em;
+  margin: 0 0 1.2em;
 }
 .locator {
   width: 616px;
@@ -87,6 +87,8 @@ a:hover {
   .icon-logo {
     margin: 10px;
     margin-bottom: -10px;
+    background-size: 110px;
+    width: 100%;
   }
   .locator {
     width: 100%;
