@@ -24,25 +24,30 @@
 
 <p>I enjoy creating prototypes. Prototypes are a quick way to explore an idea and get a feel for it. I use a couple of tools to speed the process up: <a href="http://jekyllrb.com">Jekyll</a> a ruby framework for creating static sites and <a href="https://angularjs.org">Angular JS</a> a JavaScript framework for creating applications.</p>
 
-<p><label class="links" for="switch"><input id="switch" type="checkbox"> Links open in new windows</label></p>
 
 	</div>
-	<div class="picture">
-		<div class="img loc-scout"></div>
-		<div class="text">
-<h2>Angular Apps</h2>			
-			
-<p><b><a href="http://scout.placeable.com">Location Scout</a></b> – This app is a sales tool. It provides prospects and sales people a way to check a brand’s local data.</p>
+	
+	<div class="img pw1 large"></div>
+	
+	<div class="main">
+<h2>Placeable Workbench</h2>	
+<p>I was the Lead UX Designer for Placeable Workbench, a SAAS Location Data Warehouse product. This app allows large brands to get the most out of their location data. It helped them find and fix problems in their data. Usability of the app consistently rated highly by users.</p>
 
-<p>I did the design and code on this one, although it is calling an internal API that is doing much of the heavy lifting. This got built pretty quickly, less than a month working off and on.</p> 		
+<p>I worked closely with product management to identify and design features. I built an early static prototype of the app used to validate the concept and guide development. I also created wireframes, comps, and did some development on the product.	</p>
+	</div>
+	<div class="pictures">
+		<div class="window">
+			<div class="workbench images">
+				<div class="img pw2"></div>
+				<div class="img pw3"></div>
+				<div class="img pw4"></div>
+				<div class="img pw5"></div>
+				<div class="img pw6"></div>
+				<div class="img pw7"></div>
+			</div>
 		</div>
 	</div>
-	<div class="picture alt">
-		<div class="img roi-calc"></div>
-		<div class="text roi">
-<p><b><a href="http://roi.placeable.com">ROI Calculator</a></b> – Another sales tool, this one estimates the ROI of Placeable’s offereings. I did the UX Design and much of the engineering, adapted from an existing project. Total dev time for this project was about 2 weeks.</p>		
-		</div>
-	</div>
+	
 	<div class="main">
 		<h2>Store Locators</h2>
 		
@@ -51,6 +56,8 @@
 		
 		<p>Sites built on our platform combined top-tier usability with best in class SEO.</p>
 		
+		<p><label class="links" for="switch"><input id="switch" type="checkbox"> Links open in new windows</label></p>
+		
 		<p>Some example sites:</p>
 		
 		<ul>
@@ -58,6 +65,8 @@
 			<li><a href="http://local.biglots.com">Big Lots</a> – A locator for the discount retailer. Search for Denver, CO or click the link “Browse by State”.</li>
 			<li><a href="https://locations.umb.com">UMB Bank</a> – A branch and ATM locator for this bank. Try searching for Hartford, CT. </li>
 		</ul>
+		
+
 		
 		<!-- <p>Each of these sites has a mobile version.</p> -->
 		
@@ -122,6 +131,23 @@
 		</div>
 	</div>	
 	
+	<div class="main">
+<h2>Angular Apps</h2>
+
+<p><b><a href="http://scout.placeable.com">Location Scout</a></b> – This app is a sales tool. It provides prospects and sales people a way to check a brand’s local data.</p>
+
+<p>I did the design and code on this one, although it is calling an internal API that is doing much of the heavy lifting. This got built pretty quickly, less than a month working off and on.</p> 		
+	</div>
+	
+	<div class="img loc-scout large"></div>
+	
+	<div class="main roi">
+<p><b><a href="http://roi.placeable.com">ROI Calculator</a></b> – Another sales tool, this one estimates the ROI of Placeable’s offereings. I did the UX Design and much of the engineering, adapted from an existing project. Total dev time for this project was about 2 weeks.</p>	
+
+<p>The langauge used and settings offered are a bit “inside baseball” but the app was used by sales people. They’d send a link to a client and walk them through it. </p>	
+	</div>
+	
+	<div class="img roi-calc large"></div>
 
 <script src="jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>	
 <script>
@@ -129,20 +155,23 @@
 	  // Handler for .ready() called
 	  var links_checkbox = $('.links input'); 
 	  
-	  links_checkbox.change(function() {
-		  new_window = links_checkbox.prop( "checked" );
+	  links_checkbox.prop( "checked", true );
+	  // check the checkbox by default
+	  open_new();
+	  
+	  function open_new() {
+		new_window = links_checkbox.prop( "checked" );
 		  
 		if (new_window ){
 		  $('a[href]').not('.internal').attr( 'target', '_blank' );
 		} else {
 		  $('a[href]').not('.internal').removeAttr( "target" );		  
-		}
-		  
-	  });
+		};
+	  };
 	  
-	
+	  links_checkbox.change(open_new);
+	  
 	});
-	
 	
 </script>	
 	
