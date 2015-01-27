@@ -508,11 +508,146 @@ a:hover {
   padding-left: 200px;
   text-indent: -9999px;
 }
+/* adapted from http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
 @media only screen and (min-width: 900px) {
   .main {
     width: 35em;
     margin: 0 auto;
-    padding-bottom: 3em;
+  }
+  .picture {
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+  .picture .img {
+    float: left;
+    width: 498px;
+    height: 436px;
+    margin: 0 20px;
+    border: 1px #dddddd solid;
+  }
+  .picture .text {
+    padding-right: 2em;
+  }
+  .picture.alt .img {
+    float: right;
+  }
+  .picture.alt .text {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+  .pictures {
+    margin: 1em 20px 3em;
+    overflow: auto;
+  }
+  .pictures .img {
+    float: left;
+    width: 433px;
+    height: 388px;
+    margin-right: 20px;
+    border: 1px #dddddd solid;
+  }
+  .pictures .img.mob {
+    width: 211px;
+    height: 374px;
+  }
+  .window {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+  .images {
+    width: 3000px;
+  }
+  .roi {
+    position: relative;
+    top: 7em;
+  }
+  .img.loc-scout {
+    background: url('/img/location-scout-45.png');
+  }
+  .img.roi-calc {
+    background: url('/img/roi-calc-45.png');
+  }
+  .img.mob.smash1 {
+    background: url('/img/smash-mob-1-33.png');
+  }
+  .img.mob.smash3 {
+    background: url('/img/smash-mob-3-33.png');
+  }
+  .img.mob.smash4 {
+    background: url('/img/smash-mob-4-33.png');
+  }
+  .img.mob.smash5 {
+    background: url('/img/smash-mob-5-33.png');
+  }
+  .img.smash1 {
+    background: url('/img/smash-1-40.png');
+  }
+  .img.smash2 {
+    background: url('/img/smash-2-40.png');
+  }
+  .img.smash3 {
+    background: url('/img/smash-3-40.png');
+  }
+  .img.mob.lots1 {
+    background: url('/img/Big-Lots-mob-1-33.png');
+  }
+  .img.mob.lots3 {
+    background: url('/img/Big-Lots-mob-3-33.png');
+  }
+  .img.mob.lots4 {
+    background: url('/img/Big-Lots-mob-4-33.png');
+  }
+  .img.mob.lots5 {
+    background: url('/img/Big-Lots-mob-5-33.png');
+  }
+  .img.lots1 {
+    background: url('/img/Big-Lots-1-40.png');
+  }
+  .img.lots2 {
+    background: url('/img/Big-Lots-2-40.png');
+  }
+  .img.lots3 {
+    background: url('/img/Big-Lots-3-40.png');
+  }
+  .img.lots4 {
+    background: url('/img/Big-Lots-4-40.png');
+  }
+  .img.mob.nw1 {
+    background: url('/img/NW-Mob-1-33.png');
+  }
+  .img.mob.nw2 {
+    background: url('/img/NW-Mob-2-33.png');
+  }
+  .img.mob.nw3 {
+    background: url('/img/NW-Mob-3-33.png');
+  }
+  .img.nw1 {
+    background: url('/img/Nationwide-1-40.png');
+  }
+  .img.nw2 {
+    background: url('/img/Nationwide-2-40.png');
+  }
+  .img.nw3 {
+    background: url('/img/Nationwide-3-40.png');
+  }
+  .img.nw4 {
+    background: url('/img/Nationwide-4-40.png');
+  }
+  .img.nw8 {
+    background: url('/img/Nationwide-8-40.png');
   }
 }
 @media only screen and (max-width: 899px) {
