@@ -433,8 +433,7 @@ th {
 	background-repeat: no-repeat;
 }
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-family: 'Bitter', serif;
+  font-family: 'Bitter', Georgia, serif;
   font-size: 1.1em;
   line-height: 1.4;
   color: #5c5c5c;
@@ -529,6 +528,22 @@ p {
     height: 678px;
     border: 1px #b5b4b6 solid;
     margin: 1em auto;
+  }
+  .img.sp1 {
+    background: url('/img/sp-home.jpg');
+    background-repeat: no-repeat;
+    padding-top: 55%;
+  }
+  .img.sp2 {
+    background: url('/img/sp-ma.png');
+    background-repeat: no-repeat;
+    padding-top: 55%;
+  }
+  .img.mk-70 {
+    width: 65%;
+    background-size: 100%;
+    margin: 1em auto;
+    border: 1px #b5b4b6 solid;
   }
   .img.pw1 {
     background: url('/img/pw-1-70.png');
