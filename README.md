@@ -3,10 +3,6 @@ infomongo
 
 Simple static site hosted via github pages. 
 
-To start a simple webserver:
+Using Jekyll to build it, even though it is a one pager.
 
-	python -m SimpleHTTPServer 3000
-	
-To compile LESS	files
-
-	grunt watch
+    bundle exec jekyll serve --host=0.0.0.0

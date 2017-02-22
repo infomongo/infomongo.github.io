@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    
+    <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    
+    {% capture include_to_scssify %}
+      {% include index.scss %}
+    {% endcapture %}
+    <style>
+        {% include normalize.css %}
+        
+        {{ include_to_scssify | scssify }}
+    </style>
+</head>
+
+<body >
+    <a href="/" class="internal"><h1 class="logo">Infomongo</h1></a>
+
+    {{ content }}
+
+</body>
+
+</html>

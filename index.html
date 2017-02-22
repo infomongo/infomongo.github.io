@@ -1,195 +1,135 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1">
+---
+layout: default
+title: 'infomongo: the online home of john phillips'
+description: The portfolio site of John Phillips, a UX designer located in Denver, CO.
+---
 
-	<title>Infomongo</title>
-	
-	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
-</head>
-<body>
-	
-	<a href="/" class="internal"><h1 class="icon-logo">Infomongo</h1></a>
-	
-	
-	<div class="main">
+<div class="main">
+  
+  {% capture intro_text %}
+    {% include_relative content/intro.md %}
+  {% endcapture %}
+  {{ intro_text | markdownify }}
+  
+</div>
 
-<h2>About Me</h2>
+<div class="img sp1 full mk-70"></div>
 
-		
-<p>I‘m John Phillips, a UX Designer &amp; Web Developer with 15 years experience designing and building for the web.</p>
+<div class="main">
+  {% capture pulse_text %}
+    {% include_relative content/pulse.md %}
+  {% endcapture %}
+  {{ pulse_text | markdownify }}
+</div>
 
-<p>I enjoy creating prototypes. Prototypes are a quick way to explore an idea and get a feel for it. I use a couple of tools to speed the process up: <a href="http://jekyllrb.com">Jekyll</a> a ruby framework for creating static sites and <a href="https://angularjs.org">Angular JS</a> a JavaScript framework for creating applications.</p>
+<div class="img sp2 full mk-70"></div>
 
+<div class="main">
+  {% capture workbench_text %}
+    {% include_relative content/workbench.md %}
+  {% endcapture %}
+  {{ workbench_text | markdownify }}
+</div>
 
+<div class="img pw1 large"></div>
+
+<div class="pictures">
+	<div class="window">
+	  <div class="workbench images">
+	    <div class="img pw2"></div>
+	    <div class="img pw3"></div>
+	    <div class="img pw4"></div>
+	    <div class="img pw5"></div>
+	    <div class="img pw6"></div>
+	    <div class="img pw7"></div>
+	  </div>
 	</div>
-	
-	<div class="img sp1 full mk-70"></div>
-	
-	<div class="main">
-		<h2>SolarPulse</h2>
-		
-		<p><a href="http://moonsault.co/">Moonsault Software</a> built this site for our clients <a href="https://www.solarpulse.com">SolarPulse</a>. SolarPulse is an energy company that aims to educate people about rooftop solar and connect them with the right installer for their needs.</p>
-		
-		<p>They have a unique approach, combining data analytics with deep solar experience, to take the anxiety out of a rooftop solar purchase. Their aim is to give people the tools they need to make an eductaed decision, to demystify what can be a complex purchase. As an example, read this <a href="https://www.solarpulse.com/blog/solar-not-just-for-weathy-people/">post about the changing economics of going solar</a>.</p>
-			
-		<p>The screen shot below is to a deep content piece explaining <a href="https://www.solarpulse.com/goingsolar/massachusetts/">everything you need to know about rooftop solar in Massachusetts</a>. </p>
-		
-	</div>
-	
-	<div class="img sp2 full mk-70"></div>
-	
-	<div class="img pw1 large"></div>
-	
-	<div class="main">
-<h2>Placeable Workbench</h2>	
-<p>I was the Lead UX Designer for Placeable Workbench, a SAAS Location Data Warehouse product. This app allows large brands to get the most out of their location data. It helped them find and fix problems in their data. Usability of the app consistently rated highly by users.</p>
+</div>
 
-<p>I worked closely with product management to identify and design features. I built an early static prototype of the app used to validate the concept and guide development. I also created wireframes, comps, and did some development on the product.	</p>
-	</div>
-	<div class="pictures">
-		<div class="window">
-			<div class="workbench images">
-				<div class="img pw2"></div>
-				<div class="img pw3"></div>
-				<div class="img pw4"></div>
-				<div class="img pw5"></div>
-				<div class="img pw6"></div>
-				<div class="img pw7"></div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="main">
-		<h2>Store Locators</h2>
-		
-		
-		<p>At <a href="http://placeable.com">Placeable</a> we created a platform that allowed us to quickly build store locators for our clients. I did the UX design of the templates used in the system. These were “skinned” with the site‘s branding. I was also part of the engineering team that built the system.</p>
-		
-		<p>Sites built on our platform combined top-tier usability with best in class SEO.</p>
-		
-		<p><label class="links" for="switch"><input id="switch" type="checkbox"> Links open in new windows</label></p>
-		
-		<p>Some example sites:</p>
-		
-		<ul>
-			<li><a href="http://locations.smashburger.com">Smashburger</a> – We created this locator for the brand in 2014.</li>
-			<li><a href="http://local.biglots.com">Big Lots</a> – A locator for the discount retailer. Search for Denver, CO or click the link “Browse by State”.</li>
-			<li><a href="https://locations.umb.com">UMB Bank</a> – A branch and ATM locator for this bank. Try searching for Hartford, CT. </li>
-		</ul>
-		
+<div class="main">
+  {% capture locators_text %}
+    {% include_relative content/locators.md %}
+  {% endcapture %}
+  {{ locators_text | markdownify }}
+</div>
 
-		
-		<!-- <p>Each of these sites has a mobile version.</p> -->
-		
-		<p>The branding and graphic design were done by others. I did the UX design of the base templates, including the flow between pages and information hierarchy.</p>
+<div class="pictures">
+	<div class="window">
+	  <div class="smash images">
+	    <div class="img mob smash1"></div>
+	    <div class="img mob smash3"></div>
+	    <div class="img mob smash4"></div>
+	    <!-- <div class="img mob smash5"></div> -->
+	    
+	    <div class="img smash1"></div>
+	    <div class="img smash2"></div>
+	    <div class="img smash3"></div>
+	  </div>
 	</div>
-
-	<div class="pictures">
-		<div class="window">
-			<div class="smash images">
-				<div class="img mob smash1"></div>
-				<div class="img mob smash3"></div>
-				<div class="img mob smash4"></div>
-				<!-- <div class="img mob smash5"></div> -->
-				
-				<div class="img smash1"></div>
-				<div class="img smash2"></div>
-				<div class="img smash3"></div>
-			</div>
-		</div>
-		<div class="window">
-			<div class="lots images">
-				<div class="img mob lots1"></div>
-				<div class="img mob lots3"></div>
-				<div class="img mob lots4"></div>
-				<div class="img mob lots5"></div>
-				<!-- <div class="img mob smash5"></div> -->
-				
-				<div class="img lots1"></div>
-				<div class="img lots2"></div>
-				<div class="img lots3"></div>
-				<div class="img lots4"></div>
-			</div>
-		</div>
-			
+	<div class="window">
+	  <div class="lots images">
+	    <div class="img mob lots1"></div>
+	    <div class="img mob lots3"></div>
+	    <div class="img mob lots4"></div>
+	    <div class="img mob lots5"></div>
+	    <!-- <div class="img mob smash5"></div> -->
+	    
+	    <div class="img lots1"></div>
+	    <div class="img lots2"></div>
+	    <div class="img lots3"></div>
+	    <div class="img lots4"></div>
+	  </div>
 	</div>
-	<div class="main">
+	  
+</div>
 
-<h3>Bigger Brands</h3>
+<div class="main">
+  {% capture branded_locators_text %}
+    {% include_relative content/branded_locators.md %}
+  {% endcapture %}
+  {{ branded_locators_text | markdownify }}
+</div>
 
-<p>In addition to the standard templates, clients could choose to fully customize the sites. Bigger brands often went this route.</p>
-
-<ul>
-	<li><a href="http://agency.nationwide.com">Nationwide Insurance</a> - I worked with Nationwide’s excellent UX team to design this Agent Locator.  The basic flow is similar to the sites above, but it also supports searching by name and provides a wealth of details about each location. The mobile version of this site is slightly simpler, as our research revealed different use cases for mobile users.
-</li>
-	<li><a href="http://locations.westernunion.com">Western Union</a> – This one was designed by their in-house team. The mobile variation uses the standard designs I developed.</li>
-</ul>
-	</div>
-	<div class="pictures">
-		<div class="window">
-			<div class="nw images">
-				<div class="img mob nw1"></div>
-				<div class="img mob nw2"></div>
-				<div class="img mob nw3"></div>
-				<!-- <div class="img mob smash5"></div> -->
-				
-				<div class="img nw1"></div>
-				<div class="img nw2"></div>
-				<div class="img nw3"></div>
-				<div class="img nw4"></div>
-				<div class="img nw8"></div>
-			</div>
-		</div>
+  <div class="pictures">
+	  <div class="window">
+	    <div class="nw images">
+	      <div class="img mob nw1"></div>
+	      <div class="img mob nw2"></div>
+	      <div class="img mob nw3"></div>
+	      <!-- <div class="img mob smash5"></div> -->
+	      
+	      <div class="img nw1"></div>
+	      <div class="img nw2"></div>
+	      <div class="img nw3"></div>
+	      <div class="img nw4"></div>
+	      <div class="img nw8"></div>
+	    </div>
+	  </div>
 	</div>	
 	
-	<div class="main">
-<h2>Angular Apps</h2>
+<div class="main">
+	{% capture scout_text %}
+	  {% include_relative content/scout.md %}
+	{% endcapture %}
+	{{ scout_text | markdownify }}
+</div>
 
-<p><b><a href="http://scout.placeable.com">Location Scout</a></b> – This app is a sales tool. It provides prospects and sales people a way to check a brand’s local data.</p>
+<div class="img loc-scout large"></div>
 
-<p>I did the design and code on this one, although it is calling an internal API that is doing much of the heavy lifting. This got built pretty quickly, less than a month working off and on.</p> 		
-	</div>
-	
-	<div class="img loc-scout large"></div>
-	
-	<div class="main roi">
-<p><b><a href="http://roi.placeable.com">ROI Calculator</a></b> – Another sales tool, this one estimates the ROI of Placeable’s offereings. I did the UX Design and much of the engineering, adapted from an existing project. Total dev time for this project was about 2 weeks.</p>	
+<div class="main roi">
+  {% capture calc_text %}
+    {% include_relative content/calc.md %}
+  {% endcapture %}
+  {{ calc_text | markdownify }}
+</div>
 
-<p>The langauge used and settings offered are a bit “inside baseball” but the app was used by sales people. They’d send a link to a client and walk them through it. </p>	
-	</div>
-	
-	<div class="img roi-calc large"></div>
+<div class="img roi-calc large"></div>
 
-<script src="jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>	
+<script src="/js/jquery-1.11.1.min.js"></script>
+
 <script>
-	$(function() {
-	  // Handler for .ready() called
-	  var links_checkbox = $('.links input'); 
-	  
-	  links_checkbox.prop( "checked", true );
-	  // check the checkbox by default
-	  open_new();
-	  
-	  function open_new() {
-		new_window = links_checkbox.prop( "checked" );
-		  
-		if (new_window ){
-		  $('a[href]').not('.internal').attr( 'target', '_blank' );
-		} else {
-		  $('a[href]').not('.internal').removeAttr( "target" );		  
-		};
-	  };
-	  
-	  links_checkbox.change(open_new);
-	  
-	});
+
+  {% include index.js %}
+
+</script>
 	
-</script>	
-	
-</body>
-</html>
