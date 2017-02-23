@@ -1,7 +1,7 @@
 
 ## SolarPulse
 
-[Moonsault Software][1] built this site for our clients [SolarPulse][2]. SolarPulse is an energy company that aims to educate people about rooftop solar and connect them with the right installer for their needs.
+[Moonsault Software][1] built this site for our clients [SolarPulse][2], an energy company that aims to educate people about rooftop solar and connect them with the right installer for their needs.
 
 They have a unique approach, combining data analytics with deep solar experience, to take the anxiety out of a rooftop solar purchase. Their aim is to give people the tools they need to make an eductaed decision, to demystify what can be a complex purchase. As an example, read this [post about the changing economics of going solar][3].
 	

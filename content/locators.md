@@ -6,8 +6,6 @@ At [Placeable][1] we created a platform that allowed us to quickly build store l
 	
 Sites built on our platform combined top-tier usability with best in class SEO.
 
-<p><label class="links" for="switch"><input id="switch" type="checkbox"> Links open in new windows</label></p>
-
 Some example sites:
 
 * [Smashburger][2] – We created this locator for the brand in 2014.
