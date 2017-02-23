@@ -26,9 +26,6 @@ h1, h2, h3 {
 h1 {
 	color: $accent-color;
 	text-transform: uppercase;
-	&.logo {
-		margin: 1em;
-	}
 }
 
 
@@ -67,9 +64,40 @@ p {
 	margin: 0 0 1.2em;
 }
 
+img {
+	border: 1px $border-color solid;
+	&.center {
+		display: block;
+		margin: 1em auto;
+	}
+	&.lrg {
+		max-width: 70%;
+	}
+}
+
+.side-scroll {
+	margin: 1em 20px;
+	overflow:auto;
+	white-space: nowrap;
+	img {
+		margin-right: 10px;
+		vertical-align: top;
+		&.landscape {
+			width: 500px;
+		}
+		&.portrait {
+			width: 244px;
+		}
+	}
+}
+
 //screens wider than 800px, ie not mobile
 @media only screen and (min-width : 800px) {
 
+	h1.logo {
+		margin: 1em;
+	}
+	
 	.main {
 		width: 35em;
 		margin: 3em auto;
@@ -78,175 +106,11 @@ p {
 			margin-bottom: 0;
 		}
 	}
-
-	.pictures {
-		//width: 90%;
-		//min-width: 1000px;
-		margin: 1em 20px 2em;
-		overflow: auto;
-		.img {
-			float: left;
-			width: 433px;
-			height: 388px;
-			//margin: 0 20px 20px 0;
-			margin-right: 20px;
-			border: 1px $border-color solid;
+	
+	img {
+		&.lrg {
+			min-width: 616px;
 		}
-		.workbench .img {
-			width: 461px;
-		}
-		.img.mob {
-			width: 211px;
-			height: 374px;
-		}
-	}
-
-	.window {
-		//border: 1px #000 solid;
-		width: 100%;
-		height: 430px;
-		margin-bottom: 20px;
-		overflow: auto;
-	}
-
-	.images {
-		width: 3000px
-	}
-
-
-
-	.img.large {
-		width: 775px;
-		height: 678px;
-		border: 1px $border-color solid;
-		margin: 1em auto;
-	}
-
-	.img.sp1 {
-		background: url('/img/sp-home.jpg');
-		background-repeat: no-repeat;
-		padding-top: 55%;
-	}
-
-	.img.sp2 {
-		background: url('/img/sp-ma.png');
-		background-repeat: no-repeat;
-		padding-top: 55%;
-	}
-
-	.img.mk-70 {
-		width: 65%;
-		background-size: 100%;
-		margin: 1em auto;
-		border: 1px $border-color solid;
-	}
-
-	.img.pw1 {
-		background: url('/img/pw-1-70.png');
-		//margin-top: .25em;
-	}
-
-	.img.pw2 {
-		background: url('/img/pw-2-40.png');
-	}
-	.img.pw3 {
-		background: url('/img/pw-3-40.png');
-	}
-	.img.pw4 {
-		background: url('/img/pw-4-40.png');
-	}
-	.img.pw5 {
-		background: url('/img/pw-5-40.png');
-	}
-	.img.pw6 {
-		background: url('/img/pw-6-40.png');
-	}
-	.img.pw7 {
-		background: url('/img/pw-7-40.png');
-	}
-
-
-	.img.loc-scout {
-		background: url('/img/location-scout-70.png');
-	}
-
-	.img.roi-calc {
-		background: url('/img/roi-calc-70.png');
-	}
-
-	.img.mob.smash1 {
-		background: url('/img/smash-mob-1-33.png');
-	}
-	.img.mob.smash3 {
-		background: url('/img/smash-mob-3-33.png');
-	}
-	.img.mob.smash4 {
-		background: url('/img/smash-mob-4-33.png');
-	}
-	.img.mob.smash5 {
-		background: url('/img/smash-mob-5-33.png');
-	}
-
-	.img.smash1 {
-		background: url('/img/smash-1-40.png');
-	}
-	.img.smash2 {
-		background: url('/img/smash-2-40.png');
-	}
-	.img.smash3 {
-		background: url('/img/smash-3-40.png');
-	}
-
-	.img.mob.lots1 {
-		background: url('/img/Big-Lots-mob-1-33.png');
-	}
-	.img.mob.lots3 {
-		background: url('/img/Big-Lots-mob-3-33.png');
-	}
-	.img.mob.lots4 {
-		background: url('/img/Big-Lots-mob-4-33.png');
-	}
-	.img.mob.lots5 {
-		background: url('/img/Big-Lots-mob-5-33.png');
-	}
-
-	.img.lots1 {
-		background: url('/img/Big-Lots-1-40.png');
-	}
-	.img.lots2 {
-		background: url('/img/Big-Lots-2-40.png');
-	}
-	.img.lots3 {
-		background: url('/img/Big-Lots-3-40.png');
-	}
-	.img.lots4 {
-		background: url('/img/Big-Lots-4-40.png');
-	}
-
-	.img.mob.nw1 {
-		background: url('/img/NW-Mob-1-33.png');
-	}
-	.img.mob.nw2 {
-		background: url('/img/NW-Mob-2-33.png');
-	}
-	.img.mob.nw3 {
-		background: url('/img/NW-Mob-3-33.png');
-	}
-
-	.img.nw1 {
-		background: url('/img/Nationwide-1-40.png');
-	}
-	.img.nw2 {
-		background: url('/img/Nationwide-2-40.png');
-	}
-	.img.nw3 {
-		background: url('/img/Nationwide-3-40.png');
-	}
-	.img.nw4 {
-		background: url('/img/Nationwide-4-40.png');
-	}
-	.img.nw8 {
-		background: url('/img/Nationwide-8-40.png');
 	}
 
 }
@@ -255,10 +119,34 @@ p {
 @media only screen and (max-width : 799px) {
 	body {
 		font-size: 1em;
+		//margin: 0 10px
 	}
-	.main {
-		padding: 10px;
+	
+	h1.logo {
+		font-size: 1.4em;
+		margin: 10px;
+	}
+	
+	.main, .mob-pad {
+		padding: 0 10px;
 		//padding-bottom: 3em;
+	}
+	
+	img {
+		&.center {
+			//display: block;
+			//margin: 0 a;
+		}
+		&.lrg {
+			max-width: 100%;
+		}
+	}
+	
+	.side-scroll {
+		margin: 1em 10px;
+		img.portrait {
+			max-width: 75%;
+		}
 	}
 
 }
