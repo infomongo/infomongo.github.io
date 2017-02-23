@@ -146,8 +146,11 @@ img {
 	
 	.side-scroll {
 		margin: 1em 10px;
-		img.portrait {
+		img.landscape {
 			max-width: 75%;
+		}
+		img.portrait {
+			max-width: 38%;
 		}
 	}
 	
