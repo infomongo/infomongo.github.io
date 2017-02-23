@@ -13,8 +13,10 @@ body {
 	margin: 0;
 	border-top: 5px $accent-color solid;
 	border-bottom: 50px $dark-font solid;
-	padding-bottom: 3em;
-	//margin-bottom: 1em; 
+}
+
+.copyright {
+	font-size: 80%;
 }
 
 h1, h2, h3 {
@@ -101,16 +103,16 @@ img {
 	.main {
 		width: 35em;
 		margin: 3em auto;
-		//padding-bottom: .5em;
-		&.last {
-			margin-bottom: 0;
-		}
 	}
 	
 	img {
 		&.lrg {
 			min-width: 616px;
 		}
+	}
+	
+	.copyright {
+		margin: 5em 1em 2em;
 	}
 
 }
@@ -147,6 +149,10 @@ img {
 		img.portrait {
 			max-width: 75%;
 		}
+	}
+	
+	.copyright {
+		margin: 10px;
 	}
 
 }
