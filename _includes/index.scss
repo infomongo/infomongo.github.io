@@ -6,7 +6,7 @@ $border-color: #b5b4b6;
 
 body {
 	font-family: 'Bitter', Georgia, serif;
-	font-size: 1.1em;
+	font-size: percentage(18/16);
 	line-height: 1.4;
 	color: $font-color;
 	background-color: white;
@@ -91,6 +91,31 @@ img {
 			width: 244px;
 		}
 	}
+}
+
+.temp {
+	font-size: percentage(24/18);
+	min-height: 80vh;
+	.label {
+		margin-left: .25em;
+	}
+	p {
+		font-size: percentage(18/24);
+	}
+}
+
+#celsius {
+	-webkit-appearance: none;
+	border: 1px $border-color solid;
+	border-radius: 0;
+	padding: 2px;
+	margin-bottom: .5em;
+}
+
+#celsius, #fahrenheit {
+	display: inline-block;
+	width: 2em;
+	text-align: right;
 }
 
 //screens wider than 800px, ie not mobile
