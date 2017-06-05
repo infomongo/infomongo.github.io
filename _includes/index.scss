@@ -31,7 +31,7 @@ h1 {
 }
 
 
-div {
+* {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box; 
@@ -93,7 +93,7 @@ img {
 	}
 }
 
-.temp {
+.big {
 	font-size: percentage(24/18);
 	min-height: 80vh;
 	.label {
@@ -116,6 +116,27 @@ img {
 	display: inline-block;
 	width: 2em;
 	text-align: right;
+}
+
+.tip-calc {
+	input {
+		-webkit-appearance: none;
+		border: 1px $border-color solid;
+		border-radius: 0;
+		padding: 2px;
+		width: 4em;
+	}
+	#percent {
+		display: inline-block;
+		margin-top: .5em;
+	}
+	#tip, #total {
+		display: inline-block;
+		width: 4em;
+	}
+	.line {
+		margin-bottom: .25em;
+	}
 }
 
 //screens wider than 800px, ie not mobile

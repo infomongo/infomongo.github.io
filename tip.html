@@ -1,0 +1,79 @@
+---
+layout: default
+title: 'Tip Calculator'
+---
+
+<div class="main big tip-calc">
+	
+	<p>Tip Calculator </p>
+
+	<div class="line">
+		$ <input id="bill" type="number" value="" class="large"><span class="label">bill amount</span>
+	</div>
+	
+	<div class="line">
+		$ <span id="tip">--</span>
+		<span class="label">tip amount</span>
+	</div>
+	
+	<div class="line">
+		$ <span id="total">--</span>
+		<span class="label">total</span>
+	</div>
+
+	<p id="percent"></p>
+
+</div>
+
+
+{% include copyright.html %}
+
+<script src="/js/jquery-1.11.1.min.js"></script>
+
+<script>
+
+$(function() {
+	 	 	
+	var $bill = $('#bill');
+	var $tip = $('#tip');
+	var $total = $('#total');
+	var $percent = $('#percent')
+	
+	$bill.on('keyup', function () {
+	  calculate();
+	});
+	
+	function calculate() {
+		var percent = 0.19;
+		var bill = Number($bill.val());
+		
+		var roundBill = Math.floor(bill);		
+		var baseTip = (roundBill * percent);
+		//console.log(typeof baseTip);
+		
+		var total = Math.ceil(bill + baseTip);
+		var tip = total - bill ;
+		var effectiveTip =  Math.round( (tip / bill) * 100 );
+		
+		if (effectiveTip > 23) {
+			tip = tip - 1;
+			total = bill + tip;
+			effectiveTip =  Math.round( (tip / bill) * 100 );
+		}
+		
+		tip = cleanForDisplay(tip);
+		total = cleanForDisplay(total);
+		
+		$tip.html(tip);
+		$total.html(total);
+		$percent.html(effectiveTip + "%");
+	}
+	 
+	function cleanForDisplay(num) {
+		var cleaned = parseFloat(Math.round(num * 100) / 100).toFixed(2)
+		return cleaned;
+	}
+	
+});
+
+</script>
