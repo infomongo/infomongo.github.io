@@ -3,16 +3,15 @@ layout: default
 title: 'Convert C° -> F°'
 ---
 
-<div class="main big">
+<div class="main big temp">
 	
 	<p>Convert C° to F° </p>
 
 	<input id="celsius" type="number" pattern="\d*" value="0" class="large"><span class="label">°C</span>
 	
-	<div class="fahrenheit">
-		<span id="fahrenheit">32</span>
-		<span class="label">°F</span>
-	</div>
+	<span class="arrow">→</span> 
+	
+	<span id="fahrenheit">32</span><span class="label">°F</span>
 
 </div>
 
@@ -39,7 +38,7 @@ $(function() {
 	 
 	 function convert(celsius) {
 		var fahrenheit = (celsius * 1.8) + 32;
-		return fahrenheit;
+		return Math.round(fahrenheit);
 	 }
 });
 

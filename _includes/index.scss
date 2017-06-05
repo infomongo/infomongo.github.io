@@ -102,6 +102,9 @@ img {
 	p {
 		font-size: percentage(18/24);
 	}
+	&.temp{
+		font-size: percentage(28/18);
+	}
 }
 
 #celsius {
@@ -112,10 +115,16 @@ img {
 	margin-bottom: .5em;
 }
 
-#celsius, #fahrenheit {
+#celsius {
 	display: inline-block;
 	width: 2em;
 	text-align: right;
+}
+
+.temp {
+	.arrow {
+		padding: 0 1em;
+	}
 }
 
 .tip-calc {
