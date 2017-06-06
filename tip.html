@@ -72,7 +72,7 @@ $(function() {
 	}
 	
 	function calculate() {
-		var percent = 0.19;
+		var percent = 0.2;
 		var bill = Number($bill.val());
 		var roundBill = Math.floor(bill);	
 		var baseTip = (roundBill * percent);
@@ -82,14 +82,12 @@ $(function() {
 		var tip = total - bill ;
 		var effectiveTip =  Math.round( (tip / bill) * 100 );
 		
+		
 		if (effectiveTip > 20) {
 			if (tip > 1 ) tip = tip - 1;
 			total = bill + tip;
 			effectiveTip =  Math.round( (tip / bill) * 100 );
-			if (effectiveTip > 21) {
-				if (tip > 1 ) tip = tip - 1;
-			}
-			
+			//console.log("> than 21% " + tip);
 		}
 		
 		tip = cleanForDisplay(tip);
@@ -97,7 +95,9 @@ $(function() {
 		
 		$tip.html(tip);
 		$total.html(total);
-		if (effectiveTip) $percent.html(effectiveTip + "%");
+		if (effectiveTip) {
+			$percent.html(effectiveTip + "%" );
+		}
 	}
 	 
 	function cleanForDisplay(num) {
