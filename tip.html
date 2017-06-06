@@ -83,12 +83,19 @@ $(function() {
 		var effectiveTip =  Math.round( (tip / bill) * 100 );
 		
 		
-		if (effectiveTip > 20) {
+		if (effectiveTip > 20 && bill > 20 ) {
 			if (tip > 1 ) tip = tip - 1;
 			total = bill + tip;
 			effectiveTip =  Math.round( (tip / bill) * 100 );
+			var flag = 1;
 			//console.log("> than 21% " + tip);
 		}
+		
+		// if (flag = 1 && effectiveTip < 16 ) {
+		// 	tip = tip + .5;
+		// 	total = bill + tip;
+		// 	effectiveTip =  Math.round( (tip / bill) * 100 );
+		// }
 		
 		tip = cleanForDisplay(tip);
 		total = cleanForDisplay(total);
