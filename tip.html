@@ -8,7 +8,7 @@ title: 'Tip Calculator'
 	<p>Tip Calculator </p>
 
 	<div class="line">
-		$ <input id="bill" type="number" value="" class="large"><span class="label">bill amount</span>
+		$ <input id="bill" type="text" pattern="\d*" value="" class="large"><span class="label">bill amount</span>
 	</div>
 	
 	<div class="line">
@@ -40,14 +40,41 @@ $(function() {
 	var $percent = $('#percent')
 	
 	$bill.on('keyup', function () {
-	  calculate();
+	  format();
+	  //calculate();
 	});
+	
+	function format() {
+		var bill = $bill.val();
+		
+		var pos = bill.indexOf(".");
+		if (pos > 0){
+			var n = bill.replace(".", "");
+			bill = n;
+			//console.log('strip . ' + bill);
+		}
+				
+		if (bill.length > 2){
+			var newBill = bill.slice(0, -2);
+			var endBill = bill.slice(-2);
+			bill = newBill + '.' + endBill;
+			//console.log('newBill ' + newBill);
+			//console.log('endBill ' + endBill);
+			//console.log('bill ' + bill);
+			var flag = 1 ;
+		}
+		
+		if (flag) {
+			$bill.val(bill);
+			
+		}
+		calculate()
+	}
 	
 	function calculate() {
 		var percent = 0.19;
 		var bill = Number($bill.val());
-		
-		var roundBill = Math.floor(bill);		
+		var roundBill = Math.floor(bill);	
 		var baseTip = (roundBill * percent);
 		//console.log(typeof baseTip);
 		
@@ -55,10 +82,14 @@ $(function() {
 		var tip = total - bill ;
 		var effectiveTip =  Math.round( (tip / bill) * 100 );
 		
-		if (effectiveTip > 23) {
-			tip = tip - 1;
+		if (effectiveTip > 20) {
+			if (tip > 1 ) tip = tip - 1;
 			total = bill + tip;
 			effectiveTip =  Math.round( (tip / bill) * 100 );
+			if (effectiveTip > 21) {
+				if (tip > 1 ) tip = tip - 1;
+			}
+			
 		}
 		
 		tip = cleanForDisplay(tip);
@@ -66,7 +97,7 @@ $(function() {
 		
 		$tip.html(tip);
 		$total.html(total);
-		$percent.html(effectiveTip + "%");
+		if (effectiveTip) $percent.html(effectiveTip + "%");
 	}
 	 
 	function cleanForDisplay(num) {
