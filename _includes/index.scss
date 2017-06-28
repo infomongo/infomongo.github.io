@@ -6,6 +6,7 @@ $border-color: #b5b4b6;
 
 body {
 	font-family: 'Bitter', Georgia, serif;
+	//font-family: 'Iowan Old Style', Palatino, Georgia, 'Times New Roman', Times, serif;
 	font-size: percentage(18/16);
 	line-height: 1.4;
 	color: $font-color;
@@ -30,6 +31,10 @@ h1 {
 	text-transform: uppercase;
 }
 
+h3 {
+	margin-bottom: .6em;
+}
+
 
 * {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -37,7 +42,20 @@ h1 {
 	box-sizing: border-box; 
 }
 
+hr {
+	height: 1px;
+	color: lighten($font-color, 25%);
+	background:  lighten($font-color, 25%);
+	//font-size: 0;
+	border: 0;
+	margin: 1.2em 0;
+}
+
 b {color:$dark-font;}
+
+.byline {
+	color: lighten($font-color, 25%);
+}
 
 ul {
 	padding-left: 1em;
@@ -68,6 +86,7 @@ p {
 
 img {
 	border: 1px $border-color solid;
+	margin-bottom: 1.2em;
 	&.center {
 		display: block;
 		margin: 1em auto;
@@ -75,6 +94,10 @@ img {
 	&.lrg {
 		max-width: 70%;
 	}
+	&.full-width {
+		max-width: 100%;
+	}
+
 }
 
 .side-scroll {
@@ -164,6 +187,17 @@ img {
 		&.lrg {
 			min-width: 670px;
 		}
+		&.full-width {
+			max-width: 120%;
+			margin-left: -10%;
+		}
+		&.retina {
+			width: 50%;
+		}
+		&.wrap-right {
+			float: left;
+			margin-right: 1.2em;
+		}
 	}
 	
 	.copyright {
@@ -195,6 +229,9 @@ img {
 			//margin: 0 a;
 		}
 		&.lrg {
+			max-width: 100%;
+		}
+		&.retina {
 			max-width: 100%;
 		}
 	}
