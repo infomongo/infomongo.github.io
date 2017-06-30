@@ -1,0 +1,31 @@
+---
+layout: post
+title: Test
+description: test
+author: John Phillips
+date:   2017-06-23 
+---
+
+{% capture text_1 %}
+
+When designing an application, make it obvious how to get started. 
+
+The 'canonical' example of an "obvious" starting point:
+
+1. one
+1. two
+1. three
+
+{% endcapture %}
+
+
+<div class="main">
+
+	<h2>{{page.title}}</h2>
+
+	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
+
+	{{ text_1 | markdownify }}
+
+
+</div>

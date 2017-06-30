@@ -17,6 +17,10 @@ body {
 	position: relative;
 }
 
+.hidden {
+	display: none;
+}
+
 .copyright {
 	font-size: 80%;
 	color: white;
@@ -40,6 +44,34 @@ h1, .essays {
 	position: absolute;
 	top: 1em;
 	right: 1em;
+}
+
+#essay-menu {
+	position: absolute;
+	top: 2em;
+	right: 2em;
+	background-color: white;
+	padding: 20px;
+	border: 1px #b5b4b6 solid;
+	h4 {
+		margin: 0;
+	}
+	a:hover {
+		border: none;
+	}
+	a:visited {
+		color: $accent-color;
+	}
+	.item {
+		display: block;
+		margin-top: .5em;
+	}
+	#close-menu {
+		position: absolute;
+		font-size: 150%;
+		top:   5px;
+		right: 10px;
+	}
 }
 
 h3 {
@@ -128,6 +160,7 @@ img {
 		}
 	}
 }
+
 
 .promote {
 	padding: 1px;
@@ -224,6 +257,10 @@ img {
 			max-width: 120%;
 			margin-left: -10%;
 		}
+		&.no-offset {
+			max-width: 100%;
+			margin-left: 0;
+		}
 		&.retina {
 			width: 50%;
 		}
@@ -254,6 +291,12 @@ img {
 		//padding-bottom: 3em;
 	}
 	
+	#essay-menu {
+		right: 10px;
+		top: 1em;
+		max-width: 100%;
+	}
+	
 	img {
 		&.center {
 			//display: block;
@@ -276,7 +319,6 @@ img {
 			max-width: 38%;
 		}
 	}
-	
 	
 	.promote {
 		span {
