@@ -11,6 +11,7 @@ $(function() {
   
   //hide it by default
   $('#essay-menu').addClass('hidden');
+  $('#essay-menu').removeClass('bottom');
 
   // click  to show essay menu
   $( '#essays' ).click(function(e) {

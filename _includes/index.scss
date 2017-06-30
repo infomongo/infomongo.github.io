@@ -72,6 +72,9 @@ h1, .essays {
 		top:   5px;
 		right: 10px;
 	}
+	&.bottom{
+		position: static;
+	}
 }
 
 h3 {
