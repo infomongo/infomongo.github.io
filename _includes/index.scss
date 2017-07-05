@@ -102,11 +102,24 @@ b {color:$dark-font;}
 	color: lighten($font-color, 25%);
 }
 
-ul {
+ul, ol {
 	padding-left: 1em;
 	margin: -.5em 0 1.4em;
 	li {
 		margin-bottom: .4em;
+	}
+}
+
+.protect {
+	//float: right;
+	//max-width: 400px;
+	
+	ol {
+		float: left;
+		
+		margin-left: 1em;
+		border: 1px #000 solid;
+		padding-left: 5em;
 	}
 }
 

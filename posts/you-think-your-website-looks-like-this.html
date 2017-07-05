@@ -16,7 +16,7 @@ It’s a safe bet that a substantial amount of your site's traffic is coming fro
 
 {% capture text_2 %}
 
-Source: [StatCounter GlobalStats](http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide/#monthly-200903-201705) *(see note below)*
+Source: [StatCounter GlobalStats](http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide/#monthly-200903-201705) *(see note 1 below)*
 
 In October of 2016, the lines cross and mobile surpasses desktop. The numbers are a little different in the US, but the basic story is the same.
 
@@ -38,13 +38,17 @@ I was speaking with a colleague [Jason Rogers](https://www.linkedin.com/in/jason
 
 {% capture text_4 %}
 
-Jason demonstrated the differences by drawing rectangles on a whiteboard, a fat wide one for desktop and skiny tall one for mobile. 
+Jason demonstrated the differences by drawing rectangles on a whiteboard, a fat wide one for desktop and tall skiny one for mobile. 
 
 It spoke to me about the disconnect between what we know and what we believe. How intellectual knowlege may fail to motivate us to take action. We know mobile is growing and desktop is shrinking, but we often act as if the desktop view is the "real" version.
 
 We were talking about this in the context of form conversion. And yeah, mobile conversion rates are often lower. But when you look at it through this lens, it’s not really a mystery why. It’s the difference between having a responsive site and committing to a mobile first design.
 
-**Note:** *StatCounter are a bit vague about what they are actually measuring. Their [press release announcing this milestone](http://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide) refers to “internet usage”. Their [FAQ](http://gs.statcounter.com/faq#methodology) explains, “Our tracking code is installed on more than 2.5 million sites globally.” So I think those charts are tracking website visits.*
+#### Notes:
+
+*1. StatCounter are a bit vague about what they are actually measuring. Their [press release announcing this milestone](http://gs.statcounter.com/press/mobile-and-tablet-internet-usage-exceeds-desktop-for-first-time-worldwide) refers to “internet usage”. Their [FAQ](http://gs.statcounter.com/faq#methodology) explains, “Our tracking code is installed on more than 2.5 million sites globally.” So I think those charts are tracking website visits.*
+
+*2. In the example solar site, the entire form is below the fold in mobile. The mobile layout feels like an afterthought.*
 
 {% endcapture %}
 
@@ -64,15 +68,16 @@ We were talking about this in the context of form conversion. And yeah, mobile c
 
 	{{ text_3 | markdownify }}
 	
-	<h3>	“Our clients think their website looks like this.”</h3>
+	<h3>	“People think their website looks like this.”</h3>
 		
-	<img src="/img/Target-Nest-Desktop.jpg" class="full-width">
+	<img src="/img/solar-desktop.jpg" class="full-width">
 	
 	<h3>	“When it actually looks like this.”</h3>
 		
-	<img src="/img/Target-Nest-Mobile.jpg" width="188" class="wrap-right shrink-50" >
+	<img src="/img/solar-mobile.jpg" width="180" class="wrap-right shrink-50" >
 	
 	{{ text_4 | markdownify }}
+	
+	<br clear="both">
 
-	<br style="clear:both">
 </div>
