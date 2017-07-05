@@ -48,8 +48,9 @@ h1, .essays {
 
 #essay-menu {
 	position: absolute;
-	top: 2em;
+	//top: 2em;
 	right: 2em;
+	transition: all ease-out 0.5s;
 	background-color: white;
 	padding: 20px;
 	border: 1px #b5b4b6 solid;
@@ -75,6 +76,13 @@ h1, .essays {
 	&.bottom{
 		position: static;
 	}
+	&.top {
+		top: -10em;
+	}
+	&.view {
+		top: 2em;
+	}
+
 }
 
 h3 {
@@ -294,10 +302,12 @@ img {
 		//padding-bottom: 3em;
 	}
 	
-	#essay-menu {
+	#essay-menu{
 		right: 10px;
-		top: 1em;
-		max-width: 100%;
+		&.view {
+			top: 1em;
+			max-width: 100%;
+		}
 	}
 	
 	img {

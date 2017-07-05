@@ -10,18 +10,20 @@ $(function() {
   links_checkbox.change(open_new);
   
   //hide it by default
-  $('#essay-menu').addClass('hidden');
+  $('#essay-menu').addClass('top');
   $('#essay-menu').removeClass('bottom');
 
   // click  to show essay menu
   $( '#essays' ).click(function(e) {
-    $('#essay-menu').removeClass('hidden');
+    $('#essay-menu').removeClass('top');
+    $('#essay-menu').addClass('view');
     e.preventDefault();
   });
   
   //click close x in menu
   $( '#close-menu' ).click(function(e) {
-    $('#essay-menu').addClass('hidden');
+    $('#essay-menu').addClass('top');
+    $('#essay-menu').removeClass('view');
     e.preventDefault();
   });
   
