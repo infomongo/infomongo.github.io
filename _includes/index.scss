@@ -246,10 +246,7 @@ img {
 		&.retina {
 			width: 50%;
 		}
-		&.wrap-right {
-			float: left;
-			margin-right: 1.2em;
-		}
+
 	}
 	
 
@@ -261,6 +258,10 @@ img {
 		&.full-width {
 			max-width: 120%;
 			margin-left: -10%;
+		}
+		&.wrap-right {
+			float: left;
+			margin-right: 1.2em;
 		}
 	}
 }
