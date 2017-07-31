@@ -238,10 +238,7 @@ img {
 		&.lrg {
 			min-width: 670px;
 		}
-		&.full-width {
-			max-width: 120%;
-			margin-left: -10%;
-		}
+
 		&.no-offset {
 			max-width: 100%;
 			margin-left: 0;
@@ -256,6 +253,16 @@ img {
 	}
 	
 
+}
+
+// mobile landscape
+@media (min-width: 500px) {
+	img {
+		&.full-width {
+			max-width: 120%;
+			margin-left: -10%;
+		}
+	}
 }
 
 //mobile
@@ -274,6 +281,11 @@ img {
 	.main, .mob-pad {
 		padding: 0 10px;
 		//padding-bottom: 3em;
+	}
+	
+	.main {
+		max-width: 30em;
+		margin: 0 auto;
 	}
 	
 	#essay-menu{
