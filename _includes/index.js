@@ -6,7 +6,7 @@ $(function() {
   benchList = ["/img/workbench-img-1.png", "/img/workbench-img-2.png", "/img/workbench-img-3.jpg", "/img/workbench-img-4.png" , "/img/workbench-img-5.png" ],
   smashList = ["/img/smash-1-search.png", "/img/smash-2-results.jpg", "/img/smash-3-details.jpg"],
   bigList = ["/img/big-1-search.png", "/img/big-2-results.png", "/img/big-3-details.png"],
-  nwList = ["/img/nw-mob.jpg", "/img/nw-1-search.png", "/img/nw-2-search.png", "/img/nw-3-results.jpg", "/img/nw-4-details.png", "/img/nw-5-details.png", "/img/nw-6-details.jpg" ]
+  nwList = ["/img/nw-1-search.png", "/img/nw-2-search.png", "/img/nw-3-results.jpg", "/img/nw-4-details.png", "/img/nw-5-details.png", "/img/nw-6-details.jpg" ]
   ;
 
   links_checkbox.prop( "checked", true );
