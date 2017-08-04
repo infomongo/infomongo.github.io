@@ -4,7 +4,7 @@
 
 At [Placeable][1] we created a platform that allowed us to quickly build store locators for our clients. I did the UX design of the templates used in the system. These were “skinned” with the site‘s branding. I was also part of the engineering team that built the system.
 	
-Sites built on our platform combined top-tier usability with best in class SEO.
+Sites built on our platform combined top-tier usability with best-in-class SEO.
 
 Some example sites:
 
