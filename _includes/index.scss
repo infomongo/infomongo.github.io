@@ -13,6 +13,33 @@ $border-color: #b5b4b6;
 
 }
 
+@font-face {
+	font-family: 'junctionbold';
+	src: url('/fonts/junction-bold-webfont.woff2') format('woff2'),
+		 url('/fonts/junction-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'junctionlight';
+	src: url('/fonts/junction-light-webfont.woff2') format('woff2'),
+		 url('/fonts/junction-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'junctionregular';
+	src: url('/fonts/junction-regular-webfont.woff2') format('woff2'),
+		 url('/fonts/junction-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
 // @font-face {
 //     font-family: 'merriweather_lightregular';
 //     src: url('/fonts/merriweather_light-webfont.woff2') format('woff2'),
@@ -59,8 +86,8 @@ $border-color: #b5b4b6;
 }
 
 body {
-	font-family: 'merriweatherregular', Georgia, serif;
-	//font-family: 'Iowan Old Style', Palatino, Georgia, 'Times New Roman', Times, serif;
+	//font-family: 'merriweatherregular', Georgia, serif;
+	font-family: 'junctionregular', sans-serif;
 	font-size: percentage(18/16);
 	line-height: 1.5;
 	color: $font-color;
@@ -72,12 +99,13 @@ body {
 }
 
 b, strong {
-	font-family: 'merriweatherultrabold', Georgia, serif;
+	//font-family: 'merriweatherultrabold', Georgia, serif;
+	font-family: 'junctionbold', sans-serif;
 	//color:$dark-font;
 }
 
 i, em {
-	font-family: 'merriweatheritalic', Georgia, serif;
+	//font-family: 'merriweatheritalic', Georgia, serif;
 }
 
 .hidden {
@@ -97,6 +125,7 @@ h1, h2, h3 {
 	color: $dark-font;
 	margin: 0;
 	font-family: 'montserratextrabold', sans-serif;
+	font-weight: normal;
 	line-height: 1.2;
 }
 
@@ -192,7 +221,7 @@ p {
 		content: "click for more images";
 		display: block;
 		text-align: center;
-		font-family: 'merriweatheritalic';
+		font-family: 'junctionlight';
 		color: lighten($font-color, 20%);
 		font-size: 90%;
 		margin-bottom: 1em;
