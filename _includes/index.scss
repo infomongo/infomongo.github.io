@@ -14,82 +14,41 @@ $border-color: #b5b4b6;
 }
 
 @font-face {
-	font-family: 'junctionbold';
-	src: url('/fonts/junction-bold-webfont.woff2') format('woff2'),
-		 url('/fonts/junction-bold-webfont.woff') format('woff');
+	font-family: 'aleoregular';
+	src: url('/fonts/aleo-regular-webfont.woff2') format('woff2'),
+		 url('/fonts/aleo-regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
 }
 
 @font-face {
-	font-family: 'junctionlight';
-	src: url('/fonts/junction-light-webfont.woff2') format('woff2'),
-		 url('/fonts/junction-light-webfont.woff') format('woff');
+	font-family: 'aleobold';
+	src: url('/fonts/aleo-bold-webfont.woff2') format('woff2'),
+		 url('/fonts/aleo-bold-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
 }
 
 @font-face {
-	font-family: 'junctionregular';
-	src: url('/fonts/junction-regular-webfont.woff2') format('woff2'),
-		 url('/fonts/junction-regular-webfont.woff') format('woff');
+	font-family: 'aleoitalic';
+	src: url('/fonts/aleo-italic-webfont.woff2') format('woff2'),
+		 url('/fonts/aleo-italic-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
 }
 
-// @font-face {
-//     font-family: 'merriweather_lightregular';
-//     src: url('/fonts/merriweather_light-webfont.woff2') format('woff2'),
-//          url('/fonts/merriweather_light-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-// 
-// }
-
-@font-face {
-	font-family: 'merriweatherregular';
-	src: url('/fonts/merriweather-regular-webfont.woff2') format('woff2'),
-		 url('/fonts/merriweather-regular-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-// @font-face {
-//     font-family: 'merriweatherbold';
-//     src: url('/fonts/merriweather-bold-webfont.woff2') format('woff2'),
-//          url('/fonts/merriweather-bold-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-// 
-// }
-
-@font-face {
-	font-family: 'merriweatherultrabold';
-	src: url('/fonts/merriweather_ultrabold-webfont.woff2') format('woff2'),
-		 url('/fonts/merriweather_ultrabold-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'merriweatheritalic';
-	src: url('/fonts/merriweather-italic-webfont.woff2') format('woff2'),
-		 url('/fonts/merriweather-italic-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
+$base-family: 'aleoregular', Georgia, serif;
+$bold-family: 'aleobold', Georgia, serif;
+$italic-family: 'aleoitalic', Georgia, serif;
+$head-family: 'montserratextrabold', sans-serif;
 
 body {
-	//font-family: 'merriweatherregular', Georgia, serif;
-	font-family: 'junctionregular', sans-serif;
+	font-family: $base-family;
 	font-size: percentage(18/16);
-	line-height: 1.5;
+	line-height: 1.35;
 	color: $font-color;
 	background-color: white;
 	margin: 0;
@@ -99,13 +58,11 @@ body {
 }
 
 b, strong {
-	//font-family: 'merriweatherultrabold', Georgia, serif;
-	font-family: 'junctionbold', sans-serif;
-	//color:$dark-font;
+	font-family: $bold-family;
 }
 
 i, em {
-	//font-family: 'merriweatheritalic', Georgia, serif;
+	font-family: $italic-family;
 }
 
 .hidden {
@@ -124,7 +81,7 @@ i, em {
 h1, h2, h3 {
 	color: $dark-font;
 	margin: 0;
-	font-family: 'montserratextrabold', sans-serif;
+	font-family: $head-family;
 	font-weight: normal;
 	line-height: 1.2;
 }
@@ -142,7 +99,7 @@ h1, #essays {
 
 
 h3 {
-	margin-bottom: .6em;
+	//margin-bottom: .6em;
 }
 
 * {
@@ -197,7 +154,7 @@ a:hover {
 }
 
 p {
-	margin: 0 0 1.25em;
+	margin: .25em 0 1.25em;
 }
 
 
@@ -221,7 +178,7 @@ p {
 		content: "click for more images";
 		display: block;
 		text-align: center;
-		font-family: 'junctionlight';
+		font-family: $italic-family;
 		color: lighten($font-color, 20%);
 		font-size: 90%;
 		margin-bottom: 1em;
@@ -277,23 +234,25 @@ img {
 .promote {
 	padding: 1px;
 	background-color: $accent-color;
-	color: black;
+	color: #333;
 	.main {
 		margin: 1.5em auto;
 	}
 	span {
-		font-weight: bold;
+		//font-weight: bold;
+		font-family: $bold-family;
 	}
 	a, a:visited {
-		color: black;
-		border-bottom: 1px #000 dotted;
+		font-family: $bold-family;
+		color: #333;
+		border-bottom: 1px #333 dotted;
 	}
 }
 
 .main.essays, .main.fill {
 	min-height: 80vh;
 	h3 {
-		margin-bottom: .25em;
+		//margin-bottom: .25em;
 	}
 }
 
