@@ -78,7 +78,7 @@ i, em {
 	left: 10px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	color: $dark-font;
 	margin: 0;
 	font-family: $head-family;
@@ -310,6 +310,34 @@ img {
 		margin-bottom: .25em;
 	}
 }
+
+#date-convert {
+	display: flex;
+	.current-date, .new-date {
+		width: 50%;
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+#date-convert{
+	min-height: 10em;
+	
+	#current-month, #new-month  {
+		margin: .5em 0 0;
+	}
+	#current-day, #new-day {
+		display: block;
+		max-width: 4em;
+		font-size: percentage(28/18);
+		text-align: center;
+		margin: .25em auto;
+	}
+	.error {
+		color: $accent-color;
+	}
+}
+
 
 //mobile
 @media only screen and (max-width : 799px) {

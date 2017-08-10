@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 'Convert C° -> F°'
+js-include: temp.js
 ---
 
 <div class="main big temp">
@@ -14,32 +15,3 @@ title: 'Convert C° -> F°'
 	<span id="fahrenheit">32</span><span class="label">°F</span>
 
 </div>
-
-
-{% include copyright.html %}
-
-<script src="/js/jquery-1.11.1.min.js"></script>
-
-<script>
-
-$(function() {
-	 	 
-	 var $text = $('#fahrenheit');
-	 var $input = $('#celsius');
-	 	 
-	 $input.on("focus", function () {
-	    $(this).val('');
-	 });
-	 
-	 $input.on('keyup', function () {
-	   var fahrenheit = convert($input.val());	   
-	   $text.html(fahrenheit);
-	 });
-	 
-	 function convert(celsius) {
-		var fahrenheit = (celsius * 1.8) + 32;
-		return Math.round(fahrenheit);
-	 }
-});
-
-</script>

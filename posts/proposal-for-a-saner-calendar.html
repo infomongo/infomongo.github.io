@@ -4,6 +4,7 @@ title: Proposal for a More Rational Calendar
 description: Designing a more rational calendar.
 author: John Phillips
 date:   2017-07-31
+js-include: date-convert.js
 ---
 
 {% capture text_1 %}
@@ -35,6 +36,12 @@ There are thirteen 28 day months, and we need to figure out what to call them. I
 To keep things simple, each month name has just three letters. This means there is no need to abbreviate them. To make them memorable, I chose names that are not English words but have unambiguous pronunciations.  The new months are:
 
 Arp, Baw, Cor, Dur, Ell, Fen, Gam, Hob, Isp, Jom, Kro, Lem, Mog and Non
+
+### Date Converter
+
+{% endcapture %}
+
+{% capture text_4 %}
 
 ### Holidays
 
@@ -116,6 +123,7 @@ This proposal doesn’t move the start of the year. Arp 1 falls on January 1. Th
 
 
 
+
 <div class="main">
 
 	<h2>{{page.title}}</h2>
@@ -135,5 +143,48 @@ This proposal doesn’t move the start of the year. Arp 1 falls on January 1. Th
 	<img src="/img/calendar-diagram.png" class="lrg">
 	
 	{{ text_3 | markdownify }}
+	
+	<div id="date-convert">
+		<div class="current-date">
+			<h4>Date</h4>
+			<select id="current-month">
+				<option value="Jan">January</option>
+				<option value="Feb">February</option>
+				<option value="Mar">March</option>
+				<option value="Apr">April</option>
+				<option value="May">May</option>
+				<option value="Jun">June</option>
+				<option value="Jul">July</option>
+				<option value="Aug">August</option>
+				<option value="Sep">September</option>
+				<option value="Oct">October</option>
+				<option value="Nov">November</option>
+				<option value="Dec">December</option>
+			</select>
+			<input id="current-day" type="number" pattern="\d*" value="1">
+			<div class="error hidden">
+				Enter a number between 1 and <span id="num">31</span>
+			</div>
+		</div>
+		<div class="new-date">
+			<h4>New Date</h4>
+			<div id="new-month">
+				Arp
+			</div>
+			<div id="new-day">
+				1
+			</div>
+			<div class="">
+				<span id="dayofweek">Sunday</span> <span id="short-date">1/1</span>
+			</div>
+			
+		</div>
+		
+
+
+		
+	</div>
+	
+	{{ text_4 | markdownify }}
 
 </div>
