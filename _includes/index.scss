@@ -132,6 +132,10 @@ hr {
 	display: block;
 }
 
+code {
+	color: darken($accent-color, 20%);
+}
+
 blockquote {
 	font-size: percentage(22/18);
 	border-left: 3px $font-color solid;
@@ -378,6 +382,9 @@ img {
 		margin: 0 auto;
 	}
 	
+	blockquote {
+		font-size: percentage(18/16);
+	}
 	
 	img {
 		&.center {
