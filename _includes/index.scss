@@ -118,13 +118,25 @@ hr {
 }
 
 
-.byline, .date {
+.byline, .date, .caption {
 	color: lighten($font-color, 25%);
+}
+
+.caption {
+	font-size: percentage(15/18);
+	text-align: center;
 }
 
 .date {
 	white-space: nowrap;
 	display: block;
+}
+
+blockquote {
+	font-size: percentage(22/18);
+	border-left: 3px $font-color solid;
+	margin: .25em 0 1.25em;
+	padding-left: 1.25em;
 }
 
 ul, ol {
@@ -210,6 +222,10 @@ img {
 	}
 	&.full-width {
 		max-width: 100%;
+	}
+	&.no-border {
+		border: none;
+		margin-bottom: .25em;
 	}
 
 }
