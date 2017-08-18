@@ -1,12 +1,23 @@
 ---
 layout: default
 ---
+<div class="main fill">
+	<h2>{{page.title}}</h2>
+	
+	{% if page.subtitle %}
+	<p>{{page.subtitle}}</p>
+	{% endif %}
+	
+	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
+	
+	{{ content }}
+</div>
 
-{{ content }}
-
+{% unless page.promo %}
 <div class="promote">
 	<div class="main">
 		<span class="">Need help with your UX?</span> 
 		Learn more about John Phillips and <a href="//moonsault.co/ux/">Moonsault UX</a>
 	</div>
 </div>
+{% endunless %}

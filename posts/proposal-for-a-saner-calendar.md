@@ -2,12 +2,13 @@
 layout: post
 title: Proposal for a More Rational Calendar
 description: Designing a more rational calendar.
+subtitle: Designing a better calendar
 author: John Phillips
 date:   2017-07-31
 js-include: date-convert.js
 ---
 
-{% capture text_1 %}
+<img src="/img/calendar-closeup.jpg" class="full-width">
 
 What is your first memory of the metric system? I remember learning about it in elementary school. It struck me that the units for measuring distance —centimeters, meters, kilometers— just made much better sense than the Imperial system, with 12 inches to a foot, 3 feet to a yard, and 5280 feet to a mile. Our system suddenly seemed so arbitrary compared to the base 10 rationality of the metric system.
 
@@ -17,17 +18,13 @@ OK, so consider our calendar. “Thirty days has September, April, June and Nove
  
 Switch to a calendar with, basically, thirteen months, each with 28 days. 
 
-{% endcapture %}
-
-{% capture text_2 %}
+<h3 style="margin-left: 2em; margin-bottom: 1em;">13 × 28 = 364 days</h3>
 
 This leaves the year short by one day on regular years, two days on leap years. To fix this, we’ll add the extra days to a new fourteenth month at the end of the year, called “Non.” In normal years, Non has a single day called “Freeday.” In leap years, Freeday is followed by “Leapday.” These are holidays, so only people in the service industry have to work. *(I kid, but please tip your servers.)*
 
 Days in the month of Non are not part of any week. They are a kind of padding so that each 28 day month begins on a Sunday and ends on a Saturday.
 
-{% endcapture %}
-
-{% capture text_3 %}
+<img src="/img/calendar-diagram.png" class="lrg">
 
 As a result, the year always starts on Sunday. This keeps the calendar fixed from year to year. Holidays no longer float from one day of the week to the next and you could use the same printed calendar every year.
 
@@ -39,9 +36,43 @@ Arp, Baw, Cor, Dur, Ell, Fen, Gam, Hob, Isp, Jom, Kro, Lem, Mog and Non
 
 ### Date Converter
 
-{% endcapture %}
+<div id="date-convert">
+	<div class="current-date">
+		<h4>Date</h4>
+		<select id="current-month">
+			<option value="Jan">January</option>
+			<option value="Feb">February</option>
+			<option value="Mar">March</option>
+			<option value="Apr">April</option>
+			<option value="May">May</option>
+			<option value="Jun">June</option>
+			<option value="Jul">July</option>
+			<option value="Aug">August</option>
+			<option value="Sep">September</option>
+			<option value="Oct">October</option>
+			<option value="Nov">November</option>
+			<option value="Dec">December</option>
+		</select>
+		<input id="current-day" type="number" pattern="\d*" value="1">
+		<div class="error hidden">
+			Enter a number between 1 and <span id="num">31</span>
+		</div>
+	</div>
+	<div class="new-date">
+		<h4>New Date</h4>
+		<div id="new-month">
+			Arp
+		</div>
+		<div id="new-day">
+			1
+		</div>
+		<div class="">
+			<span id="dayofweek">Sunday</span> <span id="short-date">1/1</span>
+		</div>
+		
+	</div>
+</div>
 
-{% capture text_4 %}
 
 ### Holidays
 
@@ -119,72 +150,3 @@ Mog 23
 
 This proposal doesn’t move the start of the year. Arp 1 falls on January 1. This means the new calendar has no relation to the seasons, same as the current calendar. If you wanted to fix this, you could have the year start on the first day of spring, the spring equinox, which is March 20 in the northern hemisphere. The seasons are reversed in the southern hemisphere, and March 20 is the autumnal equinox. In the southern hemisphere the spring equinox is on September 22.
 
-{% endcapture %}
-
-
-
-
-<div class="main">
-
-	<h2>{{page.title}}</h2>
-	
-	<p>Designing a better calendar</p>
-
-	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
-	
-	<img src="/img/calendar-closeup.jpg" class="full-width">
-
-	{{ text_1 | markdownify }}
-	
-	<h3 style="margin-left: 2em; margin-bottom: 1em;">13 × 28 = 364 days</h3>
-	
-	{{ text_2 | markdownify }}
-	
-	<img src="/img/calendar-diagram.png" class="lrg">
-	
-	{{ text_3 | markdownify }}
-	
-	<div id="date-convert">
-		<div class="current-date">
-			<h4>Date</h4>
-			<select id="current-month">
-				<option value="Jan">January</option>
-				<option value="Feb">February</option>
-				<option value="Mar">March</option>
-				<option value="Apr">April</option>
-				<option value="May">May</option>
-				<option value="Jun">June</option>
-				<option value="Jul">July</option>
-				<option value="Aug">August</option>
-				<option value="Sep">September</option>
-				<option value="Oct">October</option>
-				<option value="Nov">November</option>
-				<option value="Dec">December</option>
-			</select>
-			<input id="current-day" type="number" pattern="\d*" value="1">
-			<div class="error hidden">
-				Enter a number between 1 and <span id="num">31</span>
-			</div>
-		</div>
-		<div class="new-date">
-			<h4>New Date</h4>
-			<div id="new-month">
-				Arp
-			</div>
-			<div id="new-day">
-				1
-			</div>
-			<div class="">
-				<span id="dayofweek">Sunday</span> <span id="short-date">1/1</span>
-			</div>
-			
-		</div>
-		
-
-
-		
-	</div>
-	
-	{{ text_4 | markdownify }}
-
-</div>

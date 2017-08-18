@@ -6,15 +6,12 @@ author: John Phillips
 date:   2017-06-29 
 ---
 
-{% capture text_1 %}
 
 It’s a safe bet that a substantial amount of your site's traffic is coming from mobile devices. It’s a sure thing that your mobile numbers are growing while desktop is shrinking. Let’s go to the charts.
 
 ### Internet Usage Worldwide, March 2009 to May 2017
 
-{% endcapture %}
-
-{% capture text_2 %}
+<img src="/img/internet-usage-ww.png" class="full-width no-offset">
 
 Source: [StatCounter GlobalStats](http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide/#monthly-200903-201705) *(see note 1 below)*
 
@@ -22,9 +19,7 @@ In October of 2016, the lines cross and mobile surpasses desktop. The numbers ar
 
 ### Internet Usage U.S., March 2009 to May 2017
 
-{% endcapture %}
-
-{% capture text_3 %}
+<img src="/img/internet-usage-us.png" class="full-width no-offset">
 
 Source: [StatCounter GlobalStats](http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/united-states-of-america/#monthly-200903-201705)
 
@@ -34,13 +29,17 @@ And we all kind of know this, at least intellectually. But it’s different to i
 
 I was speaking with a colleague [Jason Rogers](https://www.linkedin.com/in/jasonkrogers/) recently, and he put it very succinctly:
 
-{% endcapture %}
+### “People think their website looks like this.”
 
-{% capture text_4 %}
+<img src="/img/solar-desktop.jpg" class="full-width">
 
-Jason demonstrated the differences by drawing rectangles on a whiteboard, a fat wide one for desktop and tall skiny one for mobile. 
+### “When it actually looks like this.”
+	
+<img src="/img/solar-mobile.jpg" width="180" class="wrap-right shrink-50" >
 
-It spoke to me about the disconnect between what we know and what we believe. How intellectual knowlege may fail to motivate us to take action. We know mobile is growing and desktop is shrinking, but we often act as if the desktop view is the "real" version.
+Jason demonstrated the differences by drawing rectangles on a whiteboard, a fat wide one for desktop and tall skinny one for mobile. 
+
+It spoke to me about the disconnect between what we know and what we believe. How intellectual knowledge may fail to motivate us to take action. We know mobile is growing and desktop is shrinking, but we often act as if the desktop view is the "real" version.
 
 We were talking about this in the context of form conversion. And yeah, mobile conversion rates are often lower. But when you look at it through this lens, it’s not really a mystery why. It’s the difference between having a responsive site and committing to a mobile first design.
 
@@ -50,34 +49,4 @@ We were talking about this in the context of form conversion. And yeah, mobile c
 
 *2. In the example solar site, the entire form is below the fold in mobile. The mobile layout feels like an afterthought.*
 
-{% endcapture %}
-
-<div class="main">
-
-	<h2>{{page.title}}</h2>
-
-	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
-
-	{{ text_1 | markdownify }}
-	
-	<img src="/img/internet-usage-ww.png" class="full-width no-offset">
-	
-	{{ text_2 | markdownify }}
-	
-	<img src="/img/internet-usage-us.png" class="full-width no-offset">
-
-	{{ text_3 | markdownify }}
-	
-	<h3>	“People think their website looks like this.”</h3>
-		
-	<img src="/img/solar-desktop.jpg" class="full-width">
-	
-	<h3>	“When it actually looks like this.”</h3>
-		
-	<img src="/img/solar-mobile.jpg" width="180" class="wrap-right shrink-50" >
-	
-	{{ text_4 | markdownify }}
-	
-	<br clear="both">
-
-</div>
+<br clear="both">

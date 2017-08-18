@@ -14,15 +14,12 @@ add
 
 {% endcomment %}
 
-{% capture text_1 %}
 
 When designing an application, make it obvious how to get started. 
 
 The canonical example of an obvious starting point:
 
-{% endcapture %}
-
-{% capture text_2 %}
+<img src="/img/google.png" class="full-width">
 
 This is a recent capture of Google’s home page. The core design is nearly identical to the first version of the Google home page that debuted in 1998. Other than the branding, I think the only thing new is the microphone, which allows you to search with your voice.
 
@@ -30,11 +27,9 @@ At the time, [portals](https://en.wikipedia.org/wiki/Web_portal) ruled the world
 
 Here is one current site that still uses this approach:
 
-{% endcapture %}
+<img src="/img/craigslist.gif" class="full-width">
 
-{% capture text_3 %}
-
-(Seriously kids, this is what most of the web looked like in 1999.)
+<p class="caption">Seriously kids, this is what most of the web looked like in 1999.</p>
 
 All of Google’s competitors were using a design that looked a lot like Craigslist. (Anyone remember Lycos? AltaVista?)
 
@@ -46,9 +41,7 @@ Not many people use the Google home page anymore, most people start searches in 
 
 ### Another Example
 
-{% endcapture %}
-
-{% capture text_4 %}
+<img src="/img/lyft.jpg" class="retina wrap-right">
 
 Lyft is also doing a fine job getting you started. The app is using your location to set the pickup point and the big purple ‘Set pickup’ button is hard to miss. 
 
@@ -74,29 +67,4 @@ Product people: this also requires an understanding of your application’s user
 
 Another great article about obvious design: [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) by Luke Wroblewski. 
 
-{% endcapture %}
-
-
-<div class="main">
-	
-	<h2>{{page.title}}</h2>
-	
-	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
-	
-	{{ text_1 | markdownify }}
-	
-	<img src="/img/google.png" class="full-width">
-	
-	{{ text_2 | markdownify }}
-	
-	<img src="/img/craigslist.gif" class="full-width">
-	
-	{{ text_3 | markdownify }}
-		
-	<img src="/img/lyft.jpg" class="retina wrap-right">
-	
-	{{ text_4 | markdownify }}
-
-	
-</div>
 

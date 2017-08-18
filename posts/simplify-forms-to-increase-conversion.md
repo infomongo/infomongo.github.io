@@ -2,17 +2,18 @@
 layout: post
 title: Simplify Forms to Increase Conversion Rates
 description: Examining how form complexity affects conversion rates.
+subtitle: Examining how form complexity affects conversion rates.
 author: John Phillips
 date:   2017-08-16 
 ---
 
-{% capture text_1 %}
-
 At [Moonsault](http://moonsault.co) we have worked on several landing page / lead generation projects this year. And one thing keeps coming up. Clients want to add a whole bunch of fields to their lead generation forms. Which is bad for conversion. 
 
-{% endcapture %}
 
-{% capture text_2 %}
+<img src="/img/contact-cory-form.jpg" class="full-width">
+
+<p class="caption">This monstrosity is part of the contact form for emailing my senator.</p>
+
 
 The canonical conversion reference seems to be [this post at Quick Sprout][1] by [Neil Patel](http://neilpatel.com/blog/). It gets linked to frequently in the context of form conversion and the number of fields. 
 
@@ -74,18 +75,30 @@ All of these guidelines will affect form conversion rates. The main thing to rem
 
 [Luke’s post on avoiding drop-downs](https://www.lukew.com/ff/entry.asp?1950) in mobile forms has some great ideas for making forms shorter and less complex. Luke shows how using alternative controls, like steppers, segmented controls and switches makes forms easier to use. 
 
+<h4>Steppers</h4>
+<img src="/img/stepper-1.png" class="no-border"><br>
+<img src="/img/stepper-2.png" class="no-border"><br><br>
 
-{% endcapture %}
+<h4>Segmented Control</h4>
+<img src="/img/segmented-control.png" class="no-border" style="margin-top:10px;"><br><br>
 
-{% capture text_3 %}
+<h4>Switch</h4>
+<img src="/img/switch.png" class="no-border" style="margin-top:10px;"><br>
+
+
 
 Luke also writes about [using input masks](https://www.lukew.com/ff/entry.asp?756) to help guide the user when entering dates, phone numbers or other data with formatting rules. 
 
 Input masks don't affect the initial display of the field.
 
-{% endcapture %}
 
-{% capture text_4 %}
+<img src="/img/input-mask-1.png" class="no-border">
+<br>
+
+When you click on the field and start typing, the mask adds the formatting automatically.
+
+<img src="/img/input-mask-2.png" class="no-border">
+
 
 Not only do they help people enter the data, input masks also prevent people from entering characters that are not allowed. They aid in data validation and prevent a possible source of error.
 
@@ -97,23 +110,21 @@ For example, this code…
 
 …triggers this keyboard.
 
-{% endcapture %}
+<img src="/img/keyboard-number.png" class="retina">
 
-{% capture text_5 %}
 
 This is a number keyboard, but not actually the one we wanted. We wanted a one with larger keys and no ability to switch to the standard keyboard with letters and symbols.
 
 To get the keyboard we want, we need to use this code:
 
-    <input type="number" pattern="\d*" name="phone">
+	<input type="number" pattern="\d*" name="phone">
 
-{% endcapture %}
+<img src="/img/keyboard-tel.png" class="retina">
 
-{% capture text_6 %}
 
 You can also use `pattern="[0-9]*"` but this only works on iOS devices. If you want a solution that works on both Android and iOS devices, you have to use this:
 
-    <input type="tel" name="phone">
+	<input type="tel" name="phone">
 
 Note that there aren’t keys to enter a decimal point or a negative number.
 
@@ -123,9 +134,8 @@ By using the Google Maps API, you can collect an address in a single field by us
 
 The address field is a standard text field, but when the user starts typing an autocomplete menu is attached.
 
-{% endcapture %}
+<img src="/img/address-2.png" class="no-border">
 
-{% capture text_7 %}
 
 When the user makes a selection you get back the component parts of the location they chose: the street address, city, state, zip (or postal) code and country. You can add these to hidden fields in your form.
 
@@ -136,62 +146,3 @@ As the UX Booth article points out, the Google Maps API does not support unit nu
 The best way to improve form conversion is to make the form as simple as possible. You should reduce the number of fields to the bare minimum. Remember that some questions require more work to answer, and that our real goal is to make the form as easy to fill out as possible. Choosing the right controls simplifies the form and makes it easier to use, as do input masks. Help the user by triggering the right keyboard and by offering autocomplete where possible.
 
 One last tip, if you are asking for a name use a single **name** field instead of separate **first** and **last name** fields. A single field is easier to work with and there are many people with names that can’t easily be spilt into first and last names, like: Yao Bing Chong and David H. Miller Jr.
-
-
-{% endcapture %}
-
-{% capture text_8 %}
-
-
-{% endcapture %}
-
-<div class="main">
-
-	<h2>{{page.title}}</h2>
-	
-	<p>{{page.description}}</p>
-
-	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
-
-	{{ text_1 | markdownify }}
-	
-	<img src="/img/contact-cory-form.jpg" class="full-width">
-	
-	<p class="caption">This monstrosity is part of the contact form for emailing my senator.</p>
-	
-	{{ text_2 | markdownify }}
-	
-	<h4>Steppers</h4>
-	<img src="/img/stepper-1.png" class="no-border"><br>
-	<img src="/img/stepper-2.png" class="no-border"><br><br>
-	
-	<h4>Segmented Control</h4>
-	<img src="/img/segmented-control.png" class="no-border" style="margin-top:10px;"><br><br>
-	
-	<h4>Switch</h4>
-	<img src="/img/switch.png" class="no-border" style="margin-top:10px;"><br>
-	
-	{{ text_3 | markdownify }}
-	
-	<img src="/img/input-mask-1.png" class="no-border">
-	
-	<br>
-	<p>When you click on the field and start typing, the mask adds the formatting automatically.</p>
-	
-	<img src="/img/input-mask-2.png" class="no-border">
-	
-	{{ text_4 | markdownify }}
-	
-	<img src="/img/keyboard-number.png" class="retina">
-	
-	{{ text_5 | markdownify }}
-	
-	<img src="/img/keyboard-tel.png" class="retina">
-	
-	{{ text_6 | markdownify }}
-	
-	<img src="/img/address-2.png" class="no-border">
-	
-	{{ text_7 | markdownify }}
-
-</div>

@@ -6,15 +6,11 @@ author: John Phillips
 date:   2017-07-24 
 ---
 
-{% capture text_1 %}
-
 The first step in most UX work is research. You need to understand who is going to use the product and what they want to accomplish. You need to understand their backgrounds. What applications they use and like. User research is foundational.
 
 But there is another kind of research that needs be done early in a project. You need to understand the business goals: how the organization will make money.
 
-{% endcapture %}
-
-{% capture text_2 %}
+<img src="/img/store-fronts.jpg" class="full-width">
 
 ### An Illustrative Story
 
@@ -38,10 +34,7 @@ The directory companies had large sales staffs. They had sold a lot of ads to a 
 
 I joined the company in In 2005, and at that time the internet was a force. It was reshaping businesses and turning over a lot of apple carts, but the directories were still making a lot more money from their printed books.
 
-
-{% endcapture %}
-
-{% capture text_3 %}
+<img src="/img/shopping-mall.jpg" class="full-width">
 
 Top advertisers in the books would have those large quarter page ads shown at the beginning of a category in the books. In fact, for popular categories, the first several pages would all be ads. To the directory companies, it made sense to show their advertisers first in the search in the search results. They wanted to sort the results by advertising tier, platinum listings first, then gold, then silver and so on.
 
@@ -64,25 +57,3 @@ Other directories took better approaches. With many, we sorted the results by di
 ### Wrapping Up
 
 To be an effective UX designer at the company, you needed to understand the directory business. You had to learn what was possible and **how to sell your ideas to the stakeholders**. You couldn’t be an absolutist and argue only from the the user’s point of view. You needed to understand what users wanted, and also the relationship between the directories and their advertisers. A lot of the job was saying no to things, trying to talk the directories out of bad ideas. And to do this effectively, you had to understand the business realities of an advertising-driven industry.
-
-
-{% endcapture %}
-
-
-<div class="main">
-
-	<h2>{{page.title}}</h2>
-
-	<p class="byline">by {{page.author}}, {{page.date | date: "%B %d, %Y"}}</p>
-
-	{{ text_1 | markdownify }}
-	
-	<img src="/img/store-fronts.jpg" class="full-width">
-
-	{{ text_2 | markdownify }}
-	
-	<img src="/img/shopping-mall.jpg" class="full-width">
-	
-	{{ text_3 | markdownify }}
-	
-</div>
