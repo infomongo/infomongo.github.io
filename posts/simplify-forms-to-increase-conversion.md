@@ -23,7 +23,9 @@ His contact form initially had four fields: name, email, URL and revenue. He rem
 
 Fewer fields are better because it’s less work to submit the form. But there also a [Don’t Make Me Think](https://www.sensible.com/dmmt.html) aspect to this story. Neil stopped asking the one question that users had to think about to answer. All the other fields could be filled in without much throught. But asking about revenue makes you wonder, “Why are they asking about revenue?” and probably also “Do I want to answer this question?” Even if you are OK sharing the information, you’d likely have to ask yourself “What is my revenue, anyway?” This requires a lot more cognitive work than the name field does. 
 
-> That’s the main takeaway from this essay. To improve form conversion, reduce the cognitive work needed to complete the form. Reducing the number of fields is a great way to do this. But it is not the only way.
+**That’s the main takeaway from this essay**. To improve form conversion, reduce the cognitive work needed to complete the form. Reducing the number of fields is a great way to do this. But it is not the only way.
+
+> To improve form conversion, reduce the cognitive work needed to complete the form.
 
 There are [many][3] [other][4] [posts][5] that [talk][6] about the number of form fields. Some of these contain contradictory advice. Many are drawn from very little data.
 

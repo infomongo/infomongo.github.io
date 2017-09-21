@@ -2,6 +2,7 @@ $accent-color: #ff8000;
 $accent-dark: #CC5500;
 $font-color: #5c5c5c;
 $dark-font: #4D4B4B;
+$lite-font: lighten($font-color, 25%);
 $border-color: #b5b4b6;
 
 @font-face {
@@ -110,8 +111,8 @@ h3 {
 
 hr {
 	height: 1px;
-	color: lighten($font-color, 25%);
-	background:  lighten($font-color, 25%);
+	color: $lite-font;
+	background: $lite-font;
 	//font-size: 0;
 	border: 0;
 	margin: 1.2em 0;
@@ -119,7 +120,7 @@ hr {
 
 
 .byline, .date, .caption {
-	color: lighten($font-color, 25%);
+	color: $lite-font;
 }
 
 .caption {
@@ -139,10 +140,13 @@ code {
 }
 
 blockquote {
-	font-size: percentage(22/18);
-	border-left: 3px $font-color solid;
-	margin: .25em 0 1.25em;
-	padding-left: 1.25em;
+	font-style: italic;
+	margin: 0;
+	color: $lite-font;
+	text-align: center;
+	//border-left: 3px $font-color solid;
+	//margin: .25em 0 1.25em;
+	//padding-left: 1.25em;
 }
 
 ul, ol {
@@ -197,7 +201,7 @@ p {
 		display: block;
 		text-align: center;
 		font-family: $italic-family;
-		color: lighten($font-color, 20%);
+		color: $lite-font;
 		font-size: 90%;
 		margin-bottom: 1em;
 	}
@@ -388,7 +392,7 @@ img {
 	}
 	
 	blockquote {
-		font-size: percentage(18/16);
+		font-size: percentage(20/16);
 	}
 	
 	img {
@@ -464,6 +468,12 @@ img {
 		width: 38em;
 		margin: 3em auto;
 	}
+	
+	blockquote {
+		font-size: percentage(30/18);
+		margin: 1em -2em;
+	}
+	
 
 	img {
 		&.lrg {
