@@ -26,7 +26,7 @@ A common mistake junior designers make is to focus on a single solution, that th
 
 Any reasonably experienced designer is going to have come up multiple design approaches. When it comes time to review these with the client or product team, how many should you show?
 
-[Some][1] [designers][2] advocate showing only a single option to clients. The crux of this argument is that the client hired you, the design professional, to come up with a solution. You are the expert, so you should pick the design.
+[Some designers][1] advocate showing only a [single option][2] to clients. The crux of this argument is that the client hired you, the design professional, to come up with a solution. You are the expert, so you should pick the design.
 
 [1]: https://blog.prototypr.io/presenting-multiple-design-options-to-your-clients-just-dont-5818bb29b6fc
 
