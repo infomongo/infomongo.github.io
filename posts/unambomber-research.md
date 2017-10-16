@@ -187,7 +187,6 @@ This bomb was mailed from Oakland, California to William Dennison, at the office
 
 ### Links & References 
 
-&nbsp;
 
 * [The Wikipedia entry for Ted Kaczynski][11]
 * [The FBI search warrant to search Ted Kaczynski’s cabin outside Lincoln, Montana][2]
