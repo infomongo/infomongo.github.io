@@ -70,6 +70,9 @@ i, em {
 	display: none;
 }
 
+p.center {
+	text-align: center;
+}
 
 .copyright {
 	font-size: 80%;
@@ -210,13 +213,6 @@ p {
 		border-bottom: none;
 	}
 	
-	// img {
-	// 	transition: max-height ease-out 0.7s;
-	// 	max-height: 1000px;
-	// 	&.slide-up {
-	// 		max-height: 0px;
-	// 	}
-	// }
 
 }
 
@@ -237,24 +233,14 @@ img {
 		border: none;
 		margin-bottom: .25em;
 	}
-
+	&.float {
+		width:200px; 
+		max-width:40%; 
+		float:left; 
+		margin-right: 1em;
+	}
 }
 
-// .side-scroll {
-//     margin: 1em 20px;
-//     overflow:auto;
-//     white-space: nowrap;
-//     img {
-//         margin-right: 10px;
-//         vertical-align: top;
-//         &.landscape {
-//             width: 500px;
-//         }
-//         &.portrait {
-//             width: 244px;
-//         }
-//     }
-// }
 
 
 .promote {
