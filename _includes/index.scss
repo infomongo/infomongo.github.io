@@ -1,5 +1,6 @@
 $accent-color: #ff8000;
 $accent-dark: #CC5500;
+$link-bg: #FFFF9C;
 $font-color: #5c5c5c;
 $dark-font: #4D4B4B;
 $lite-font: lighten($font-color, 25%);
@@ -163,6 +164,7 @@ ul, ol {
 a {
 	color: $accent-color;
 	text-decoration: none;
+	transition: all 0.5s;
 }
 
 a:visited {
@@ -171,11 +173,17 @@ a:visited {
 	border-bottom: 1px $accent-dark dotted;
 	&.header {
 		color: $accent-color;
+		
 	}
 }
 
 a:hover {
-	border-bottom: 1px $accent-color dotted;
+	//border-bottom: 1px $accent-color dotted;
+	color: $accent-dark ;
+	background-color: $link-bg;
+	&.header, &.img-switch {
+		background-color: white;
+	}
 }
 
 p {
