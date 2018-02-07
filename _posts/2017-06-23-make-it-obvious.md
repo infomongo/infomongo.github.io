@@ -3,17 +3,9 @@ layout: post
 title: Make It Obvious
 description: Want to make software that is easy to use? Provide an obvious starting point.
 author: John Phillips
+categories: ux
 date:   2017-06-23 
 ---
-
-{% comment %}
-
-I’m talking about applications, tools that help you preform a task. Web **apps** are task and interaction focused. Web **sites** are about content, typically reading text, but often watching videos. Not that this is binary. Some things are more app-like, some are more site-like. For content rich sites, you might want or need a lot of different starting points. But for an app, make it obvious how to get started.
-
-add
-
-{% endcomment %}
-
 
 When designing an application, make it obvious how to get started. 
 

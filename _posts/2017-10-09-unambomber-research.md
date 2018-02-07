@@ -4,6 +4,7 @@ title: 'Unabomber Research'
 subtitle: A bizarre psychological experiment and the events leading to his capture.
 description: In 1958, Ted Kaczynski took part in an immoral psychological experiment while he was an undergrad at Harvard
 author: John Phillips
+categories: other TV unabomber research
 date:   2017-10-09
 ---
 

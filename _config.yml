@@ -27,3 +27,4 @@
 # Build settings
 markdown: kramdown
 gems: [jekyll-paginate]
+permalink: /posts/:title

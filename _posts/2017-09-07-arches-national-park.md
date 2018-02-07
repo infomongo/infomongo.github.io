@@ -3,6 +3,7 @@ layout: post
 title: Arches National Park
 description: It’s so gorgeous you almost get “beautiful desert landscape” fatigue.  
 author: John Phillips
+categories: other travel pictures
 date:   2017-09-07
 ---
 

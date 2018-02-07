@@ -5,6 +5,7 @@ description: Designing a more rational calendar.
 subtitle: Designing a better calendar
 author: John Phillips
 date:   2017-07-31
+categories: other calendar ideas
 js-include: date-convert.js
 ---
 

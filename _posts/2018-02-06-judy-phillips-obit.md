@@ -3,6 +3,7 @@ layout: post
 title: Obituary for Judy Phillips
 description: A permanent home for my Mom's obituary  
 author: John Phillips
+categories: other obit
 date:   2018-02-06
 ---
 

@@ -4,6 +4,7 @@ title: You Think Your Website Looks Like This…
 description: 'The mobile web: the disconnect between what we know, and how we act.'
 author: John Phillips
 date:   2017-06-29 
+categories: ux mobile
 ---
 
 

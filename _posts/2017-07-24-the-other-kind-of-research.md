@@ -3,6 +3,7 @@ layout: post
 title: The Other Kind Of Research
 description: You need to understand your user's needs, but also the business realities of the product.
 author: John Phillips
+categories: ux research
 date:   2017-07-24 
 ---
 

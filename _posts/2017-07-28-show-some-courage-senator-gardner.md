@@ -4,6 +4,7 @@ title: Show Some Courage Senator
 description: Letter to my Republican Senator on the eve of Repeal & Replace crashing.
 author: John Phillips
 date:   2017-07-28 
+categories: other rant letter
 promo: hide promo
 ---
 

@@ -1,56 +1,51 @@
 ---
 layout: default
 title: 'infomongo: essays'
-description: A collection of writings about UX design and other topics by John Phillips.
+description: A collection of writing about UX design and other topics by John Phillips.
 ---
 
 <div class="main fill">
 	
 	<h2>Writing</h2>
 	
-	<p>A collection of writings about UX design and other topics.</p>
+	<p>A collection of writing about UX design and other topics.</p>
 	
-	<h2>UX</h2>
+	<h2>UX Design</h2>
 	
-	<h3><a href="/posts/presenting-mulitple-design-options">Presenting Multiple Design Options</a></h3>
-	<p>When a design review is focused on how an app works, showing multiple options is often helpful and productive.
-	<span class="date">{{ '2017-09-21' | date: "%B %d, %Y"}}</span></p>
+	{% for post in site..categories['ux'] %}
+	  <div class="post">
 	
-	<h3><a href="/posts/simplify-forms-to-increase-conversion">Simplify Forms to Increase Conversion Rates</a></h3>
-	<p>Examining how form complexity affects conversion rates.
-	<span class="date">{{ '2017-08-16' | date: "%B %d, %Y"}}</span></p>
+		<h3>
+		  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+		</h3>
+		{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+		<div class="post-meta date">{{ post.date | date: date_format }}</div>
 	
-	<h3><a href="/posts/the-other-kind-of-research">The Other Kind Of Research</a></h3>
-	<p>How the business realities of an advertising driven site can affect UX design and decision making.
-	<span class="date">{{ '2017-07-24' | date: "%B %d, %Y"}}</span></p>
-	
-	<h3><a href="/posts/make-it-obvious">Make It Obvious</a></h3>
-	<p>When designing an application, make it obvious how to get started. 
-	<span class="date">{{ '2017-06-23 ' | date: "%B %d, %Y"}}</span></p>
-	
-	<h3><a href="/posts/you-think-your-website-looks-like-this">You Think Your Website Looks Like This…</a></h3>
-	<p>It’s a safe bet that a substantial amount of your site's traffic is coming from mobile devices. It’s a sure thing that your mobile numbers are growing while desktop is shrinking. 
-	<span class="date">{{ '2017-06-29 ' | date: "%B %d, %Y"}}</span></p>
+		<div class="post-excerpt">
+		  {{ post.content | strip_html | truncatewords: 20 }} <a class="" href="{{ post.url | relative_url }}">continue reading</a>
+		</div>
+		
+	  </div>
+	{% endfor %}
 	
 	<h2>Other Topics</h2>
 	
-	<h3><a href="/posts/judy-phillips-obit">Obituary for Judy Phillips</a></h3>
-	<p>The obit I wrote for my Mom. </p>
+	{% for post in site..categories['other'] %}
+	  <div class="post">
 	
-	<h3><a href="/posts/unambomber-research">Unabomber Research</a></h3>
-	<p> I binge-watched Manhunt: Unabomber, which made me curious about Ted Kaczynski, a bizarre psychological experiment he took part in, and the events leading to his capture.
-	<span class="date">{{ '2017-10-09 ' | date: "%B %d, %Y"}}</span></p>
+		<h3>
+		  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+		</h3>
+		{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+		<div class="post-meta date">{{ post.date | date: date_format }}</div>
 	
-	<h3><a href="/posts/arches-national-park">Arches National Park</a></h3>
-	<p> It’s so gorgeous you almost get “beautiful desert landscape” fatigue.
-	<span class="date">{{ '2017-09-07 ' | date: "%B %d, %Y"}}</span></p>
+		<div class="post-excerpt">
+		  {{ post.content | strip_html | truncatewords: 20 }} <a class="" href="{{ post.url | relative_url }}">continue reading</a>
+		</div>
+		
+	  </div>
+	{% endfor %}
+
 	
-	<h3><a href="/posts/proposal-for-a-saner-calendar">Proposal for a More Rational Calendar</a></h3>
-	<p>Wouldn’t it be nice if every month started on a Sunday and ended 28 days later on a Saturday?
-	<span class="date">{{ '2017-07-31 ' | date: "%B %d, %Y"}}</span></p>
-	
-	<h3><a href="/posts/show-some-courage-senator-gardner">Show Some Courage Senator</a></h3>
-	<p>A Letter to Senator Corey Gardner. More of a rant, really.
-	<span class="date">{{ '2017-07-28 ' | date: "%B %d, %Y"}}</span></p>
-	
+
 </div>

@@ -3,6 +3,7 @@ layout: post
 title: Presenting Multiple Design Options
 description: Presenting multiple design options leads to productive discussions and better design
 author: John Phillips
+categories: ux
 date:   2017-09-21 
 ---
 
