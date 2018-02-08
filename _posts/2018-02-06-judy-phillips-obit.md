@@ -5,9 +5,10 @@ description: A permanent home for my Mom's obituary
 author: John Phillips
 categories: other obit
 date:   2018-02-06
+promo: hide promo
 ---
 
-I wrote this obit for my mom. I miss her all the time. Love you, mom.
+Posting this here so it has a permanent home on the web. Love you mom.
 
 <p class="center">~~~</p>
 
