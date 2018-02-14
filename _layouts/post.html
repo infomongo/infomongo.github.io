@@ -2,13 +2,13 @@
 layout: default
 ---
 <div class="main fill">
-	<h2>{{page.title}}</h2>
-	
-	{% if page.subtitle %}
-	<p>{{page.subtitle}}</p>
-	{% endif %}
+	<h2 class="post-title">{{page.title}}</h2>
 	
 	<p class="byline">By {{page.author}} on {{page.date | date: "%B %d, %Y"}}</p>
+	
+	{% if page.subtitle %}
+	<p class="subhead">{{page.subtitle}}</p>
+	{% endif %}
 	
 	{{ content }}
 </div>
@@ -17,7 +17,7 @@ layout: default
 <div class="promote">
 	<div class="main">
 		<span class="">Need help with your UX?</span> 
-		Learn more about John Phillips and <a href="//moonsault.co/ux/">Moonsault UX</a>
+		Learn more about me and <a href="//moonsault.co/ux/">Moonsault UX</a>
 	</div>
 </div>
 {% endunless %}
