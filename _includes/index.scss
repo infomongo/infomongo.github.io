@@ -469,8 +469,8 @@ img {
 @media (min-width: 500px) {
 	img {
 		&.full-width {
-			max-width: 120%;
-			margin-left: -10%;
+			//max-width: 120%;
+			//margin-left: -10%;
 		}
 		&.wrap-right {
 			float: left;
