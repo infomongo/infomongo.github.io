@@ -6,22 +6,22 @@ $dark-font: #4D4B4B;
 $lite-font: lighten($font-color, 25%);
 $border-color: #b5b4b6;
 
-@font-face {
-	font-family: 'montserratextrabold';
-	src: url('/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
-		 url('/fonts/montserrat-extrabold-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
+// @font-face {
+//     font-family: 'montserratextrabold';
+//     src: url('/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+//          url('/fonts/montserrat-extrabold-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
 $base-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
 //$bold-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
 //$italic-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
-$head-family: 'montserratextrabold', sans-serif;
+$head-family:'Arial Black', AvenirNext-Heavy, sans-serif;
 
 body {
 	font-family: $base-family;
-	font-size: percentage(18/16);
+	font-size: 16px;
 	line-height: 1.35;
 	color: $font-color;
 	background-color: white;
@@ -46,6 +46,7 @@ nav#main {
 		font-family: $head-family;
 		margin: 1em;
 		font-weight: bold;
+		letter-spacing: -0.05em;
 	}
 }
 
@@ -94,13 +95,43 @@ h1, h2, h3, h4 {
 	font-family: $head-family;
 	font-weight: normal;
 	line-height: 1.2;
+	letter-spacing: -0.0625em;
 }
+
+h2 {letter-spacing: -0.03em;}
+h3 {letter-spacing: -0.02em;}
 
 * {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box; 
 }
+
+// custom checkbox
+#new_window {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	//margin-right: .25em;
+}
+
+label.links {
+	padding-left: 24px;
+	min-height: 18px;
+}
+
+#new_window + label { 
+	//color: red;
+	@extend .icon-unchecked;
+	background-position: 0 5px;
+}
+
+#new_window:checked + label {
+	//color: blue;
+	@extend .icon-checked;
+	background-position: 0 3px;
+}
+
 
 hr {
 	height: 1px;
@@ -120,6 +151,13 @@ hr {
 
 .byline, .date, .caption {
 	color: $lite-font;
+}
+
+.recent-post {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: $lite-font;
+	font-size: 80%;
 }
 
 .caption {
@@ -158,7 +196,7 @@ a {
 	text-decoration: none;
 	transition: all 0.5s;
 	font-weight: bold;
-	padding: 0 2px;
+	//padding: 0 2px;
 }
 
 a:visited {
@@ -353,25 +391,30 @@ img {
 
 
 //mobile
-@media only screen and (max-width : 799px) {
-	body {
-		font-size: 1em;
-	}
+@media only screen and (max-width: 799px) {
+	// body is 16px
+	h2   { font-size: percentage(24/16); }
+	h3   { font-size: percentage(20/16); }
 	
 	nav#main {
 		.logo {
-			font-size: 1.4em;
+			font-size: percentage(22/16);
 			margin: 10px;
 		}
 		.posts {
-			font-size: .8em;
+			font-size: percentage(12/16);
+			margin: 0;
 			margin-right: 10px;
 		}
 	}
 	
 	.main, .mob-pad {
-		padding: 0 10px;
+		padding: 10px;
 		//padding-bottom: 3em;
+	}
+	
+	.intro {
+		padding-top: 0;
 	}
 	
 	.main {
@@ -445,13 +488,22 @@ img {
 //screens wider than 800px, ie not mobile
 @media only screen and (min-width : 800px) {
 
+	body { font-size: percentage(20/16); }
+	h1   { font-size: percentage(36/20); }
+	h2   { font-size: percentage(30/20); }
+	h3   { font-size: percentage(26/20); }
+
 	.main {
-		width: 34em;
+		width: 32em;
 		margin: 3em auto;
 	}
 	
+	.intro {
+		margin-top: 0;
+	}
+	
 	blockquote {
-		font-size: percentage(30/18);
+		font-size: percentage(26/20);
 		margin: 1em -2em;
 	}
 	
@@ -459,7 +511,6 @@ img {
 		&.lrg {
 			min-width: 670px;
 		}
-
 		&.no-offset {
 			max-width: 100%;
 			margin-left: 0;
@@ -481,3 +532,15 @@ img {
 		min-height: 55vw;
 	}
 }
+
+// icons
+.icon-checked {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iY2hlY2tlZCIgZmlsbD0iIzRENEI0QiI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik04LjczLDE0LjA5NTcgQzguMzM0LDE0LjA5NTcgNy45NTMsMTMuOTM4NyA3LjY2OSwxMy42NTY3IEwzLjkwNSw5Ljg4OTcgQzMuMzE5LDkuMzAzNyAzLjMxOSw4LjM1NDcgMy45MDUsNy43Njg3IEM0LjQ5MSw3LjE4MjcgNS40NCw3LjE4MjcgNi4wMjYsNy43Njg3IEw4LjUwMywxMC4yNDQ3IEwxNC45MjUsMC42OTg3IEMxNS4zODgsMC4wMTA3IDE2LjMyLC0wLjE3MTMgMTcuMDA3LDAuMjkwNyBDMTcuNjk1LDAuNzUyNyAxNy44NzcsMS42ODU3IDE3LjQxNiwyLjM3MjcgTDkuOTc1LDEzLjQzMjcgQzkuNzI0LDEzLjgwNDcgOS4zMjIsMTQuMDQ0NyA4Ljg3NSwxNC4wODc3IEM4LjgyNywxNC4wOTI3IDguNzc5LDE0LjA5NTcgOC43MywxNC4wOTU3IiBpZD0iRmlsbC01MzMiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTE0LjAwMDUsMTAuNTYyIEwxNC4wMDA1LDE1IEMxNC4wMDA1LDE1LjU1MyAxMy41NTI1LDE2IDEzLjAwMDUsMTYgTDMuMDAwNSwxNiBDMi40NDg1LDE2IDIuMDAwNSwxNS41NTMgMi4wMDA1LDE1IEwyLjAwMDUsNSBDMi4wMDA1LDQuNDQ5IDIuNDQ4NSw0IDMuMDAwNSw0IEw5Ljk2MjUsNCBMMTEuMjk1NSwyIEwzLjAwMDUsMiBDMS4zNDY1LDIgMC4wMDA1LDMuMzQ2IDAuMDAwNSw1IEwwLjAwMDUsMTUgQzAuMDAwNSwxNi42NTUgMS4zNDY1LDE4IDMuMDAwNSwxOCBMMTMuMDAwNSwxOCBDMTQuNjU0NSwxOCAxNi4wMDA1LDE2LjY1NSAxNi4wMDA1LDE1IEwxNi4wMDA1LDcuNTYyIEwxNC4wMDA1LDEwLjU2MiBaIiBpZD0iRmlsbC01MzQiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==');
+	background-repeat: no-repeat;
+}
+
+.icon-unchecked {
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cmVjdCBpZD0idW5jaGVja2VkIiBzdHJva2U9IiM0RDRCNEIiIHN0cm9rZS13aWR0aD0iMiIgeD0iMSIgeT0iMSIgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0IiByeD0iMyI+PC9yZWN0PgogICAgPC9nPgo8L3N2Zz4=');
+	background-repeat: no-repeat;
+}
+

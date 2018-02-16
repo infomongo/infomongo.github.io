@@ -1,5 +1,5 @@
 
-## Physician Locator
+### Physician Locator
 
 [Moonsault Software][1] built this site for a large insurance company.
 

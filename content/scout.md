@@ -1,5 +1,5 @@
 
-## Angular Apps
+### Angular Apps
 
 **Location Scout** – This app is a sales tool. It provides prospects and sales people a way to check a brand’s local data.
 

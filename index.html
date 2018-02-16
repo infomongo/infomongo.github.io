@@ -5,7 +5,9 @@ description: The portfolio site of John Phillips, a UX designer located in Denve
 js-include: index.js
 ---
 
-<div class="main">
+<img src="/img/smr-crop.jpg" class="full-width">
+
+<div class="main intro">
   
   {% capture intro_text %}
     {% include_relative content/intro.md %}
@@ -16,7 +18,18 @@ js-include: index.js
 </div>
 
 <div class="main">
-  <hr>
+  <div class="recent-post">Recent Post</div>
+  {% for post in site.categories['ux'] limit:1 %}
+    {% include post-for-loop.html %}
+  {% endfor %}
+</div>
+
+<div class="main">
+  <h2>Recent Work</h2>
+  <p>
+    <input id="new_window" type="checkbox">
+    <label class="links" for="new_window">Open links in new windows</label>
+  </p>
 </div>
 
 

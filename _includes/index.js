@@ -1,8 +1,8 @@
 
 $(function() {
   // Handler for .ready() called
-  var links_checkbox = $('.links input'),
-   physList = ["/img/phys-loc-search.jpg", "/img/phys-loc-results.png", "/img/phys-loc-details.jpg", "/img/phys-loc-cart.png" ],
+  var links_checkbox = $('#new_window'),
+  physList = ["/img/phys-loc-search.jpg", "/img/phys-loc-results.png", "/img/phys-loc-details.jpg", "/img/phys-loc-cart.png" ],
   benchList = ["/img/workbench-img-1.png", "/img/workbench-img-2.png", "/img/workbench-img-3.jpg", "/img/workbench-img-4.png" , "/img/workbench-img-5.png" ],
   smashList = ["/img/smash-1-search.png", "/img/smash-2-results.jpg", "/img/smash-3-details.jpg"],
   bigList = ["/img/big-1-search.png", "/img/big-2-results.png", "/img/big-3-details.png"],
