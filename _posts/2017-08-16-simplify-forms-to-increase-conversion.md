@@ -8,17 +8,18 @@ categories: ux
 date:   2017-08-16 
 ---
 
+<div class="intro" markdown="1">
+
 At [Moonsault](http://moonsault.co) we have worked on several landing page / lead generation projects this year. And one thing keeps coming up. Clients want to add a whole bunch of fields to their lead generation forms. Which is bad for conversion. 
-
-
-<img src="/img/contact-cory-form.jpg" class="full-width">
-
-<p class="caption">This monstrosity is part of the contact form for emailing my senator.</p>
-
 
 The canonical conversion reference seems to be [this post at Quick Sprout][1] by [Neil Patel](http://neilpatel.com/blog/). It gets linked to frequently in the context of form conversion and the number of fields. 
 
 [1]: https://www.quicksprout.com/2013/01/31/how-to-optimize-contact-forms-for-conversions/
+
+</div>
+
+<img src="/img/contact-cory-form.jpg" class="full-width">
+<p class="caption">This monstrosity is part of the contact form for emailing my senator.</p>
 
 His contact form initially had four fields: name, email, URL and revenue. He removed one field, revenue, and increased conversion by **26%**.
 

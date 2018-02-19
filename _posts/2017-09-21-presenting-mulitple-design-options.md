@@ -7,11 +7,14 @@ categories: ux
 date:   2017-09-21 
 ---
 
+<div class="intro" markdown="1">
 <img src="/img/many-doors.jpg" class="full-width">
 
 Interaction design begins with research. You need to understand  who is going to use the product and what they want to accomplish. You need to understand their background. What applications they use and like. How do they currently solve the problem your app will make easier? What are the broad demographics of these users? How comfortable are they with technology?
 
 You also need to understand the technical limitations and the business goals of the project, but user research makes up the bulk of this initial research. 
+</diV>
+
 
 ### Developing Options
 
@@ -39,6 +42,7 @@ If a design review is primarily about the image being presented, the feelings co
 When the design review is focused on how an app works, showing multiple options is often helpful and productive. The options you present will differ in their approach to the problem. One option might geared to new users, to help them learn how the app works and what options are available. Another option might be focused on productivity. It might be harder to learn, but simpler to use once learned. 
 
 When presenting these options, you discuss the strengths and weaknesses of each. You will often have a productive discussion with stakeholders. You learn what they care about, where their priorities lay. They learn about the trade-offs involved and how different types of user may have different reactions to the same design. These conversations improve the design because the whole team ends up understanding the problem better.
+
 
 > When the design review is focused on how an app works, showing multiple options is often helpful and productive.
 

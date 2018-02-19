@@ -9,11 +9,16 @@ categories: other calendar ideas
 js-include: date-convert.js
 ---
 
-<img src="/img/calendar-closeup.jpg" class="full-width">
+<div class="intro" markdown="1">
 
 What is your first memory of the metric system? I remember learning about it in elementary school. It struck me that the units for measuring distance —centimeters, meters, kilometers— just made much better sense than the Imperial system, with 12 inches to a foot, 3 feet to a yard, and 5280 feet to a mile. Our system suddenly seemed so arbitrary compared to the base 10 rationality of the metric system.
 
 OK, so consider our calendar. “Thirty days has September, April, June and November.” Weeks have 7 days, but months have 30 or 31. Except for that odd duck February, which has either 28 or 29. It’s just arbitrary. Holidays like the fourth of July and Christmas float around the week, sometimes landing on a Tuesday, sometimes a Saturday. 
+
+</div>
+
+<img src="/img/calendar-closeup.jpg" class="full-width">
+
 
 ### A Proposal 
  

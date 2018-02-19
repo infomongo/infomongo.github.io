@@ -14,26 +14,33 @@ js-include: index.js
   {% endcapture %}
   {{ intro_text | markdownify }}
   
-  
 </div>
 
 <div class="main">
   <div class="recent-post">Recent Post</div>
   {% for post in site.categories['ux'] limit:1 %}
-    {% include post-for-loop.html %}
+    <div class="post-list">
+      <h3>
+        <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+      </h3>
+      {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
+      <p class="post-meta date">{{ post.date | date: date_format }}</p>
+    
+      <div class="post-excerpt">
+        {{ post.content | truncatewords: 60 }} <a class="" href="{{ post.url | relative_url }}">continue reading</a>
+      </div>
+    </div>
   {% endfor %}
+  </div>
 </div>
 
-<div class="main">
+<div class="main columns">
   <h2>Recent Work</h2>
   <p>
     <input id="new_window" type="checkbox">
     <label class="links" for="new_window">Open links in new windows</label>
   </p>
-</div>
-
-
-<div class="main">
+  
   {% capture phys_text %}
     {% include_relative content/phys_loc.md %}
   {% endcapture %}
@@ -51,7 +58,7 @@ js-include: index.js
   </a>
 </div>
 
-<div class="main">
+<div class="main columns">
   {% capture workbench_text %}
     {% include_relative content/workbench.md %}
   {% endcapture %}
@@ -64,7 +71,7 @@ js-include: index.js
   </a>
 </div>
 
-<div class="main">
+<div class="main columns">
   {% capture locators_text %}
     {% include_relative content/locators.md %}
   {% endcapture %}
@@ -92,7 +99,7 @@ js-include: index.js
 </div>
 
 
-<div class="main">
+<div class="main columns">
   {% capture branded_locators_text %}
     {% include_relative content/branded_locators.md %}
   {% endcapture %}
@@ -110,7 +117,7 @@ js-include: index.js
   </a>
 </div>
 	
-<div class="main">
+<div class="main columns">
 	{% capture scout_text %}
 	  {% include_relative content/scout.md %}
 	{% endcapture %}
@@ -121,7 +128,7 @@ js-include: index.js
   <img src="/img/pl-loc-scout.jpg" class="center lrg">
 </div>
 
-<div class="main roi">
+<div class="main roi columns">
   {% capture calc_text %}
     {% include_relative content/calc.md %}
   {% endcapture %}

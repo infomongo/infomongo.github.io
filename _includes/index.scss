@@ -5,46 +5,44 @@ $font-color: #5c5c5c;
 $dark-font: #4D4B4B;
 $lite-font: lighten($font-color, 25%);
 $border-color: #b5b4b6;
-
-// @font-face {
-//     font-family: 'montserratextrabold';
-//     src: url('/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
-//          url('/fonts/montserrat-extrabold-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-// }
-
 $base-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
-//$bold-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
-//$italic-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
 $head-family:'Arial Black', AvenirNext-Heavy, sans-serif;
+
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
 
 body {
 	font-family: $base-family;
 	font-size: 16px;
-	line-height: 1.35;
+	line-height: 1.3;
 	color: $font-color;
 	background-color: white;
 	margin: 0;
 	position: relative;
+	min-height: 100vh;
 }
 
-nav#main {
+header {
 	border-top: 5px $accent-color solid;
 	animation: fade-in 2.5s 1;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	.wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 	.item {
 		color: $accent-color;
 		text-transform: uppercase;
 	}
 	.logo {
-		margin: .5em 1em;
+		margin: .5em 0;
 	}
 	.posts {
 		font-family: $head-family;
-		margin: 1em;
+		margin: 1em 0;
 		font-weight: bold;
 		letter-spacing: -0.05em;
 	}
@@ -66,13 +64,9 @@ nav#main {
 }
 
 b, strong {
-    //font-family: $bold-family;
     color: $dark-font;
 }
-// 
-// i, em {
-//     font-family: $italic-family;
-// }
+
 
 .hidden {
 	display: none;
@@ -94,17 +88,16 @@ h1, h2, h3, h4 {
 	margin: 0;
 	font-family: $head-family;
 	font-weight: normal;
-	line-height: 1.2;
+	//line-height: 1.2;
+	column-span: all;
 	letter-spacing: -0.0625em;
 }
 
 h2 {letter-spacing: -0.03em;}
-h3 {letter-spacing: -0.02em;}
+h3 {letter-spacing: -0.02em; margin-top: 1.25em;}
 
-* {
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box; 
+p {
+	margin: .25em 0 1.25em;
 }
 
 // custom checkbox
@@ -121,13 +114,11 @@ label.links {
 }
 
 #new_window + label { 
-	//color: red;
 	@extend .icon-unchecked;
 	background-position: 0 5px;
 }
 
 #new_window:checked + label {
-	//color: blue;
 	@extend .icon-checked;
 	background-position: 0 3px;
 }
@@ -149,8 +140,25 @@ hr {
 	color: $lite-font;
 }
 
+.post-list {
+	margin:0 0 1em;
+	h3 {
+		margin: 0;
+	}
+}
+
 .byline, .date, .caption {
 	color: $lite-font;
+}
+
+.post-meta, .byline {
+	column-span: all;
+}
+
+br.col-break {
+	column-span: all;
+	display: block;
+	background: red;
 }
 
 .recent-post {
@@ -158,13 +166,15 @@ hr {
 	font-weight: bold;
 	color: $lite-font;
 	font-size: 80%;
+	margin-top: 1.25em;
 }
 
 .caption {
 	font-size: percentage(15/18);
 	text-align: center;
-	margin-top: -2em;
+	//margin-top: -2em;
 	margin-bottom: 2em;
+	column-span: all;
 }
 
 .date {
@@ -181,6 +191,7 @@ blockquote {
 	margin: 0;
 	color: $lite-font;
 	text-align: center;
+	//column-span: all;
 }
 
 ul, ol {
@@ -196,7 +207,6 @@ a {
 	text-decoration: none;
 	transition: all 0.5s;
 	font-weight: bold;
-	//padding: 0 2px;
 }
 
 a:visited {
@@ -209,7 +219,6 @@ a:visited {
 }
 
 a:hover {
-	//border-bottom: 1px $accent-color dotted;
 	color: $accent-dark ;
 	background-color: $link-bg;
 	&.header, &.img-switch {
@@ -217,14 +226,8 @@ a:hover {
 	}
 }
 
-p {
-	margin: .25em 0 1.25em;
-}
-
-
 .img-switch{
 	display: block;
-	//border: 1px #000 solid;
 	overflow: hidden;
 	transition: all ease-out 0.7s;
 	//max-height: 1000px;
@@ -250,8 +253,6 @@ p {
 	&:hover {
 		border-bottom: none;
 	}
-	
-
 }
 
 img {
@@ -263,9 +264,12 @@ img {
 	}
 	&.lrg {
 		max-width: 70%;
+		//max-width: 90%;
 	}
 	&.full-width {
 		max-width: 100%;
+		display: block;
+		column-span: all;
 	}
 	&.no-border {
 		border: none;
@@ -277,10 +281,6 @@ img {
 		float:left; 
 		margin-right: 1em;
 	}
-}
-
-.post {
-	margin:.5em 0 1em;
 }
 
 .promote {
@@ -301,10 +301,6 @@ img {
 		color: #333;
 		border-bottom: 1px #333 dotted;
 	}
-}
-
-.main.fill {
-	min-height: 80vh;
 }
 
 .big {
@@ -389,6 +385,58 @@ img {
 	}
 }
 
+// layout stuff
+
+$column-width: 50em;
+$main-width: 34em;
+$negative-margin: 0 - (($column-width - $main-width) / 2);
+
+.main {
+	padding: 0 10px;
+	max-width:$main-width;
+	margin: 0 auto;
+}
+
+.main.wide {
+	max-width: $column-width;
+}
+
+header .wrap {
+	max-width: $column-width;
+	margin: 0 auto;
+}
+
+.post {
+	margin-top: 1em;
+}
+
+.post-top {
+	max-width: $column-width;
+	margin: 0 auto;
+}
+
+.columns {
+	max-width: $column-width;
+	column-width: 20em;
+	column-count: 2;
+	column-gap: 2em;
+}
+
+.columns.fill {
+	max-width: 70em;
+}
+
+.intro {
+	@extend .columns;
+}
+
+.intro.main {
+	margin-top: 0;
+}
+
+// .fill {
+//     min-height: 70vh;
+// }
 
 //mobile
 @media only screen and (max-width: 799px) {
@@ -396,7 +444,7 @@ img {
 	h2   { font-size: percentage(24/16); }
 	h3   { font-size: percentage(20/16); }
 	
-	nav#main {
+	header {
 		.logo {
 			font-size: percentage(22/16);
 			margin: 10px;
@@ -408,19 +456,18 @@ img {
 		}
 	}
 	
-	.main, .mob-pad {
+	.mob-pad{
 		padding: 10px;
-		//padding-bottom: 3em;
+	}
+	
+	.post-top {
+		padding: 0 10px;
 	}
 	
 	.intro {
 		padding-top: 0;
 	}
 	
-	.main {
-		max-width: 30em;
-		margin: 0 auto;
-	}
 	
 	blockquote {
 		font-size: percentage(20/16);
@@ -494,17 +541,36 @@ img {
 	h3   { font-size: percentage(26/20); }
 
 	.main {
-		width: 32em;
 		margin: 3em auto;
+		padding: 0;
 	}
-	
-	.intro {
+
+	.post .main {
 		margin-top: 0;
 	}
 	
+	.main .intro {
+		margin: 0 $negative-margin;
+	}
+
+	.post-excerpt .intro {
+		margin: 0;
+	}
+
+	.collection.wrap {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.collection.main {
+		margin-top: 0;
+		flex: 1 1 $main-width;
+	}
+
 	blockquote {
-		font-size: percentage(26/20);
-		margin: 1em -2em;
+		font-size: percentage(36/20);
+		column-span: all;
+		margin: .5em -4em 0;
 	}
 	
 	img {

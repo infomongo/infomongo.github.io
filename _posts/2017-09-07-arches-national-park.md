@@ -7,6 +7,8 @@ categories: other travel pictures
 date:   2017-09-07
 ---
 
+<div class="intro" markdown="1">
+
 <img class="full-width" src="/img/arches-delicate-1-thumbs-up.jpg">
 
 Arches is an amazingly beautiful park. It’s so gorgeous you almost get “beautiful desert landscape” fatigue. 
@@ -16,6 +18,10 @@ It’s located just north of Moab, UT. You enter the park at the south end from 
 About midway thru, there’s a road leading to the Windows Section. This is the densest collection of arches in the park, with short, easy trails connecting them.
 
 A couple miles further north is the road leading to Wolf Ranch and Delicate Arch. 
+
+</div>
+
+
 
 You can download a [Park Map][1] or the [Visitor Guide][2] from the National Park Service [site for the park][3].
 

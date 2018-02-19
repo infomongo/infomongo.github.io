@@ -7,6 +7,8 @@ categories: ux
 date:   2018-02-14 
 ---
 
+<div class="intro" markdown="1">
+
 As I was reading [this post][1] by [UX Legend, Jared Spool][2], I found myself nodding in agreement hard enough that neck injury seemed like a real possibility. Seriously, the article is a gem. [You should go read it now][1].
 
 [1]: https://articles.uie.com/requirements_gathering/
@@ -14,8 +16,11 @@ As I was reading [this post][1] by [UX Legend, Jared Spool][2], I found myself n
 
 The article highlights a problem I see again and again in software projects. The problem is the belief that people inside the company have the all the answers. That they know what needs to be built and requirements gathering is a simply matter of collecting that information.
 
+</div>
+
+
 Spool puts it this way:  
->> “When we’re gathering requirements, we’re saying the team is comprised of two types of people: those who know what we need and those who need to discover it.”
+> “When we’re gathering requirements, we’re saying the team is comprised of two types of people: those who know what we need and those who need to discover it.”
 
 The activity in question is called **Research & Development**. And we are skipping the “research” part. At least we have gotten more realistic in one way: this department is usually called just **Development** now.
 
