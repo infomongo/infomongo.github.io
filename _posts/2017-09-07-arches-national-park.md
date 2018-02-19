@@ -7,9 +7,12 @@ categories: other travel pictures
 date:   2017-09-07
 ---
 
+
+<div class="main wide">
+	<img class="full-width" src="/img/arches-delicate-1-thumbs-up.jpg">
+</div>
 <div class="intro" markdown="1">
 
-<img class="full-width" src="/img/arches-delicate-1-thumbs-up.jpg">
 
 Arches is an amazingly beautiful park. It’s so gorgeous you almost get “beautiful desert landscape” fatigue. 
 

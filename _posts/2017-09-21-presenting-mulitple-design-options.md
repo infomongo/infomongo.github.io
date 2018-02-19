@@ -7,8 +7,10 @@ categories: ux
 date:   2017-09-21 
 ---
 
+<div class="main wide">
+	<img src="/img/many-doors.jpg" class="full-width">
+</div>
 <div class="intro" markdown="1">
-<img src="/img/many-doors.jpg" class="full-width">
 
 Interaction design begins with research. You need to understand  who is going to use the product and what they want to accomplish. You need to understand their background. What applications they use and like. How do they currently solve the problem your app will make easier? What are the broad demographics of these users? How comfortable are they with technology?
 

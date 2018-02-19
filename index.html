@@ -21,7 +21,7 @@ js-include: index.js
   {% for post in site.categories['ux'] limit:1 %}
     <div class="post-list">
       <h3>
-        <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+        <a class="post-link internal" href="{{ post.url}}">{{ post.title | escape }}</a>
       </h3>
       {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}
       <p class="post-meta date">{{ post.date | date: date_format }}</p>
@@ -36,7 +36,7 @@ js-include: index.js
 
 <div class="main columns">
   <h2>Recent Work</h2>
-  <p>
+  <p class="colspan">
     <input id="new_window" type="checkbox">
     <label class="links" for="new_window">Open links in new windows</label>
   </p>

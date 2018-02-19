@@ -151,7 +151,7 @@ hr {
 	color: $lite-font;
 }
 
-.post-meta, .byline {
+.post-meta, .byline, .colspan {
 	column-span: all;
 }
 
@@ -549,7 +549,7 @@ header .wrap {
 		margin-top: 0;
 	}
 	
-	.main .intro {
+	.main .intro, .main .wide {
 		margin: 0 $negative-margin;
 	}
 
