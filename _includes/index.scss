@@ -32,6 +32,7 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		padding: 0 10px;
 	}
 	.item {
 		color: $accent-color;
@@ -439,7 +440,7 @@ header .wrap {
 // }
 
 //mobile
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 859px) {
 	// body is 16px
 	h2   { font-size: percentage(24/16); }
 	h3   { font-size: percentage(20/16); }
@@ -447,12 +448,12 @@ header .wrap {
 	header {
 		.logo {
 			font-size: percentage(22/16);
-			margin: 10px;
+			//margin: 10px;
 		}
 		.posts {
 			font-size: percentage(12/16);
 			margin: 0;
-			margin-right: 10px;
+			//margin-right: 10px;
 		}
 	}
 	
@@ -512,28 +513,28 @@ header .wrap {
 }
 
 
-// mobile landscape & larger
+// // mobile landscape & larger
 @media (min-width: 500px) {
-	img {
-		&.full-width {
-			//max-width: 120%;
-			//margin-left: -10%;
-		}
-		&.wrap-right {
-			float: left;
-			margin-right: 1.2em;
-		}
-	}
+    img {
+        &.full-width {
+            //max-width: 120%;
+            //margin-left: -10%;
+        }
+        &.wrap-right {
+            float: left;
+            margin-right: 1.2em;
+        }
+    }
 
-	.min-height{
-		//min-height: 110vh;
-		min-height: 90vw;
-	}
+    .min-height{
+        //min-height: 110vh;
+        min-height: 90vw;
+    }
 }
 
 
 //screens wider than 800px, ie not mobile
-@media only screen and (min-width : 800px) {
+@media only screen and (min-width : 860px) {
 
 	body { font-size: percentage(20/16); }
 	h1   { font-size: percentage(36/20); }
@@ -542,7 +543,7 @@ header .wrap {
 
 	.main {
 		margin: 3em auto;
-		padding: 0;
+		//padding: 0;
 	}
 
 	.post .main {
