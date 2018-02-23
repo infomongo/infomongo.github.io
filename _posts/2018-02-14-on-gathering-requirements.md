@@ -5,6 +5,7 @@ description: How requirements gathering can cause organizations to fail to do re
 author: John Phillips
 categories: ux
 date:   2018-02-14 
+canonical: https://moonsault.co/2018/02/14/on-gathering-requirements
 ---
 
 <div class="intro" markdown="1">
@@ -29,3 +30,5 @@ Sometimes the cause for this rush to requirements is the project sponsor. The pe
 **The remedy is to test your hypothesis**. “We have a theory about what people want, let’s see what they think.” Find a simple way, using a prototype, screen designs or wireframes to test your theory with actual people who will use it. Any honest attempt at this will teach you something. The design and product will improve. 
 
 Think of it this way: You can wait and test your hypothesis in the market with the release of your first version. Or you can accelerate the process, learn more about what your user’s want and incorporate this into your 1.0.
+
+Originally published on the [moonsault blog]({{page.canonical}})
