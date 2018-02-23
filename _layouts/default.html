@@ -14,10 +14,13 @@
     {% capture include_to_scssify %}{% include index.scss %}{% endcapture %}
     <style>
         {% include normalize.css %}
+        {% include github-pygments.css %}
         {{ include_to_scssify | scssify }}
     </style>
+    {% if page.canonical %}
+      <link rel="canonical" href="{{page.canonical}}" />
+    {% endif %}
 </head>
-
 <body >
     <header>
         <div class="wrap">

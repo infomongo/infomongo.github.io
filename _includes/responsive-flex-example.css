@@ -1,0 +1,58 @@
+
+
+* {
+	box-sizing: border-box; 
+}
+
+body {
+	color: #333;
+	background-color: white;
+	margin: 0;
+	font-family: sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header, footer {
+	background-color: #333;
+	color: white;
+	padding: .5em;
+}
+
+footer {
+	background-color: #777;
+}
+
+main {
+	flex: 1 1 0;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap > * {
+    flex: 1 1 320px;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+.text {
+	padding: 1em;
+}
+
+p {
+	max-width: 38em;
+	margin: .25em 0 1.25em;
+}
+
+.title {
+	font-size: 140%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
