@@ -393,6 +393,16 @@ $column-width: 50em;
 $main-width: 34em;
 $negative-margin: 0 - (($column-width - $main-width) / 2);
 
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 1 0;
+}
+
 .main {
 	padding: 0 10px;
 	max-width:$main-width;
@@ -410,7 +420,7 @@ header .wrap {
 
 .post {
 	margin-top: 1em;
-	min-height: 70vh;
+	//min-height: 70vh;
 }
 
 .post-top {
