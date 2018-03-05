@@ -10,11 +10,11 @@ date:   2017-10-09
 
 <img class="full-width" src="/img/manhunt-unabomber.jpg">
 
-I binge-watched [Manhunt: Unabomber][1] on Netflix recently. It’s a dramatic retelling of the FBI’s hunt for the Unabomber. I enjoyed the show, but it was obvious that they took some liberties with the facts. Which made me curious about the actual events. So I did some research. Much of what I’m covering here comes from the [search warrant][2] that the FBI obtained to search Ted Kaczynski’s cabin.
+I binge-watched [Manhunt: Unabomber][1] on Netflix recently. It’s a dramatic retelling of the FBI’s hunt for the Unabomber. I enjoyed the show, but it was obvious that they took liberties with the facts. Which made me curious about the actual events. So I did some research. Much of what I’m covering here comes from the [search warrant][2] that the FBI obtained to search Ted Kaczynski’s cabin.
 
 ### Early Life, Education and Academics
 
-Ted Kaczynski was born in Chicago, Illinois in 1942. The family later moved to the nearby suburb of Evergreen Park. Ted had an [IQ of 167][3] and skipped the fifth and eleventh grades. He was a shy, geeky kid. He felt isolated from his peers because he was smaller, younger and smarter. He felt pressured by his parents to excel at school. He felt like his achievement became kind of a ‘trophy’ for the family.
+Ted Kaczynski was born in Chicago, Illinois in 1942. The family later moved to the nearby suburb of Evergreen Park. Ted had an [IQ of 167][3] and skipped the fifth and eleventh grades. He was a shy, geeky kid. He felt isolated from his peers because he was smaller, younger and smarter. He felt pressured by his parents to excel at school. He felt like his achievements became kind of a ‘trophy’ for the family.
 
 Ted entered Harvard in 1958 at the age of sixteen, on a scholarship. After graduating with a BA in Mathematics, he attended the University of Michigan, where he earned both his Masters and PhD in Mathematics. His doctoral dissertation won an award and was well received. He had articles published in mathematical journals while he pursued his Masters, which is unusual. 
 
@@ -30,7 +30,7 @@ Ted Kaczynski also lived in Chicago for parts of 1978 and 79. He moved in with h
 
 He also worked briefly for a restaurant equipment company, from  August or September of 1978 thru the summer of 1979.  
 
-He started bombing while he lived and worked in Chicago in 1978  and 1979. His first bomb was left in the parking lot of the Chicago campus of the University of Illinois in May of 1978. His next was left at Northwestern University in May of 1979. His third was mailed from Chicago in November of 1979. According to this [article by the New York Times][12], these first bombs were likely made in shed behind his parent’s home in Lombard, Illinois.
+He started bombing while he lived Chicago in 1978. His first bomb was left in a parking lot on the Chicago campus of the University of Illinois in May of 1978. His next was left at Northwestern University in May of 1979. His third was mailed from Chicago in November of 1979. According to this [article by the New York Times][12], these first bombs were likely made in shed behind his parent’s home in Lombard, Illinois.
 
 ### The Murray Experiments at Harvard
 
@@ -48,7 +48,7 @@ What was the point of this immoral experiment? It’s not entirely clear. Probab
 
 How much did this contribute to Ted Kaczynski becoming the Unabomber? It’s hard to say. 
 
-Most people assume that Kaczynski was crazy because he looked crazy when he was arrested. With that wild mane of unkept hair and shaggy beard, he looked every inch the mad bomber. But he wasn’t that kind of crazy. He was a careful, meticulous planner. He was organized and his writing, particularly the manifesto, is scholarly and reasoned, pretty much the opposite of a rant. Many of his bombs were left in public places where they would be discovered. Most of these were disguised to look like everyday objects, or wooden debris. That’s the kind of crazy Ted was: diabolical. 
+Most people assume that Kaczynski was crazy because of how he looked when he was arrested. With that wild mane of unkept hair and shaggy beard, he looked every inch the mad bomber. But he wasn’t that kind of crazy. He was a careful, meticulous planner. He was organized and his writing, particularly the manifesto, is scholarly and reasoned, pretty much the opposite of a rant. Many of his bombs were left in public places where they would be discovered. Most of these were disguised to look like everyday objects, or wooden debris. That’s the kind of crazy Ted was: diabolical. 
 
 Retired FBI agent Kathleen Puckett, one of the few people to read nearly all of Kaczynski’s writings, thinks skipping grades had more to do with it. [She says][6], “Kaczynski wrote that he was a social cripple, that his parents had destroyed his life by moving him two grades, how lonely he felt and how angry he was that he couldn't relate to people…” Ted never had serious relationship with a woman. 
 
@@ -62,13 +62,13 @@ This is one of several references to young men being forced to study. The passag
 
 The targets of his bombs are also telling. His first two bombs were left on college campuses in Chicago and Evanston.  He would later target the Mathematics building at UC Berkeley, leaving two bombs in different rooms there. And he mailed a bomb to Dr. James McConnell at the University of Michigan. He targeted two universities in his home town, and every university he attended or worked at **except Harvard**. He targeted nine universities and professors. If he were a lunatic, angered and warped by the experiment, wouldn’t he target Harvard?
 
-It’s probably impossible to know how much of an effect the experiment had on Ted Kaczynski and how much it affected him. It certainly did not help him feel less isolated.
+It’s probably impossible to know how much of an effect the experiment had on Ted Kaczynski and how it affected him. It certainly did not make him feel less isolated.
 
 ### The Unabomber 
 
 Between May 26, 1978 and April 24, 1995, over a period of seventeen years, Ted Kaczynski built sixteen bombs. Some were mailed, others were placed in locations where they would be easily discovered. They killed three people and injured 23 others.
 
-Kaczynski was meticulous. He went to great lengths to avoid leaving any clues to his identity. His bombs were essentially made out of junk: bits of pipe, batteries, wire, rubber bands, nails, screws, staples and various kinds of tape. Many of the devices were packed in hand-built wooden boxes that were assembled using glue made from melted deer hooves. No way to trace any those components. He pulled the plastic covers off the batteries to remove any lot numbers or other identifying information. He cut the manufacturers name off the mailing labels affixed to the packages. No finger prints were discovered on any of the explosive devices, nor any of the letters he mailed as “FC”, the alias he used.
+Kaczynski was meticulous. He went to great lengths to avoid leaving any clues to his identity. His bombs were essentially made out of junk: bits of pipe, batteries, wire, rubber bands, nails, screws, staples and various kinds of tape. Many of the devices were packed in hand-built wooden boxes that were assembled using glue made from melted deer hooves. No way to trace the components. He pulled the plastic covers off  batteries to remove any lot numbers or other identifying information. He cut the manufacturer's name off the mailing labels affixed to the packages. No fingerprints were discovered on any of the explosive devices, nor any of the letters he mailed as “FC”, the alias he used.
 
 ### The Manifesto & Other Writings
 
@@ -98,19 +98,19 @@ The last letter, sent to Dr. David Gelernter, may be the most disturbing. Dr. Ge
 
 ### Recognition & Capture
 
-In the TV show, [Manhunt: Unabomber][1], FBI special agent James R. Fitzgerald, has to convince David Kaczynski to turn his brother in. Agent Fitzgerald also has to convince his superiors to publish the manifesto. Lastly he does much of the linguistic work comparing the Unabomber’s letters to those of Ted Kaczynski, which is a major focus of the search warrant.
+In the TV show, [Manhunt: Unabomber][1], FBI special agent James R. Fitzgerald, has to convince David Kaczynski to turn his brother in. Agent Fitzgerald also has to convince his superiors to publish the manifesto. Lastly, he does much of the linguistic work comparing the Unabomber’s letters to those of Ted Kaczynski, which is a major focus of the search warrant.
 
 <img class="full-width" src="/img/based-on-true-events.png">
 
 In reality, things were pretty different. The first person to strongly suspect that Ted was the Unabomber was Linda Patrik, David Kaczynski’s wife. 
 
-Linda never met Ted, she knew him only from the letters he wrote and from David’s stories. But she began to suspect that Ted might be the Unabomber in the summer of 1995, when the FBI began to release information to the public, in response to the flurry of letter sent by the Unabomber. This was before the manifesto was published in September of 1995.
+Linda never met Ted. She knew him only from the letters he wrote and from David’s stories. But she began to suspect that Ted might be the Unabomber in the summer of 1995, when the FBI began to release information to the public. This was before the manifesto was published in September of 1995.
 
 In [an article published on the Union College website][10], she says that when she read the manifesto, “I knew as soon as I saw it that it was Ted who had written it.” David, however, was not yet convinced.
 
 After reading the manifesto, David started looking at letters Ted had written. In one, the phrase “cool-headed logician” appears. This phase also appears in the manifesto. Additionally, he found a letter written in approximately 1971 that had substantially the same anti-technology message as the manifesto. Together, they spent about a month comparing Ted’s letter to the manifesto. David was distraught. To say nothing might endanger innocent lives. But if he told the authorities about his concerns, he was afraid Ted would be killed either during his arrest or by the government seeking the death penalty.
 
-They contacted a Susan Swanson, a close childhood friend of Linda’s, who now worked as a private investigator. Without mentioning the Unabomber, they asked her how to analyze someone’s writing. Susan put them in touch with Clint Van Zandt, a retired FBI agent and criminal profiler who specialized in document comparisons. 
+They contacted Susan Swanson, a close childhood friend of Linda’s, who now worked as a private investigator. Without mentioning the Unabomber, they asked her how to analyze someone’s writing. Susan put them in touch with Clint Van Zandt, a retired FBI agent and criminal profiler who specialized in document comparisons. 
 
 They gave Van Zandt the 1971 letter and the manifesto. He concluded that there was a 40 to 60% chance that the same person had written both. They had agreed that anything over 25% would be enough to convince them. They contacted the FBI thru a lawyer and shared their belief that Ted Kaczynski was the Unabomber.
 
@@ -122,27 +122,27 @@ A mountain of evidence against Ted Kaczynski was found in the the cabin: bomb co
 
 ### Chronology of Bombs
 
-**#1 May 26, 1978 - Chicago, Illinois**  
+**Bomb #1 May 26, 1978 - Chicago, Illinois**  
 This bomb was hand delivered. It was left at the Chicago Campus of the University of Illinois in the Engineering Building parking lot.  It had a return address of Professor Buckley Crist at
 Northwestern University (NWU) in Evanston, Illinois. It was returned to the Professor Crist, who was suspicious because he hadn’t sent it. He gave it to NWU Public Safety and an officer was slightly injured when opening the package. The officer was lucky to escape serious injury.
 
-**#2 May 9, 1979 - Evanston, Illinois**  
-This bomb was also hand delivered. It was left in room 2424 of the Technical Building of NWU in Evanston.  John Harris, a member of the Civil Engineering Department, opened the cigar box containing the bomb. It exploded inflicting numerous lacerations and burns to Harris, altho [Wikipedia][11] describes the injuries as minor.
+**Bomb #2 May 9, 1979 - Evanston, Illinois**  
+This bomb was also hand delivered. It was left in room 2424 of the Technical Building of NWU in Evanston.  John Harris, a member of the Civil Engineering Department, opened the cigar box containing the bomb. It exploded, inflicting numerous lacerations and burns to Harris, altho [Wikipedia][11] describes the injuries as minor.
 
-**#3 November 15. 1979 - Chicago, Illinois**  
+**Bomb #3 November 15. 1979 - Chicago, Illinois**  
 Mailed from Chicago, this device had a crude altimeter as a trigger. It exploded on board an American Airlines Boeing 727, carrying both mail and passengers. Eighteen people were treated for smoke inhalation, but there were no serious injuries.
 
-**#4 June 10, 1980 - Lake Forrest, Illinois**  
-This bomb was mailed to the President of United Airlines, Percy Wood. This one is a bit diabolical. A letter was sent a letter to Mr Wood, purportedly from one Enoch Fischer. The fictional Mr Fisher said he would be sending a book shortly, “Ice Brothers”
-by Sloan Wilson, because the book had “great social significance.” A few days later, on June 10, the bomb arrived in a hollowed out copy of the book. Mr Wood was seriously injured, with lacerations to his face and leg, when he opened it. The device contained a small metal tag stamped with the initials “FC”. It was the first bomb to contain these initials.
+**Bomb #4 June 10, 1980 - Lake Forrest, Illinois**  
+This bomb was mailed to the President of United Airlines, Percy Wood. This one is diabolical. A letter was sent a letter to Mr. Wood, purportedly from one Enoch Fischer. The fictional Mr. Fisher said he would be sending a book shortly, “Ice Brothers”
+by Sloan Wilson, because the book had “great social significance.” A few days later, on June 10, the bomb arrived in a hollowed out copy of the book. Mr. Wood was seriously injured, with lacerations to his face and leg, when he opened it. The device contained a small metal tag stamped with the initials “FC”. It was the first bomb to contain these initials.
 
-**#5 October 8, 1981 - Salt Lake City, Utah**  
+**Bomb #5 October 8, 1981 - Salt Lake City, Utah**  
 The bomb was left in the Bennion Hall Business Building on the campus of the University of Utah in Salt Lake City. A student discovered the package and alerted the campus police. The campus police, worried it might be bomb, brought in the Salt Lake City Police. Their bomb squad x-rayed the package, confirmed it was a bomb, and disabled it with a small explosive charge. The bomb also contained a metal tag stamped with the initials “FC”.
 
-**#6 May 5, 1982 - Nashville, Tennessee**  
+**Bomb #6 May 5, 1982 - Nashville, Tennessee**  
 This bomb was mailed from the BYU campus post office in Provo, Utah. It was addressed to Professor Patrick C. Fischer at Pennsylvania State University. It was forwarded by a secretary there to Vanderbilt University, where Fisher then worked. He had been the chair of the Computer Science department since 1980. The professor was out of the country and it was opened by his secretary, Janet Smith. The device exploded inflicting serious injuries to her face and arms. It contained a metal tag stamped with the initials “FC”.
 
-**#7 July 2, 1982 - Berkeley, California**  
+**Bomb #7 July 2, 1982 - Berkeley, California**  
 The bomb was left in Room 411 of the Cory Hall Mathematics Building on the campus of University of California at Berkeley. Professor Diogenes Angelakos discovered the device which exploded when he attempted to pick it up. He suffered serious
 injuries to his right hand, arm, and face. This bomb contained a note with the typed message, “Wu--- It works! I told you it would. ---RV”. This was apparently a false clue, a red herring, left to confuse investigators.
 
@@ -150,40 +150,40 @@ The first seven bombs used smokeless powder, a type of gun powder, as the explos
 
 Beginning with the eighth bomb, Kaczynski switches to using more powerful explosive compounds. The bombs are also designed to produce more shrapnel.
 
-**#8 May 15, 1985 - Berkeley, California**  
-Another diabolical one, this bomb was left in Room 264 of the Cory Hall Computer Science Building on the Berkeley Campus. This device looked like a three ring binder resting on a plastic file box. It was discovered by Air Force Captain John Hauser and it exploded when he opened the binder to look inside. Captain Hauser lost four fingers from his right hand and some vision in his left eye. The bomb had the initials “FC” stamped into one of the end plugs sealing a pipe containing the explosives.
+**Bomb #8 May 15, 1985 - Berkeley, California**  
+Another diabolical one, this bomb was left in Room 264 of the Cory Hall Computer Science Building on the Berkeley Campus. This device looked like a three ring binder resting on a plastic file box. It was discovered by Air Force Captain John Hauser and it exploded when he opened the binder to look inside. Captain Hauser lost four fingers from his right hand and some vision in his left eye. The bomb had the initials “FC” stamped into a plug sealing the pipe that contained the explosives.
 
-**#9 June 13, 1985 - Auburn, Washington**  
-This bomb was mailed from Oakland California to the Boeing Aircraft Company, Fabrication Division in Auburn Washington. The bomb was not addressed to anyone so it sat for a while in the mail room. It was eventually, “partially opened by mail room employees who discovered the enclosed device,” according to the search warrant. I’m not sure what “partially opened” means, but the bomb did not explode. The bomb had the initials “FC” stamped into both end plugs sealing a pipe containing the explosives.
+**Bomb #9 June 13, 1985 - Auburn, Washington**  
+This bomb was mailed from Oakland California to the Boeing Aircraft Company, Fabrication Division in Auburn Washington. The bomb was not addressed to anyone so it sat for a while in the mail room. It was eventually, “partially opened by mail room employees who discovered the enclosed device,” according to the search warrant. I’m not sure what “partially opened” means, but the bomb did not explode. The bomb had the initials “FC” stamped into both plugs sealing the pipe containing the explosives.
 
-**#10 November 15, 1985 - Ann Arbor, Michigan**  
-This bomb was mailed from Salt Lake City, Utah. It was addressed Dr. James V. McConnell at his home in Ann Arbor. Dr. McConnell was a Professor of Psychology at the University of Michigan. The bomb was contained in a hollowed out ream of paper, and had an accompanying letter explaining that it was a manuscript for review. It was opened by Nick Suino, an assistant to Dr. McConnell. The bomb exploded injuring both Suino and McConnell. Suino suffered burns and shrapnel wounds to his arms and abdomen. McConnell suffered damage to his ear drum, resulting in temporary hearing loss. The bomb had the initials “FC” stamped into one of the end plugs sealing a pipe containing the explosives.
+**Bomb #10 November 15, 1985 - Ann Arbor, Michigan**  
+This bomb was mailed from Salt Lake City, Utah. It was addressed Dr. James V. McConnell at his home in Ann Arbor. Dr. McConnell was a Professor of Psychology at the University of Michigan. The bomb was contained in a hollowed out ream of paper, and had an accompanying letter explaining that it was a manuscript for review. It was opened by Nick Suino, an assistant to Dr. McConnell. The bomb exploded injuring both Suino and McConnell. Suino suffered burns and shrapnel wounds to his arms and abdomen. McConnell suffered damage to his ear drum, resulting in temporary hearing loss. The bomb had the initials “FC” stamped into one of the plugs sealing the pipe containing the explosives.
 
-**#11 December 11, 1985 - Sacramento, California**  
-This bomb was left outside the back door of Rentech Computer Rental Company in Sacramento, California. It was disguised to look like a block of wood, with nails protruding from the ends. The bomb had the initials “FC” stamped into one of the end plugs sealing a pipe containing the explosives. The bomb exploded when the owner of the shop, Hugh Scrutton, attempted to move it. Mr Scrutton was killed by the explosion.  He was the first person killed by the Unabomber, Ted Kaczynski.
+**Bomb #11 December 11, 1985 - Sacramento, California**  
+This bomb was left outside the back door of Rentech Computer Rental Company in Sacramento, California. It was disguised to look like a block of wood, with nails protruding from the ends. The bomb had the initials “FC” stamped into one of the  plugs sealing a pipe containing the explosives. The bomb exploded when the owner of the shop, Hugh Scrutton, attempted to move it. Mr Scrutton was killed by the explosion.  He was the first person killed by the Unabomber, Ted Kaczynski.
 
-**#12 February 20, 1987 - Salt Lake City, Utah**  
-This bomb was left in the parking lot of CAAMS, Inc, a computer store in Salt Lake City, Utah. It was disguised to look like two two-by-fours nailed together, with nails protruding from them. Gary Wright, the owner of the business, noticed  the device in the parking lot. Afraid someone would run over it, he got out to move the device. It exploded, lacerating his arms, face and legs. The bomb had the initials “FC” stamped into one of the end plugs sealing a pipe containing the explosive.
+**Bomb #12 February 20, 1987 - Salt Lake City, Utah**  
+This bomb was left in the parking lot of CAAMS, Inc, a computer store in Salt Lake City, Utah. It was disguised to look like two two-by-fours nailed together, with nails protruding from them. Gary Wright, the owner of the business, noticed  the device in the parking lot. Afraid someone would run over it, he got out to move the device. It exploded, lacerating his arms, face and legs. The bomb had the initials “FC” stamped into one of the plugs sealing a pipe containing the explosive.
 
-A woman who worked for the company saw a man pull the device out of bag and leave it in the parking lot. As he left, the man saw her in the window. She became distracted by a telephone call or a conversation with a coworker and forgot about the man and the strange object until the explosion. She was able to give a police a description and is the source of the infamous Unabomber police sketch with the hoodie and the aviator sunglasses.
+A woman who worked for the company saw a man pull the device out of bag and leave it in the parking lot. As he left, the man saw her in the window. She became distracted by a telephone call or a conversation with a coworker and forgot about the man and the strange object until the explosion. She was gave the police a description that is the source of the infamous sketch with the hoodie and the aviator sunglasses.
 
 Perhaps spooked by being seen, the Unabomber took a six year break. His next bomb wasn’t mailed until 1993. 
 
-**#13 June 22, 1993 - Tiburon, California**  
+**Bomb #13 June 22, 1993 - Tiburon, California**  
 This bomb was mailed to Dr. Charles Epstein at his home in Tiburon, California. He was a professor at the University of California, San Francisco, Medical School. The bomb was mailed from Sacramento, California. It was sent in a padded envelope which contained a small box made of redwood. It exploded when the envelope was opened and Dr. Epstein was seriously injured. He had damage to both eardrums and lost three fingers.
 
-**#14 June 24, 1993 - New Haven, Connecticut**  
+**Bomb #14 June 24, 1993 - New Haven, Connecticut**  
 This bomb was identical to bomb #13. Both bombs were mailed from Sacramento, California on June 18, 1993. This one was addressed to Dr. David Gelernter at his office in the Computer Science Department of Yale University. It exploded when he opened the package on the morning of June 24, 1993. He sustained serious burns, shrapnel wounds, damage to his right eye and lost the use of his right hand.
 
-**#15 December 10. 1994 - North Caldwell, New Jersey**   
+**Bomb #15 December 10. 1994 - North Caldwell, New Jersey**   
 This bomb was mailed to Thomas Mosser at his home in North Caldwell, New Jersey, from San Francisco, California. Mosser was killed when he opened the package. His wife and infant daughter were in a nearby room and escaped injury because they were protected from the blast by a large stone fireplace.
 
 The search warrant describes the bomb this way:
-“Double edged razor blades and numerous paneling nails, approximately 1" in length, were placed in the explosive device for additional shrapnel. It was designed to function as an anti-personnel device.”
+“Double edged razor blades and numerous paneling nails, approximately 1\" in length, were placed in the explosive device for additional shrapnel. It was designed to function as an anti-personnel device.”
 
 The Unabomber explained in a letter sent to the New York Times, that Mosser was targeted because he handled PR for the Exxon Valdez incident. This is incorrect. Mosser and his company did not have any connection with Exxon Valdez.
 
-**#16 April 24, 1995 - Sacramento. California**  
+**Bomb #16 April 24, 1995 - Sacramento. California**  
 This bomb was mailed from Oakland, California to William Dennison, at the offices of the Timber Association of California, in Sacramento. The trade group had changed its name to the California Forestry Association several years earlier, but was still at the same address. William Dennison was president and CEO of the association until 1994, when he was replaced by Gilbert B. Murray. Murray opened the package and was killed in the blast that knocked doors off their hinges and shattered glass partitions in the office.
 
 ### Links & References 
