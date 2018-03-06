@@ -16,6 +16,8 @@ The canonical conversion reference seems to be [this post at Quick Sprout][1] by
 
 [1]: https://www.quicksprout.com/2013/01/31/how-to-optimize-contact-forms-for-conversions/
 
+I'm not sure this should be the canonical reference, since it's based on a single study, an anecdote really. *And if you follow that link, be ready to get assaulted by some shady up-sell tactics*.
+
 </div>
 
 <img src="/img/contact-cory-form.jpg" class="full-width">
@@ -23,7 +25,7 @@ The canonical conversion reference seems to be [this post at Quick Sprout][1] by
 
 His contact form initially had four fields: name, email, URL and revenue. He removed one field, revenue, and increased conversion by **26%**.
 
-Fewer fields are better because it’s less work to submit the form. But there also a [Don’t Make Me Think](https://www.sensible.com/dmmt.html) aspect to this story. Neil stopped asking the one question that users had to think about to answer. All the other fields could be filled in without much throught. But asking about revenue makes you wonder, “Why are they asking about revenue?” and probably also “Do I want to answer this question?” Even if you are OK sharing the information, you’d likely have to ask yourself “What is my revenue, anyway?” This requires a lot more cognitive work than the name field does. 
+Fewer fields are better because it’s less work to submit the form. But there also a [Don’t Make Me Think](https://www.sensible.com/dmmt.html) aspect to this story. Neil stopped asking the one question that users had to think about to answer. All the other fields could be filled in without much thought. But asking about revenue makes you wonder, “Why are they asking about revenue?” and probably also “Do I want to answer this question?” Even if you are OK sharing the information, you’d likely have to ask yourself “What is my revenue, anyway?” This requires a lot more cognitive work than the name field does. 
 
 **That’s the main takeaway from this essay**. To improve form conversion, reduce the cognitive work needed to complete the form. Reducing the number of fields is a great way to do this. But it is not the only way.
 
@@ -47,7 +49,7 @@ This [PDF from FormStack][2] has a lot of good information, though. Particularly
 
 My background is in UX, so I tend to view form conversion through that lens. And UX folks have been studying forms for a long time. 
 
-[This article from the Nielsen/Norman Group][7], run by cranky-old-man-of-the-web Jakob Nielsen and design legend Don Norman, summarizes their current recommendations:
+[This article from the Nielsen/Norman Group][7], run by design legends Jakob Nielsen and Don Norman, summarizes their current recommendations:
 
 [7]: https://www.nngroup.com/articles/web-form-design/
 
@@ -61,21 +63,24 @@ My background is in UX, so I tend to view form conversion through that lens. And
 
 5. **Avoid placeholder text**. Nielsen/Norman have a [whole article about this][8]. Using placeholder text instead of field labels has a host of problems. Using it with field labels also hurts usability by making it harder to tell which fields have been filled out.
 
-[8]: https://www.nngroup.com/articles/form-design-placeholders/
 
 6. **Make fields the ‘right’ size and use the correct inputs**. Text fields should be about the size of the expected input. Use radio buttons rather than drop-down menus if there are two to three options. Radio buttons operate with a single click or tap and all options are visible.
 
 7. **Distinguish between optional and required fields**. Eliminate as many optional fields as you can, and label any that remain.
 
-8. **Explain any input or formatting rules**. Don’t make users guess about obscure password rules, tell them the required characters up front before the error. Likewise, either allow users to enter phone numbers how they like (using or omitting dashes and parentheses) or explain clearly how they must be entered. Better yet, use an **input mask**, more on those below.
+8. **Explain any input or formatting rules**. Don’t make users guess about obscure password rules, tell them the required characters up front before the error. Likewise, either allow users to enter phone numbers how they like (using or omitting dashes and parentheses) or explain clearly how they must be entered. Better yet, use an **input mask**, to guide user input, more on those below.
 
 9. **Don’t use a reset or clear button**. Providing a simple one-click way to empty all the form fields is a terrible idea. People will hurt themselves.
 
 10. **Make error messages clear and highly noticeable**. Don’t rely on color alone and don’t be subtle.
 
+[8]: https://www.nngroup.com/articles/form-design-placeholders/
+
 All of these guidelines will affect form conversion rates. The main thing to remember when designing forms is that **people don’t like filling out forms**. The longer and more complicated a form looks, the less engaging it will be. 
 
-[Luke Wroblewski](https://www.lukew.com) is a heavy weight in UX circles. He literally wrote the book on [Web Form Design](https://www.amazon.com/exec/obidos/ASIN/B0018S232Q/ref=ase_lukewinterfac-20/). 
+### Alternative Controls
+
+[Luke Wroblewski](https://www.lukew.com) is a heavyweight in UX circles. He literally wrote the book on [Web Form Design](https://www.amazon.com/exec/obidos/ASIN/B0018S232Q/ref=ase_lukewinterfac-20/). 
 
 [Luke’s post on avoiding drop-downs](https://www.lukew.com/ff/entry.asp?1950) in mobile forms has some great ideas for making forms shorter and less complex. Luke shows how using alternative controls, like steppers, segmented controls and switches makes forms easier to use. 
 
@@ -90,11 +95,11 @@ All of these guidelines will affect form conversion rates. The main thing to rem
 <img src="/img/switch.png" class="no-border" style="margin-top:10px;"><br>
 
 
+### Input Masks
 
 Luke also writes about [using input masks](https://www.lukew.com/ff/entry.asp?756) to help guide the user when entering dates, phone numbers or other data with formatting rules. 
 
 Input masks don't affect the initial display of the field.
-
 
 <img src="/img/input-mask-1.png" class="no-border">
 <br>
@@ -105,6 +110,8 @@ When you click on the field and start typing, the mask adds the formatting autom
 
 
 Not only do they help people enter the data, input masks also prevent people from entering characters that are not allowed. They aid in data validation and prevent a possible source of error.
+
+### Appropriate (Virtual) Keyboards
 
 Another way to prevent errors, at least on mobile devices, is to show the right virtual keyboard. If you are asking for a number (a phone number, a credit card number or currency) you can display a keyboard that contains only numbers. This prevents errors and provides larger tap targets, making the form easier to use.
 
@@ -117,20 +124,24 @@ For example, this code…
 <img src="/img/keyboard-number.png" class="retina">
 
 
-This is a number keyboard, but not actually the one we wanted. We wanted a one with larger keys and no ability to switch to the standard keyboard with letters and symbols.
+This is a number keyboard, but it's not the best number keyboard available. Both iOS and Android provide a numeric keyboard that has larger keys and no symbols.
 
-To get the keyboard we want, we need to use this code:
+The following code will trigger a more usable keyboard.
 
-	<input type="number" pattern="\d*" name="phone">
+	<input type="tel" name="phone">
 
 <img src="/img/keyboard-tel.png" class="retina">
 
 
-You can also use `pattern="[0-9]*"` but this only works on iOS devices. If you want a solution that works on both Android and iOS devices, you have to use this:
-
-	<input type="tel" name="phone">
-
 Note that there aren’t keys to enter a decimal point or a negative number.
+
+On iOS devices, you can also use this code.
+
+	<input type="number" pattern="\d*" name="phone">
+
+You can also use `pattern="[0-9]*"` but this only works on iOS devices. Use `type=tel` if you want s solution that works on both Android and Apple devices.
+
+### Autocomplete
 
 UX Booth has [a good article about form design](http://www.uxbooth.com/articles/the-new-rules-of-form-design/) that covers input masks, placeholder text and triggering the right keyboard.  It also covers a tip for simplifying the collection of addresses that we have been using at Moonsault.
 
