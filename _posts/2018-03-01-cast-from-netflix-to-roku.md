@@ -5,6 +5,7 @@ description: I had to switch networks to get it to work, maybe you will too.
 author: John Phillips
 categories: other tech-support
 date:   2018-03-01
+twitter-image: /img/roku-promo.png
 ---
 
 <div class="intro" markdown="1">

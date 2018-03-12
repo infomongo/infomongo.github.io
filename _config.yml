@@ -28,3 +28,4 @@
 markdown: kramdown
 gems: [jekyll-paginate]
 permalink: /posts/:title
+url: http://infomongo.com
