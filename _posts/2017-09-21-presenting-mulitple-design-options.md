@@ -16,7 +16,7 @@ twitter-image: /img/many-doors.jpg
 Interaction design begins with research. You need to understand who is going to use the product and what they want to accomplish. You need to understand their background. What applications they use and like. How they currently solve the problem the product will make easier. What are the broad demographics of these users? How comfortable are they with technology?
 
 You also need to understand the technical limitations and the business goals of the project, but user research makes up the bulk of this initial phase.
-</diV>
+</div>
 
 
 ### Developing Options
