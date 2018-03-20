@@ -566,11 +566,17 @@ header .wrap {
 		margin-bottom: (4/26) * 1em;
 		
 	 }
+	 
 	 .collection h2 {
 		 margin-bottom: 1em;
 	 }
 	p {
 		margin-bottom: (30/20) * 1em;
+	}
+	
+	.subhead {
+		font-size: percentage(24/20);
+		margin-bottom: .5em;
 	}
 
 	.post-meta {
@@ -597,11 +603,9 @@ header .wrap {
 	}
 	
 	.post .main > p:first-of-type {
-		//color: red;
 		font-size: percentage(24/20);
 		margin-left:  -6.65em ;
 		margin-right: -6.65em ;
-		//margin-bottom: (30/20) * 1em;
 	}
 
 	.post-excerpt .intro {
