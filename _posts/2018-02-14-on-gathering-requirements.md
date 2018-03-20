@@ -8,7 +8,6 @@ date:   2018-02-14
 canonical: https://moonsault.co/2018/02/14/on-gathering-requirements
 ---
 
-<div class="intro" markdown="1">
 
 As I was reading [this post][1] by [UX Legend, Jared Spool][2], I found myself nodding in agreement hard enough that neck injury seemed like a real possibility. Seriously, the article is a gem. [You should go read it now][1].
 
@@ -16,8 +15,6 @@ As I was reading [this post][1] by [UX Legend, Jared Spool][2], I found myself n
 [2]: https://en.wikipedia.org/wiki/Jared_Spool
 
 The article highlights a problem I see again and again in software projects. The problem is the belief that people inside the company have the all the answers. That they know what needs to be built and requirements gathering is a simply matter of collecting that information.
-
-</div>
 
 
 Spool puts it this way:  

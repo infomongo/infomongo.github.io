@@ -9,8 +9,6 @@ date:   2018-02-21
 canonical: https://moonsault.co/2018/02/21/responsive-by-default
 ---
 
-<div class="intro" markdown="1">
-
 I was learning more about [flex box][0], when I came across an interesting article on Smashing Magazine, [Using Media Queries For Responsive Design In 2018][1] by the brilliant Rachel Andrew. In it, she explains the “responsive by default” properties that flex and grid layouts can have. 
 
 [0]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -21,7 +19,6 @@ I’m gonna focus on flex layouts, rather than grid. I know grid is the new hotn
 [2]: https://caniuse.com/#feat=flexbox
 [3]: https://caniuse.com/#feat=css-grid
 
-</div>
 
 ### A Working Example
 

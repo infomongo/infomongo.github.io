@@ -11,7 +11,6 @@ date:   2017-09-07
 <div class="main wide">
 	<img class="full-width" src="/img/arches-delicate-1-thumbs-up.jpg">
 </div>
-<div class="intro" markdown="1">
 
 
 Arches is an amazingly beautiful park. It’s so gorgeous you almost get “beautiful desert landscape” fatigue. 
@@ -22,7 +21,6 @@ About midway thru, there’s a road leading to the Windows Section. This is the 
 
 A couple miles further north is the road leading to Wolf Ranch and Delicate Arch. 
 
-</div>
 
 
 

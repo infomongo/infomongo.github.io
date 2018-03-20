@@ -10,13 +10,10 @@ date:   2017-07-24
 <div class="main wide">
 	<img src="/img/store-fronts.jpg" class="full-width">
 </div>
-<div class="intro" markdown="1">
-
 
 The first step in most UX work is research. You need to understand who is going to use the product and what they want to accomplish. You need to understand their backgrounds. What applications they use and like. User research is foundational.
 
 But there is another kind of research that needs be done early in a project. You need to understand the business goals: how the organization will make money.
-</div>
 
 ### An Illustrative Story
 

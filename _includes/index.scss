@@ -595,6 +595,14 @@ header .wrap {
 		margin-bottom: (30/20) * 1em;
 		padding: 0;
 	}
+	
+	.post .main > p:first-of-type {
+		//color: red;
+		font-size: percentage(24/20);
+		margin-left:  -6.65em ;
+		margin-right: -6.65em ;
+		//margin-bottom: (30/20) * 1em;
+	}
 
 	.post-excerpt .intro {
 		margin: 0;

@@ -6,12 +6,10 @@ author: John Phillips
 categories: other advertising
 ---
 
-<div class="intro" markdown="1">
 Like more and more people, we [cut the cord][cut] and stopped paying for cable TV sometime last year. Most of the shows we watch are ad free, but some still have ads. Nearly all of these are just standard television ads. The same kind that have existed my whole life. Some of them are very short, like less than 15 seconds, but this is the only obvious change.
 
 It seems odd to me that television ads are stuck in stasis. Everybody who has dropped cable uses some kind computer to watch shows and movies, even if it’s a [tiny computer][apple] near the TV or [some][amazon] [kind][chrome] of [HDMI stick][roku]. This seems like a missed opportunity.
 
-</div>
 
 > Why haven't television ads evolved? 
 

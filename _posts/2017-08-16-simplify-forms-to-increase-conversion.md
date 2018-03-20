@@ -8,7 +8,6 @@ categories: ux
 date:   2017-08-16 
 ---
 
-<div class="intro" markdown="1">
 
 At [Moonsault](http://moonsault.co) we have worked on several landing page / lead generation projects this year. And one thing keeps coming up. Clients want to add a whole bunch of fields to their lead generation forms. Which is bad for conversion. 
 
@@ -17,8 +16,6 @@ The canonical conversion reference seems to be [this post at Quick Sprout][1] by
 [1]: https://www.quicksprout.com/2013/01/31/how-to-optimize-contact-forms-for-conversions/
 
 I'm not sure this should be the canonical reference, since it's based on a single study, an anecdote really. *And if you follow that link, be ready to get assaulted by some shady up-sell tactics*.
-
-</div>
 
 <img src="/img/contact-cory-form.jpg" class="full-width">
 <p class="caption">This monstrosity is part of the contact form for emailing my senator.</p>
