@@ -110,16 +110,17 @@ p {
 label.links {
 	padding-left: 24px;
 	min-height: 18px;
+	margin-top: 1em;
 }
 
 #new_window + label { 
 	@extend .icon-unchecked;
-	background-position: 0 5px;
+	background-position: 0 7px;
 }
 
 #new_window:checked + label {
 	@extend .icon-checked;
-	background-position: 0 3px;
+	background-position: 0 5px;
 }
 
 
