@@ -1,17 +1,17 @@
 ---
-layout: default
+layout: header
 flag: post
 ---
 <div class="post">
-	<div class="post-top">
-		<h2 class="post-title">{{page.title}}</h2>
+	<div class="wide">
+		<h1 class="post-title">{{page.title}}</h2>
 		<p class="byline">By {{page.author}} on {{page.date | date: "%B %d, %Y"}}</p>
 		
 		{% if page.subtitle %}
 		<p class="subhead">{{page.subtitle}}</p>
 		{% endif %}
 	</div>
-	<div class="main">
+	<div class="narrow">
 		{{ content }}
 	</div>
 </div>

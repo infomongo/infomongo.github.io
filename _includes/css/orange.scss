@@ -1,0 +1,17 @@
+$accent-color: #ff8000;
+
+a {
+	color: $accent-color;
+	text-decoration: none;
+	&:visited {
+	   color: $accent-color;
+	}
+}
+
+header {
+	background-color: $accent-color;
+	padding: .5rem 0;
+	a, a:visited {
+		color: white;
+	}
+}
