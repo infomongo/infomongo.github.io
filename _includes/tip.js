@@ -47,21 +47,19 @@ $(function() {
 		var total = Math.ceil(bill + baseTip);
 		var tip = total - bill ;
 		var effectiveTip =  Math.round( (tip / bill) * 100 );
+		// var effectiveTip = (tip / bill) * 100;
+		// effectiveTip = effectiveTip.toFixed(2);
 
 
 		if (effectiveTip > 20 && bill > 20 ) {
 			if (tip > 1 ) tip = tip - 1;
 			total = bill + tip;
 			effectiveTip =  Math.round( (tip / bill) * 100 );
+			// effectiveTip = (tip / bill) * 100;
+			// effectiveTip = effectiveTip.toFixed(2);
 			var flag = 1;
 			//console.log("> than 21% " + tip);
 		}
-
-		// if (flag = 1 && effectiveTip < 16 ) {
-		// 	tip = tip + .5;
-		// 	total = bill + tip;
-		// 	effectiveTip =  Math.round( (tip / bill) * 100 );
-		// }
 
 		tip = cleanForDisplay(tip);
 		total = cleanForDisplay(total);
@@ -69,7 +67,8 @@ $(function() {
 		$tip.html(tip);
 		$total.html(total);
 		if (effectiveTip) {
-			$percent.html(effectiveTip + "%" );
+			$percent.html(((tip/bill) * 100).toFixed(2) + "%");
+			//$percent.html(effectiveTip + "%" );
 		}
 	}
 

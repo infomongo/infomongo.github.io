@@ -1,0 +1,22 @@
+$border-color: #b5b4b6;
+
+input {
+	-webkit-appearance: none;
+	border: 1px $border-color solid;
+	border-radius: 0;
+	padding: 2px;
+	width: 5rem;
+}
+#percent {
+	padding-left: 2rem;
+}
+#tip, #total {
+	display: inline-block;
+	width: 5rem;
+}
+.label {
+	padding-left: .5rem;
+}
+.line {
+	margin-bottom: .5rem;
+}
