@@ -5,7 +5,7 @@ description: Designing a more rational calendar.
 subtitle: Designing a better calendar
 author: John Phillips
 date:   2017-07-31
-categories: other calendar ideas
+categories: other calendar ideas popular
 js-include: date-convert.js
 ---
 
@@ -20,13 +20,13 @@ OK, so consider our calendar. “Thirty days has September, April, June and Nove
  
 Switch to a calendar with, basically, thirteen months, each with 28 days. 
 
-<h3 style="margin-left: 2em; margin-bottom: 1em;">13 × 28 = 364 days</h3>
+#### 13 × 28 = 364 days
 
 This leaves the year short by one day on regular years, two days on leap years. To fix this, we’ll add the extra days to a new fourteenth month at the end of the year, called “Non.” In normal years, Non has a single day called “Freeday.” In leap years, Freeday is followed by “Leapday.” These are holidays, so only people in the service industry have to work. *(I kid, but please tip your servers.)*
 
 Days in the month of Non are not part of any week. They are a kind of padding so that each 28 day month begins on a Sunday and ends on a Saturday.
 
-<img src="/img/calendar-diagram.png" class="lrg">
+<img src="/img/calendar-diagram.png" class="full-width">
 
 As a result, the year always starts on Sunday. This keeps the calendar fixed from year to year. Holidays no longer float from one day of the week to the next and you could use the same printed calendar every year.
 
@@ -68,10 +68,7 @@ Arp, Baw, Cor, Dur, Ell, Fen, Gam, Hob, Isp, Jom, Kro, Lem, Mog and Non
 		<div id="new-day">
 			1
 		</div>
-		<div class="">
-			<span id="dayofweek">Sunday</span> <span id="short-date">1/1</span>
-		</div>
-		
+		<span id="dayofweek">Sunday</span> <span id="short-date">1/1</span>
 	</div>
 </div>
 

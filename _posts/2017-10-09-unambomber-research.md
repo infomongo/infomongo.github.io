@@ -4,7 +4,7 @@ title: 'Unabomber Research'
 subtitle: A bizarre psychological experiment and the events leading to his capture.
 description: In 1958, Ted Kaczynski took part in an immoral psychological experiment while he was an undergrad at Harvard
 author: John Phillips
-categories: other TV unabomber research
+categories: other TV unabomber research popular
 date:   2017-10-09
 ---
 
@@ -14,7 +14,7 @@ I binge-watched [Manhunt: Unabomber][1] on Netflix recently. It’s a dramatic r
 
 ### Early Life, Education and Academics
 
-Ted Kaczynski was born in Chicago, Illinois in 1942. The family later moved to the nearby suburb of Evergreen Park. Ted had an [IQ of 167][3] and skipped the fifth and eleventh grades. He was a shy, geeky kid. He felt isolated from his peers because he was smaller, younger and smarter. He felt pressured by his parents to excel at school. He felt like his achievements became kind of a ‘trophy’ for the family.
+Ted Kaczynski was born in Chicago, Illinois in 1942. The family later moved to the nearby suburb of Evergreen Park. Ted had an [IQ of 167][3] and skipped the fifth and eleventh grades. He was a shy, geeky kid. He felt isolated from his peers because he was smaller, younger and smarter. He felt pressured by his parents to excel at school. He felt like his achievements became kind of a trophy for the family.
 
 Ted entered Harvard in 1958 at the age of sixteen, on a scholarship. After graduating with a BA in Mathematics, he attended the University of Michigan, where he earned both his Masters and PhD in Mathematics. His doctoral dissertation won an award and was well received. He had articles published in mathematical journals while he pursued his Masters, which is unusual. 
 
@@ -40,7 +40,7 @@ Participants in the study were told to write an essay about their philosophy of 
 
 Instead, the subjects were taken into a dark room with bright lights shining in their eyes. Each was strapped into a chair and had electrodes attached, to record their vital signs. They were facing a one-way mirror. Each was interrogated by a “law school student who had been prepped to tear into the student and to mock and ridicule their ideas and their values,” [according to Chase][6]. Again [according to Chase][5], Murray himself described these sessions as “vehement, sweeping, and personally abusive.”
 
-The sessions were filmed thru the mirror, and the students had to come back a review these films [weekly][7] for three years. Imagine having to relive such an experience, over and over. And Ted Kaczynski was the youngest subject, just seventeen at the start of the experiment.
+The sessions were filmed thru the mirror, and the students had to come back and review these films [weekly][7] for three years. Imagine having to relive such an experience, over and over. And Ted Kaczynski was the youngest subject, just seventeen at the start of the experiment.
 
 The details of the experiment are covered in this [CBS News article][6] and this [Radiolab episode][8]. Alton Chase is the primary source quoted by both. 
 

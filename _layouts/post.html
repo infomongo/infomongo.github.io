@@ -1,17 +1,17 @@
 ---
-layout: header
+layout: writing
 flag: post
 ---
-<div class="post">
-	<div class="wide">
+<section class="post">
+	<div class="top">
 		<h1 class="post-title">{{page.title}}</h2>
-		<p class="byline">By {{page.author}} on {{page.date | date: "%B %d, %Y"}}</p>
+		<p class="meta">By {{page.author}} on <span>{{page.date | date: "%B %d, %Y"}}</span></p>
 		
 		{% if page.subtitle %}
 		<p class="subhead">{{page.subtitle}}</p>
 		{% endif %}
 	</div>
-	<div class="narrow">
+	<div class="text">
 		{{ content }}
 	</div>
-</div>
+</section>

@@ -17,12 +17,11 @@ What we need is a group of more moderate centrists to work across party lines. I
 
 That would take courage though. You have to stick your neck out to work across the aisle. So far, we haven’t seen much courage out of you.
 
-Maybe Graham’s more state centered approach to Healthcare could work? Maybe you could even find a large group in the center for this? I don’t know.
+Maybe Graham’s more state-centered approach to Healthcare could work? Maybe you could even find a large group in the center for this? I don’t know.
 
 Maybe the answer is to get to work on fixing the problems in Obamacare. It’s not the leftist system is has been sold to be. And it definitely has problems. There is work to be done.
 
-Here’s hoping we can expect better from you,
-
+Here’s hoping we can expect better from you,  
 John Phillips
 
-Colorado Native and long time Sunnyside Resident.
+Colorado Native and long-time Sunnyside Resident.

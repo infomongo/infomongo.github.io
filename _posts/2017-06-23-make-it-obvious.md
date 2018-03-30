@@ -32,8 +32,9 @@ This design has been so successful, and so copied, for a number reasons. First, 
 Not many people use the Google home page anymore, most people start searches in their browser. But credit Google for keeping this design and not watering it down with links to their other products.
 
 ### Another Example
-
-<img src="/img/lyft.jpg" class="retina wrap-right">
+<div >
+	<img src="/img/lyft.jpg" class="retina float pull">
+</div>
 
 Lyft is also doing a fine job getting you started. The app is using your location to set the pickup point and the big purple ‘Set pickup’ button is hard to miss. 
 

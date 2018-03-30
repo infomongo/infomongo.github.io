@@ -35,8 +35,10 @@ I was speaking with a colleague [Jason Rogers](https://www.linkedin.com/in/jason
 <img src="/img/solar-desktop.jpg" class="full-width">
 
 ### “When it actually looks like this.”
-	
-<img src="/img/solar-mobile.jpg" width="180" class="wrap-right shrink-50" >
+
+<div>
+	<img src="/img/solar-mobile.jpg" class="float shrink pull" >
+</div>
 
 Jason demonstrated the differences by drawing rectangles on a whiteboard, a fat wide one for desktop and tall skinny one for mobile. 
 

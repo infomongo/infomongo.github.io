@@ -10,9 +10,7 @@ promo: hide promo
 
 Posting this here so it has a permanent home on the web. Love you mom.
 
-<p class="center">~~~</p>
-
-<img src="/img/Judy-Phillips.jpg" class="float">
+<img src="/img/Judy-Phillips.jpg" class="float shrink pull">
 
 Judith Marie (Cunningham) Phillips died peacefully in hospice on November 6, 2017 in Wheat Ridge, CO at the age of 77.
 

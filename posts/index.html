@@ -1,28 +1,42 @@
 ---
-layout: default
-title: 'infomongo: essays'
-description: A collection of writing about UX design and other topics by John Phillips.
+layout: writing
+title: 'infomongo: writing'
+description: A collection of writing about UX design and other topics.
 ---
 
-<div class="main">
-	<h2>Writing</h2>
-	<p>A collection of writing about UX design and other topics.</p>
-</div>
-	
-<div class="collection wrap">
-	<div class="collection main ux">
-		<h2>UX Design</h2>
-		{% for post in site.categories['ux'] %}
-			{% include post-for-loop.html %}
+<section class="top">
+	<div class="popular">
+		<div class="title">Most Popular</div>
+		{% for post in site.categories['popular'] limit:3 %}
+			<p>
+			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
+			</p>
 		{% endfor %}
 	</div>
-	
-	
-	<div class="collection main other">
-		<h2>Other Topics</h2>
-		{% for post in site.categories['other'] %}
-			{% include post-for-loop.html %}
+	<div class="latest">
+		<div class="title">Latest Post</div>
+		{% for post in site.posts  limit:1 %}
+		<div class="text">
+			<h2 class="post-title"><a href="{{ post.url}}">{{post.title}}</a></h2>
+			<p class="meta">By {{post.author}} on <span>{{post.date | date: "%B %d, %Y"}}</span></p>
+			{% if post.subtitle %}
+			<p class="subhead">{{post.subtitle}}</p>
+			{% endif %}
+			{{ post.content | truncatewords: 200 }}
+			<a href="{{ post.url}}">continue reading</a>
+		</div>
 		{% endfor %}
 	</div>
-</div>	
-
+</section>
+<section class="archive">
+	<div class="title">Archive</div>
+	<div class="columns">
+		{% for post in site.posts %}
+			<p>
+			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
+			</p>
+		{% endfor %}
+	</div>
+</section>

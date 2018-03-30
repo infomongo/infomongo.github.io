@@ -1,17 +1,45 @@
 $accent-color: #ff8000;
 
 a {
-	color: $accent-color;
-	text-decoration: none;
+	color: black;
+	//text-decoration: none;
+	transition: color ease-out 0.3s;
 	&:visited {
-	   color: $accent-color;
+	   color: black;
+	}
+	&:hover {
+		color: $accent-color;
+		//text-decoration: underline;
 	}
 }
 
-header {
-	background-color: $accent-color;
-	padding: .5rem 0;
-	a, a:visited {
+nav a {
+	color: black;
+	
+	text-decoration: none;
+	
+	&:visited {
+	   color: black;
+	}
+	&:hover{
+		color: $accent-color;
+		text-decoration: none;
+	}
+	&.active {
+		background-color: $accent-color;
 		color: white;
+		padding: .5rem 1rem;
+		animation: grow 2s 1;
+		display: inline-block;
+		border-radius: 3em;
 	}
 }
+
+@keyframes grow {
+  0%, 100%   { transform: scale(1);}
+  60% { transform: scale(1.25);}
+}
+
+.error { color: $accent-color;}
+:focus { outline: $accent-color solid 1px; }
+
