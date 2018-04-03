@@ -54,7 +54,11 @@
 		columns: 2;
 		p{
 			//line-height: 1.2;
-			margin-bottom: .75rem;
+			margin: 0;
+			padding-bottom: .75rem;
+			-webkit-column-break-inside: avoid;
+			page-break-inside: avoid;
+			break-inside: avoid;
 			.date {
 				display: block;
 			}
