@@ -1,0 +1,30 @@
+$lite-text: lighten(black, 45%);
+
+.post h1, .ux h1 { font-size: percentage(28/20);}
+.meta, .date, .title, .caption {
+	color: $lite-text;
+	font-size: 80%;
+}
+
+blockquote {
+	margin: 1rem 0;
+	font-size: 110%;
+	color: $lite-text;
+	font-family: 'pt_sansitalic', sans-serif;
+}
+
+.title { text-transform: uppercase;}
+.date { white-space: nowrap; }
+.caption { text-align: center; }
+
+@media only screen and (min-width : 1000px) {
+	.post, .ux {
+		blockquote {
+			//margin-left: -200px;
+			margin-left: -50px;
+			margin-left: -2rem;
+			font-size: 125%;
+		}
+	}
+	
+}

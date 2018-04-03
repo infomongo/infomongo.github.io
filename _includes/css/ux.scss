@@ -1,0 +1,52 @@
+@import "shared";
+
+.title {margin-bottom: .5rem;}
+.meta {margin-bottom: 1rem;}
+.ux-img {
+	img {
+		max-width: 100%;
+		margin: 0;
+	}
+}
+
+.meta {
+	margin-bottom: .25rem;
+}
+
+
+.ux.no-border {
+	img {
+		border: none;
+	}
+}
+
+img.push {
+	margin-top: 1rem;
+}
+
+@media only screen and (min-width : 1000px) {
+	.ux {
+		.text {
+			margin-left: 265px;
+		}
+		.meta {
+			position: relative;
+			left: -265px;
+			top: 5px;
+			width: 240px;
+			margin: 0;
+			height: 0;
+			span {
+				white-space: nowrap;
+			}
+		}
+		.meta + p {
+			color: $lite-text;
+		}
+	}
+	.ux.push .key {
+		img {
+			margin-left: 265px;
+		}
+	}
+}

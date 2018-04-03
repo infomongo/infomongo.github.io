@@ -1,25 +1,6 @@
-$lite-text: lighten(black, 45%);
+@import "shared";
 
 .post h1 { font-size: percentage(28/20);}
-.meta, .date, .title, .caption {
-	color: $lite-text;
-	font-size: 80%;
-}
-.title { text-transform: uppercase;}
-.date { white-space: nowrap; }
-.caption { text-align: center; }
-
-.subhead {
-	font-family: 'pt_sansbold', sans-serif;
-	color: $lite-text;
-}
-
-blockquote {
-	margin: 1rem 0;
-	font-size: 110%;
-	color: $lite-text;
-	font-family: 'pt_sansitalic', sans-serif;
-}
 
 .archive { margin-top: 2rem;}
 .popular {margin-bottom: 2rem;}
@@ -56,12 +37,6 @@ blockquote {
 			span {
 				white-space: nowrap;
 			}
-		}
-		blockquote {
-			//margin-left: -200px;
-			margin-left: -50px;
-			margin-left: -2rem;
-			font-size: 125%;
 		}
 		img.pull {
 			margin-left: -100px;

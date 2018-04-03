@@ -1,0 +1,29 @@
+---
+layout: ux
+
+---
+<section class="ux {{page.class}}">
+	<div class="ux-img key">
+		<img src="/img/ux/{{page.key-image}}">
+	</div>
+	<div class="text">
+		
+		<h1>{{page.title}}</h1>
+		<div class="meta">
+		{{page.project-info}}
+		</div>
+
+		{{ content }}
+	</div>
+	
+	{% if page.additional-images %}
+	<div class="text" id="more-images">
+		<div class="title">Additional Images</div>
+	</div>
+	<div class="ux-img">
+		{% for file in page.additional-images %}
+		<img src="/img/ux/{{file}}">
+		{% endfor %}
+	</div>
+	{% endif %}
+</section>
