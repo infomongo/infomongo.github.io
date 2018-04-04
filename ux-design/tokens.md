@@ -131,6 +131,13 @@ In researching this, I found some old blog posts talking about tokens. [Here’s
 
 Oh, and the icons for Tokens and Six Degrees were created by [Felix Sockwell][felix]. His portfolio site doesn’t display very well until you resize your browser window. But he has a lot of cool work, most of it in the same, single-line-drawing style as the tokens icons.
 
+{% include ux-nav.md 
+	prev-text="Physician Locator"
+	prev-link="physician-locator"
+	next-text="Nationwide Insurance Agent Locator"
+	next-link="nationwide-locator"
+ %}
+
 [dropsend]: https://www.dropsend.com
 
 [joel]: https://www.joelonsoftware.com/2003/10/23/24-2/

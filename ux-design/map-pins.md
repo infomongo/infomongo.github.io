@@ -35,4 +35,12 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 - The pins are layered in reverse order, pin A is on top of B and so on. The "natural" way to plot the pins results in the reverse. Pin A is at the bottom and pin E is on top.
 
+
+{% include ux-nav.md 
+	prev-text="Nationwide Insurance Agent Locator"
+	prev-link="nationwide-locator"
+	next-text="Physician Locator"
+	next-link="physician-locator"
+ %}
+
 [umb]: https://locations.umb.com/kansas-city-ks

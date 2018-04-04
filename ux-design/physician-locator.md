@@ -22,4 +22,11 @@ I designed the app and did front-end development. The visual design was dictacte
 The original ask was to create both a mobile application and a resposive site. Due to th tight schedule, we convinced them to build just the responsive site. The app is behind a log-in screen (not pictured) and on a mobile devices it prompts the user to install it on the home screen.
 
 
+{% include ux-nav.md 
+    prev-text="Map Pin Interaction"
+    prev-link="map-pins"
+    next-text="Tokens"
+    next-link="tokens"
+ %}
+
 [1]: http://moonsault.co/
