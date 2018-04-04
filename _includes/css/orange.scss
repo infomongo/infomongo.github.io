@@ -43,3 +43,7 @@ nav a {
 .error { color: $accent-color;}
 :focus { outline: $accent-color solid 1px; }
 
+body:focus {
+	outline: none;
+}
+

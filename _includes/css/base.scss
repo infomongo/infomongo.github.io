@@ -23,6 +23,7 @@ body {
 main {
 	//flex: 1 1 0;
 	padding: 0 1rem;
+	display: block;
 }
 
 em, i {
@@ -31,7 +32,7 @@ em, i {
 }
 strong, b {
 	font-family: 'pt_sansbold', sans-serif;
-	font-style: normal;
+	//font-style: normal;
 	//font-weight: normal;
 }
 
