@@ -25,8 +25,8 @@ The original ask was to create both a mobile application and a resposive site. D
 {% include ux-nav.md 
     prev-text="Map Pin Interaction"
     prev-link="map-pins"
-    next-text="Tokens"
-    next-link="tokens"
+    next-text="Empty Details Pages"
+    next-link="yellow-page-details"
  %}
 
 [1]: http://moonsault.co/
