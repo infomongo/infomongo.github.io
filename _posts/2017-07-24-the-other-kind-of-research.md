@@ -17,7 +17,7 @@ But there is another kind of research that needs be done early in a project. You
 
 ### An Illustrative Story
 
-I used to work for Local Matters, a company that built web sites for Yellow Page (directory) companies. We had some state-side customers, but most of clients were in Europe. 
+I used to work for Local Matters, a company that built web sites for Yellow Page (directory) companies. We had some state-side customers, but most of our clients were in Europe. 
 
 *(I got to go all kinds of places I never thought I’d visit, like Helsinki, Finland. Which was fun, and I totally recommend it. But that is a different story…)*
 
