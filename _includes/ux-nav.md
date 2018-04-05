@@ -1,3 +1,3 @@
-≪ [{{include.prev-text}}]({{include.prev-link}}) 
+≪[{{include.prev-text}}]({{include.prev-link}}) 
 | [UX Design](/ux-design/) |
-[{{include.next-text}}]({{include.next-link}}) ≫
+[{{include.next-text}}]({{include.next-link}})≫

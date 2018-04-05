@@ -61,10 +61,6 @@ ol, ul { padding-left: 1rem; }
 header {
 	padding: 2rem 0 3rem;
 	font-size: percentage(16/18);
-	nav a {
-		padding: .5rem 0;
-		margin-right: 1rem;
-	}
 	// fix a bug in chrome, subpixel anti aliasing changes color of colored text
 	-webkit-font-smoothing: antialiased;
 }
@@ -130,9 +126,6 @@ footer {
 @media only screen and (min-width : 1000px) {
 	header {
 		padding: 5rem 0 7rem;
-		nav a {
-			margin-right: 1.5rem;
-		}
 	}
 	main, footer {
 		width: 1000px;
