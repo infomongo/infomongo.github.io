@@ -1,6 +1,6 @@
 ---
 layout: ux-detail
-title:  Empty Details Pages
+title:  Sparse Details Pages
 description: A redesign of a problematic page
 project-info: 'Yellow Pages, 2009'
 key-image: details-teaser.png
@@ -19,15 +19,20 @@ Local Matters had clients in New Zealand, Austria, the Czech Republic, Denmark, 
 
 The way these directory business work is that they sell adds to local businesses. They have some basic information on every business, but they have a lot more info about their advertisers. So we had a situation where some businesses had a lot of content and some had very little. A successful design would accommodate this range.
 
-Time and again, I’d meet with clients when designing their details pages and they’d want to use tabs to organize the content. This made some sense. Tabs are a well understood navigation pattern, and they were pretty visible on the pages. But beyond the basic information about the business –the name, address and phone number– most of the other content was sold as an advertising product, like photos, or only collected from advertisers, like hours of operation. 
+Time and again, I’d meet with clients when designing their details pages and they’d want to use tabs to organize the content. This made sense. Tabs are a well understood navigation pattern, and they were pretty visible on the pages. 
 
-And they had tiers of advertisers. The top tier would have a bunch of advertising content to show. The next tier down would have less.
+<div class="ux-img">
+	<img src="/img/ux/details-tabs-full.png" class="">
+</div>
+
+But beyond the basic information about the business –the name, address and phone number– most of the other content was sold as an advertising product, like photos, or only collected from advertisers, like hours of operation.  And they had tiers of advertisers. The top tier would have a bunch of advertising content to show. The next tier down would have less.
+
+Using tabs worked OK for the top tier. Their pages were full of content. But as we looked at lower tiers and the free listings, the tabs would take a small amount of content and spread it over a several pages. The result was most pages looked pretty sparse. 
 
 <div class="ux-img">
 	<img src="/img/ux/details-tabs.png" class="">
 </div>
 
-Using tabs worked OK for the top tier. Their pages were full of content. But as we looked at lower tiers and the free listings, the tabs would take a small amount of content and spread it over a several pages. The result was most pages looked pretty sparse. 
 
 However, the clients would tend to fixate on the top tier. These were their best customers. They would tend to discount how uncommon these were.
 
