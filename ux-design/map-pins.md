@@ -37,7 +37,7 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 
 {% include ux-nav.md 
-	prev-text="Nationwide Insurance Agent Locator"
+	prev-text="Nationwide Locator"
 	prev-link="nationwide-locator"
 	next-text="Physician Locator"
 	next-link="physician-locator"

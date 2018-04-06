@@ -33,7 +33,7 @@ Nationwide Agents are independent contractors. Typically they work in their own 
 {% include ux-nav.md 
     prev-text="Tokens"
     prev-link="tokens"
-    next-text="Map Pins Interaction"
+    next-text="Map Pin Interaction"
     next-link="map-pins"
  %}
 

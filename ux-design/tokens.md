@@ -134,7 +134,7 @@ Oh, and the icons for Tokens and Six Degrees were created by [Felix Sockwell][fe
 {% include ux-nav.md 
 	prev-text="Sparse Details Pages"
 	prev-link="yellow-page-details"
-	next-text="Nationwide Insurance Agent Locator"
+	next-text="Nationwide Locator"
 	next-link="nationwide-locator"
  %}
 
