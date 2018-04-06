@@ -9,11 +9,11 @@ class: push
 
 An interaction detail used on local search sites.
 
-Most local search sites show a list of locations and a map. Each location is marked with a pin on the map. Frequently, the pins are pretty close together. The locations may be fairly close, or the map is at zoom level where they overlap.
+Most local search sites show a list of locations and a map. Each location is marked with a pin on the map. Frequently, the pins are pretty close together. The locations may be fairly close, or the map is zoomed out enough that they overlap.
 
 **This makes clicking on a map pin more difficult.** 
 
-It’s pretty common to show a 'balloon' with additional information when you click on a pin. But when they overlap, it can be difficult to target the pin you want. Often have have to zoom way in to click the right pin.
+It’s pretty common to show a 'balloon' with additional information when you click on a pin. But when they overlap, it can be difficult to target the pin you want. Often you have have to zoom way in to click the right pin.
 
 To avoid this, instead of showing the normal balloon, show a menu that lists the locations.
 
