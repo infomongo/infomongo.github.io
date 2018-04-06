@@ -30,6 +30,17 @@ img.push {
 	margin-top: 4rem;
 }
 
+nav.next {
+	span {
+		display: block;
+		margin-bottom: .25rem;
+		padding-left: .75rem;
+	}
+	span:first-of-type {
+		padding-left: 0;
+	}
+}
+
 @media only screen and (min-width : 1000px) {
 	.ux {
 		.text {
@@ -53,6 +64,22 @@ img.push {
 	.ux.push .key {
 		img {
 			margin-left: 265px;
+		}
+	}
+	nav.next {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		span {
+			flex: 1 1 200px;
+			text-align: center;
+			padding: 0;
+		}
+		span:first-of-type {
+			text-align: left;
+		}
+		span:last-of-type {
+			text-align: right;
 		}
 	}
 }
