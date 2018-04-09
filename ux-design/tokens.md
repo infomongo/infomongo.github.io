@@ -63,7 +63,7 @@ Other than the main window, which was just a big “drop files here” target, t
 
 - **Always use this location** – This setting required you to choose a folder on disk and tokens would always be created there. 
 
-For all of these option except “prompt for location” the name of the token was based on the name of file. So if you dropped a file named “Final-Logo.psd” on the app, you’d get a token called “Final-Logo.tkn.”
+Unless you chose “prompt for location,” the name of the token was based on the name of file. So if you dropped a file named “Final-Logo.psd” on the app, you’d get a token called “Final-Logo.tkn.”
 
 The app also added contextual menus. You could right-click on any file or folder and select either “Create Token” or “Create and Email Token”.
 
@@ -79,7 +79,7 @@ The Redeemer application was even simpler. You could redeem a token by dropping 
 
 While a token was being redeemed, we’d show a window with a progress bar and an estimate of the time remaining. This window looked a lot like the one shown when you were copying files in the Finder or Explorer. I wanted it to feel like you were copying files from a server.
 
-By default, redeemed files got placed in the same folder as the token. If you redeemed a token attached to an email, you’d get a dialog asking where to put it. The app had preferences similar those for the creator. You could also set check box that would delete the token after it was redeemed. 
+By default, redeemed files got placed in the same folder as the token. If you redeemed a token attached to an email, you’d get a dialog asking where to put it. The app had preferences similar those for the creator. And there was a check box to delete tokens after they were redeemed. 
 
 ### The Tokens 24x7 Server
 

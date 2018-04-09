@@ -31,9 +31,9 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 #### Other details: 
 
-- The pins are labeled with letters instead of numbers. *Google was doing this on their maps back in 2004 or 2005*. If the pins are labeled with numbers, some clients will want to number the pins sequentially, with pins 1–10 on page one, 11–20 on page two, and etc. Showing two digits on the pins is awkward.
+- The pins are labeled with letters instead of numbers. *I first saw Google do this in 2003 or 2004*. If the pins are labeled with numbers, some clients will want to number the pins sequentially, with pins 1–10 on page one, 11–20 on page two, and etc. Showing two digits on the pins is awkward.
 
-- The pins are layered in reverse order, pin A is on top of B and so on. The "natural" way to plot the pins results in the reverse. Pin A is at the bottom and pin E is on top.
+- The pins are layered in reverse order, pin A on top of B. The "natural" way to layer the pins results in pin A at the bottom and pin E on top. That's what happens if you add the pins to the map in order. 
 
 
 {% include ux-nav.md 
