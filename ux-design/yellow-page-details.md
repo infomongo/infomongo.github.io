@@ -60,6 +60,6 @@ I wrote about some of the challenges of working in the directory industry in thi
 {% include ux-nav.md 
 	prev-text="Physician Locator"
 	prev-link="physician-locator"
-	next-text="Tokens"
-	next-link="tokens"
+	next-text="Labs Work"
+	next-link="labs"
  %}

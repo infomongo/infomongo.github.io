@@ -38,11 +38,7 @@ The only really good alternative was to upload the file to an FTP server. Even t
 
 ## Two Applications
 
-Tokens was comprised of two applications, the Token Creator and the Token Redeemer. 
-
-The Redeemer was free. Anyone could download it and it ran on Windows (95, 98, ME, NT,  2000 & XP) and on the Mac (Mac OS 9 & OS X). 
-
-The Creator cost $50. It ran on Windows (2000 & XP) and on Mac OS X. 
+There were two applications, the Token Creator and the Token Redeemer. The Redeemer was free. Anyone could download it and it ran on Windows (95, 98, ME, NT,  2000 & XP) and on the Mac (Mac OS 9 & OS X). The Creator cost $50. It ran on Windows (2000 & XP) and on Mac OS X. 
 
 ### The Token Creator 
 
@@ -132,8 +128,8 @@ In researching this, I found some old blog posts talking about tokens. [Here’s
 Oh, and the icons for Tokens and Six Degrees were created by [Felix Sockwell][felix]. His portfolio site doesn’t display very well until you resize your browser window. But he has a lot of cool work, most of it in the same, single-line-drawing style as the tokens icons.
 
 {% include ux-nav.md 
-	prev-text="Sparse Details Pages"
-	prev-link="yellow-page-details"
+	prev-text="Labs Work"
+	prev-link="labs"
 	next-text="Nationwide Locator"
 	next-link="nationwide-locator"
  %}
