@@ -26,9 +26,9 @@ We built this to show our customers a different approach to a local search app. 
 
 We thought this was a bit of a missed opportunity.  On a mobile device, we thought most people would be looking for nearby businesses in some specific categories. 
 
-When you launched Sidewalk, it showed nearby restaurants and offered other categories in the tab bar at the bottom, like coffee, bars, and ATMs.  You could search other categories and customize the tab bar by clicking “More…” 
+When you launched Sidewalk, it showed nearby restaurants and offered other categories in the tab bar at the bottom, like coffee, bars, and ATMs.  You could search other categories and customize the tab bar by clicking “More….” 
 
-We showed the closest results to your location, but highlighted advertisers with yellow pins and backgrounds. 
+We showed the results closest to your location, but highlighted advertisers with yellow pins and backgrounds. 
 
 <div class="ux-img large">
 	<img src="/img/ux/labs-punchcard.png">

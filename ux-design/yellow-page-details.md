@@ -25,7 +25,7 @@ Time and again, I’d meet with clients when designing their details pages and t
 	<img src="/img/ux/details-tabs-full.png" class="">
 </div>
 
-But beyond the basic information about the business –the name, address and phone number– most of the other content was sold as an advertising product, like photos, or only collected from advertisers, like hours of operation.  And they had tiers of advertisers. The top tier would have a bunch of advertising content to show. The next tier down would have less.
+But beyond the basic information about the business –the name, address and phone number– most of the other content was sold as an advertising product, like photos, or only collected from advertisers, like hours of operation. And they had tiers of advertisers. The top tier would have a bunch of advertising content to show. The next tier down would have less.
 
 Using tabs worked OK for the top tier. Their pages were full of content. But as we looked at lower tiers and the free listings, the tabs would take a small amount of content and spread it over a several pages. The result was most pages looked pretty sparse. 
 
@@ -49,7 +49,7 @@ Amazon’s product pages were the inspiration for what I came to call “stacks�
 
 This design handled the range of content much better. Having a name for it helped sell it to clients. Showing examples of other yellow page site with the problem also helped sell the solution.
 
-I didn’t design [this page][dtg], but it’s from one of the Dutch companies I worked with and it’s a good example of [stacks on a details page][dtg].
+I didn’t design [this page][dtg], but it’s from one of the Dutch companies I worked with. It’s a good example of [stacks on a details page][dtg].
 
 I wrote about some of the challenges of working in the directory industry in this post: [The Other Kind of Research](/posts/the-other-kind-of-research).
 

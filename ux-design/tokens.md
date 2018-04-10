@@ -79,7 +79,7 @@ By default, redeemed files got placed in the same folder as the token. If you re
 
 ### The Tokens 24x7 Server
 
-Normally, the sender’s machine had to be be running to redeem a token.  To avoid this constraint, we created a token server that your IT department could install. If you went this route, when you created a token the files got stored on the server and the token could be redeemed whether or not your machine was on.
+Normally, the sender’s machine had to be be running to redeem a token.  To avoid this constraint, we created a token server that your IT department could install. In this configuration, files were stored on the server instead of your machine.  A token created this way could be redeemed when your computer was off or not connected to the internet. 
 
 ## The Tokens Team
 
