@@ -33,7 +33,7 @@ header nav a {
 	&.active {
 		background-color: $accent-color;
 		color: white;
-		animation: grow 2s 1;
+		animation: grow 1.5s .25s 1;
 		display: inline-block;
 		margin-left: 0 !important;
 	}
