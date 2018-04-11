@@ -37,8 +37,8 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 
 {% include ux-nav.md 
-	prev-text="Nationwide Locator"
-	prev-link="nationwide-locator"
+	prev-text="Placeable Workbench"
+	prev-link="workbench"
 	next-text="Physician Locator"
 	next-link="physician-locator"
  %}
