@@ -23,7 +23,7 @@ description: A collection of writing about UX design and other topics.
 			{% if post.subtitle %}
 			<p class="subhead">{{post.subtitle}}</p>
 			{% endif %}
-			{{ post.content | truncatewords: 200 }}
+			{{ post.content | truncatewords: 150 }}
 			<a href="{{ post.url}}">continue reading</a>
 		</div>
 		{% endfor %}

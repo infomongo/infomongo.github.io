@@ -1,8 +1,9 @@
 infomongo
 =========
 
-Simple static site hosted via github pages. 
+The site uses Jekyll. But I'm compiling SASS directly via
 
-Using Jekyll to build it, even though it is a one pager.
-
-    bundle exec jekyll serve --host=0.0.0.0
+    sass --watch _includes/css --style compressed --sourcemap=none
+    
+This is faster than the compile times with Jekyll, and more flexible. 
+I'm putting all the CSS in the head, rather than an linked CSS file. 
