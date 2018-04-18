@@ -27,7 +27,7 @@ A common mistake junior designers make is to focus on a single solution. After a
 
 Once I have an initial set of options, I usually do a second round of research. I think about apps that have similar interactions and I examine how they work in detail. I’m looking for UX patterns I can adapt. This kind of copying is as common as dirt, but you have to be careful that the pattern you are borrowing makes sense. It has to be a good fit for your users. And it has to make sense for the app in question. It’s no use following a trend that doesn’t work well in context. Done poorly, this kind of copying can set the wrong expectations or saddle you with unneeded constraints. Done well, it can make the app easier to learn by leveraging users’ familiarity with similar apps.
 
-### How Many Should Your Show?
+### How Many Should You Show?
 
 Any reasonably experienced designer is going to have come up multiple design approaches. When it comes time to review these with the client or product team, how many should you show?
 
