@@ -31,8 +31,8 @@ Nationwide Agents are independent contractors. Typically they work in their own 
 
 
 {% include ux-nav.md 
-    prev-text="Tokens"
-    prev-link="tokens"
+    prev-text="Search Prototype"
+    prev-link="search-prototype"
     next-text="Placeable Workbench"
     next-link="workbench"
  %}
