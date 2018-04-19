@@ -20,6 +20,9 @@ layout: null
 		  <link rel="alternate" type="text/html" href="{{ post.url | prepend: site.url }}"/>
 		  <id>{{ post.url | prepend: site.url }}</id>
 		  <published>{{ post.date | date_to_xmlschema }}</published>
+		  <author>
+		  	<name>John Phillips</name>
+		  </author>
 		  <content type="html" xml:lang="en" xml:base="{{ site.url }}"><![CDATA[{{ post.content}}]]></content>
 		</entry>
 	  {% endunless %}
