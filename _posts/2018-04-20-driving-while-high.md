@@ -6,6 +6,10 @@ author: John Phillips
 categories: other
 ---
 
+<div>
+<img src="/img/Ernie-and-Bert-Glitch.jpg" class="full-width">
+</div>
+
 I watched a [CBS This Morning story about driving while high][cbs]. It’s April 20 (4/20) so we got to have some pot news.
 
 The story was about how there aren’t really tests or standards for what marijuana impairment looks like. The cops don’t have good ways to assess how much pot someone has ingested. And nobody is sure how much is too much.
