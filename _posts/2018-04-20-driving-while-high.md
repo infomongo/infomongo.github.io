@@ -4,6 +4,7 @@ title: How Dangerous is Driving While High?
 description: A look at the science behind the fear.
 author: John Phillips
 categories: other
+twitter-image: /img/Ernie-and-Bert-Glitch.jpg
 ---
 
 <div>
