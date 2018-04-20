@@ -41,7 +41,7 @@ There is little evidence that cannabis use alone increases accident rates. This 
 
 > “However, most culpability surveys have established cannabis use among crashed drivers by determining the presence of an inactive metabolite of THC in blood or urine that can be detected for days after smoking and can only be taken as evidence for past use of cannabis.”
 
-In other words, the blood and urine tests are not a good indication that you are high right now. At best, they are an indication that you have been high recently. **This may be masking the effects of pot on driving**, since you are effectively averaging in the rates of people who were not high at the time of their accidents.
+In other words, **neither blood nor urine tests are a good way to determine if you are high right now**. At best, they are an indication that you have been high recently. However, this may be masking the effects of pot on driving, because you are effectively averaging in the accident rates of people who were not high at the time of their accidents.
 
 Another [study from the Institute for Human Psychopharmacology, University of Maastricht][maas2] tested subjects after ingesting marijuana.
 
@@ -53,9 +53,9 @@ In each of the three tests, the study found scant evidence of decreased driving 
 
 ## Wrapping Up
 
-Studies of the effect of cannabis on driving performance are still pretty preliminary. Cannabis alone does not seem to have much of a negative effect on driving performance. Also, it’s very hard to get a measure of how high someone is. Even blood tests may not show this accurately.
+It's early days. There have not yet been many studies of the effects cannabis has on driving performance. Cannabis alone does not seem to have much of a negative effect on driving performance. Also, it’s very hard to get a measure of how high someone is. Even blood tests may not show this accurately.
 
-**A word of caution:** there are plenty of studies that show cannabis and alcohol used together do impair significantly driving ability. People who both smoked and drank perform worse at lower blood alcohol levels than people who only drank alcohol. 
+**A word of caution:** many studies that show cannabis and alcohol used together are bad news. People who both smoked and drank perform worse at lower blood alcohol levels than people who only drank alcohol. Effectively, they test as if they are drunker than their blood alcohol levels would suggest.
 
 > **Drunk and stoned driving is much worse than regular old drunk driving.**
 
