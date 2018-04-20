@@ -19,7 +19,7 @@ At one point Barry Petersen, the CBS news correspondent, asks a Colorado state p
 
 > "You could have three marijuana cigarettes, but it might affect you differently if you were a regular user than if you've come from out of state and this is your first time?”
 
-And while this is true, it does effect people differently. It kind of misses the point. First, that is a huge dose. Second, we don’t really know what effect cannabis has on driving performance.
+And while this is true, it does effect people differently. This kind of misses the point. First, that is a huge dose. Second, we don’t really know what effect cannabis has on driving.
 
 The piece opens with story about Ron Edwards, who was killed riding his motorcycle. “According to police, the car's driver had marijuana in his system.” This is a tragic story. But are we sure pot had anything to do with it? According to this [Denver Post story][post], the driver “tested positive for marijuana use below the legal limit and charged only with careless driving.” His widow believes that we have laws wrong, and marijuana was the cause. Could be, but how do we know?
 
@@ -58,7 +58,7 @@ In each of the three tests, the study found scant evidence of decreased driving 
 
 ## Wrapping Up
 
-It's early days. There have not yet been many studies of the effects cannabis has on driving performance. Cannabis alone does not seem to have much of a negative effect on driving performance. Also, it’s very hard to get a measure of how high someone is. Even blood tests may not show this accurately.
+It's early days. There have not yet been many studies of the effects cannabis has on driving. Cannabis alone does not seem to have much of a negative effect on driving performance. Also, it’s very hard to get a measure of how high someone is. Even blood tests may not show this accurately.
 
 **A word of caution:** many studies show that cannabis and alcohol used together are bad news. People who both smoked and drank perform worse at lower blood alcohol levels than people who only drank alcohol. Effectively, they test as if they are drunker than their blood alcohol levels would suggest.
 
