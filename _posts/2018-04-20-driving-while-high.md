@@ -22,7 +22,7 @@ Watching the piece, it seemed pretty clear that no one with any firsthand experi
 
 Maybe, **but I’m not convinced**, not by this reasoning. Alcohol is a depressant. It slows your reaction time. It impairs your judgement, lowering your inhibitions. **Drinking makes you slower to react and more likely to drive fast and recklessly**.
 
-Marijuana is not depressant and while it does impair your judgement, it doesn’t lower your inhibitions. It tends to raise them, as shown by the following studies.
+Marijuana is not a depressant and while it does impair your judgement, it doesn’t lower your inhibitions. It tends to raise them, as shown by the following studies.
 
 > “By contrast, people who are slightly stoned may be more risk-averse and overestimate their impairment. For instance, people who have smoked just a third of a joint will say they are impaired, even when driving tests show no such effects, according to a 1993 study by the National Highway Traffic Safety Administration.”
 
