@@ -8,7 +8,7 @@ categories: other
 
 I watched a [CBS This Morning story about driving while high][cbs]. It’s April 20 (4/20) so we got to have some pot news.
 
-The story was about how there aren’t really tests or standards for what marijuana impairment looks like. The cops don’t have good ways assess how much pot someone has ingested. And nobody is sure how much is too much.
+The story was about how there aren’t really tests or standards for what marijuana impairment looks like. The cops don’t have good ways to assess how much pot someone has ingested. And nobody is sure how much is too much.
 
 At one point Barry Petersen, the CBS news correspondent, asks a Colorado state prosecutor:
 
