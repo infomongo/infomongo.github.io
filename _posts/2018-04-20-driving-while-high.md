@@ -55,7 +55,7 @@ In each of the three tests, the study found scant evidence of decreased driving 
 
 It's early days. There have not yet been many studies of the effects cannabis has on driving performance. Cannabis alone does not seem to have much of a negative effect on driving performance. Also, it’s very hard to get a measure of how high someone is. Even blood tests may not show this accurately.
 
-**A word of caution:** many studies that show cannabis and alcohol used together are bad news. People who both smoked and drank perform worse at lower blood alcohol levels than people who only drank alcohol. Effectively, they test as if they are drunker than their blood alcohol levels would suggest.
+**A word of caution:** many studies show that cannabis and alcohol used together are bad news. People who both smoked and drank perform worse at lower blood alcohol levels than people who only drank alcohol. Effectively, they test as if they are drunker than their blood alcohol levels would suggest.
 
 > **Drunk and stoned driving is much worse than regular old drunk driving.**
 
