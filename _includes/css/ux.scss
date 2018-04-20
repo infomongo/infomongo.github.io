@@ -28,7 +28,13 @@ img.push {
 	margin-top: 4rem;
 }
 
-
+.ux nav.next {
+	margin: 3rem 0 3rem;
+	border: 1px #b5b4b6 solid;
+	border-left: none;
+	border-right: none;
+	padding: 1rem 0;
+}
 
 @media only screen and (min-width : 700px) {
 	.hide-mobile { display: block;}
