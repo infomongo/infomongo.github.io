@@ -21,6 +21,8 @@ flag: post
 		{% if page.next %} 
 			<span><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>≫</span>
 		{% endif %}
-		</nav>		
+		</nav>
+		
+		<p>Got a comment? <a href="https://twitter.com/share?url={{site.url}}{{page.url | uri_escape}}&via=infomongo">Tweet at me</a>.</p>
 	</div>
 </section>
