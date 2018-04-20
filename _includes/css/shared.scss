@@ -18,6 +18,17 @@ blockquote {
 .date { white-space: nowrap; }
 .caption { text-align: center; }
 
+nav.next {
+	span {
+		display: block;
+		margin-bottom: .25rem;
+		padding-left: .75rem;
+	}
+	span:first-of-type {
+		padding-left: 0;
+	}
+}
+
 @media only screen and (min-width : 1000px) {
 	.post, .ux {
 		blockquote {
@@ -27,5 +38,23 @@ blockquote {
 			font-size: 125%;
 		}
 	}
-	
+	nav.next {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		span {
+			flex: 1 1 ;
+			text-align: center;
+			padding: 0;
+		}
+		span:first-of-type {
+			text-align: left;
+		}
+		span:last-of-type {
+			text-align: right;
+		}
+	}
+	.post nav.next span {
+		flex-basis: auto;
+	}
 }

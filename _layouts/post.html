@@ -13,5 +13,14 @@ flag: post
 	</div>
 	<div class="text">
 		{{ content }}
+		
+		<nav class="next">
+		{% if page.previous %} 
+			<span>≪<a rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
+		{% endif %}
+		{% if page.next %} 
+			<span><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a>≫</span>
+		{% endif %}
+		</nav>		
 	</div>
 </section>
