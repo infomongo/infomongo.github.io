@@ -18,7 +18,7 @@ css-include:
    <div class="intro" markdown="1">
 Hello. I’m John Phillips,  a UX designer and writer. [I have been designing products for more than fifteen years][ux].
 
-Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [agent locator for Nationwide Insurance][nw]. Before that,  I worked with several of the top Yellow Page companies in Europe.
+Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [Agent Locator for Nationwide Insurance][nw]. Before that,  I worked with several of the top yellow page companies in Europe.
 
 [ux]: /ux-design/
 [w]: /posts/
@@ -28,7 +28,7 @@ Much of my work has been in [local search][loc]. I have designed store and ATM l
 
    </div>
    <div class="text" markdown="1">
-I [write about UX Design and other topics][w]. My lastest post is 
+I [write about UX Design and other topics][w]. My latest post is 
 {% for post in site.posts limit:1 %}<a href="{{ post.url}}">{{ post.title | escape }}</a>.{% endfor %} 
 
 My most popular posts are 
