@@ -53,8 +53,8 @@ img.push {
 		padding-top: percentage(365 / 370);
 	}
 	.nationwide {
-		background-image: url('/img/ux/nationwide-index.png');
-		padding-top: percentage(182 / 909 );
+		background-image: url('/img/ux/nationwide-index.jpg');
+		padding-top: percentage(381 / 883 );
 	}
 	.workbench {
 		background-image: url('/img/ux/workbench-index.png');
@@ -88,39 +88,28 @@ img.push {
 	}
 	
 	.ux.index {
-		//display: flex;
-		//flex-wrap: wrap;
 		overflow: auto;
-		//background-color: red;
-		
-		.title {
-			//width: 100%;
-		}
+
 		.item {
-			float: left;
+			//float: left;
 			//display: inline-block;
-			
-			//background-color: #eee;
 		}
 		.two-col {
+			float: left;
 			width: 63%;
 			margin-right: 3%;
+			//clear: left;
 		}
 		.one-col {
 			float: right;
+			clear: right;
 			width: 33%;
-			.ux-img {
-				//min-height: 10rem;
-			}
 		}
 	}
 }
 
 
 @media only screen and (min-width : 1000px) {
-
-	
-	
 	.ux {
 		.text {
 			margin-left: 265px;
