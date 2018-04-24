@@ -37,10 +37,11 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 
 {% include ux-nav.md 
-	prev-text="Placeable Workbench"
-	prev-link="workbench"
-	next-text="Physician Locator"
-	next-link="physician-locator"
+	prev-text="Sparse Details Pages"
+	prev-link="yellow-page-details"
+	next-text="Labs Work"
+	next-link="labs"
  %}
+
 
 [umb]: https://locations.umb.com/kansas-city-ks

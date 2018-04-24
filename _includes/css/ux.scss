@@ -29,6 +29,55 @@ img.push {
 }
 
 
+.ux .item {
+	width: 100%;
+	margin-bottom: 2rem;
+	
+	.ux-img {
+		display: block;
+		background-color: white;
+		border: 1px #b5b4b6 solid;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: .5rem;
+		//min-height: 7rem;
+	}
+	.tokens {
+		background-image: url('/img/ux/tokens-index.png');
+		padding-top: percentage(135 / 540);
+		//background-size: 520px;
+		background-position: center center;
+	}
+	.prototype {
+		background-image: url('/img/ux/brewery-prototype.png');
+		padding-top: percentage(365 / 370);
+	}
+	.nationwide {
+		background-image: url('/img/ux/nationwide-index.png');
+		padding-top: percentage(182 / 909 );
+	}
+	.workbench {
+		background-image: url('/img/ux/workbench-index.png');
+		padding-top: percentage(514 / 358 );
+	}
+	.physician {
+		background-image: url('/img/ux/physician-index.png');
+		padding-top: percentage(568 / 980 );
+	}
+	.details {
+		background-image: url('/img/ux/details-teaser.png');
+		padding-top: percentage(300 / 700 );
+	}
+	.pins {
+		background-image: url('/img/ux/pin-menu-index.png');
+		padding-top: percentage(365 / 365 );
+	}
+	.labs {
+		background-image: url('/img/ux/labs-teaser-large.jpg');
+		padding-top: percentage(480 / 1400 );
+	}
+}
+
 @media only screen and (min-width : 700px) {
 	.hide-mobile { display: block;}
 	
@@ -37,10 +86,41 @@ img.push {
 		border: 1px #b5b4b6 solid;
 		margin: 0 1rem 1rem 0;
 	}
+	
+	.ux.index {
+		//display: flex;
+		//flex-wrap: wrap;
+		overflow: auto;
+		//background-color: red;
+		
+		.title {
+			//width: 100%;
+		}
+		.item {
+			float: left;
+			//display: inline-block;
+			
+			//background-color: #eee;
+		}
+		.two-col {
+			width: 63%;
+			margin-right: 3%;
+		}
+		.one-col {
+			float: right;
+			width: 33%;
+			.ux-img {
+				//min-height: 10rem;
+			}
+		}
+	}
 }
 
 
 @media only screen and (min-width : 1000px) {
+
+	
+	
 	.ux {
 		.text {
 			margin-left: 265px;

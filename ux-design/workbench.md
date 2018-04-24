@@ -51,7 +51,7 @@ Our approach was to automate a much as we could and to draw attention to problem
 {% include ux-nav.md 
     prev-text="Nationwide Locator"
     prev-link="nationwide-locator"
-    next-text="Map Pin Interaction"
-    next-link="map-pins"
+    next-text="Physician Locator"
+	next-link="physician-locator"
  %}
 

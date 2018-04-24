@@ -3,9 +3,11 @@ layout: ux
 
 ---
 <section class="ux {{page.class}}">
+	{% if page.key-image %}
 	<div class="ux-img key">
 		<img src="/img/ux/{{page.key-image}}">
 	</div>
+	{% endif %}
 	<div class="text">
 		
 		<h1>{{page.title}}</h1>

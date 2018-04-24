@@ -23,8 +23,8 @@ The original ask was to create both a mobile application and a resposive site. D
 
 
 {% include ux-nav.md 
-    prev-text="Map Pin Interaction"
-    prev-link="map-pins"
+    prev-text="Placeable Workbench"
+    prev-link="workbench"
     next-text="Sparse Details Pages"
     next-link="yellow-page-details"
  %}

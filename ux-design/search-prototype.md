@@ -3,7 +3,6 @@ layout: ux-detail
 title: Local Search Prototype 
 description: A prototype of local search app.
 project-info: 'Brewery Finder Prototype, 2017'
-key-image: brewery-teaser.png
 class: push
 ---
 
