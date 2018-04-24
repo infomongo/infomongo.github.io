@@ -37,7 +37,7 @@ The “ough” example shows how one set of letters can be pronounced differentl
 
 The last two are odd spellings of uncommon words, but that is a wide variety of spellings for one of the most common vowel sounds in the language. 
 
-The spelling long vowels is even stranger. The following is a list of words pronounced with the long “o” sound.
+The spelling of long vowels is even stranger. The following is a list of words pronounced with the long “o” sound.
 
 * road 
 * bone
@@ -49,7 +49,7 @@ The spelling long vowels is even stranger. The following is a list of words pron
 * bur*eau* (French loan word)
 * brooch (ryhmes with coach)
 
-The last two are unusual spellings, but all the others are common words. The words “low” and “sew” have ambiguous pronunciations. They might rhyme with “how” and “dew” rather than having the long “o” sound.
+The last two are unusual spellings, but all the others are common words. The words “low” and “sew” have ambiguous pronunciations. They could easily rhyme with “how” and “dew”.
 
 ## How Did We Get Here
 
@@ -61,7 +61,7 @@ Essentially, Modern English spelling captures the pronunciation of a much older 
 
 ### More Sounds than Letters
 
-There are about 44 phonemes in English, or 44 different sounds. Our alphabet has only 26 characters. There are more sounds than letters. Some phonemes are spelled using combinations of letters, like the “sh” sound in “shop,” but even these are not regular. The same phoneme is spelled differently in words like “action” and “sugar”.
+There are about 44 phonemes in English, or 44 different sounds. Our alphabet has only 26 characters. There are more sounds than letters. Some phonemes are spelled using combinations of letters, like the “sh” sound in “shop,” but even these are not regular. The same phoneme is spelled differently in words like “action,” “sugar” and "chef."
 
 As a result, there are multiple ways to spell nearly every phoneme. And most letters have multiple pronunciations depending on their position in a word and the context.
 
@@ -79,17 +79,17 @@ And an example of [SoundSpel][snd], a reform effort from 1910:
 
 Examples like these are why spelling reform has generally been regarded as the work of harmless crackpots. *([Benjamin Franklin's proposed reform][ben] added letters to the alphabet, a truly crackpot idea.)*
 
-There have been some successful reform efforts, like the one championed by Noah Webster. His first dictionary, published in 1806, contained [an essay advocating for changes to English spelling][web]. These spelling changes — with “color” and “center” replacing “colour” and “centre” — became the basis for American English spelling as distinct from British. He also Webster didn’t invent these spellings, he merely popularized them.
+There have been some successful reform efforts, like the one championed by Noah Webster. His first dictionary, published in 1806, contained [an essay advocating for changes to English spelling][web]. These spelling changes — with “color” replacing “colour,”  “center” replacing “centre,” and the like” — became the basis for American  spelling as distinct from British. Webster didn’t invent these spellings, he  popularized them.
 
 ### Principles for Spelling Reform
 
 I have played around with a number of alternate spelling systems and most of them, including some I have devised, are pretty much bat-shit insane. But I think the successful reform efforts have some things in common.
 
 * They are modest. Rather than trying to solve every problem, they focus on a small number of changes.
-* The new spellings shorter than those they replace.
+* The new spellings are shorter than those they replace.
 * The new spellings have unambiguous pronunciations.
-* They avoid changing the spelling in a way that obscures the root meaning of the word or collides with an existing word. Changing “might” to “mite” is confusing because the word “mite” already exists. 
-* They often embrace alternate spellings that already exist but are not in wide use.
+* They avoid changing the spelling in a way that collides with an existing word. Changing “might” to “mite” is confusing because the word “mite” already exists. 
+* They often embrace alternate spellings that already exist, but are not standard.
 
 In my writing, I use some non-standard spellings:
 
@@ -107,13 +107,16 @@ The following seem like good candidates, altho I don’t use them regularly.
 * tuff instead of tough
 * laff instead of laugh 
 
-There are a whole host of words that end in “ve” that would be pronounced the same with the final “e” dropped. English has very few words that end in “v”. Some of these would seem to be good candidates:
+There are a whole host of words that end in “ve” that would be pronounced the same with the final “e” dropped. Some of these would seem to be good candidates:
 
 * hav instead of have
 * giv instead of give
 * liv instead of live 
 
 The last change, “live” to “liv” would help distinguish this from the word “live,” meaning alive or happening now.
+
+When manuscripts were hand written, it was hard to tell the letters "u" and "v" apart. Adding an "e" to the end of words that would otherwise end in "u" or "v" helped make them easier to read. This became part of standard English spelling, but it has outlived its usefulness. 
+
 
 [mid]: https://en.wikipedia.org/wiki/Middle_English
 [shift]: https://en.wikipedia.org/wiki/Great_Vowel_Shift
