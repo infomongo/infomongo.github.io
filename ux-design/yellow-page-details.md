@@ -55,11 +55,3 @@ I wrote about some of the challenges of working in the directory industry in thi
 
 [dtg]: https://www.detelefoongids.nl/rancho-leidseplein/20249412/5-1/
 [dex]: https://www.dexpages.com/
-
-
-{% include ux-nav.md 
-	prev-text="Pin Menu"
-	prev-link="map-pins"
-	next-text="Labs Work"
-	next-link="labs"
- %}

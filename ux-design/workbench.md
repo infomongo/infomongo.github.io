@@ -45,13 +45,3 @@ There were two main types of users, Local SEO experts and brand marketing people
 Our approach was to automate a much as we could and to draw attention to problems that required human intervention. We also made it easy to export data to CSV. This allowed the SEO users to integrate the tool into their workflows incrementally.
 
 [4sq]: https://engineering.foursquare.com/you-are-probably-here-better-map-pins-with-dbscan-random-forests-9d51e8c1964d
-
-
-
-{% include ux-nav.md 
-    prev-text="Nationwide Locator"
-    prev-link="nationwide-locator"
-    next-text="Search Prototype"
-	next-link="search-prototype"
- %}
-

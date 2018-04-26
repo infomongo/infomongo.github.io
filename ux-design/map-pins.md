@@ -36,12 +36,4 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 - The pins are layered in reverse order, pin A on top of B. The "natural" way to layer the pins results in pin A at the bottom and pin E on top. That's what happens if you add the pins to the map in order. 
 
 
-{% include ux-nav.md 
-	prev-text="Physician Locator"
-	prev-link="physician-locator"
-	next-text="Sparse Details Pages"
-	next-link="yellow-page-details"
- %}
-
-
 [umb]: https://locations.umb.com/kansas-city-ks

@@ -127,14 +127,6 @@ In researching this, I found some old blog posts talking about tokens. [Here’s
 
 Oh, and the icons for Tokens and Six Degrees were created by [Felix Sockwell][felix]. His portfolio site doesn’t display very well until you resize your browser window. But he has a lot of cool work, most of it in the same, single-line-drawing style as the tokens icons.
 
-{% include ux-nav.md 
-	prev-text="Labs Work"
-	prev-link="labs"
-	next-text="Nationwide Locator"
-	next-link="nationwide-locator"
- %}
-
-
 [dropsend]: https://www.dropsend.com
 
 [joel]: https://www.joelonsoftware.com/2003/10/23/24-2/
@@ -144,8 +136,4 @@ Oh, and the icons for Tokens and Six Degrees were created by [Felix Sockwell][fe
 [tid]: https://tidbits.com/article/7449
 
 [felix]: http://felixsockwell.com
-
-
-
-
 

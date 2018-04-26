@@ -1,5 +1,14 @@
 ---
 layout: ux
+links:
+  - tokens: "Tokens"
+  - nationwide-locator: "Nationwide Locator"
+  - workbench: "Placeable Workbench"
+  - search-prototype: "Search Prototype"
+  - physician-locator: "Physician Locator"
+  - map-pins: "Pin Menu"
+  - yellow-page-details: "Sparse Details Pages"
+  - labs: "Labs Work"
 
 ---
 <section class="ux {{page.class}}">
@@ -28,4 +37,40 @@ layout: ux
 		{% endfor %}
 	</div>
 	{% endif %}
+	
+	{% comment %} 
+<!-- 	Not sure if this code is a hack, but it works
+		
+		using the array 'links' defined in the front matter of this file
+		this code figures out the position in the array of the current page
+		then gets the previous and next links -->
+	{% endcomment %}	
+	{% assign current-file = page.url | remove: "/ux-design/"  %}
+	
+	{% for link_hash in layout.links %}
+	  	{% assign outer-loop = forloop.index0   %}
+		{% for link in link_hash %}
+			{% if link[0] == current-file %}
+				{% assign position = outer-loop  %}
+			{% endif %}
+	  	{% endfor %}
+	{% endfor %}
+	
+	{% assign count = layout.links | size %}	
+	{% assign prev = position | minus: 1  %}
+	{% assign next = position | plus: 1  %}	
+	{% if next == count %}
+		{% assign next = 0  %}
+	{% endif %}
+	<div class="text">
+		<nav class="next">
+			{% for link in layout.links[prev] %}
+				<span>≪<a href="{{link[0]}}">{{link[1]}}</a></span>
+			{% endfor %}
+			<span><a href="/ux-design/">UX Design</a></span>
+			{% for link in layout.links[next] %}
+				<span><a href="{{link[0]}}">{{link[1]}}</a>≫</span>
+			{% endfor %}
+		</nav>
+	</div>
 </section>

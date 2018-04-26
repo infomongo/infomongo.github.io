@@ -33,11 +33,3 @@ If you do a search in Google or Apple maps on your phone, you often have to clic
 The prototype is pretty limited. It always shows the same set of results no matter where you search. And the map isn't interactive. You can't pan, zoom or click on pins. This would have all worked in the app. We didn't feel like we needed to test these in the prototype.
 
 <div style="clear: left;"></div>
-
-{% include ux-nav.md 
-	prev-text="Placeable Workbench"
-	prev-link="workbench"
-	next-text="Physician Locator"
-	next-link="physician-locator"
- %}
- 

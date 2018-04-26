@@ -29,15 +29,6 @@ We learned that the “use my location” search made sense to users on mobile d
 
 Nationwide Agents are independent contractors. Typically they work in their own offices. However, in some cases many different agents share an office address, even though they are separate businesses. This happens because Nationwide provides office space for newer agents. They had been worried that these would be confusing. That users would wonder why a number of agents, sometimes twenty or more, were all at the same location. We designed several approaches that collapsed these. None of these designs survived the usability tests. Users were confused by the attempts to collapse them. When they were presented as normal results, users either correctly guessed the reason, or pretty much did not care.
 
-
-{% include ux-nav.md 
-    prev-text="Tokens"
-    prev-link="tokens"
-    next-text="Placeable Workbench"
-    next-link="workbench"
- %}
-
-
 [nw]: https://agency.nationwide.com
 [place]: http://placeable.com
 [more]: #more-images
