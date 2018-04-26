@@ -35,9 +35,9 @@ The prototype is pretty limited. It always shows the same set of results no matt
 <div style="clear: left;"></div>
 
 {% include ux-nav.md 
-	prev-text="Tokens"
-	prev-link="tokens"
-	next-text="Nationwide Locator"
-	next-link="nationwide-locator"
+	prev-text="Placeable Workbench"
+	prev-link="workbench"
+	next-text="Physician Locator"
+	next-link="physician-locator"
  %}
  

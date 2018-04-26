@@ -37,10 +37,10 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 
 {% include ux-nav.md 
-	prev-text="Sparse Details Pages"
-	prev-link="yellow-page-details"
-	next-text="Labs Work"
-	next-link="labs"
+	prev-text="Physician Locator"
+	prev-link="physician-locator"
+	next-text="Sparse Details Pages"
+	next-link="yellow-page-details"
  %}
 
 

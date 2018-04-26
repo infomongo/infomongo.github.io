@@ -41,10 +41,9 @@ The idea behind this app was to create a kind of wallet for loyalty cards. Inste
 The concept was that this could be a directory branded app. The directory companies had large sales staffs. They could offer the app as an new kind of advertising product to their customers. Using the QR code meant that no hardware was needed beyond the phone. The kept the install footprint low. All a business needed to do was print and post the QR code. This was done in a web app we created.
 
 {% include ux-nav.md 
-	prev-text="Pin Menu"
-	prev-link="map-pins"
+	prev-text="Sparse Details Pages"
+	prev-link="yellow-page-details"
 	next-text="Tokens"
 	next-link="tokens"
  %}
-
 

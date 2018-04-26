@@ -1,7 +1,6 @@
 @import "shared";
 
-.title {margin-bottom: .5rem;}
-.meta {margin-bottom: 1rem;}
+.title {margin-bottom: .75rem;}
 .ux-img {
 	img {
 		max-width: 100%;
@@ -9,10 +8,10 @@
 	}
 }
 
-.meta {
-	margin-bottom: .25rem;
+.sub {
+	font-size: 80%;
+	display: block;
 }
-
 
 .ux.no-border {
 	img {
@@ -36,46 +35,11 @@ img.push {
 	.ux-img {
 		display: block;
 		background-color: white;
-		border: 1px #b5b4b6 solid;
-		background-repeat: no-repeat;
-		background-size: cover;
-		margin-bottom: .5rem;
-		//min-height: 7rem;
+		img {
+			border-width: 1.2px;
+		}
 	}
-	.tokens {
-		background-image: url('/img/ux/tokens-index.png');
-		padding-top: percentage(135 / 540);
-		//background-size: 520px;
-		background-position: center center;
-	}
-	.prototype {
-		background-image: url('/img/ux/brewery-prototype.png');
-		padding-top: percentage(365 / 370);
-	}
-	.nationwide {
-		background-image: url('/img/ux/nationwide-index.jpg');
-		padding-top: percentage(381 / 883 );
-	}
-	.workbench {
-		background-image: url('/img/ux/workbench-index.png');
-		padding-top: percentage(514 / 358 );
-	}
-	.physician {
-		background-image: url('/img/ux/physician-index.jpg');
-		padding-top: percentage(568 / 980 );
-	}
-	.details {
-		background-image: url('/img/ux/details-teaser.png');
-		padding-top: percentage(300 / 700 );
-	}
-	.pins {
-		background-image: url('/img/ux/pin-menu-index.png');
-		padding-top: percentage(365 / 365 );
-	}
-	.labs {
-		background-image: url('/img/ux/labs-teaser-large.jpg');
-		padding-top: percentage(480 / 1400 );
-	}
+
 }
 
 @media only screen and (min-width : 700px) {
@@ -88,23 +52,45 @@ img.push {
 	}
 	
 	.ux.index {
-		overflow: auto;
-
+		display: flex;
+		flex-wrap: wrap;
+		
+		.title {
+			padding-left: 34%;
+		}
+		
 		.item {
-			//float: left;
-			//display: inline-block;
+			display: flex;
+			align-items: center
 		}
-		.two-col {
-			float: left;
-			width: 63%;
-			margin-right: 3%;
-			//clear: left;
+		.info {
+			padding: 2rem;
 		}
-		.one-col {
-			float: right;
-			clear: right;
-			width: 33%;
+		.two-col .ux-img {
+			width: 66%;
 		}
+		.one-col .ux-img {
+			width: 34%;
+		}
+		
+		.tokens {
+			.ux-img {
+				border: 1px #b5b4b6 solid;
+				text-align: center;
+				img {
+					border:none;
+					padding: 1rem 0;
+				}
+			}
+		}
+		.item {
+			.ux-img {order: 2;}
+			.info {
+				text-align: right;
+				width: 34%;
+			}
+		}
+		
 	}
 }
 
@@ -113,22 +99,23 @@ img.push {
 	.ux {
 		.text {
 			margin-left: 265px;
-		}
-		.meta {
-			position: relative;
-			left: -265px;
-			top: 5px;
-			width: 240px;
-			margin: 0;
-			height: 0;
-			span {
-				white-space: nowrap;
+			.meta {
+				position: relative;
+				left: -265px;
+				top: 5px;
+				width: 240px;
+				margin: 0;
+				height: 0;
+				span {
+					white-space: nowrap;
+				}
+			}
+			.meta + p {
+				color: $lite-text;
 			}
 		}
-		.meta + p {
-			color: $lite-text;
-		}
 	}
+	
 	.ux.push .key {
 		img {
 			margin-left: 265px;

@@ -23,10 +23,10 @@ The original ask was to create both a mobile application and a resposive site. D
 
 
 {% include ux-nav.md 
-    prev-text="Placeable Workbench"
-    prev-link="workbench"
-    next-text="Sparse Details Pages"
-    next-link="yellow-page-details"
+    prev-text="Search Prototype"
+    prev-link="search-prototype"
+    next-text="Pin Menu"
+    next-link="map-pins"
  %}
 
 [1]: http://moonsault.co/

@@ -31,11 +31,12 @@ Nationwide Agents are independent contractors. Typically they work in their own 
 
 
 {% include ux-nav.md 
-    prev-text="Search Prototype"
-    prev-link="search-prototype"
+    prev-text="Tokens"
+    prev-link="tokens"
     next-text="Placeable Workbench"
     next-link="workbench"
  %}
+
 
 [nw]: https://agency.nationwide.com
 [place]: http://placeable.com

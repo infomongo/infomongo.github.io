@@ -130,9 +130,10 @@ Oh, and the icons for Tokens and Six Degrees were created by [Felix Sockwell][fe
 {% include ux-nav.md 
 	prev-text="Labs Work"
 	prev-link="labs"
-	next-text="Search Prototype"
-	next-link="search-prototype"
+	next-text="Nationwide Locator"
+	next-link="nationwide-locator"
  %}
+
 
 [dropsend]: https://www.dropsend.com
 

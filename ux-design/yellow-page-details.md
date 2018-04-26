@@ -58,8 +58,8 @@ I wrote about some of the challenges of working in the directory industry in thi
 
 
 {% include ux-nav.md 
-	prev-text="Physician Locator"
-	prev-link="physician-locator"
-	next-text="Pin Menu"
-	next-link="map-pins"
+	prev-text="Pin Menu"
+	prev-link="map-pins"
+	next-text="Labs Work"
+	next-link="labs"
  %}
