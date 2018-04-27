@@ -26,10 +26,10 @@ Have a look at this <a href="responsive-flex-layout.html" target="_blank">sample
 
 
 <div class="wide center" markdown="0">
-<img src="/img/flex-row.png" class="full-width inline">
+<img src="/img/flex-row.png" class="full-width inline" alt="">
 <p class="caption">iPhone 8 in landscape, window is 736 pixels wide</p>
 
-<img src="/img/flex-wrap.png" class="full-width inline">
+<img src="/img/flex-wrap.png" class="full-width inline" alt="">
 <p class="caption">iPhone 8 in portrait, window is 414 pixels wide</p>
 
 </div>

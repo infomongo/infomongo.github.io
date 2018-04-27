@@ -8,7 +8,7 @@ categories: other TV unabomber research popular
 date:   2017-10-09
 ---
 
-<img class="full-width" src="/img/manhunt-unabomber.jpg">
+<img class="full-width" src="/img/manhunt-unabomber.jpg" alt="Manhunt: Unabomber logo from Tv series">
 
 I binge-watched [Manhunt: Unabomber][1] on Netflix recently. It’s a dramatic retelling of the FBI’s hunt for the Unabomber. I enjoyed the show, but it was obvious that they took liberties with the facts. Which made me curious about the actual events. So I did some research. Much of what I’m covering here comes from the [search warrant][2] that the FBI obtained to search Ted Kaczynski’s cabin.
 
@@ -100,7 +100,7 @@ The last letter, sent to Dr. David Gelernter, may be the most disturbing. Dr. Ge
 
 In the TV show, [Manhunt: Unabomber][1], FBI special agent James R. Fitzgerald, has to convince David Kaczynski to turn his brother in. Agent Fitzgerald also has to convince his superiors to publish the manifesto. Lastly, he does much of the linguistic work comparing the Unabomber’s letters to those of Ted Kaczynski, which is a major focus of the search warrant.
 
-<img class="full-width" src="/img/based-on-true-events.png">
+<img class="full-width" src="/img/based-on-true-events.png" alt="Based on true events, set in a font that looks like a photocopy of a typewriter">
 
 In reality, things were pretty different. The first person to strongly suspect that Ted was the Unabomber was Linda Patrik, David Kaczynski’s wife. 
 

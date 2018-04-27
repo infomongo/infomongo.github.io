@@ -8,7 +8,7 @@ date:   2017-07-24
 ---
 
 <div class="main wide">
-	<img src="/img/store-fronts.jpg" class="full-width">
+	<img src="/img/store-fronts.jpg" class="full-width" alt="Sunny street with a bunch of store fronts.">
 </div>
 
 The first step in most UX work is research. You need to understand who is going to use the product and what they want to accomplish. You need to understand their backgrounds. What applications they use and like. User research is foundational.
@@ -37,7 +37,7 @@ The directory companies had large sales staffs. They had sold a lot of ads to a 
 
 I joined the company in In 2005, and at that time the internet was a force. It was reshaping businesses and turning over a lot of apple carts, but the directories were still making a lot more money from their printed books.
 
-<img src="/img/shopping-mall.jpg" class="full-width">
+<img src="/img/shopping-mall.jpg" class="full-width" alt="Interior of a shopping mall.">
 
 Top advertisers in the books would have those large quarter page ads shown at the beginning of a category in the books. In fact, for popular categories, the first several pages would all be ads. To the directory companies, it made sense to show their advertisers first in the search in the search results. They wanted to sort the results by advertising tier, platinum listings first, then gold, then silver and so on.
 

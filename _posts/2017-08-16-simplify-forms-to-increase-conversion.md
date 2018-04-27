@@ -17,7 +17,7 @@ The canonical conversion reference seems to be [this post at Quick Sprout][1] by
 
 I'm not sure this should be the canonical reference, since it's based on a single study, an anecdote really. *And if you follow that link, be ready to get assaulted by some shady up-sell tactics*.
 
-<img src="/img/contact-cory-form.jpg" class="full-width">
+<img src="/img/contact-cory-form.jpg" class="full-width" alt="A form with a dozens of controls.">
 <p class="caption">This monstrosity is part of the contact form for emailing my senator.</p>
 
 His contact form initially had four fields: name, email, URL and revenue. He removed one field, revenue, and increased conversion by **26%**.
@@ -82,14 +82,14 @@ All of these guidelines will affect form conversion rates. The main thing to rem
 [Luke’s post on avoiding drop-downs](https://www.lukew.com/ff/entry.asp?1950) in mobile forms has some great ideas for making forms shorter and less complex. Luke shows how using alternative controls, like steppers, segmented controls and switches makes forms easier to use. 
 
 <h4>Steppers</h4>
-<img src="/img/stepper-1.png" class="no-border"><br>
-<img src="/img/stepper-2.png" class="no-border"><br><br>
+<img src="/img/stepper-1.png" class="no-border" alt="plus and minus buttons increment field value"><br>
+<img src="/img/stepper-2.png" class="no-border" alt=""><br><br>
 
 <h4>Segmented Control</h4>
-<img src="/img/segmented-control.png" class="no-border" style="margin-top:10px;"><br><br>
+<img src="/img/segmented-control.png" class="no-border" style="margin-top:10px;" alt="Group of buttons, Coach, Business and First. Business is selected."><br><br>
 
 <h4>Switch</h4>
-<img src="/img/switch.png" class="no-border" style="margin-top:10px;"><br>
+<img src="/img/switch.png" class="no-border" style="margin-top:10px;" alt="iOS style on/off switch"><br>
 
 
 ### Input Masks
@@ -98,12 +98,12 @@ Luke also writes about [using input masks](https://www.lukew.com/ff/entry.asp?75
 
 Input masks don't affect the initial display of the field.
 
-<img src="/img/input-mask-1.png" class="no-border">
+<img src="/img/input-mask-1.png" class="no-border" alt="Phone number field, empty">
 <br>
 
 When you click on the field and start typing, the mask adds the formatting automatically.
 
-<img src="/img/input-mask-2.png" class="no-border">
+<img src="/img/input-mask-2.png" class="no-border" alt="When actived, parenthesis and dash are added to field, so that it looks like a phone number.">
 
 
 Not only do they help people enter the data, input masks also prevent people from entering characters that are not allowed. They aid in data validation and prevent a possible source of error.
@@ -118,7 +118,7 @@ For example, this code…
 
 …triggers this keyboard.
 
-<img src="/img/keyboard-number.png" class="retina">
+<img src="/img/keyboard-number.png" class="retina" alt="Standard mobile keyboard, with number keys in first row, followed by punctuation and other symbols.">
 
 
 This is a number keyboard, but it's not the best number keyboard available. Both iOS and Android provide a numeric keyboard that has larger keys and no symbols.
@@ -127,7 +127,7 @@ The following code will trigger a more usable keyboard.
 
 	<input type="tel" name="phone">
 
-<img src="/img/keyboard-tel.png" class="retina">
+<img src="/img/keyboard-tel.png" class="retina" alt="Telephone keyboard, with the numbers laid out in a 3 by 3 grid.">
 
 
 Note that there aren’t keys to enter a decimal point or a negative number.
@@ -146,7 +146,7 @@ By using the Google Maps API, you can collect an address in a single field by us
 
 The address field is a standard text field, but when the user starts typing an autocomplete menu is attached.
 
-<img src="/img/address-2.png" class="no-border">
+<img src="/img/address-2.png" class="no-border" alt="Autocomplete menu appended to botton of field, offereing address matching what the user entered.">
 
 
 When the user makes a selection you get back the component parts of the location they chose: the street address, city, state, zip (or postal) code and country. You can add these to hidden fields in your form.

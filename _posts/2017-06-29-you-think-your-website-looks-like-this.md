@@ -12,7 +12,7 @@ It’s a safe bet that a substantial amount of your site's traffic is coming fro
 
 ### Internet Usage Worldwide, March 2009 to May 2017
 
-<img src="/img/internet-usage-ww.png" class="full-width no-offset">
+<img src="/img/internet-usage-ww.png" class="full-width no-offset" alt="Line graph showing desktop, mobile an tablet percentages. Desktop steadily decreasing, while mobile increases.">
 
 Source: [StatCounter GlobalStats](http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide/#monthly-200903-201705) *(see note 1 below)*
 
@@ -20,7 +20,7 @@ In October of 2016, the lines cross and mobile surpasses desktop. The numbers ar
 
 ### Internet Usage U.S., March 2009 to May 2017
 
-<img src="/img/internet-usage-us.png" class="full-width no-offset">
+<img src="/img/internet-usage-us.png" class="full-width no-offset" alt="Line graph showing desktop, mobile an tablet percentages in US. Mobile still slightly below desktop in May of 2017.">
 
 Source: [StatCounter GlobalStats](http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/united-states-of-america/#monthly-200903-201705)
 
@@ -32,12 +32,12 @@ I was speaking with a colleague [Jason Rogers](https://www.linkedin.com/in/jason
 
 ### “People think their website looks like this.”
 
-<img src="/img/solar-desktop.jpg" class="full-width">
+<img src="/img/solar-desktop.jpg" class="full-width" alt="Go Solar website, as viewed on a desktop browser. The page is wide, but short.">
 
 ### “When it actually looks like this.”
 
 <div>
-	<img src="/img/solar-mobile.jpg" class="float shrink pull" >
+	<img src="/img/solar-mobile.jpg" class="float shrink pull" alt="Go Solar website, as viewed on a mobile browser. The page narrow and very tall.">
 </div>
 
 Jason demonstrated the differences by drawing rectangles on a whiteboard, a fat wide one for desktop and tall skinny one for mobile. 

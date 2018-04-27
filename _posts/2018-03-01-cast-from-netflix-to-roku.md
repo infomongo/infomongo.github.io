@@ -14,7 +14,7 @@ I just got a [Roku Streaming Stick+][r] and so far, I dig it. I bought it to rep
 [w]: https://thewirecutter.com/reviews/best-media-streamers/
 
 
-<img src="/img/roku-promo.png" class="full-width no-border">
+<img src="/img/roku-promo.png" class="full-width no-border" alt="Roku streaming stick and remote">
 
 I was looking forward to the updated Netflix app (channel), with profile support. I also assumed I’d be able to ‘cast’ Netflix shows from my phone to the Roku. That is, search for shows in the Netflix app on my phone and then play them on the Roku. 
 
@@ -26,7 +26,7 @@ This kinda worked on my otherwise terrible Vizio TV. It worked well enough to co
 
 [t]:https://www.tomsguide.com/us/cast-netflix-youtube-roku,review-3576.html
 
-<img src="/img/netflix-cast-crop.jpg" class="retina center no-border">
+<img src="/img/netflix-cast-crop.jpg" class="retina center no-border" alt="Screen shot of the Netflix mobile app.">
 
 <p class="caption">The cast icon is right above Dave's head.</p>
 

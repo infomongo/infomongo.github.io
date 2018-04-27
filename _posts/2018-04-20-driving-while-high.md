@@ -8,7 +8,7 @@ twitter-image: /img/Ernie-and-Bert-Glitch.jpg
 ---
 
 <div>
-<img src="/img/Ernie-and-Bert-Glitch.jpg" class="full-width">
+<img src="/img/Ernie-and-Bert-Glitch.jpg" class="full-width" alt="">
 </div>
 
 I watched a [CBS This Morning story about driving while high][cbs]. It’s April 20 (4/20) so we got to have some pot news.

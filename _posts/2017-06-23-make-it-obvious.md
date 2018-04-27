@@ -11,7 +11,7 @@ When designing an application, make it obvious how to get started.
 
 The canonical example of an obvious starting point:
 
-<img src="/img/google.png" class="full-width">
+<img src="/img/google.png" class="full-width" alt="Google Home Page">
 
 This is a recent capture of Google’s home page. The core design is nearly identical to the first version of the Google home page that debuted in 1998. Other than the branding, I think the only thing new is the microphone, which allows you to search with your voice.
 
@@ -19,7 +19,7 @@ At the time, [portals](https://en.wikipedia.org/wiki/Web_portal) ruled the world
 
 Here is one current site that still uses this approach:
 
-<img src="/img/craigslist.gif" class="full-width">
+<img src="/img/craigslist.gif" class="full-width" alt="Craig's List Home Page">
 
 <p class="caption">Seriously kids, this is what most of the web looked like in 1999.</p>
 
@@ -33,7 +33,7 @@ Not many people use the Google home page anymore, most people start searches in 
 
 ### Another Example
 <div >
-	<img src="/img/lyft.jpg" class="retina float pull">
+	<img src="/img/lyft.jpg" class="retina float pull" alt="Lyft Home Screen">
 </div>
 
 Lyft is also doing a fine job getting you started. The app is using your location to set the pickup point and the big purple ‘Set pickup’ button is hard to miss. 
