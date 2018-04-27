@@ -54,10 +54,10 @@ $(function() {
 		}
 		
 		if (showError ) {
-			errorElem.removeClass('hidden');
-			$('.new-date').addClass('hidden');
+			errorElem.removeClass('transparent');
+			$('.new-date').addClass('transparent');
 		} else {
-			errorElem.addClass('hidden');
+			errorElem.addClass('transparent');
 			convertDate()
 		};
 		
@@ -192,7 +192,7 @@ $(function() {
 		// console.log('weekDay ' + weekDay);
 		// console.log('dayofweek ' + dayofweek);
 		
-		$('.new-date').addClass('hidden');
+		$('.new-date').addClass('transparent');
 		
 		$('#new-month').html(newMonth);
 		$('#new-day').html(modulo);
@@ -200,8 +200,8 @@ $(function() {
 		$('#short-date').html( divisor + '/' + modulo);
 		
 		setTimeout(function(){
-			$('.new-date').removeClass('hidden');
-		}, 100);
+			$('.new-date').removeClass('transparent');
+		}, 300);
 		
 		
 		

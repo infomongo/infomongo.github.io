@@ -7,7 +7,7 @@ a {
 	&:visited {
 	   color: black;
 	}
-	&:hover {
+	&:hover, &:focus {
 		color: $accent-color;
 		//text-decoration: underline;
 	}
@@ -16,8 +16,10 @@ a {
 header nav a {
 	color: black;
 	text-decoration: none;
+	transition: all ease-out 0.3s;
 	padding: .5em 1em;
 	border-radius: 3em;
+	border: 1px white solid;
 	//background-color: #eee;
 	&:first-of-type {
 		//background-color: #fee;
@@ -26,9 +28,9 @@ header nav a {
 	&:visited {
 	   color: black;
 	}
-	&:hover{
-		color: $accent-color;
-		text-decoration: none;
+	&:focus, &:hover {
+		//color: $accent-color;
+		border-color: $accent-color;
 	}
 	&.active {
 		background-color: $accent-color;
@@ -36,6 +38,10 @@ header nav a {
 		animation: grow 1.5s .25s 1;
 		display: inline-block;
 		margin-left: 0 !important;
+		&:focus {
+			background-color: black;
+			border-color: black;
+		}
 	}
 }
 
@@ -45,11 +51,12 @@ header nav a {
 }
 
 .error { color: $accent-color;}
-:focus { outline: $accent-color solid 1px; }
-a:focus {
-	outline: none;
-	border: 1px $accent-color solid;
+:focus { 
+	outline: $accent-color solid 1px; 
+	transition: all ease-out 0.3s;
 }
+a:focus { outline: none;}
+a:focus img { border: 1px $accent-color solid !important}
 
 body:focus {
 	outline: none;

@@ -56,7 +56,7 @@ Arp, Baw, Cor, Dur, Ell, Fen, Gam, Hob, Isp, Jom, Kro, Lem, Mog and Non
 			<option value="Dec">December</option>
 		</select>
 		<input id="current-day" type="number" pattern="\d*" value="1">
-		<div class="error hidden">
+		<div class="error transparent">
 			Enter a number between 1 and <span id="num">31</span>
 		</div>
 	</div>

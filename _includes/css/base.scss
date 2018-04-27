@@ -54,6 +54,10 @@ h2 { font-size: percentage(28/20);}
 h3 { font-size: percentage(24/20);}
 
 .hidden { display: none;}
+.transparent {
+	opacity: 0;
+	transition: all ease-out 0.3s;
+}
 
 p {margin: 0 0 1rem; }
 pre { overflow: auto;}

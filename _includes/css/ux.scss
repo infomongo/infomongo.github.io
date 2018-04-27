@@ -1,7 +1,9 @@
 @import "shared";
+$border-color: #b5b4b6;
 
 .title {margin-bottom: .75rem;}
 .ux-img {
+	margin-bottom: .1	25rem;
 	img {
 		max-width: 100%;
 		margin: 0;
@@ -35,9 +37,6 @@ img.push {
 	.ux-img {
 		display: block;
 		background-color: white;
-		img {
-			border-width: 1.2px;
-		}
 	}
 
 }
@@ -47,7 +46,7 @@ img.push {
 	
 	iframe.hide-mobile {
 		float: left;
-		border: 1px #b5b4b6 solid;
+		border: 1px $border-color solid;
 		margin: 0 1rem 1rem 0;
 	}
 	
@@ -61,7 +60,7 @@ img.push {
 		
 		.item {
 			display: flex;
-			align-items: center
+			align-items: center;
 		}
 		.info {
 			padding: 2rem;
@@ -73,18 +72,8 @@ img.push {
 			width: 34%;
 		}
 		
-		.tokens {
-			.ux-img {
-				border: 1px #b5b4b6 solid;
-				text-align: center;
-				img {
-					border:none;
-					padding: 1rem 0;
-				}
-			}
-		}
 		.item {
-			.ux-img {order: 2;}
+			.ux-img {order: 2; }
 			.info {
 				text-align: right;
 				width: 34%;
