@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="725px" height="330px" viewBox="0 0 725 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(52.000000, 10.000000)">
+            <g id="Group-15" transform="translate(79.000000, 0.000000)">
+                <path d="M137.500027,0.999999891 L137.500027,274.999981" id="Stroke-5" stroke="#D5D5D5"></path>
+                <path d="M274.500018,0.999999891 L274.500018,274.999981" id="Stroke-7" stroke="#D5D5D5"></path>
+                <path d="M411.500008,0.999999891 L411.500008,274.999981" id="Stroke-9" stroke="#D5D5D5"></path>
+                <path d="M548.499998,0.999999891 L548.499998,274.999981" id="Stroke-11" stroke="#D5D5D5"></path>
+                <path d="M0.499996786,274.499952 L0.499996786,0.500000725" id="Stroke-13" stroke="#000000" stroke-linecap="square"></path>
+            </g>
+            <text id="Oman" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="37" y="18.2353878">Oman</tspan>
+            </text>
+            <text id="Saudi-Arabia" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="5" y="45.2353878">Saudi Arabia</tspan>
+            </text>
+            <text id="Egypt" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="39" y="73.2353878">Egypt</tspan>
+            </text>
+            <text id="Iran" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="49" y="100.235388">Iran</tspan>
+            </text>
+            <text id="Israel" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="41" y="128.235388">Israel</tspan>
+            </text>
+            <text id="Syria" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="43" y="155.235388">Syria</tspan>
+            </text>
+            <text id="Yemen" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="34" y="182.235388">Yemen</tspan>
+            </text>
+            <text id="Jordan" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="33" y="210.235388">Jo</tspan>
+                <tspan x="45.023" y="210.235388" letter-spacing="-0.197222612">r</tspan>
+                <tspan x="48.2907774" y="210.235388">dan</tspan>
+            </text>
+            <text id="United-States" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="0" y="237.235388">United States</tspan>
+            </text>
+            <text id="Iraq" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="48" y="265.235388">Iraq</tspan>
+            </text>
+            <text id="Deaths-by-Firearm-per-100,000-People" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="245" y="306.752144">Deaths by Fi</tspan>
+                <tspan x="315.896" y="306.752144" letter-spacing="-0.215151941">r</tspan>
+                <tspan x="320.132848" y="306.752144">earm per 100,000 People</tspan>
+            </text>
+            <text id="0" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="76" y="286.235388">0</tspan>
+            </text>
+            <text id="2" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="213" y="286.235388">2</tspan>
+            </text>
+            <text id="4" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="350" y="286.235388">4</tspan>
+            </text>
+            <text id="6" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="487" y="286.235388">6</tspan>
+            </text>
+            <text id="8" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="624" y="286.235388">8</tspan>
+            </text>
+            <polygon id="Fill-47" fill="#FF7F01" points="80 25 84 25 84 6 80 6"></polygon>
+            <polygon id="Fill-49" fill="#FF7F01" points="80 52 88 52 88 33 80 33"></polygon>
+            <polygon id="Fill-51" fill="#FF7F01" points="80 79 100 79 100 60 80 60"></polygon>
+            <polygon id="Fill-53" fill="#FF7F01" points="80 107 135 107 135 87 80 87"></polygon>
+            <polygon id="Fill-55" fill="#FF7F01" points="80 134 144 134 144 114 80 114"></polygon>
+            <polygon id="Fill-57" fill="#FF7F01" points="80 161 160 161 160 142 80 142"></polygon>
+            <polygon id="Fill-59" fill="#FF7F01" points="80 188 177 188 177 169 80 169"></polygon>
+            <polygon id="Fill-61" fill="#FF7F01" points="80 216 222 216 222 196 80 196"></polygon>
+            <polygon id="Fill-63" fill="#FFD500" points="80 243 343 243 343 223 80 223"></polygon>
+            <polygon id="Fill-65" fill="#FF7F01" points="80 270 373 270 373 251 80 251"></polygon>
+            <text id="4.28" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="349" y="264.235388">4.28</tspan>
+            </text>
+            <text id="3.85" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="319" y="237.235388">3.85</tspan>
+            </text>
+            <text id="2.08" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="198" y="209.235388">2.08</tspan>
+            </text>
+            <text id="1.43" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="153" y="182.235388">1.43</tspan>
+            </text>
+            <text id="1.17" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="136" y="155.235388">1.17</tspan>
+            </text>
+            <text id="0.94" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="120" y="128.235388">0.94</tspan>
+            </text>
+            <text id="0.80" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="111" y="100.235388">0.80</tspan>
+            </text>
+            <text id="0.29" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="105" y="73.2353878">0.29</tspan>
+            </text>
+            <text id="0.12" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="91" y="46.2353878">0.12</tspan>
+            </text>
+            <text id="0.06" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="87" y="19.2353878">0.06</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

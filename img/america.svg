@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700px" height="320px" viewBox="0 0 700 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="america" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M260.499985,16.9999999 L260.499985,290.999981" id="Stroke-5" stroke="#B5B4B6"></path>
+        <path d="M397.499976,16.9999999 L397.499976,290.999981" id="Stroke-7" stroke="#B5B4B6"></path>
+        <path d="M534.499966,16.9999999 L534.499966,290.999981" id="Stroke-9" stroke="#B5B4B6"></path>
+        <path d="M671.499957,16.9999999 L671.499957,290.999981" id="Stroke-11" stroke="#B5B4B6"></path>
+        <path d="M123.499995,290.499952 L123.499995,16.5000007" id="Stroke-13" stroke="#000000" stroke-linecap="square"></path>
+        <text id="Canada" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="77" y="36">Canada</tspan>
+        </text>
+        <text id="United-States" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="47" y="63">United States</tspan>
+        </text>
+        <text id="Costa-Rica" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="61.3125" y="90">Costa Rica</tspan>
+        </text>
+        <text id="Nicaragua" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="65.3027344" y="118">Nicaragua</tspan>
+        </text>
+        <text id="Belize" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="87.3164062" y="145">Belize</tspan>
+        </text>
+        <text id="Mexico" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="81.9902344" y="172">Mexico</tspan>
+        </text>
+        <text id="Panama" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="75.3046875" y="199">Panama</tspan>
+        </text>
+        <text id="Honduras" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="67.96875" y="226">Honduras</tspan>
+        </text>
+        <text id="Guatemala" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="61.3007812" y="253">Guatemala</tspan>
+        </text>
+        <text id="El-Salvador" font-family="Helvetica" font-size="12" font-weight="normal" fill="#4A4A4A">
+            <tspan x="58.6347656" y="281">El Salvador</tspan>
+        </text>
+        <text id="0" font-family="Helvetica" font-size="11" font-weight="normal" fill="#4A4A4A">
+            <tspan x="120" y="302.235388">0</tspan>
+        </text>
+        <text id="10" font-family="Helvetica" font-size="11" font-weight="normal" fill="#4A4A4A">
+            <tspan x="255" y="302.235388">10</tspan>
+        </text>
+        <text id="20" font-family="Helvetica" font-size="11" font-weight="normal" fill="#4A4A4A">
+            <tspan x="391.382324" y="302.235388">20</tspan>
+        </text>
+        <text id="30" font-family="Helvetica" font-size="11" font-weight="normal" fill="#4A4A4A">
+            <tspan x="528.382324" y="302.235388">30</tspan>
+        </text>
+        <text id="40" font-family="Helvetica" font-size="11" font-weight="normal" fill="#4A4A4A">
+            <tspan x="665.382324" y="302.235388">40</tspan>
+        </text>
+        <polygon id="Fill-47" fill="#B5B4B6" points="124 42 129 42 129 22 124 22"></polygon>
+        <polygon id="Fill-49" fill="#FF8001" points="124 69 176 69 176 49 124 49"></polygon>
+        <polygon id="Fill-51" fill="#B5B4B6" points="124 96 193 96 193 76 124 76"></polygon>
+        <polygon id="Fill-53" fill="#B5B4B6" points="124 124 196 124 196 104 124 104"></polygon>
+        <polygon id="Fill-55" fill="#B5B4B6" points="124 151 265 151 265 131 124 131"></polygon>
+        <polygon id="Fill-57" fill="#B5B4B6" points="124 178 270 178 270 158 124 158"></polygon>
+        <polygon id="Fill-59" fill="#B5B4B6" points="124 205 272 205 272 185 124 185"></polygon>
+        <polygon id="Fill-61" fill="#B5B4B6" points="124 233 401 233 401 213 124 213"></polygon>
+        <polygon id="Fill-63" fill="#B5B4B6" points="124 260 489 260 489 240 124 240"></polygon>
+        <polygon id="Fill-65" fill="#B5B4B6" points="124 287 673 287 673 267 124 267"></polygon>
+        <text id="40.29" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="640.970703" y="281">40.29</tspan>
+        </text>
+        <text id="3.85-copy" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="150" y="63">3.85</tspan>
+        </text>
+        <text id="26.81" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="456.970703" y="254">26.81</tspan>
+        </text>
+        <text id="20.56" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="367.970703" y="227">20.56</tspan>
+        </text>
+        <text id="10.85" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="239.970703" y="199">10.85</tspan>
+        </text>
+        <text id="5.09" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="167" y="90">5.09</tspan>
+        </text>
+        <text id="5.32" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="170" y="118">5.32</tspan>
+        </text>
+        <text id="10.44" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="232.970703" y="145">10.44</tspan>
+        </text>
+        <text id="10.76" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFFFF">
+            <tspan x="237.970703" y="172">10.76</tspan>
+        </text>
+        <text id="0.48" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#4A4A4A">
+            <tspan x="131" y="36">0.48</tspan>
+        </text>
+        <rect id="Rectangle" fill="#FFFFFF" x="435" y="14" width="221" height="20"></rect>
+        <text id="Firearm-Deaths-per-1" font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold" fill="#4A4A4A">
+            <tspan x="441" y="29">Firearm Deaths per 100,000</tspan>
+        </text>
+    </g>
+</svg>

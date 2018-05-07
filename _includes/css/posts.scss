@@ -24,6 +24,20 @@
 	}
 }
 
+table {
+	margin: 1rem 0;
+}
+th { 
+	text-align: left;
+	background-color: #eee ;
+ }
+td, th { 
+	padding: .25rem .75rem ;
+	font-size: 80%;
+}
+tr:nth-child(even) {
+  background: #eee;
+}
 
 @media only screen and (min-width : 1000px) {
 	.post {
