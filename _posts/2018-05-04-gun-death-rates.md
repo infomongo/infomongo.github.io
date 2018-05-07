@@ -49,7 +49,7 @@ Except for Canada, most of the counties in are quite a bit poorer. Income inequa
 </div>
 
 
-The chart omits the Guyanas, with rate of 8.86 gun deaths per 100,000 and Uruguay, with a rate of 2.94.
+The chart omits the Guyanas, with rate of 8.86 gun deaths per 100,000 and Uruguay, with a rate of 2.94.  
 
 Bolivia is a much poorer country, but has a rate similar to the United States. 
 
@@ -61,7 +61,7 @@ Bolivia is a much poorer country, but has a rate similar to the United States.
 
 American Samoa and the US Virgin Islands are US Territories. The US Virgin Islands has the highest rate of gun deaths in the Caribbean, while American Samoa has one of the lowest.
 
-Bermuda, Antigua and Barbuda and the Bahamas all have similar average income levels, about half of those in the US. 
+Bermuda, Antigua and Barbuda and the Bahamas all have similar average income levels, about half the average income of the US. Bermuda and Antigua and Barbuda have fairly low rates of gun deaths, while the rate in the Bahamas is much higher.
 
 Haiti, a very poor country, has about the same rate of gun deaths as the U.S.
 
@@ -73,7 +73,7 @@ Haiti, a very poor country, has about the same rate of gun deaths as the U.S.
 
 The rates of gun death are much lower in the Middle East than in the Western hemisphere, again omitting deaths due to armed conflict. The richest countries in the region have fairly low gun death rates, the lowest are comparable to Europe. 
 
-Iran, Pakistan and Israel all have very similar rates. Israel is a fairly wealthy industrialized nation. Iran is less wealthy and industrialized, while Pakistan is a fairly poor county.
+Iran, Pakistan and Israel all have very similar rates. Israel is a wealthy industrialized nation, with very strict gun control laws. Iran is less wealthy and industrialized, while Pakistan is a fairly poor county.
 
 
 ## Sub-Saharan Africa 
