@@ -7,7 +7,7 @@ categories: other guns
 twitter-image: /img/western-europe.png
 ---
 
-How violent is the United States? How much of role does wealth and industrialization play in the rates of gun deaths?
+How violent is the United States? How do wealth and industrialization affect the rates of gun deaths?
 
 The data on gun deaths comes from the [Institute for Health Metrics and Evaluation][guns], at the University of Washington. It excludes suicides and deaths from war or other “armed conflicts.” The figures listed are from 2016.
 
