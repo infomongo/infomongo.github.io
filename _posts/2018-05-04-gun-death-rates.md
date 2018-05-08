@@ -7,7 +7,7 @@ categories: other guns
 twitter-image: /img/western-europe.png
 ---
 
-How violent is the United States? How do wealth and industrialization affect the rates of gun deaths?
+How violent is the United States? How do wealth and industrialization affect gun death rates?
 
 The data on gun deaths comes from the [Institute for Health Metrics and Evaluation][guns], at the University of Washington. It excludes suicides and deaths from war or other “armed conflicts.” The figures listed are from 2016.
 
@@ -38,9 +38,9 @@ This graph shows how the U.S. compares to our neighbors in North & Central Ameri
 
 Canada is the outlier here. The rate of gun violence is on par with the highest rates in Western Europe.
 
-El Salvador has the highest rate of gun deaths in the world. Again, this data isn’t counting deaths from armed conflicts. Of the counties that are not having a war, El Salvador has the highest rate of gun deaths.
+El Salvador has the highest rate of gun deaths in the world. Again, this data isn’t counting deaths from armed conflicts. Of the counties not having a war, El Salvador has the highest rate of gun deaths.
 
-Except for Canada, most of the counties in are quite a bit poorer. Income inequality is somewhat higher in these countries than in the U.S.
+Except for Canada and the U.S., most of these counties are fairly poor. Income inequality is somewhat higher in these countries than in the U.S.
 
 ## South America
 
@@ -61,7 +61,7 @@ Bolivia is a much poorer country, but has a rate similar to the United States.
 
 American Samoa and the US Virgin Islands are US Territories. The US Virgin Islands has the highest rate of gun deaths in the Caribbean, while American Samoa has one of the lowest.
 
-Bermuda, Antigua and Barbuda and the Bahamas all have similar average income levels, about half the average income of the US. Bermuda and Antigua and Barbuda have fairly low rates of gun deaths, while the rate in the Bahamas is much higher.
+Bermuda, Antigua and Barbuda and the Bahamas all have similar average income levels, about half the average income of the U.S. Bermuda and Antigua and Barbuda have fairly low rates of gun deaths, while the rate in the Bahamas is much higher.
 
 Haiti, a very poor country, has about the same rate of gun deaths as the U.S.
 
