@@ -5,6 +5,13 @@
 .archive { margin-top: 2rem;}
 .popular {margin-bottom: 2rem;}
 
+.subhead {
+	font-size: percentage(22/20);
+	color: lighten(black, 45%);
+}
+
+.post-title { margin-top: .5rem;}
+
 #date-convert{
 	display: flex;
 	flex-wrap: wrap;
