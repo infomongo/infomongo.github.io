@@ -64,9 +64,9 @@ I have worked on agile teams with too much ceremony and way too many meetings. B
 
 ## Where Agile Goes Wrong
 
-If your team is spending a lot of time estimating stories and measuring velocity, then I think you are missing the point. The defense of measuring velocity is that it’s the only way to estimate when the project will hit some milestone. “We have to measure velocity because it’s the only way we can tell if we will hit our 1.5 release date.”
+If your team is spending a lot of time estimating stories and measuring velocity, I think you are missing the point. The defense of measuring velocity is that it’s the only way to estimate when the project will hit some milestone. “We have to measure our velocity to see if we'll hit our 1.5 release.”
 
-Typically this milestone is some set of features that were promised to a customer, to “the board” or some such. Often on these teams, product management is effectively absent. There is somebody from *program management* tasked with “running the scrum” and communicating with product management.  
+The milestone is some set of features that were promised to a customer, to “the board” or some such. Often on these teams, product management is effectively absent. Somebody from *program management* is tasked with “running the scrum” and communicating with product management.  
 
 However, this ignores a fundamental reality of software development. It’s a “scope, schedule or quality, choose two” kind of world. *(People talk about budget, schedule and scope, but I have never worked on a project that could be delivered faster by increasing the budget. The cost of bringing new people up to speed outweighs the benefits of adding them over the short term.)* If the set of features is set in stone, well then scope is fixed. And often, the date was promised too, so there’s your schedule. This is pretty much a ticket to long hours, poor quality and low morale.
 
