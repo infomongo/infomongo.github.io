@@ -50,7 +50,7 @@ Once we started meeting every day, communication improved dramatically. And afte
 
 I was doing UX design for the team, so I was one of the main “customer representatives.” As soon we made the switch, I had developers in my office all the time. We had lots of productive conversations. An engineer would raise an issue, like a data load process that was slower than anticipated. We’d talk about the various options and make some choices. This could result in a sort of “band-aid” being applied temporarily, and a new story written for the next iteration. Or we might change our approach, or adapt the design. But everyone had a much better picture of what “done” looked like and what the actual technical hurdles were.
 
-The biggest change tho, was in how the project was scheduled. Initially, we had a very clear idea of what features we were going to implement and in what order. But as soon as we started working, that plan pretty much went out the window. Some of our feature ideas would just take longer to implement than they were worth. “It would be great to have that feature, but not if it is going to take a month to implement.” 
+The biggest change tho, was in how the project was scheduled. Initially, we had a very clear idea of what features we were going to implement and in what order. But as soon as we started working, that plan pretty much went out the window. Some of our feature ideas would just take longer to implement than they were worth. “It would be great to have that feature, but not if it is going to take a month to build.” 
 
 But the surprising thing was that as we built and used the application, we started to have new ideas about how it should work. Once we’d used a feature, we’d have ideas for similar features that took priority over the work we’d previously planned.
 
@@ -66,7 +66,8 @@ I have worked on agile teams with too much ceremony and way too many meetings. B
 
 If your team is spending a lot of time estimating stories and measuring velocity, I think you are missing the point. The defense of measuring velocity is that it’s the only way to estimate when the project will hit some milestone. “We have to measure our velocity to see if we'll hit our 1.5 release.”
 
-The milestone is some set of features that were promised to a customer, to “the board” or some such. Often on these teams, product management is effectively absent. Somebody from *program management* is tasked with “running the scrum” and communicating with product management.  
+The milestone is some set of features that were promised to a customer, to “the board” or some such. Often on these teams, product management is effectively absent. Somebody from *program management* is
+ tasked with “running the scrum” and communicating with product management.  
 
 However, this ignores a fundamental reality of software development. It’s a “scope, schedule or quality, choose two” kind of world. *(People talk about budget, schedule and scope, but I have never worked on a project that could be delivered faster by increasing the budget. The cost of bringing new people up to speed outweighs the benefits of adding them over the short term.)* If the set of features is set in stone, well then scope is fixed. And often, the date was promised too, so there’s your schedule. This is pretty much a ticket to long hours, poor quality and low morale.
 
