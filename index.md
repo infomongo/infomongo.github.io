@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 'infomongo: the online home of john phillips'
-description: The portfolio site of John Phillips, a UX designer located in Denver, CO.
+title: 'Infomongo: The Online Home of John Phillips'
+description: 'The portfolio site of John Phillips, a UX designer and writer located in Denver, CO.'
 css-include: 
    - home.css
 ---
