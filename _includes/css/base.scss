@@ -32,7 +32,7 @@ em, i {
 	font-family: 'pt_sansitalic', sans-serif;
 	font-style: normal;
 }
-strong, b, th, .subhead {
+strong, b, th, label, .subhead {
 	font-family: 'pt_sansbold', sans-serif;
 }
 
@@ -81,6 +81,10 @@ section {
 	//margin: 0 auto;
 }
 
+.top-border { border-top: 1px $border-color solid; padding-top: 2rem;}
+.top-margin { margin-top: 2rem; }
+.center { text-align: center; }
+
 img {
 	border: 1px $border-color solid;
 	margin: 1rem 0;
@@ -101,6 +105,28 @@ img {
 	&.float {
 		float: left;
 		margin: 0 1rem 1rem 0;
+	}
+}
+
+form {
+	overflow: auto;
+	label {
+		display: block;
+	}
+	input[type=text], textarea{
+		width: 100%;
+		padding: .25rem;
+		border: 1px $border-color solid;
+		margin-bottom: .5rem;
+		border-radius: 3px;
+		-webkit-appearance: none;
+	}
+	textarea {
+		display: block;
+		height: 8rem;
+	}
+	input[type=submit]{
+		float: right;
 	}
 }
 
