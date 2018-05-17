@@ -23,8 +23,8 @@ My background is in technology. I have been designing applications and building 
 
 <div class="two-col top-margin bottom-margin">
 	<div class="text-col">
-		<h2>Have a technical topic you want to explain?</h2>
-		<h2>Need a clearly written how-to?</h2>
+		<h2>Have a technical topic you need to explain?</h2>
+		<h2>Want a clearly written how-to?</h2>
 	</div>	
 	<div class="cta-col">
 		<a href="#contact" class="button cta prevent">Let’s Get Started</a>
