@@ -1,0 +1,20 @@
+<div id="contact">
+	<h2>Contact Me</h2>
+	<p class="contact-info">
+		<a href="&#x6D;&#97;&#105;l&#116;&#x6F;:&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;">&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;</a> — or use the form below 
+	</p>
+
+	<form accept-charset="UTF-8" action="https://usebasin.com/f/28367e99ae23" method="POST">
+
+		<label for="contact-info">Email or Phone</label>
+		<input name="contact" id="contact-info" type="text">
+		<p class="error hidden" id="contact-info-error">Please enter your email address or phone number.</p>
+		<p class="help">How would you like to be contacted?</p>
+
+		<textarea name="message" id="contact-msg"></textarea>
+		<p class="error hidden" id="contact-msg-error">Please tell me something about the post you want.</p>
+		<input name="hidden" type="hidden" value="{{page.path}}">
+		<input type="submit" id="submit" value="Send Message">
+	</form>
+
+</div>
