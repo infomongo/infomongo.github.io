@@ -1,6 +1,4 @@
-$text-color: #000;
-$border-color: #b5b4b6;
-
+@import "variables";
 @import "orange";
 @import "fonts";
 
@@ -83,6 +81,7 @@ section {
 
 .top-border { border-top: 1px $border-color solid; padding-top: 2rem;}
 .top-margin { margin-top: 2rem; }
+.bottom-margin { margin-bottom: 2rem; }
 .center { text-align: center; }
 
 img {

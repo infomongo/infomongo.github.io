@@ -1,0 +1,81 @@
+@import "variables";
+
+.landing {
+	ol, ul {
+		margin-top: 0;
+		padding-left: 1.2rem;
+		li {
+			margin-bottom: .25rem;
+		}
+	}
+	.total { color: $lite-text; }
+	.note {
+		color: $lite-text;
+		font-size: 80%;
+		a {
+			color: $lite-text;
+		}
+	}
+}
+
+.writing {
+	.type, .rate {
+		padding-right: 1rem;
+	}
+	.total { display: block;}
+
+	.cta-col { 
+		text-align: center;
+		.cta {margin: 1rem 0;}
+	}
+	.text-col h2 { margin-top: 0;}
+}
+
+@media only screen and (min-width : 700px) {
+	//specific to tech-blogger
+	.writing {
+		.narrow ol {
+			width: 90%;
+		}
+	}
+	// general to all landing pages
+	.landing {
+		h1 {
+			font-size: 200%;
+		}
+		.narrow {
+			max-width: 66%;
+		}
+		#contact {
+			form, .half {
+				width: 50%;
+			}
+		}
+		.two-col {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			//margin: 2rem 0 1rem;
+		}
+		.text-col {
+			min-width: 70%;
+			//background: #eee;
+		}
+		.cta-col {
+			text-align: right;
+			//background: #eef;
+			.cta {margin:0;}
+		}
+		.type, .rate {
+			display: inline-block;
+			min-width: 10rem;
+			padding-right: 0;
+		}
+		.rate {
+			min-width: 8rem;
+		}
+		.total {
+			display: inline;
+		}
+	}
+}
