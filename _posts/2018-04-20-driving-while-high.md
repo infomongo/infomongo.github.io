@@ -33,7 +33,7 @@ Marijuana is not a depressant and while it does impair your judgement, it doesn�
 
 *( from a [livescience.com article](https://www.livescience.com/51450-driving-on-marijuana-alcohol-dangerous.html) )*
 
-> “**Because of […] this and an increased awareness that they are impaired, marijuana smokers tend to compensate effectively while driving by utilizing a variety of behavioral strategies**.”
+> “Because of […] this and an increased awareness that they are impaired, marijuana smokers tend to compensate effectively while driving by utilizing a variety of behavioral strategies.”
 
 
 *( from this [study published in The American Journal of Addictions](https://onlinelibrary.wiley.com/doi/abs/10.1080/10550490902786934) )*
@@ -62,7 +62,7 @@ It's early days. There have not yet been many studies of the effects cannabis ha
 
 **A word of caution:** many studies show that cannabis and alcohol used together are bad news. People who both smoked and drank perform worse at lower blood alcohol levels than people who only drank alcohol. Effectively, they test as if they are drunker than their blood alcohol levels would suggest.
 
-> **Drunk and stoned driving is much worse than regular old drunk driving.**
+> Drunk and stoned driving is much worse than regular old drunk driving.
 
 So be safe out there on 4/20. Probably best for everybody if you take a Lyft.
 

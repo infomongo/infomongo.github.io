@@ -62,15 +62,12 @@ links:
 	{% if next == count %}
 		{% assign next = 0  %}
 	{% endif %}
-	<div class="text">
-		<nav class="next">
-			{% for link in layout.links[prev] %}
-				<span>≪<a href="{{link[0]}}">{{link[1]}}</a></span>
-			{% endfor %}
-			<span><a href="/ux-design/">UX Design</a></span>
-			{% for link in layout.links[next] %}
-				<span><a href="{{link[0]}}">{{link[1]}}</a>≫</span>
-			{% endfor %}
-		</nav>
-	</div>
+	<nav class="next">
+		{% for link in layout.links[prev] %}
+			<span class="next"><a href="{{link[0]}}">{{link[1]}}</a></span>
+		{% endfor %}
+		{% for link in layout.links[next] %}
+			<span class="prev"><a href="{{link[0]}}">{{link[1]}}</a></span>
+		{% endfor %}
+	</nav>
 </section>

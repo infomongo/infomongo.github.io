@@ -12,6 +12,9 @@ blockquote {
 	font-size: 110%;
 	color: $lite-text;
 	font-family: 'pt_sansitalic', sans-serif;
+	p {
+		margin: 0;
+	}
 }
 
 .title { text-transform: uppercase;}
@@ -19,19 +22,39 @@ blockquote {
 .caption { text-align: center; }
 
 nav.next {
-	margin: 3rem 0 3rem;
-	border: 1px #b5b4b6 solid;
+	margin: 3rem 0 0;
+	border: 1px $border-color solid;
 	border-left: none;
 	border-right: none;
 	padding: 1rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 	span {
-		display: block;
-		margin-bottom: .25rem;
-		padding-left: .75rem;
+		flex: 1 1 ;
+		display: flex;
+		align-items: center;
 	}
-	span:first-of-type {
-		padding-left: 0;
+	span.prev {
+		text-align: right;
+		padding-left: 1rem;
+		justify-content: flex-end;
+		&::after {
+			content: "≫";
+			padding-left: .25rem;
+		}
 	}
+	span.next {
+		text-align: left;
+		padding-right: 1rem;
+		justify-content: flex-start;
+		&::before {
+			content: "≪";
+			padding-right: .25rem;
+		}
+	}
+	
 }
 
 #contact {
@@ -39,33 +62,18 @@ nav.next {
 }
 
 
-@media only screen and (min-width : 1000px) {
+@media only screen and (min-width : 700px) {
 	.post, .ux {
 		blockquote {
-			//margin-left: -200px;
-			margin-left: -50px;
-			margin-left: -2rem;
 			font-size: 125%;
 		}
 	}
-	nav.next {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		span {
-			flex: 1 1 ;
-			text-align: center;
-			padding: 0;
-		}
-		span:last-of-type {
-			text-align: right;
-		}
-		span:first-of-type {
-			text-align: left;
-		}
-	}
-	.post nav.next span {
-		flex-basis: auto;
-	}
+}
 
+@media only screen and (min-width : 1100px) {
+	.post, .ux {
+		blockquote {
+			margin: 1rem -3rem;
+		}
+	}
 }

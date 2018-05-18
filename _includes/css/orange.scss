@@ -2,14 +2,12 @@ $accent-color: #ff8000;
 
 a {
 	color: black;
-	//text-decoration: none;
 	transition: color ease-out 0.3s;
 	&:visited {
 	   color: black;
 	}
 	&:hover, &:focus {
 		color: $accent-color;
-		//text-decoration: underline;
 	}
 }
 
@@ -34,16 +32,13 @@ header nav a {
 	padding: .5em 1em;
 	border-radius: 3em;
 	border: 1px white solid;
-	//background-color: #eee;
 	&:first-of-type {
-		//background-color: #fee;
 		margin-left: -1em;
 	}
 	&:visited {
 	   color: black;
 	}
 	&:focus, &:hover {
-		//color: $accent-color;
 		border-color: $accent-color;
 	}
 	&.active {

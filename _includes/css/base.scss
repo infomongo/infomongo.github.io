@@ -24,8 +24,6 @@ main {
 	display: block;
 }
 
-.hide-mobile { display: none; }
-
 em, i {
 	font-family: 'pt_sansitalic', sans-serif;
 	font-style: normal;
@@ -49,6 +47,7 @@ h1 { font-size: percentage(32/20);}
 h2 { font-size: percentage(28/20);}
 h3 { font-size: percentage(24/20);}
 
+.hide-mobile { display: none; }
 .hidden { display: none;}
 .transparent {
 	opacity: 0;
@@ -64,19 +63,13 @@ header {
 	padding: 2rem 0 3rem;
 	font-size: percentage(16/18);
 	// fix a bug in chrome, subpixel anti aliasing changes color of colored text
-	-webkit-font-smoothing: antialiased;
+	//-webkit-font-smoothing: antialiased;
 }
 
 section {
 	h2:first-of-type {
-		//color: red;
 		margin-top: 0;
 	}
-}
-
-.text {
-	max-width: 44rem;
-	//margin: 0 auto;
 }
 
 .top-border { border-top: 1px $border-color solid; padding-top: 2rem;}
@@ -130,7 +123,7 @@ form {
 }
 
 footer {
-	padding: 3rem 1rem 1rem;
+	padding: 2rem 1rem 1rem;
 	div {
 		border: 1px $border-color solid;
 		border-left: none;
@@ -159,20 +152,24 @@ footer {
 	header {
 		padding: 5rem 0 7rem;
 	}
-	main, footer {
-		width: 1000px;
-		margin: 0 auto;
-	}
 	ol, ul { padding-left: 0; }
 	section {
 		padding: 0;
-		//max-width: 1000px;
 		margin: 0 auto;
 	}
 	img {
 		&.retina {
 			width: 50%;
 		}
+	}
+}
+
+@media only screen and (min-width : 1020px) {
+	main, footer {
+		width: 1000px;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
