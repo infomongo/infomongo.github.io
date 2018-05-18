@@ -26,7 +26,7 @@ While on a business trip for the group, laying in the hotel bed unable to sleep,
 On the Mac, an alias is small file that points to another file. It acts like a lightweight copy of the original file. *On Windows these are called shortcuts.* Anything you can do with the original file, you can do with the alias. But they aren’t portable between machines.
 
 <div class="">
-	<img src="/img/ux/token-redeemer.gif" class="no-border full-width">
+	<img src="/img/ux/token-redeemer.gif" class="no-border float pull full-width" alt="The Token Redeemer Window">
 </div>
 
 
@@ -43,7 +43,11 @@ There were two applications, the Token Creator and the Token Redeemer. The Redee
 ### The Token Creator 
 
 <div class="">
-	<img src="/img/ux/token-creator-icon.png" class="no-border float push">
+	<img src="/img/ux/token-creator-icon.png"
+		alt="Token Creator Icon" 
+		srcset="/img/ux/token-creator-icon.png 112w"
+		sizes="(min-width: 500px) 112px, 56px"
+	class="no-border float pull" >
 </div>
 
 
@@ -67,7 +71,11 @@ The app also added contextual menus. You could right-click on any file or folder
 ### The Token Redeemer
 
 <div class="">
-	<img src="/img/ux/token-redeemer-icon.png" class="no-border float push">
+	<img src="/img/ux/token-redeemer-icon.png" 
+		alt="Token Redeemer Icon" 
+		srcset="/img/ux/token-redeemer-icon.png 112w"
+		sizes="(min-width: 500px) 112px, 56px"
+	class="no-border float pull" >
 </div>
 
 

@@ -91,12 +91,11 @@ img {
 		border: none;
 	}
 	&.shrink {
-		width: 40%;
 		max-width: 15rem;
 	}
 	&.float {
 		float: left;
-		margin: 0 1rem 1rem 0;
+		margin: .25rem 1rem .5rem 0;
 	}
 }
 

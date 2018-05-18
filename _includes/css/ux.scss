@@ -21,10 +21,6 @@ $border-color: #b5b4b6;
 	}
 }
 
-img.push {
-	margin-top: 1rem;
-}
-
 #more-images {
 	margin-top: 4rem;
 }
@@ -49,6 +45,7 @@ img.push {
 		border: 1px $border-color solid;
 		margin: 0 1rem 1rem 0;
 	}
+	
 	
 	.ux.index {
 		display: flex;
@@ -113,5 +110,4 @@ img.push {
 	.ux-img.large{
 		margin-left: -265px;
 	}
-
 }
