@@ -1,6 +1,9 @@
 $(function() {
 	// hide
-	$( "#contact" ).slideUp(0);
+	//$( "#contact" ).slideUp(0);
+	
+	$( "#contact-form" ).addClass("collapsed");
+	
 
 	$( ".cta" ).bind( "click", function(e) {	  
 	  if (e.currentTarget.className.indexOf("prevent") !== -1) {
@@ -9,7 +12,14 @@ $(function() {
 			  e.preventDefault();
 		  }
 	  }
-	  $( "#contact" ).slideDown();
+	  //$( "#initial" ).slideUp();
+	  //$( "#contact-form" ).slideDown();
+	  
+	  $( "#contact-form" ).removeClass("collapsed");
+	  $( "#contact-form" ).addClass("expanded");
+	  $( "#initial" ).addClass("collapsed");
+	  
+	  
 	});
 	
 	// form validation

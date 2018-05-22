@@ -3,8 +3,10 @@
 .landing {
 	ol, ul {
 		margin-top: 0;
-		padding-left: 1.2rem;
+		//margin-left: 1.2rem;
+		//padding-left: 1.2rem;
 		li {
+			//padding-left: 1.2rem;
 			margin-bottom: .25rem;
 		}
 	}
@@ -15,6 +17,33 @@
 		a {
 			color: $lite-text;
 		}
+	}
+	.title.larger {
+		font-size: 100%;
+	}
+}
+
+.landing {
+	#contact, #initial {
+		overflow: hidden;
+	}
+	#initial, .expanded {
+		transition: all 0.5s ease;
+	}
+	#initial {
+		max-height: 200px;
+	}
+	.expanded {
+		max-height: 700px;
+		opacity: 1;
+	}
+	.collapsed {
+		opacity: 0;
+		max-height: 0 !important;
+		//overflow: hidden;
+	}
+	.error {
+		font-size: 80%;
 	}
 }
 
@@ -34,11 +63,30 @@
 @media only screen and (min-width : 700px) {
 	//specific to tech-blogger
 	.writing {
-		.narrow ol {
-			width: 90%;
-		}
+
 	}
 	// general to all landing pages
+	.landing {
+		.offer {
+			//width: 70%;
+			margin-left:30%;
+		}
+		.call-to-act {
+			float: left;
+			width: 26rem;
+			border: 1px $border-color solid;
+			padding: 1rem;
+			margin-top: 12px;
+			margin-left: -200px;
+			margin-right: 2.5rem;
+			margin-bottom: 1rem;
+			h3 {
+				margin: 0;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+	
 	.landing {
 		h1 {
 			font-size: 200%;
@@ -48,7 +96,7 @@
 		}
 		#contact {
 			form, .half {
-				width: 50%;
+				//width: 50%;
 			}
 		}
 		.two-col {
@@ -66,14 +114,15 @@
 		}
 		.type, .rate {
 			display: inline-block;
-			min-width: 10rem;
-			padding-right: 0;
+			min-width: 11rem;
+			//padding-right: 0;
 		}
 		.rate {
-			min-width: 8rem;
+			//min-width: 8rem;
 		}
 		.total {
-			display: inline;
+			margin-bottom: .5rem;
+			//display: inline;
 		}
 	}
 }
