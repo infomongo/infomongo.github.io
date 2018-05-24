@@ -1,8 +1,8 @@
 $(function() {
-	// hide
+	// hide	
+	//$( "#contact" ).addClass("hidden");
+	$( "#contact .container" ).addClass("collapsed");
 	//$( "#contact" ).slideUp(0);
-	
-	$( "#contact-form" ).addClass("collapsed");
 	
 
 	$( ".cta" ).bind( "click", function(e) {	  
@@ -13,11 +13,12 @@ $(function() {
 		  }
 	  }
 	  //$( "#initial" ).slideUp();
-	  //$( "#contact-form" ).slideDown();
+	  //$( "#contact" ).slideDown(500);
 	  
-	  $( "#contact-form" ).removeClass("collapsed");
-	  $( "#contact-form" ).addClass("expanded");
-	  $( "#initial" ).addClass("collapsed");
+	  //$( "#contact" ).removeClass("hidden");
+	  $( "#contact .container" ).removeClass("collapsed");
+	  $( "#contact .container" ).addClass("expanded");
+	  //$( "#initial" ).addClass("collapsed");
 	  
 	  
 	});
