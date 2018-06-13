@@ -7,7 +7,7 @@ description: A collection of writing about UX design and other topics.
 <section class="top">
 	<div class="popular">
 		<div class="title">Most Popular</div>
-		{% for post in site.categories['popular'] limit:3 %}
+		{% for post in site.categories['popular'] limit:5 %}
 			<p>
 			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
 			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
