@@ -56,7 +56,8 @@ h3 { font-size: percentage(24/20);}
 
 p {margin: 0 0 1rem; }
 pre { overflow: auto;}
-code { font-size: 1rem; }
+pre code { font-size: 1rem; }
+p code {color: $lite-text;}
 ol, ul { padding-left: 1rem; }
 
 header {
