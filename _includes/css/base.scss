@@ -7,7 +7,8 @@
 body {
 	font-family: 'pt_sansregular', sans-serif;
 	font-size: percentage(18/16);
-	line-height: 1.4;
+	//line-height: 1.4;
+	line-height: $base-line-height ;
 	background-color: white;
 	color: $text-color;
 	position: relative;
@@ -40,12 +41,26 @@ h1, h2, h3, h4, nav {
 
 h1, h2, h3, h4 {
 	line-height: 1.2;
-	margin: 1.7rem 0 .3rem;
+	//margin: 1.7rem 0 .3rem;
+	margin: 0;
 }
 
-h1 { font-size: percentage(32/20);}
-h2 { font-size: percentage(28/20);}
-h3 { font-size: percentage(24/20);}
+h1 { 
+	font-size: percentage(32/20);
+	//line-height: 1.2;
+}
+h2 { 
+	font-size: percentage(28/20);
+	margin: ($vertical-space * 1.5) 0 ($vertical-space * .5) 0 
+}
+h3 { 
+	font-size: percentage(24/20);
+	margin: ($vertical-space * 1) 0 ($vertical-space * .25) 0 
+}
+
+h4 {
+	line-height: 1.5;
+}
 
 .hide-mobile { display: none; }
 .hidden { display: none;}
@@ -54,7 +69,7 @@ h3 { font-size: percentage(24/20);}
 	transition: all ease-out 0.3s;
 }
 
-p {margin: 0 0 1rem; }
+p {margin: 0 0 $vertical-space; }
 pre { overflow: auto;}
 pre code { font-size: 1rem; }
 p code {color: $lite-text;}
@@ -69,7 +84,7 @@ header {
 
 section {
 	h2:first-of-type {
-		margin-top: 0;
+		//margin-top: 0;
 	}
 }
 
@@ -80,7 +95,7 @@ section {
 
 img {
 	border: 1px $border-color solid;
-	margin: 1rem 0;
+	margin: 0 0 $vertical-space;
 	&.full-width {
 		max-width: 100%;
 		display: block;

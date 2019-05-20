@@ -1,6 +1,8 @@
 @import "shared";
 
-.post h1 { font-size: percentage(28/20);}
+.post h1 { 
+	//font-size: percentage(28/20);
+}
 
 .archive { margin-top: 2rem;}
 .popular {margin-bottom: 2rem;}
@@ -8,9 +10,10 @@
 .subhead {
 	font-size: percentage(22/20);
 	color: $lite-text;
+	margin-bottom: ($vertical-space / 2);
 }
 
-.post-title { margin-top: .5rem;}
+//.post-title { margin-top: .5rem;}
 
 #date-convert{
 	display: flex;

@@ -24,7 +24,7 @@ The statistics on gun ownership are from the [2007 Small Arms Survey][survey]. *
 
 Given the political realities, reducing the number of guns in the United States is unlikely. We’d need to pass tough gun control laws and have the largest gun buyback program in history. Even after the deadliest mass shooting in our nation’s 242-year history, the Las Vegas shooting, which left 58 people dead and 851 injured, there has been no change in our gun laws. Efforts to ban bump stocks, which increase the rate of fire of semi-automatic weapons, went nowhere. 
 
-### Media’s Role in Mass Shootings
+### The Media’s Role in Mass Shootings
 
 However, another paper by professor Lankford suggests that changes in the way the media covers mass shooting could reduce their numbers and lethality. This [paper][paper], co-authored with Eric Madfis, a professor of criminal justice at The University of Washington Tacoma, looks at how media coverage encourages mass shooters. They make three claims.
 
@@ -38,7 +38,7 @@ Fame is a motivating factor for mass shooters. They expect to become famous and 
 
 Fame motivated shooters tend to be the most deadly. The want to be famous and know that this requires killing a lot of people. They understand that a higher body count means more coverage. 
 
-From the paper
+From the paper:
 
 > As the 2015 Umpqua Community College shooter summarized, “Seems the more people you kill, the more you’re in the limelight.”
 
@@ -52,7 +52,7 @@ The Columbine killers predicted that they would ‘have followers.’ The Sandy 
 
 Even without explicit copycat effects and emulation, media coverage of mass shootings leads to more shootings. From the paper: 
 
-*"Using advanced mathematical models, some scholars have found that active shootings, school shootings, and other mass killings are now so 'contagious' that a single incident increases the risk of subsequent attacks for the next two weeks."*
+> "Using advanced mathematical models, some scholars have found that active shootings, school shootings, and other mass killings are now so 'contagious' that a single incident increases the risk of subsequent attacks for the next two weeks."
 
 What does the paper suggest should be done? The title of the paper tells the story:
 
