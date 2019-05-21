@@ -4,7 +4,7 @@ title: Simplify Forms to Increase Conversion Rates
 description: Examining how form complexity affects conversion rates.
 subtitle: Examining how form complexity affects conversion rates.
 author: John Phillips
-categories: ux
+categories: ux popular
 date:   2017-08-16 
 ---
 

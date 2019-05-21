@@ -4,7 +4,7 @@ title: Why Are There So Many Mass Shootings In The U.S.?
 subtitle: What role does media coverage play?
 description: A look at the causes of mass shootings and what can be done to prevent them.
 author: John Phillips
-categories: other violence popular
+categories: other violence
 twitter-image: /img/child-gun.jpg
 ---
 
