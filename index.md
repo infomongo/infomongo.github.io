@@ -4,6 +4,7 @@ title: 'Infomongo: The Online Home of John Phillips'
 description: 'The portfolio site of John Phillips, a UX designer and writer located in Denver, CO.'
 css-include: 
    - home.css
+redirect_from: /ux-design/
 ---
 
 <header>
