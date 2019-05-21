@@ -10,10 +10,11 @@ I'm taking a break from social media. I hadn't looked at facebook in 6 to 9 mont
 
 One of the only useful things twitter was offering me was a **UX and Web Design** section in the search tab. This was a good way stay abreast of industry developments. But, it's kinda like swimming thru a cesspool to get an oreo cookie. 
 
-## Some Sites & Blogs I Like…
+## Sites & Blogs I Like…
 
 * [Smashing Magazine - UX Design](https://www.smashingmagazine.com/category/ux-design/)
 * [UX Movement](https://uxmovement.com)
+* [UIE Articles](https://articles.uie.com)
 * [UX Booth](https://www.uxbooth.com)
 * [Boxes and Arrows](http://boxesandarrows.com)
 * [Usability Geek](https://usabilitygeek.com)
@@ -25,4 +26,21 @@ One of the only useful things twitter was offering me was a **UX and Web Design*
 * [UX Myths](https://uxmyths.com)
 * [Design Modo - UX Design](https://designmodo.com/design/ux-design/)
 
+## Design Twitter
+I look at these in a browser without being logged in to twitter.
+
+* [Erika Hall](https://twitter.com/mulegirl)
+* [Jared Spool](https://twitter.com/jmspool)
+* [Luke Wroblewski](https://twitter.com/lukew)
+* [Karen McGrane](https://twitter.com/karenmcgrane)
+* [Jane Pyle](https://twitter.com/janepyle)
+* [Chris Messina](https://twitter.com/chrismessina/)
+* [Ethan Marcotte](https://twitter.com/beep)
+* [Elliot Jay Stocks](https://twitter.com/elliotjaystocks)
+* [Trent Walton](https://twitter.com/TrentWalton)
+* [Dave Rupert](https://twitter.com/davatron5000)
+* [Ryan Singer](https://twitter.com/rjs/)
+* [Dann Petty](https://twitter.com/DannPetty)
+* [Nick Finck](https://twitter.com/nickf)
+* [Wilson Miner](https://twitter.com/wilsonminer)
 
