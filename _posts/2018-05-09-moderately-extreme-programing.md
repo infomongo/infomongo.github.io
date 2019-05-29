@@ -4,7 +4,7 @@ title: (Moderately) Extreme Programming
 subtitle: Is your team agile or just having scrums?
 description: My introduction to modern software development and where agile goes wrong.
 author: John Phillips
-categories: other development popular
+categories: other development 
 twitter-image: /img/building-architecture.jpg
 ---
 
