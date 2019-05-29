@@ -1,5 +1,5 @@
 @import "variables";
-@import "orange";
+@import "color";
 @import "fonts";
 
 * { box-sizing: border-box;}
@@ -29,11 +29,11 @@ em, i {
 	font-family: 'pt_sansitalic', sans-serif;
 	font-style: normal;
 }
-strong, b, th, label, .subhead {
+strong, b, th, label, .subhead, header a {
 	font-family: 'pt_sansbold', sans-serif;
 }
 
-h1, h2, h3, h4, nav {
+h1, h2, h3, h4 {
 	font-family: 'bitterbold', serif;
 	font-weight: normal;
 
@@ -75,12 +75,6 @@ pre code { font-size: 1rem; }
 p code {color: $lite-text;}
 ol, ul { padding-left: 1rem; }
 
-header {
-	padding: 2rem 0 3rem;
-	font-size: percentage(16/18);
-	// fix a bug in chrome, subpixel anti aliasing changes color of colored text
-	//-webkit-font-smoothing: antialiased;
-}
 
 section {
 	h2:first-of-type {
@@ -137,6 +131,18 @@ form {
 	}
 }
 
+header {
+	.logo {
+		text-transform: uppercase;
+		font-size: percentage(32/20);
+		letter-spacing: -.05rem;
+	}
+	nav a {
+		//font-size: percentage(24/20);
+		text-transform: uppercase;
+	}
+}
+
 footer {
 	padding: 2rem 1rem 1rem;
 	div {
@@ -184,11 +190,21 @@ footer {
 
 @media only screen and (min-width : 1020px) {
 	
-	main, footer {
+	main, footer, header {
 		width: 1000px;
 		margin: 0 auto;
 		padding-left: 0;
 		padding-right: 0;
+	}
+	header {
+		.row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		nav a {
+			margin-left: 1rem;
+		}
 	}
 }
 

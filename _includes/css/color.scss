@@ -1,13 +1,14 @@
 $accent-color: #ff8000;
 
 a {
-	color: black;
+	color: $link-color;
 	transition: color ease-out 0.3s;
+	text-decoration: none;
 	&:visited {
-	   color: black;
+	   color: $visited-link-color;
 	}
 	&:hover, &:focus {
-		color: $accent-color;
+		color: $link-color;
 	}
 }
 
@@ -25,34 +26,7 @@ a.button, input[type=submit] {
 	}
 }
 
-header nav a {
-	color: black;
-	text-decoration: none;
-	transition: all ease-out 0.3s;
-	padding: .5em 1em;
-	border-radius: 3em;
-	border: 1px white solid;
-	&:first-of-type {
-		margin-left: -1em;
-	}
-	&:visited {
-	   color: black;
-	}
-	&:focus, &:hover {
-		border-color: $accent-color;
-	}
-	&.active {
-		background-color: $accent-color;
-		color: white;
-		animation: grow 1.5s .25s 1;
-		display: inline-block;
-		margin-left: 0 !important;
-		&:focus {
-			background-color: black;
-			border-color: black;
-		}
-	}
-}
+
 
 @keyframes grow {
   0%, 100%   { transform: scale(1);}
@@ -75,7 +49,7 @@ body:focus {
 }
 
 @media only screen and (min-width : 1000px) {
-	header nav a {
-		margin-right: 1rem;
+	header {
+		
 	}
 }

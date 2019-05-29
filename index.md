@@ -7,13 +7,6 @@ css-include:
 redirect_from: /ux-design/
 ---
 
-<header>
-   <nav>
-     <a href="/" class="active">Infomongo</a>
-     <a href="/ux-design/">UX Design</a>
-     <a href="/posts/">Writing</a>
-   </nav>
-</header>
 
 <section class="white" markdown="1">
    <div class="intro" markdown="1">
