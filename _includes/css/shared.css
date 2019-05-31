@@ -1,1 +1,70 @@
-﻿.unused{color:red}.meta,.date,.title,.caption,.help{color:#737373;font-size:80%}blockquote{margin:1.75rem 0;font-size:110%;color:#737373;font-family:'pt_sansitalic', sans-serif}blockquote p{margin:0}.title{text-transform:uppercase}.date{white-space:nowrap}.caption{text-align:center}nav.next{margin:3rem 0 0;border:1px #b5b4b6 solid;border-left:none;border-right:none;padding:1rem 0;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center}nav.next span{flex:1 1;display:flex;align-items:center}nav.next span.prev{text-align:right;padding-left:1rem;justify-content:flex-end}nav.next span.prev::after{content:"≫";padding-left:.25rem}nav.next span.next{text-align:left;padding-right:1rem;justify-content:flex-start}nav.next span.next::before{content:"≪";padding-right:.25rem}@media only screen and (min-width: 700px){.post blockquote,.ux blockquote{font-size:125%}}@media only screen and (min-width: 1100px){.post blockquote,.ux blockquote{margin:1.75rem -3rem}img.pull{margin-left:-135px}}
+/*
+Error: Undefined variable: "$lite-text".
+        on line 12 of _includes/css/shared.scss
+
+7: 	color: red;
+8: 	// without this, the next rule gets lost, due to a bug in SASS?
+9: }
+10: 
+11: .meta, .date, .title, .caption, .help {
+12: 	color: $lite-text;
+13: 	font-size: 80%;
+14: }
+15: 
+16: 
+17: blockquote {
+
+Backtrace:
+_includes/css/shared.scss:12
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$lite-text\".\A         on line 12 of _includes/css/shared.scss\A \A 7: 	color: red;\A 8: 	// without this, the next rule gets lost, due to a bug in SASS?\A 9: }\A 10: \A 11: .meta, .date, .title, .caption, .help {\A 12: 	color: $lite-text;\A 13: 	font-size: 80%;\A 14: }\A 15: \A 16: \A 17: blockquote {"; }

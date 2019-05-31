@@ -1,0 +1,60 @@
+@import "variables";
+
+
+.post {
+	
+	h1 {
+		//font-size: 2rem;
+		//font-size: 90%;
+	}
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+
+
+
+.popular ul, .archive ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 90%;
+	line-height: 1.2rem;
+	li {
+		margin-bottom: .5rem;
+	}
+}
+
+.date {
+	font-family: 'cooper_hewitt_light', sans-serif;
+	font-size: $small-text-size;
+	//white-space: nowrap;
+	display: block;
+}
+
+@media only screen and (min-width : 600px) {
+	.text {
+	
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.top {
+		display: flex;
+		flex-direction: row;
+	}
+	.popular {
+		width: 30%;
+		order: 1;
+	}
+	.post {
+		padding-left: 3vw;
+		order: 2;
+	}
+	.columns {
+		column-width: 15rem;
+		column-count: 3;
+	}
+}

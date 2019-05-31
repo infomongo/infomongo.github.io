@@ -5,27 +5,12 @@ description: A collection of writing about UX design and other topics.
 ---
 
 <section class="top">
-	<div class="popular">
-		<div class="title">Most Popular</div>
-		{% for post in site.categories['popular'] limit:5 %}
-			<p>
-			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
-			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
-			</p>
-		{% endfor %}
 
-		<a href="/feed.xml">RSS</a>
-		<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: relative; top:3px;">
-			<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-				<path d="M15.937,19.75 C15.937,11.058 8.903,3.987 0.259,3.987 L0.259,0.25 C10.964,0.25 19.673,8.997 19.673,19.75 L15.937,19.75 Z M9.334,19.746 C9.334,17.302 8.389,15.007 6.673,13.283 C4.959,11.562 2.68,10.613 0.253,10.613 L0.253,6.875 C7.321,6.875 13.072,12.649 13.072,19.746 L9.334,19.746 Z M2.839,19.728 C1.41,19.728 0.25,18.569 0.25,17.139 C0.25,15.709 1.41,14.55 2.839,14.55 C4.269,14.55 5.428,15.709 5.428,17.139 C5.428,18.569 4.269,19.728 2.839,19.728 L2.839,19.728 Z" id="RSS-Copy" fill="#231F20"></path>
-			</g>
-		</svg>
-	</div>
-	<div class="latest">
-		<div class="title">Latest Post</div>
-		{% for post in site.posts  limit:1 %}
+	<div class="post">
 		<div class="text">
-			<h1 class="post-title"><a href="{{ post.url}}">{{post.title}}</a></h1>
+			<h4>Latest Post</h4>
+			{% for post in site.posts  limit:1 %}
+			<h1 class="title"><a href="{{ post.url}}">{{post.title}}</a></h1>
 			<p class="meta">By {{post.author}} on <span>{{post.date | date: "%B %d, %Y"}}</span></p>
 			{% if post.subtitle %}
 			<p class="subhead">{{post.subtitle}}</p>
@@ -35,15 +20,28 @@ description: A collection of writing about UX design and other topics.
 		</div>
 		{% endfor %}
 	</div>
-</section>
-<section class="archive">
-	<div class="title">Archive</div>
-	<div class="columns">
-		{% for post in site.posts %}
-			<p>
+	<div class="popular">
+		<h4>Most Popular</h4>
+		<ul>		
+		{% for post in site.categories['popular'] limit:5 %}
+			<li>
 			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
 			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
-			</p>
+			</li>
 		{% endfor %}
+		</ul>
+	</div>
+</section>
+<section class="archive">
+	<h4>Archive</h4>
+	<div class="columns">
+		<ul>	
+		{% for post in site.posts %}
+			<li>
+			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
+			</li>
+		{% endfor %}
+		</ul>
 	</div>
 </section>

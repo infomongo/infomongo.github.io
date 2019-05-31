@@ -1,1 +1,85 @@
-﻿.unused{color:red}.meta,.date,.title,.caption,.help{color:#737373;font-size:80%}blockquote{margin:1.75rem 0;font-size:110%;color:#737373;font-family:'pt_sansitalic', sans-serif}blockquote p{margin:0}.title{text-transform:uppercase}.date{white-space:nowrap}.caption{text-align:center}nav.next{margin:3rem 0 0;border:1px #b5b4b6 solid;border-left:none;border-right:none;padding:1rem 0;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center}nav.next span{flex:1 1;display:flex;align-items:center}nav.next span.prev{text-align:right;padding-left:1rem;justify-content:flex-end}nav.next span.prev::after{content:"≫";padding-left:.25rem}nav.next span.next{text-align:left;padding-right:1rem;justify-content:flex-start}nav.next span.next::before{content:"≪";padding-right:.25rem}@media only screen and (min-width: 700px){.post blockquote,.ux blockquote{font-size:125%}}@media only screen and (min-width: 1100px){.post blockquote,.ux blockquote{margin:1.75rem -3rem}img.pull{margin-left:-135px}}.title{margin-bottom:.75rem}.ux-img{margin-bottom:.1	25rem}.ux-img img{max-width:100%;margin:0}.sub{font-size:80%;display:block}.ux.no-border img{border:none}#more-images{margin-top:4rem}.ux .item{width:100%;margin-bottom:2rem}.ux .item .ux-img{display:block;background-color:white}@media only screen and (min-width: 700px){.hide-mobile{display:block}iframe.hide-mobile{float:left;border:1px #b5b4b6 solid;margin:0 1rem 1rem 0}.ux.index{display:flex;flex-wrap:wrap}.ux.index .title{padding-left:34%}.ux.index .item{display:flex;align-items:center}.ux.index .info{padding:2rem}.ux.index .two-col .ux-img{width:66%}.ux.index .one-col .ux-img{width:34%}.ux.index .item .ux-img{order:2}.ux.index .item .info{text-align:right;width:34%}}@media only screen and (min-width: 1000px){.ux .text{margin-left:265px}.ux .text .meta{position:relative;left:-265px;top:5px;width:240px;margin:0;height:0}.ux .text .meta span{white-space:nowrap}.ux .text .meta+p{color:#737373}.ux.push .key img{margin-left:265px}.ux-img.large{margin-left:-265px}}
+/*
+Error: Undefined variable: "$lite-text".
+        on line 12 of _includes/css/shared.scss
+        from line 1 of _includes/css/ux.scss
+
+7: 	img {
+8: 		max-width: 100%;
+9: 		margin: 0;
+10: 	}
+11: }
+12: 
+13: .sub {
+14: 	font-size: 80%;
+15: 	display: block;
+16: }
+17: 
+
+Backtrace:
+_includes/css/shared.scss:12
+_includes/css/ux.scss:1
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/johnphillips/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$lite-text\".\A         on line 12 of _includes/css/shared.scss\A         from line 1 of _includes/css/ux.scss\A \A 7: 	img {\A 8: 		max-width: 100%;\A 9: 		margin: 0;\A 10: 	}\A 11: }\A 12: \A 13: .sub {\A 14: 	font-size: 80%;\A 15: 	display: block;\A 16: }\A 17: "; }

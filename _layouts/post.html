@@ -1,5 +1,5 @@
 ---
-layout: writing
+layout: default
 flag: post
 ---
 <section class="post">
@@ -8,17 +8,17 @@ flag: post
 		<p class="meta">By {{page.author}} on <span>{{page.date | date: "%B %d, %Y"}}</span></p>
 		
 		{% if page.subtitle %}
-		<p class="subhead">{{page.subtitle}}</p>
+		<h2 class="subhead">{{page.subtitle}}</h2>
 		{% endif %}
 	</div>
 	<div class="text">
 		{{ content }}
 	</div>
-	<p class="tweet">Comments? <a href="https://twitter.com/share?url={{site.url}}{{page.url | uri_escape}}&via=infomongo">Tweet at me</a>. Looking for a writer? <a href="/freelance-writer">Hire me</a>.</p>	
+	<p class="wrap"> Looking for a writer? <a href="/freelance-writer">Hire me</a>.</p>	
 	
 </section>
 
-<nav class="next">
+<nav class="wrap">
 {% if page.next %} 
 	<span class="next"><a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a></span>
 {% endif %}
