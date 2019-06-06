@@ -43,7 +43,7 @@
     <meta property="og:image" content="{{site.url}}{{page.twitter-image}}">
     {% endif %}
 </head>
-<body {% if page.class %}class="{{page.class}}"{% endif %}>
+<body class="{% if page.class %}{{page.class}}{% endif %} {% if layout.class %}{{layout.class}}{% endif %}">
     {% include header.html %}
     <main>
         {{ content }}

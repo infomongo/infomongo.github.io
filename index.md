@@ -5,11 +5,16 @@ description: 'The portfolio site of John Phillips, a UX designer and writer loca
 css-include: 
    - home.css
 redirect_from: /ux-design/
+class: home
 ---
 
 
 <section class="white" markdown="1">
    <div class="intro" markdown="1">
+      
+      
+ff fi fl ffi ffl
+      
 Hello. I’m John Phillips,  a UX designer and writer. [I have been designing products for more than fifteen years][ux].
 
 Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [Agent Locator for Nationwide Insurance][nw]. Before that,  I worked with several of the top yellow page companies in Europe.

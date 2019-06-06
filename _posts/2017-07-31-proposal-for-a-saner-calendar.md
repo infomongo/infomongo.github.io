@@ -26,7 +26,7 @@ This leaves the year short by one day on regular years, two days on leap years. 
 
 Days in the month of Non are not part of any week. They are a kind of padding so that each 28 day month begins on a Sunday and ends on a Saturday.
 
-<img src="/img/calendar-diagram.png" class="full-width" alt=>
+<img src="/img/calendar-diagram.png" class="full-width" alt>
 
 As a result, the year always starts on Sunday. This keeps the calendar fixed from year to year. Holidays no longer float from one day of the week to the next and you could use the same printed calendar every year.
 

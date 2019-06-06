@@ -4,6 +4,7 @@ title: The Second Amendment
 description: Unclear writing can literally be deadly
 author: John Phillips
 categories: other violence constitution law
+class: simple-quotes
 ---
 
 The Second Amendment is one hell of a sentence. It reads, in its entirety:

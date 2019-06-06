@@ -29,24 +29,36 @@ section {
 header {
 	//background-color: white;
 	//padding-bottom: 0;
+	//border-bottom: 1px solid $border-color;
 }
 
 header {
 	text-align: center;
-	padding: 1rem 0 0;
+	padding: .5rem 0 0;
 	.tagline {
-		padding: 0 5vw .3rem;
+		padding: .5rem 5vw .3rem;
+		border-bottom: 1px solid $border-color;
+		//box-shadow: 0 2px 3px rgba(0,0,0,.3)
 	}
 	nav a {
 		margin: 0 .5rem
 	}
 }
 
-// main {
-//     min-height: 60vh;
-// }
+footer {
+	margin: 3rem 0 0;
+	.border {
+		border-top: 1px $border-color solid;
+	}
+}
+
+
+
 
 @media only screen and (min-width : 500px) {
+	header {
+		padding: 3vh 0 0;
+	}
 	header .wrap {
 		text-align: left;
 		display: flex;
@@ -59,22 +71,50 @@ header {
 		.tagline{
 			flex-basis: 100%;
 			order: 3;
-			padding: .25rem 0 0;
+			// only need order if we are moving the tagline down
+			padding: 0;
+			border-bottom: 1px solid $border-color;
 		}
 	}
 }
+
+@media only screen and (min-width  : 800px) {
+	.wrap {
+		padding: 0 6vw;
+	}
+	section {
+		padding: 1rem 6vw;
+	}
+}
+
+@media only screen and (min-width : 1050px) {
+	.wrap {
+			padding: 0 10vw;
+	}
+	section {
+		padding: 1rem 10vw;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.wrap {
+			padding: 0 15vw;
+	}
+	section {
+		padding: 1rem 15vw;
+	}
+}
+
 
 // @media only screen and (min-width : 1200px) {
 //     html {
 //         font-size: 23px;
 //         line-height: 33.6px;
-//     }
-//     
+//     }   
 //     .wrap {
 //         padding-right: 2rem;
 //         padding-left: 2rem;
 //         max-width: 1200px;
 //         margin: 0 auto;
 //     }
-//     
 // }

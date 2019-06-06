@@ -8,35 +8,47 @@ html {
   background-color: $bg-color;
 }
 
-@media only screen and (min-width : 1000px) {
-	html {
-		//font-size: calc(15px + 0.5vw);
-	}
-}
 
-h1, h2, h3{
-	font-family: 'cooper_hewittbold', sans-serif;
+h1, h2, h3, h4{
+	font-family: 'roboto_condensed_bold', sans-serif;
 	line-height: 1.2;
 	//text-transform: uppercase;
-	//font-weight: normal;
+	font-weight: normal;
+	margin-bottom: .75rem;
 }
 
-h1, h2, h3, h4, p {
-	margin: .75rem 0;
+h2, h3 h4 {
+	margin-top: 1.5rem;
 }
 
-h1 {font-size: calc(20px + 2vw)}
-h2 {font-size: 1.6rem}
-h3 {font-size: 1.4rem}
+h1 {
+	font-size: calc(20px + 2vw); 
+	// text-transform: uppercase;
+}
+h2 {
+	font-size: 1.6rem;
+}
+h3 {
+	font-size: 1.4rem;
+}
 h4 {
+	font-size: 1.2rem;
+
+}
+.writing h4 {
 	font-family: 'cooper_hewitt_light', sans-serif;
-	font-size: $small-text-size;
+	font-size: 70%;
 	text-transform: uppercase;
+	color: $text-color-lite;
 }
 
 p {
 	max-width: 33rem;
-}
+ 	margin: .75rem 0;
+ }
+
+strong, b, th {font-family: 'cooper_hewitt_semibold', sans-serif;}
+em, i, blockquote {font-family: 'cooper_hewitt_book_italic', sans-serif;}
 
 a {
     color: $link-color;
@@ -50,9 +62,41 @@ a {
     }
 }
 
+h1, h2, h3 {
+	a:visited {
+	   color: $link-color;
+	}
+}
+
+// figure out a better mobile solution, maybe not floated?
+blockquote {
+	font-size: 1.1rem;
+	font-family: 'cooper_hewitt_light_italic', sans-serif;
+	width:50%;
+	float: right;
+	color: $text-color-lite;
+	margin: .5rem;
+	p {
+		max-width: 40rem;
+		// text-align: center;
+	}
+}
+
+.simple-quotes blockquote{
+	font-size: 1rem;
+	p {
+		max-width: 33em;
+		// text-align: left;
+	}
+}
+
+pre {
+	overflow: auto;
+}
+
 header {
 	a {
-		font-family: 'cooper_hewitt_bold', sans-serif;
+		font-family: 'roboto_condensed_bold', sans-serif;
 		text-transform: uppercase;
 		font-size: 1rem;
 		&:visited {
@@ -66,18 +110,19 @@ header {
 	.tagline {
 		font-family: 'cooper_hewitt_light', sans-serif;
 		font-size: $small-text-size;
-		//color: $text-color-lite;
+		color: $text-color-lite;
 	}
 }
 
+.home .work, .writing .posts {
+	border-bottom: 2px $link-color solid;
+}
+
 footer {
-	color: white;
-	background-color: $bg-color-footer;
 	font-size: .8rem;
-	padding: .5rem 0;
 	a, a:visited {
 		margin: 0 .5rem;
-		color: white;
+		color: $link-color;
 	}
 }
 
@@ -88,20 +133,84 @@ footer {
 		//margin-bottom: 2rem;
 		.subhead {
 			color: $text-color-lite;
+			margin-top: 0;
 		}
 	}
 	.meta {
 		font-family: 'cooper_hewitt_light', sans-serif;
 		font-size: .9rem;
 		max-width: none;
+		color: $text-color-lite;
 	}
 	.text {
-		max-width: 33rem;
-		//padding: 0 3vw;
-		margin: 0 auto;
+		// max-width: 33rem;
+		// //padding: 0 3vw;
+		// margin: 0 auto;
+		p {
+			margin: .75rem auto;
+		}
+		ul, ol {
+			max-width: 33rem;
+			margin: .75rem auto;
+		}
+		h1, h2, h3, h4 {
+			text-align: center;
+		}
 		.caption {
 			font-family: 'cooper_hewitt_light', sans-serif;
 			text-align: center;
 		}
 	}
+	table {
+		margin: 1rem auto;
+		max-width: 33rem;
+		border-collapse: collapse;
+	}
+	th { 
+		text-align: left;
+		background-color: #eee ;
+	 }
+	td, th { 
+		padding: .25rem .75rem ;
+		font-size: 80%;
+	}
+	tr:nth-child(even) {
+	  background: #eee;
+	}
+}
+
+nav.next {
+	// margin: 3rem 0 0;
+	// border: 1px $border-color solid;
+	border-left: none;
+	border-right: none;
+	// padding: 1rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	span {
+		flex: 1 1 ;
+		display: flex;
+		align-items: center;
+	}
+	span.prev {
+		text-align: right;
+		padding-left: 1rem;
+		justify-content: flex-end;
+		&::after {
+			content: "≫";
+			padding-left: .25rem;
+		}
+	}
+	span.next {
+		text-align: left;
+		padding-right: 1rem;
+		justify-content: flex-start;
+		&::before {
+			content: "≪";
+			padding-right: .25rem;
+		}
+	}
+
 }

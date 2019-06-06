@@ -33,7 +33,7 @@ Not many people use the Google home page anymore, most people start searches in 
 
 ### Another Example
 <div >
-	<img src="/img/lyft.jpg" class="retina float pull" alt="Lyft Home Screen">
+	<img src="/img/lyft.jpg" width="320" class="retina float pull" alt="Lyft Home Screen">
 </div>
 
 Lyft is also doing a fine job getting you started. The app is using your location to set the pickup point and the big purple ‘Set pickup’ button is hard to miss. 
@@ -56,7 +56,6 @@ UX designers: you are trying to create a focus for each page or screen. To do th
 
 Product people: this also requires an understanding of your application’s users and the tasks they want to achieve. It argues for restraint in the features you add to the product.
 
----
 
 Another great article about obvious design: [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) by Luke Wroblewski. 
 
