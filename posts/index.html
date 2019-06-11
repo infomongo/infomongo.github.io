@@ -9,14 +9,14 @@ class: writing
 
 	<div class="post">
 		<div class="text">
-			<h4>Latest Post</h4>
-			{% for post in site.posts  limit:1 %}
+			<!-- <h4>Latest Post</h4> -->
+			{% for post in site.categories['featured'] limit:1 %}
 			<h1 class="title"><a href="{{ post.url}}">{{post.title}}</a></h1>
 			<p class="meta">By {{post.author}} on <span>{{post.date | date: "%B %d, %Y"}}</span></p>
 			{% if post.subtitle %}
 			<p class="subhead">{{post.subtitle}}</p>
 			{% endif %}
-			{{ post.content | truncatewords: 150 }}
+			{{ post.content | truncatewords: 80 }}
 			<a href="{{ post.url}}#jump">continue reading</a>
 		</div>
 		{% endfor %}

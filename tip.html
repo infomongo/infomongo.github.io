@@ -5,17 +5,9 @@ js-include: tip.js
 css-include: 
    - tip.css
 ---
-<header>
-   <nav>
-	 <a href="/">Infomongo</a>
-	 <a href="/tip" class="active">Tip Calculator</a>
-   </nav>
-</header>
 
-
-
-<div class="main big tip-calc">
-	
+<section>
+	<h1>Tip Calculator</h1>
 
 	<div class="line">
 		$ <input id="bill" type="text" pattern="\d*" value="" ><span class="label">bill</span>
@@ -26,13 +18,10 @@ css-include:
 		<span class="label">tip</span><span id="percent"></span>
 	</div>
 	
-	<div class="line">
+	<div class="line border">
 		$ <span id="total">--</span>
 		<span class="label">total</span>
 	</div>
-
-	
-
-</div>
+</section>
 
 

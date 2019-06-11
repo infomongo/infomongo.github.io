@@ -3,7 +3,7 @@ layout: post
 title: Presenting Multiple Design Options
 description: Presenting multiple design options leads to productive discussions and better design
 author: John Phillips
-categories: ux popular options
+categories: ux popular options featured
 date:   2017-09-21 
 twitter-image: /img/many-doors.jpg
 ---

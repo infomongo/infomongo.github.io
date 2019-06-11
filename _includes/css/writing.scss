@@ -1,11 +1,11 @@
 @import "variables";
 
 
-.post {
+.top .post {
 	
 	h1 {
-		//font-size: 2rem;
-		//font-size: 90%;
+		font-size: 3rem;
+		text-align: left;
 	}
 }
 
@@ -46,12 +46,13 @@ h4 {
 		flex-direction: row;
 	}
 	.popular {
-		width: 30%;
-		order: 1;
+		//width: 30%;
+		// order: 1;
 	}
 	.post {
-		padding-left: 3vw;
-		order: 2;
+		width: 33rem;
+		padding-right: 3vw;
+		// order: 2;
 	}
 	.columns {
 		column-width: 15rem;

@@ -3,7 +3,7 @@ layout: post
 title: An Oddity Casting Netflix from iOS to my Roku
 description: I had to switch networks to get it to work, maybe you will too.
 author: John Phillips
-categories: other tech-support popular
+categories: other tech-support popular featured
 date:   2018-03-01
 twitter-image: /img/roku-promo.png
 ---

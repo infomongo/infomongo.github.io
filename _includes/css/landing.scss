@@ -1,116 +1,42 @@
 @import "variables";
+@import "forms";
 
-.landing {
-	ol, ul {
-		margin-top: 0;
-		li {
-			margin-bottom: .25rem;
-		}
-	}
-	.total { color: $lite-text; }
-	.note {
-		color: $lite-text;
-		font-size: 80%;
-		a {
-			color: $lite-text;
-		}
-	}
+textarea {
+	height: 6rem;
 }
 
-.writing {
-	.type, .rate {
-		padding-right: 1rem;
-		display: inline-block;
-	}
-	.type {
-		min-width: 10em;
-	}
-	.total { 
-		display: inline-block;
-		min-width: 90%;
-	}
-
-	.cta-col { 
-		text-align: center;
-		.cta {margin: 1rem 0;}
-	}
-	.text-col h2 { margin-top: 0;}
-}
-
-
-.landing {
-	#contact {
-		overflow: hidden;
-	}
-	.expanded {
-		transition: all 0.5s ease-out;
-	}
-	.expanded {
-		max-height: 700px;
-		opacity: 1;
-	}
-	.collapsed {
-		opacity: 0;
-		max-height: 0 !important;
-		//overflow: hidden;
-	}
-	.error {
-		font-size: 80%;
-	}
-}
-
-
-@media only screen and (min-width : 700px) {
-	//specific to tech-blogger
-	.writing {
-
-	}
-	// general to all landing pages
+.type, .rate, .total {
 	
-	.landing {
-		h1 {
-			font-size: 200%;
-		}
-		.narrow {
-			max-width: 66%;
-		}
-		#contact {
-			form, .half {
-				width: 50%;
-			}
-		}
-		.two-col {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			//margin: 2rem 0 1rem;
-			&.top {
-				justify-content: flex-start;
-				.text-col {
-					width: auto;
-					padding-right: 4rem;
-				}
-			}
-		}
-		.text-col {
-			width: 66%;
-		}
-		.cta-col {
-			//width: 30%;
-			//text-align: right;
-			.cta {margin:0;}
-		}	
-		.type, .rate {
-			display: inline-block;
-			min-width: 11rem;
-			//padding-right: 0;
-		}
-		.rate {
-			min-width: 8rem;
-		}
-		.total {
-			margin-bottom: .5rem;
-			display: inline;
-		}
+}
+.type {
+	display: inline-block;
+	min-width: 9rem;
+}
+.total {
+	display: block;
+	color: $text-color-lite;
+	// padding-left: 9rem;
+	margin-bottom: .25rem
+}
+
+@media only screen and (min-width : 500px) {
+	#contact {
+		//width: 30vw;
+		float: right;
+		padding-left: 2rem;
+	}
+	.total {
+		padding-left: 9.2rem;
+	}
+}
+
+
+@media only screen and (max-width : 499px) {
+	.reorder {
+		display: flex;
+		flex-direction: column;
+	}
+	#contact {
+		order: 2;
 	}
 }

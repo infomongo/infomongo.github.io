@@ -1,0 +1,48 @@
+@import "variables";
+
+label{
+	display: block;
+	color: $text-color-dark;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	padding: .25rem;
+	border: 1px $border-color solid;
+	//margin-bottom: .5rem;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	&.error {
+		border: 1px $main-color-border solid;
+	}
+	&:focus {
+		outline: none;
+		border: 1px $link-color solid;
+	}
+}
+
+a.button, input[type=submit] {
+	display: inline-block;
+	background-color: $main-color;
+	color: white;
+	border: none;
+	border-radius: 3em;
+	padding: .5em 1em;
+	text-decoration: none;
+	white-space: nowrap;
+	&:focus {
+		outline: none;
+		background-color: black;
+	}
+}
+
+p.help, p.error {
+	margin-top: 0;
+	font-size: .8rem;
+}
+
+.hidden {display: none;}
+p.help { color: $text-color-lite;}
+p.error { color: $main-color;}
+
+
