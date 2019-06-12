@@ -1,6 +1,5 @@
 @import "variables";
 
-
 .top .post {
 	
 	h1 {
@@ -9,12 +8,13 @@
 	}
 }
 
-h4 {
+.writing h4 {
+	font-family: 'cooper_hewitt_light', sans-serif;
+	font-size: 70%;
+	text-transform: uppercase;
+	color: $text-color-lite;
 	margin-bottom: 0;
 }
-
-
-
 
 .popular ul, .archive ul {
 	margin: 0;

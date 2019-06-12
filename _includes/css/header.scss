@@ -11,37 +11,63 @@ header {
 		font-family: 'roboto_condensed_bold', sans-serif;
 		font-size: calc(13px + .5vw);
 		color: $text-color-dark;
-		&:visited {
+		&:visited, &:hover  {
 		   color: $text-color-dark;
+		   text-decoration: none;
+		}
+		&:focus {
+			outline: none;
+			text-decoration: none;
 		}
 	}
 	nav a {
 		//background-color: #ccc;
 		border-radius: 1em;
 		padding: 1px .7em;
+		border: 2px white solid;
+		&:hover {
+			background-color: $main-color;
+			color: white;
+		}
+		&:focus {
+			color: $text-color-dark;
+			border-color: $main-color-border;
+		}
 	}
 	.logo {
 		//background-color: #eee;
+		display: flex;
+		align-items: center;
+		padding: 4px;
+		border: 2px white solid;
+		border-radius: 1em;
 		svg {
-			width: 1.5em;
-			height: 1.5em;
-			display: inline-block;
-			vertical-align: middle;
+			width: 16px;
+			height: 16px;
+			margin-right: .25em;
+			//display: inline-block;
+			//vertical-align: middle;
 			#bg-shape {
 				fill: $main-color;
 			}
 		}
-		span {
-			position: relative;
-			top: .125em;
+		&:hover {
+			//border-color: #ddd;
+		}
+		&:focus {
+			border-color: $main-color-border;
 		}
 	}
 }
 
-.home .work, .writing .posts, header nav a:hover {
+.home .work, .writing .posts {
 	// border-bottom: 2px $text-color solid;
 	background-color: $main-color;
 	color: white;
+	&:focus, &:hover {
+		background-color: $text-color-dark;
+		border-color: $text-color-dark;
+	}
 }
 
 footer {
@@ -60,9 +86,12 @@ footer {
 		nav a {
 			margin-left: .5rem;
 		}
+		.logo {
+
+		}
 		.logo svg {
-			width: 1.5em;
-			height: 1.5em;
+			width: 36px;
+			height: 36px;
 		}
 	}
 }

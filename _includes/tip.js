@@ -1,9 +1,12 @@
 $(function() {
 
-	var $bill = $('#bill');
-	var $tip = $('#tip');
-	var $total = $('#total');
-	var $percent = $('#percent')
+	var $bill = $('#bill'),
+	$tip = $('#tip'),
+	$total = $('#total'),
+	$percent = $('#percent'),
+	$xtip = $('#xtip'),
+	$xtotal = $('#xtotal'),
+	$xpercent = $('#xpercent');
 
 	$bill.on('keyup', function () {
 	  format();
@@ -38,10 +41,10 @@ $(function() {
 	}
 
 	function calculate() {
-		var percent = 0.2;
-		var bill = Number($bill.val());
-		var roundBill = Math.floor(bill);	
-		var baseTip = (roundBill * percent);
+		var percent = 0.2,
+		bill = Number($bill.val()),
+		roundBill = Math.floor(bill),	
+		baseTip = (roundBill * percent);
 		//console.log(typeof baseTip);
 
 		var total = Math.ceil(bill + baseTip);
@@ -60,14 +63,27 @@ $(function() {
 			var flag = 1;
 			//console.log("> than 21% " + tip);
 		}
+		
+		var xtip = tip + 1,
+		xtotal = xtip + bill,
+		xpercent = xtip / bill;
 
 		tip = cleanForDisplay(tip);
 		total = cleanForDisplay(total);
+		xtip = cleanForDisplay(xtip);
+		xtotal = cleanForDisplay(xtotal);
 
 		$tip.html(tip);
 		$total.html(total);
+		$xtip.html(xtip);
+		$xtotal.html(xtotal);
+		
 		if (effectiveTip) {
 			$percent.html(((tip/bill) * 100).toFixed(2) + "%");
+			//$percent.html(effectiveTip + "%" );
+		}
+		if (xpercent) {
+			$xpercent.html(((xtip/bill) * 100).toFixed(2) + "%");
 			//$percent.html(effectiveTip + "%" );
 		}
 	}

@@ -3,8 +3,26 @@ $(function() {
 	var $currentDay = $('#current-day'),
 	errorElem = $('#date-convert .error'),
 	monthChosen = $("#current-month").val(),
-	dayEntered = $("#current-day").val();
+	dayEntered = $("#current-day").val(),
+	buttonMinus = $('#date-convert .minus'),
+	buttonPlus = $('#date-convert .plus');
 
+	
+	buttonMinus.removeClass('hidden');
+	buttonPlus.removeClass('hidden');
+	
+	
+	buttonMinus.click(function () {	  
+	  currentDay = ($currentDay.val() - 1);
+	  $currentDay.val(currentDay)
+	  validateDay(currentDay);
+	});
+	
+	buttonPlus.click(function () {	  
+	  currentDay = +($currentDay.val()) + 1;
+	  $currentDay.val(currentDay)
+	  validateDay(currentDay);
+	});
 	
 	$currentDay.on('keyup', function () {
 	  validateDay(this.value);
@@ -54,10 +72,10 @@ $(function() {
 		}
 		
 		if (showError ) {
-			errorElem.removeClass('transparent');
+			errorElem.removeClass('hidden');
 			$('.new-date').addClass('transparent');
 		} else {
-			errorElem.addClass('transparent');
+			errorElem.addClass('hidden');
 			convertDate()
 		};
 		

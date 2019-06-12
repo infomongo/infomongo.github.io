@@ -16,7 +16,7 @@ css-include:
 
 # John Phillips: Freelance Writer
 
-### Blog Posts | Websites | Microcopy | Documentation | Technical Writing
+<p class="lite">Blog Posts | Websites | Microcopy | Documentation | Technical Writing</p>
 
 
 My background is in technology. My Degree is in English. Let me put both to work for you.
@@ -44,7 +44,7 @@ If you’d prefer an hourly or project rate, no problem. We can work that out.
 
 ## Search Engine Optimization (SEO)
 
-If you are blogging as part of a content marketing strategy, SEO is an important consideration. I have a good grasp of the basics. For example, [this post](/posts/presenting-mulitple-design-options) currently ranks second on google for the search “[presenting multiple design options](https://www.google.com/search?hl=en&q=presenting%20multiple%20design%20options).”
+If you are blogging as part of a content marketing strategy, SEO is an important consideration. I have a good grasp of the basics. For example, [this post](/posts/presenting-mulitple-design-options) currently ranks first on google for the search “[presenting multiple design options](https://www.google.com/search?hl=en&q=presenting%20multiple%20design%20options).”
 
 There are a lot of factors that affect ranking, and I can’t promise that your post will be on the first page of results. But I will maximize your ranking, and I understand which details matter most.
 

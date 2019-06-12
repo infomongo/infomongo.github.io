@@ -35,21 +35,22 @@ h4 {
 	font-size: 1.2rem;
 
 }
-.writing h4 {
-	font-family: 'cooper_hewitt_light', sans-serif;
-	font-size: 70%;
-	text-transform: uppercase;
-	color: $text-color-lite;
-}
+
 
 p {
 	max-width: 33rem;
  	margin: .75rem 0;
  }
 
-strong, b, th, label, 
-#bill, #tip, #total {font-family: 'cooper_hewitt_semibold', sans-serif;}
-em, i, blockquote {font-family: 'cooper_hewitt_book_italic', sans-serif;}
+strong, b, th, label, .calc {
+	font-family: 'cooper_hewitt_semibold', sans-serif;
+	font-weight: normal;
+}
+em, i, blockquote {
+	font-family: 'cooper_hewitt_book_italic', sans-serif;
+	font-style: normal;
+}
+.lite {color: $text-color-lite;}
 
 a {
     color: $link-color;
@@ -58,8 +59,13 @@ a {
     &:visited {
        color: $link-color-visited;
     }
-    &:hover, &:focus {
+    &:hover {
         color: $link-color;
+        text-decoration: underline;
+    }
+    &:focus {
+	    outline: none;
+	    text-decoration: underline;
     }
 }
 
@@ -191,6 +197,17 @@ nav.next {
 	}
 
 }
+
+.pitch {
+	margin-top: 3rem;
+	border: 1px $border-color solid;
+	border-right: none;
+	border-left: none;
+	padding: .25rem 0;
+	font-size: 80%;
+	text-align: center;
+}
+
 
 :focus {
 	//outline: none;

@@ -16,6 +16,8 @@ I just got a [Roku Streaming Stick+][r] and so far, I dig it. I bought it to rep
 
 <img src="/img/roku-promo.png" class="full-width no-border" alt="Roku streaming stick and remote">
 
+<!--more--><a name="jump"></a>
+
 I was looking forward to the updated Netflix app (channel), with profile support. I also assumed I’d be able to ‘cast’ Netflix shows from my phone to the Roku. That is, search for shows in the Netflix app on my phone and then play them on the Roku. 
 
 This kinda worked on my otherwise terrible Vizio TV. It worked well enough to convince me that this was the way to live. Find things to watch on the phone. Watch them on the TV. But with the Vizio it was crap shoot if the video would play in high or low-res, or endlessly buffer midway thru a show. These things are important, it turns out.

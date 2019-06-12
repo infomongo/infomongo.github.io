@@ -7,7 +7,7 @@ input[type=text] {
 	margin-right: .5rem;
 } 
 
-#tip, #total {
+.calc, .percent {
     display: inline-block;
     width: 5.5rem;
 }
@@ -16,13 +16,14 @@ input[type=text] {
     margin-bottom: .5rem;
 }
 
-#percent {
-    padding-left: 2rem;
-}
 
 .border {
 	border-top: 2px $border-color solid;
 	padding-top: .5rem;
+}
+
+.space {
+	margin-top: 3rem;
 }
 
 // $border-color: #b5b4b6;

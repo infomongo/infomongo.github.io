@@ -7,6 +7,7 @@ author: John Phillips
 date:   2017-07-31
 categories: other calendar ideas popular
 js-include: date-convert.js
+css-include: calendar.css
 ---
 
 What is your first memory of the metric system? I remember learning about it in elementary school. It struck me that the units for measuring distance —centimeters, meters, kilometers— just made much better sense than the Imperial system, with 12 inches to a foot, 3 feet to a yard, and 5280 feet to a mile. Our system suddenly seemed so arbitrary compared to the base 10 rationality of the metric system.
@@ -55,19 +56,17 @@ Arp, Baw, Cor, Dur, Ell, Fen, Gam, Hob, Isp, Jom, Kro, Lem, Mog and Non
 			<option value="Nov">November</option>
 			<option value="Dec">December</option>
 		</select>
-		<input id="current-day" type="number" pattern="\d*" value="1">
-		<div class="error transparent">
+		<button class="minus increment hidden">–</button>
+		<input id="current-day" type="text" pattern="\d*" value="1">
+		<button class="plus increment hidden">+</button>
+		<div class="error hidden">
 			Enter a number between 1 and <span id="num">31</span>
 		</div>
 	</div>
 	<div class="new-date">
 		<h4>New Date</h4>
-		<div id="new-month">
-			Arp
-		</div>
-		<div id="new-day">
-			1
-		</div>
+		<span id="new-month">Arp</span>
+		<span id="new-day">1</span>
 		<span id="dayofweek">Sunday</span> <span id="short-date">1/1</span>
 	</div>
 </div>
