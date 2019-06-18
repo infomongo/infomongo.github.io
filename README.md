@@ -3,7 +3,7 @@ infomongo
 
 The site uses Jekyll. But I'm compiling SASS directly via
 
-   dart-sass --watch /_includes/css --style compressed --no-source-map
+   sass --watch _includes/css --style compressed --no-source-map
     
 This `dart-sass` is an alias for for the dart version of sass installed at `/usr/local/bin/sass`. Have to call the fully qualified path to dart sass, to use it instead of the sass gem.
     
