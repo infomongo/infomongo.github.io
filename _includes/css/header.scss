@@ -26,8 +26,8 @@ header {
 		padding: 1px .7em;
 		border: 2px white solid;
 		&:hover {
-			background-color: $main-color;
-			color: white;
+			color: $text-color-dark;
+			border-color: $main-color-border;
 		}
 		&:focus {
 			color: $text-color-dark;
@@ -41,12 +41,11 @@ header {
 		padding: 4px;
 		border: 2px white solid;
 		border-radius: 1em;
+		margin-left: -6px;
 		svg {
 			width: 16px;
 			height: 16px;
 			margin-right: .25em;
-			//display: inline-block;
-			//vertical-align: middle;
 			#bg-shape {
 				fill: $main-color;
 			}
@@ -54,7 +53,7 @@ header {
 		&:hover {
 			//border-color: #ddd;
 		}
-		&:focus {
+		&:focus, &:hover  {
 			border-color: $main-color-border;
 		}
 	}
@@ -63,10 +62,16 @@ header {
 .home .work, .writing .posts {
 	// border-bottom: 2px $text-color solid;
 	background-color: $main-color;
+	border-color: $main-color;
 	color: white;
-	&:focus, &:hover {
+ 	&:hover {
 		background-color: $text-color-dark;
 		border-color: $text-color-dark;
+	}
+	&:focus, &:hover  {
+		background-color: white;
+		color: $text-color-dark;
+		border-color: $main-color-border;
 	}
 }
 
