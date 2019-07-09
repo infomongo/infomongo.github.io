@@ -75,6 +75,14 @@ h1, h2, h3 {
 	}
 }
 
+.meta {
+	font-family: 'cooper_hewitt_light', sans-serif;
+	font-size: .9rem;
+	max-width: none;
+	color: $text-color-lite;
+}
+
+
 blockquote {
 	font-size: calc(1rem + 0.25vw);
 	font-family: 'cooper_hewitt_book_italic', sans-serif;
@@ -119,12 +127,12 @@ footer {
 			margin-top: 0;
 		}
 	}
-	.meta {
-		font-family: 'cooper_hewitt_light', sans-serif;
-		font-size: .9rem;
-		max-width: none;
-		color: $text-color-lite;
-	}
+	// .meta {
+	// 	font-family: 'cooper_hewitt_light', sans-serif;
+	// 	font-size: .9rem;
+	// 	max-width: none;
+	// 	color: $text-color-lite;
+	// }
 	.text {
 		// max-width: 33rem;
 		// //padding: 0 3vw;
@@ -142,6 +150,8 @@ footer {
 		.caption {
 			font-family: 'cooper_hewitt_light', sans-serif;
 			text-align: center;
+			color: $text-color-lite;
+			font-size: .9rem;
 		}
 	}
 	table {

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 'Infomongo: The Online Home of John Phillips'
-description: 'The portfolio site of John Phillips, a UX designer and writer located in Denver, CO.'
+title: 'Infomongo: The UX Design Portfolio of John Phillips'
+description: 'John Phillips is a UX designer and writer who lives in Denver, CO.'
 css-include: 
    - home.css
 redirect_from: /ux-design/
@@ -12,29 +12,38 @@ class: home
 <section class="white" markdown="1">
    <div class="intro" markdown="1">
       
-      
-ff fi fl ffi ffl
-      
-Hello. I’m John Phillips,  a UX designer and writer. [I have been designing products for more than fifteen years][ux].
+Infomongo is the portfolio site of [John Phillips](/about), a UX designer with more than fifteen years experience. 
 
-Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [Agent Locator for Nationwide Insurance][nw]. Before that,  I worked with several of the top yellow page companies in Europe.
-
-[ux]: /ux-design/
-[w]: /posts/
-[nw]: /ux-design/nationwide-locator
-[loc]: /ux-design/map-pins
-
+<a href="&#x6D;&#97;&#105;l&#116;&#x6F;:&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;">&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;</a>
+   
 
    </div>
-   <div class="text" markdown="1">
-I [write about UX Design and other topics][w]. My latest post is 
-{% for post in site.posts limit:1 %}<a href="{{ post.url}}">{{ post.title | escape }}</a>.{% endfor %} 
+   <div class="images">
+      <a href="/ux-design/oil-and-gas-search">
+         <strong>Oil &amp; Gas Search Application</strong>
+         <img src="/img/portfolio/cover-oil-gas.png" alt="blueprint showing search field & menu">
+      </a>
+      <div class="meta">
+          User Research, Interaction Design, Wireframes
+      </div>
 
-My most popular posts are 
-{% for post in site.categories['popular'] limit:5 %}{% if forloop.last == true %} & {% endif %}<a href="{{ post.url}}">{{ post.title | escape }}</a>{% if forloop.last == true %}. {% else %}, 
-{% endif %}{% endfor %}
+      
+      <a href="/ux-design/empower-retirement">
+         <strong>Empower Retirement</strong> 
+         <img src="/img/portfolio/cover-empower.png" alt="blueprint showing site map & menu">
+      </a>
+      <div class="meta">
+         Interaction Design, Information Architecture, Wireframes
+      </div>
+      
+      <a href="/ux-design/physician-locator">
+         <strong>Physician Locator</strong> 
 
-Looking for help? Contact: <a href="&#x6D;&#97;&#105;l&#116;&#x6F;:&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;">&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;</a>
-
+         <img src="/img/portfolio/cover-physician-locator.png" alt="blueprint showing mobile design">
+      </a>
+      <div class="meta">
+         Interaction Design, Wireframes, UI Design, Frontend Dev
+      </div>
+      
    </div>
 </section>
