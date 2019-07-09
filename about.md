@@ -8,7 +8,7 @@ class: about
 <section class="white" markdown="1">
 	
 <div class="">
-   <img src="/img/about-me.jpg" alt="Photo of John Phillips on the banks of the Seine river in Paris" class="about-img border">
+   <img src="/img/about-me.jpg" alt="Photo of John Phillips on the banks of the Seine river in Paris" class="about float border">
 </div>	
 	
 Hello. I’m John Phillips,  a UX designer and writer. [I have been designing products for more than fifteen years][ux].
