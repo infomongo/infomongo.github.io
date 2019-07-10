@@ -35,7 +35,7 @@ select {
 
 }
 
-a.button, input[type=submit] {
+a.button, input[type=submit], button {
 	display: inline-block;
 	background-color: $main-color;
 	color: white;
