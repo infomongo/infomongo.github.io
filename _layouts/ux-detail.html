@@ -44,7 +44,7 @@ links:
 		using the array 'links' defined in the front matter of this file
 		this code figures out the position in the array of the current page
 		then gets the previous and next links -->
-	{% endcomment %}	
+	
 	{% assign current-file = page.url | remove: "/ux-design/"  %}
 	
 	{% for link_hash in layout.links %}
@@ -70,4 +70,5 @@ links:
 			<span class="prev"><a href="{{link[0]}}">{{link[1]}}</a></span>
 		{% endfor %}
 	</nav>
+	{% endcomment %}	
 </section>
