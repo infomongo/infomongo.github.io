@@ -16,8 +16,9 @@ img{
 		margin: 0 .5rem .5rem 0;
 	}
 	&.about {
-		margin-top: 1rem;
 		max-width: 50%;
+		float: right;
+		margin: 1rem 0 .5rem .5rem;
 	}
 }
 
