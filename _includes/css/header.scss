@@ -99,6 +99,19 @@ footer {
 			height: 36px;
 		}
 	}
+	footer {
+		.wrap{
+			text-align: center;
+			&::before, &::after {
+				content: "~";
+			}
+		}
+		span {
+			margin: 0 .5rem;
+		}
+	}
+	
+
 }
 
 @media only screen and (max-width : 500px) {
