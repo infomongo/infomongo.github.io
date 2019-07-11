@@ -58,9 +58,9 @@ The menu shows the location letters and names. Clicking a link shows the info fo
 
 ### Other Details 
 
-- The pins are labeled with letters instead of numbers. *(I first saw Google do this in 2003 or 2004.)* If the pins are labeled with numbers, some clients will want to number the pins sequentially, with pins 1–10 on page one, 11–20 on page two, and etc. Showing two digits on the pins is awkward.
+- The pins are labeled with letters instead of numbers. *(I first saw Google do this in 2003 or 2004.)* This allows you to show a large number of labeled pins, and avoid having any two digit labels. Showing two digits on the pins is awkward.
 
-- The pins are layered in reverse order, pin A on top of B. If the pins are added in the "natural" way, with pin A added first, followed by B and all the others, then A will end ends up at the bottom. Each new pin added it higher up the stack. *(This is true for the Google Maps API, and every other mapping API I have used.)* It works better to loop thru them in reverse order. This puts A on to of B.
+- The pins are layered with pin A on top of B. If the pins are added in the "natural" way, with pin A added first, followed by B and all the others, then A will end up at the bottom. Each new pin gets added in front of the others. *(This is true for the Google Maps API, and every other mapping API I have used.)* It works better to loop thru them in reverse order. This puts pin A on top of pin B, which makes better visiual sense.
 
 </div>
 </section>	
