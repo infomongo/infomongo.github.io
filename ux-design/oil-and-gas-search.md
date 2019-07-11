@@ -124,8 +124,6 @@ This wireframe shows the initial state of the query builder. It's shown here out
 
 <p class="caption">The query builder in the app.</p>
 
-
-
 </div>
 </section>	
 
