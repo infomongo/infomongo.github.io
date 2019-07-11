@@ -11,7 +11,7 @@ description: A interaction detail used on local search sites
 
 <p class="meta">An interaction detail used on local search sites.</p>
 
-Most local search sites plot locations on a map. Each location is marked with a pin. Usually clicking a pin displays a "balloon" with more information about the location.
+Most local search sites plot locations on a map. Each location is marked with a pin. Usually clicking a pin displays a "balloon" with more information about that location.
 
 Frequently, the pins are pretty close together. The locations may be close, or the map might be zoomed out enough that they overlap. 
 
@@ -45,15 +45,13 @@ Instead of showing the normal balloon, show a menu that lists all the locations 
 </div>
 
 
-This example is [from a web app][umb] created using the Placeable locator platform. But I first designed this interaction for Local Matters and we used it in the yellow page apps we built. *(The font in this example is a little smaller than I'd like. Ideally the click targets would be bigger, and there'd be more space between them.)*
-
-[umb]: https://locations.umb.com/kansas-city-ks
+This example is from a web app created using the Placeable locator platform. But I first designed this interaction for Local Matters.  We used it in the yellow page apps we built. *(The font in this example is a little smaller than I'd like. Ideally the click targets would be bigger, and there'd be more space between them.)*
 
 The menu shows the location letters and names. Clicking a link shows the info for that location.
 
 <div class="">
 	<img src="/img/ux/pin-info-crop.png" class="full-width border">
-	<p class="caption">menu location info</p>
+	<p class="caption">location info</p>
 </div>
 
 ### Other Details 
