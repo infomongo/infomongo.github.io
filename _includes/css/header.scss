@@ -100,14 +100,8 @@ footer {
 		}
 	}
 	footer {
-		.wrap{
-			text-align: center;
-			&::before, &::after {
-				content: "~";
-			}
-		}
 		span {
-			margin: 0 .5rem;
+			float: right;
 		}
 	}
 	

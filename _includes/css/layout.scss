@@ -55,16 +55,14 @@ section {
 	}
 }
 
-
-// @media only screen and (min-width : 1200px) {
-//     html {
-//         font-size: 23px;
-//         line-height: 33.6px;
-//     }   
-//     .wrap {
-//         padding-right: 2rem;
-//         padding-left: 2rem;
-//         max-width: 1200px;
-//         margin: 0 auto;
-//     }
-// }
+@media only screen and (min-width : 600px) {
+	.columns {
+		column-width: 15rem;
+		column-count: 3;
+		li {
+			-webkit-column-break-inside: avoid;
+			page-break-inside: avoid;
+			break-inside: avoid;
+		}
+	}
+}

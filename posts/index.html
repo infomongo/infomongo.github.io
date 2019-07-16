@@ -26,7 +26,7 @@ class: writing
 		{% endfor %}
 	</div>
 	<div class="popular">
-		<h4>Most Popular</h4>
+		<h4 class="lite">Most Popular</h4>
 		{% comment %}
 		<ul>		
 		{% for post in site.categories['popular'] limit:5 %}
@@ -62,9 +62,9 @@ class: writing
 	</div>
 </section>
 <section class="archive">
-	<h4>Archive</h4>
+	<h4 class="lite">Archive</h4>
 	<div class="columns">
-		<ul>	
+		<ul class="plain">	
 		{% for post in site.posts %}
 			<li>
 			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
