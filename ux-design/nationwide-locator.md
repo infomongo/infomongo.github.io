@@ -19,7 +19,7 @@ They were unhappy with their current agent locator. It was pretty clunky. **It d
 
 We were developing a new platform to build locators, one that was both mobile friendly and SEO optimized.
 
-Our contract included a six-figure bonus if we hit our usage and SEO goals. **We exceeded all our goals**, and the Nationwide locator became a key sales tool for Placeable. *([Placeable was acquired by Ignite Technologies][place] in April 2017.)*
+Our contract included a seven-figure bonus if we hit our usage and SEO goals. **We exceeded all our goals**, and the Nationwide locator became a key sales tool for Placeable. *([Placeable was acquired by Ignite Technologies][place] in April 2017.)*
 
 [place]: http://ignitetech.com/placeable/
 
