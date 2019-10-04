@@ -15,7 +15,10 @@ Hello. I’m John Phillips,  a UX designer and writer. [I have been designing pr
 
 Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [Agent Locator for Nationwide Insurance][nw]. Before that, at Local Matters, I designed sites for many of the leading yellow page companies in Europe.
 
-[ux]: /ux-design/
+My **[LinkedIn profile][li]** shows my work history, and reccomendations.
+
+[li]: https://www.linkedin.com/in/johnphillipsdenver/
+[ux]: /
 [w]: /posts/
 [nw]: /ux-design/nationwide-locator
 [loc]: /ux-design/map-pins
