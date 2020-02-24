@@ -6,12 +6,18 @@ $(function() {
 	$percent = $('#percent'),
 	$xtip = $('#xtip'),
 	$xtotal = $('#xtotal'),
-	$xpercent = $('#xpercent');
+	$xpercent = $('#xpercent'),
+	$clear = $('#clear');
 
 	$bill.on('keyup', function () {
 	  format();
-	  //calculate();
 	});
+
+	$clear.on('click', function () {
+	  //console.log('boom');
+	  //$bill.val('');
+	});
+	
 
 	function format() {
 		var bill = $bill.val();

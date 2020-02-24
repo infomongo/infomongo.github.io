@@ -3,19 +3,32 @@
 
 
 input[type=text] {
-	width: 5rem;
+	width: 6rem;
 	margin-right: .5rem;
 } 
 
 .calc, .percent {
     display: inline-block;
-    width: 5.5rem;
+    width: 6.5rem;
 }
 
 .line {
     margin-bottom: .5rem;
 }
 
+#clear {
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	line-height: 1em;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 100%;
+	background-color: #aaa;
+	color: white;
+	margin-left: -1.8em;
+	margin-right: .8em;
+}
 
 .border {
 	border-top: 2px $border-color solid;
@@ -24,4 +37,5 @@ input[type=text] {
 
 .space {
 	margin-top: 3rem;
+
 }
