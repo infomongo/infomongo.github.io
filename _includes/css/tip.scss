@@ -18,14 +18,15 @@ input[type=text] {
 
 #clear {
 	display: inline-block;
-	height: 1em;
+	//height: 1em;
 	width: 1em;
-	line-height: 1em;
+	//line-height: 1em;
 	text-align: center;
 	vertical-align: middle;
-	border-radius: 100%;
-	background-color: #aaa;
-	color: white;
+	//border-radius: 100%;
+	//background-color: #aaa;
+	//color: white;
+	color: $text-color-lite;
 	margin-left: -1.8em;
 	margin-right: .8em;
 }
