@@ -16,14 +16,12 @@ css-include:
 
 # John Phillips: Freelance Writer
 
-<p class="lite">Blog Posts | Websites | Microcopy | Documentation | Technical Writing</p>
+<p class="lite">Blog Posts, Websites, Microcopy, Documentation, Technical Writing</p>
 
 
 My background is in technology. My Degree is in English. Let me put both to work for you.
 
-<div class="reorder" markdown="1">
-{% include contact-form.html %}
-
+<div class="group" markdown="1">
 <div class="content" markdown="1">
 ## The Game Plan
 
@@ -49,6 +47,9 @@ If you are blogging as part of a content marketing strategy, SEO is an important
 There are a lot of factors that affect ranking, and I can’t promise that your post will be on the first page of results. But I will maximize your ranking, and I understand which details matter most.
 
 </div>
+
+{% include contact-form.html %}
+
 </div>
 
 ## Topics I Have Written About
