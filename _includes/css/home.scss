@@ -1,26 +1,13 @@
 @import "variables";
-@import "forms";
+@import "flex";
 
-
-.cta {
-	margin-bottom: 1.5rem;
-	//overflow: scroll;
-	display: flex;
-	align-items: center;
-	//justify-content: space-between;
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		margin-right: 1rem;
-	}
-	.button {
-		min-width: 6rem;
-		text-align: center;
-	}
-}
 
 li {
 	max-width: 33rem;
+}
+
+.intro {
+	margin-bottom: 2rem;
 }
 
 .images {
@@ -36,35 +23,8 @@ li {
 	margin-bottom: 1rem;
 }
 
-
-@media only screen and (min-width  : 760px) {
-	.group {
-		display: flex;
-		justify-content: center;
-	}
+@media only screen and ($breakpoint-md) {
 	.intro {
-		padding-top: .7rem;
-		padding-right: 1rem;
-		max-width: 16rem;	
+		margin-left: 2rem;
 	}
-	.images {
-		padding-right: 3rem;
-		img {
-			width: 550px;
-		}
-	}
-}
-
-@media only screen and (max-width  : 759px) {
-	.group {
-		display: flex;
-		flex-direction: column;
-	}
-	.intro {
-		order: 1;
-	}
-	.images {
-		order: 2;
-	}
-
 }
