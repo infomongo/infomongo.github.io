@@ -11,7 +11,7 @@ class: about
    <img src="/img/about-me.jpg" alt="Photo of John Phillips on the banks of the Seine river in Paris" class="about float border">
 </div>	
 	
-Hello. I’m John Phillips,  a UX designer and writer. [I have been designing products for more than fifteen years][ux].
+Hello. I’m John Phillips, a UX designer and writer. [I have been designing products for more than fifteen years][ux]. I have designed web and mobile apps, and even desktop software. I got started doing UX design for [Quark][q], back when people used QuarkXPress. *(That was back when software was actively murdering capitalization.)*
 
 Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [Agent Locator for Nationwide Insurance][nw]. Before that, at Local Matters, I designed sites for many of the leading yellow page companies in Europe.
 
@@ -22,8 +22,9 @@ My [LinkedIn profile][li] shows my work history and recommendations.
 [w]: /posts/
 [nw]: /ux-design/nationwide-locator
 [loc]: /ux-design/map-pins
+[q]: http://www.quark.com
 
-I [write about UX Design and other topics][w]. My latest post is 
+[I write about UX Design and other topics][w]. My latest post is 
 {% for post in site.posts limit:1 %}<a href="{{ post.url}}">{{ post.title | escape }}</a>.{% endfor %} 
 
 My most popular posts are 
