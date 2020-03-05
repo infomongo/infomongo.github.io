@@ -10,8 +10,10 @@ class: about
 <div class="">
    <img src="/img/about-me.jpg" alt="Photo of John Phillips on the banks of the Seine river in Paris" class="about float border">
 </div>	
+
+# About Me	
 	
-Hello. I’m John Phillips, a UX designer and writer. [I have been designing products for more than fifteen years][ux]. I have designed web and mobile apps, and even desktop software. I got started doing UX design for [Quark][q], back when people used QuarkXPress. *(That was back when software was actively murdering capitalization.)*
+I’m John Phillips, a UX designer and writer. [I have been designing products for more than fifteen years][ux]. I have designed web and mobile apps, and even desktop software. I got started in UX at [Quark][q], back when people used QuarkXPress. *(At the time, it seemed futuristic to have _very_ silly capitalization.)*
 
 Much of my work has been in [local search][loc]. I have designed store and ATM locators. I lead the design of an [Agent Locator for Nationwide Insurance][nw]. Before that, at Local Matters, I designed sites for many of the leading yellow page companies in Europe.
 
@@ -33,7 +35,7 @@ My most popular posts are
 
 
 
-## Contact  
+## Contact John
 
 You can reach me at
 <a href="&#x6D;&#97;&#105;l&#116;&#x6F;:&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;">&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;</a>. As long as you aren't a Nigerian Prince who needs help with a wire transfer, I will respond within a couple of days.
