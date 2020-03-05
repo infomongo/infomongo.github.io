@@ -14,7 +14,10 @@ But for my money, the band bringing the new punk rock are the [Idles](https://ww
 
 ## Idles - Tiny Desk Concert
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wMehItNQKAA" frameborder="0" style="display: block; margin:0 auto" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wMehItNQKAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 <!--more--><a name="jump"></a>
 
@@ -24,7 +27,9 @@ The songs "Never Fight A Man With A Perm"and "I'm Scum" are off their latest ful
 
 ## The Idles - Danny Nedelko
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QkF_G-RF66M" frameborder="0" style="display: block; margin:0 auto" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QkF_G-RF66M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 This song is also from Joy as an Act of Resistance, and it got a fair amount of press, because while they look and sound a bit like hooligans, the lyrics are decidedly progressive:
 
