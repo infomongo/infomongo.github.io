@@ -1,15 +1,14 @@
 ---
-layout: default
+layout: writing
 class: writing
 ---
 <section class="post">
 	<div class="top">
 		<h1 class="post-title">{{page.title}}</h2>
-		<p class="meta">By {{page.author}} on <span>{{page.date | date: "%B %d, %Y"}}</span></p>
-		
 		{% if page.subtitle %}
 		<h2 class="subhead">{{page.subtitle}}</h2>
 		{% endif %}
+		<p class="meta">{{page.author}}, <span>{{page.date | date: "%B %d, %Y"}}</span></p>
 	</div>
 	<div class="text">
 		{{ content }}

@@ -1,54 +1,72 @@
 @import "variables";
 
 html {
-  font-family: 'cooper_hewitt_book', sans-serif;
-  font-size: calc(14px + 0.5vw);
-  line-height: calc(1.2em + 0.5vw);
+  //font-family: 'cooper_hewitt_book', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.388;
   color: $text-color;
   background-color: $bg-color;
 }
 
+@media only screen and ($breakpoint-xs) {
+  html { font-size: 1.125rem;}
+}
+
+@media only screen and ($breakpoint-md) {
+  html { font-size: 1.25rem;}
+}
+
+@media only screen and ($breakpoint-xl) {
+  html { font-size: 1.375rem; }
+}
+
+
 h1, h2, h3, h4{
-	font-family: 'roboto_condensed_bold', sans-serif;
-	line-height: 1.2;
-	//text-transform: uppercase;
-	font-weight: normal;
-	margin-bottom: .75rem;
+	//font-family: 'roboto_condensed_bold', sans-serif;
+	//font-weight: normal;
+	//line-height: 1.2;
+	//margin-bottom: .75rem;
 	color: $text-color-dark;
 }
 
-h2, h3 h4 {
-	margin-top: 1.5rem;
-}
 
 h1 {
-	font-size: calc(20px + 2vw); 
-	// text-transform: uppercase;
+	//font-size: 2.5em;
+	line-height: 1.2;
+	margin: 0 0 1rem;
 }
 h2 {
-	font-size: 1.6rem;
+	//font-size: 1.555555555555556em;
+	margin-top: 2.8rem;
+	margin-bottom: 1rem;
 }
 h3 {
-	font-size: 1.4rem;
+	margin-top: 2.2rem;
+	margin-bottom: 1rem;
 }
 h4 {
-	font-size: 1.2rem;
+	//font-size: 1.2rem;
 
 }
 
+.small-font { font-size: .8rem;}
+.lite-font  { font-weight: 200;}
 
 p {
 	max-width: 33rem;
- 	margin: .75rem 0;
+ 	margin: 0 0 1em;
  }
 
 strong, b, th, label, .calc, .cta .button {
-	font-family: 'cooper_hewitt_semibold', sans-serif;
-	font-weight: normal;
+	//font-family: 'cooper_hewitt_semibold', sans-serif;
+	//font-weight: normal;
+	font-weight: bold;
 }
-em, i, blockquote {
-	font-family: 'cooper_hewitt_book_italic', sans-serif;
-	font-style: normal;
+em, i {
+	//font-family: 'cooper_hewitt_book_italic', sans-serif;
+	//font-style: normal;
+	font-style: italic;
 }
 .lite {color: $text-color-lite;}
 
@@ -77,34 +95,40 @@ h1, h2, h3 {
 
 
 h4.lite {
-	font-family: 'cooper_hewitt_light', sans-serif;
-	font-size: 70%;
+	//font-family: 'cooper_hewitt_light', sans-serif;
+	//font-size: 70%;
+	@extend .small-font;
+	@extend .lite-font;
 	text-transform: uppercase;
 	color: $text-color-lite;
 	margin-bottom: .25rem;
 }
 
 .meta {
-	font-family: 'cooper_hewitt_light', sans-serif;
-	font-size: .9rem;
+	//font-family: 'cooper_hewitt_light', sans-serif;
+	//font-size: .9rem;
+	@extend .lite-font;
 	max-width: none;
-	color: $text-color-lite;
+	//color: $text-color-lite;
 }
 
 ul.plain {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-size: 90%;
-	line-height: 1.2rem;
+	//font-size: 90%;
+	//line-height: 1.2rem;
 	li {
 		margin-bottom: .5rem;
 	}
 }
 
 blockquote {
-	font-size: calc(1rem + 0.25vw);
-	font-family: 'cooper_hewitt_book_italic', sans-serif;
+	//font-size: calc(1rem + 0.25vw);
+	//font-family: 'cooper_hewitt_book_italic', sans-serif;
+	font-size: 125%;
+	font-weight: bold;
+	font-style: italic;
 	color: $text-color-lite;
 	margin: .5rem;
 }
@@ -127,7 +151,7 @@ pre {
 
 
 footer {
-	font-size: .8rem;
+	//font-size: .8rem;
 	a, a:visited, a:hover, a:focus {
 		margin-right: .5rem;
 		color: white;
@@ -140,28 +164,31 @@ footer {
 .post {
 	.top {
 		text-align: center;
-		.subhead {
-			color: $text-color-lite;
-			margin-top: 0;
-		}
+		h1, h2 { margin: 0 0 .3rem; }
+		.subhead { color: $text-color-lite;}
+		// .meta { margin: .5em 0; }
 	}
 
 	.text {
 		p {
-			margin: .75rem auto;
+			margin-left: auto;
+			margin-right: auto;
 		}
 		ul, ol {
 			max-width: 33rem;
 			margin: .75rem auto;
 		}
 		h1, h2, h3, h4 {
-			text-align: center;
+			//text-align: center;
+			max-width: 33rem;
+			margin-left: auto;
+			margin-right: auto;
 		}
 		.caption {
-			font-family: 'cooper_hewitt_light', sans-serif;
+			//font-family: 'cooper_hewitt_light', sans-serif;
 			text-align: center;
 			color: $text-color-lite;
-			font-size: .9rem;
+			//font-size: .9rem;
 		}
 	}
 	table {
@@ -175,7 +202,7 @@ footer {
 	 }
 	td, th { 
 		padding: .25rem .75rem ;
-		font-size: 80%;
+		//font-size: 80%;
 	}
 	tr:nth-child(even) {
 	  background: #eee;
@@ -224,7 +251,7 @@ nav.next {
 	border-right: none;
 	border-left: none;
 	padding: .25rem 0;
-	font-size: 80%;
+	//font-size: 80%;
 	text-align: center;
 }
 

@@ -1,6 +1,6 @@
 $text-color: #333;
-$text-color-lite:#666;
-$text-color-dark:#000;
+$text-color-lite:#999;
+$text-color-dark:#222;
 $dark-section-color: #0A6161;
 $bg-color: #fff;
 $bg-color-footer: $dark-section-color;
@@ -13,8 +13,9 @@ $border-color: #ccc;
 
 $small-text-size: .85rem;
 
-
 // breakpoints
-$breakpoint-sm: "min-width: 40em";
-$breakpoint-md: "min-width: 52em";
-$breakpoint-lg: "min-width: 64em";
+$breakpoint-xs: "min-width: 40em"; // 640px 
+$breakpoint-sm: "min-width: 52em"; // 832px
+$breakpoint-md: "min-width: 64em"; // 1024px
+$breakpoint-lg: "min-width: 80em"; // 1280px
+$breakpoint-xl: "min-width: 90em"; // 1440px
