@@ -5,10 +5,10 @@ description: A collection of writing about UX design and other topics.
 class: writing
 ---
 
-<section class="sm-flex">
+<section class="sm-flex wrap">
 
 	<div class="post">
-		<div class="text">
+		<div class="featured">
 			<!-- <h4>Latest Post</h4> -->
 			{% for post in site.categories['featured'] limit:1 %}
 			<h1 class="title"><a href="{{ post.url}}">{{post.title}}</a></h1>
@@ -27,41 +27,11 @@ class: writing
 	</div>
 	<div class="popular">
 		<h4 class="lite">Most Popular</h4>
-		{% comment %}
-		<ul>		
-		{% for post in site.categories['popular'] limit:5 %}
-			<li>
-			  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
-			  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
-			</li>
-		{% endfor %}
-		</ul>
-		{% endcomment %}
-		<ol>		
-			<li>
-			  <a class="post-link" href="/posts/unambomber-research">Unabomber Research</a>
-			  <span class="date">October 09, 2017</span>
-			</li>
-			<li>
-			  <a class="post-link" href="/posts/cast-from-netflix-to-roku">An Oddity Casting Netflix from iOS to my Roku</a>
-			  <span class="date">March 01, 2018</span>
-			</li>
-			<li>
-			  <a class="post-link" href="/posts/presenting-mulitple-design-options">Presenting Multiple Design Options</a>
-			  <span class="date">September 21, 2017</span>
-			</li>
-			<li>
-			  <a class="post-link" href="/posts/proposal-for-a-saner-calendar">Proposal for a More Rational Calendar</a>
-			  <span class="date">July 31, 2017</span>
-			</li>
-			<li>
-			  <a class="post-link" href="/posts/simplify-forms-to-increase-conversion">Simplify Forms to Increase Conversion Rates</a>
-			  <span class="date">August 16, 2017</span>
-			</li>
-	</ol>
+		{% include popular-posts-list.html %}
+			
 	</div>
 </section>
-<section class="archive">
+<section class="archive wrap">
 	<h4 class="lite">Archive</h4>
 	<div class="columns">
 		<ul class="plain">	

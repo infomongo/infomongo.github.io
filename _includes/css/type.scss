@@ -1,7 +1,6 @@
 @import "variables";
 
 html {
-  //font-family: 'cooper_hewitt_book', sans-serif;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
   font-weight: normal;
   line-height: 1.388;
@@ -9,66 +8,60 @@ html {
   background-color: $bg-color;
 }
 
-@media only screen and ($breakpoint-xs) {
+@media only screen and ( min-width: $breakpoint-xs) {
   html { font-size: 1.125rem;}
 }
 
-@media only screen and ($breakpoint-md) {
+@media only screen and (min-width: $breakpoint-md) {
   html { font-size: 1.25rem;}
 }
 
-@media only screen and ($breakpoint-xl) {
+@media only screen and (min-width: $breakpoint-xl) {
   html { font-size: 1.375rem; }
 }
 
+@media only screen and ( max-width: $breakpoint-xs) {
+ 	h1 {
+	 	font-size: 1.7em;
+ 	}
+}
 
 h1, h2, h3, h4{
-	//font-family: 'roboto_condensed_bold', sans-serif;
-	//font-weight: normal;
-	//line-height: 1.2;
-	//margin-bottom: .75rem;
 	color: $text-color-dark;
 }
 
-
 h1 {
-	//font-size: 2.5em;
 	line-height: 1.2;
 	margin: 0 0 1rem;
 }
 h2 {
-	//font-size: 1.555555555555556em;
 	margin-top: 2.8rem;
 	margin-bottom: 1rem;
 }
+
 h3 {
 	margin-top: 2.2rem;
 	margin-bottom: 1rem;
 }
-h4 {
-	//font-size: 1.2rem;
-
-}
-
-.small-font { font-size: .8rem;}
-.lite-font  { font-weight: 200;}
 
 p {
 	max-width: 33rem;
  	margin: 0 0 1em;
  }
+ 
 
 strong, b, th, label, .calc, .cta .button {
-	//font-family: 'cooper_hewitt_semibold', sans-serif;
-	//font-weight: normal;
 	font-weight: bold;
 }
 em, i {
-	//font-family: 'cooper_hewitt_book_italic', sans-serif;
-	//font-style: normal;
 	font-style: italic;
 }
 .lite {color: $text-color-lite;}
+
+.date {
+	display: block;
+	font-weight: $lite-font-weight;
+}
 
 a {
     color: $link-color;
@@ -84,48 +77,54 @@ a {
     &:focus {
 	    outline: none;
 	    text-decoration: underline;
+	    //background: #ddd;
+	    img {
+		    border: 1px $link-color solid;
+	    }
     }
 }
 
 h1, h2, h3 {
 	a:visited {
-	   //color: $link-color;
+	   color: $link-color;
 	}
 }
 
-
-h4.lite {
-	//font-family: 'cooper_hewitt_light', sans-serif;
-	//font-size: 70%;
-	@extend .small-font;
-	@extend .lite-font;
+h4.lite, h3.lite {
+	font-size: $small-text-size;
+	font-weight: $lite-font-weight;
 	text-transform: uppercase;
 	color: $text-color-lite;
 	margin-bottom: .25rem;
+	margin-top: 1rem;
 }
 
 .meta {
-	//font-family: 'cooper_hewitt_light', sans-serif;
-	//font-size: .9rem;
-	@extend .lite-font;
+	font-weight: $lite-font-weight;
 	max-width: none;
-	//color: $text-color-lite;
 }
 
 ul.plain {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	li {
+		margin-bottom: .5rem;
+	}
+}
+
+ol.popular  {
+	margin: 0;
+	margin-left: 1rem;
+	padding: 0;
 	//font-size: 90%;
-	//line-height: 1.2rem;
+	line-height: 1.2rem;
 	li {
 		margin-bottom: .5rem;
 	}
 }
 
 blockquote {
-	//font-size: calc(1rem + 0.25vw);
-	//font-family: 'cooper_hewitt_book_italic', sans-serif;
 	font-size: 125%;
 	font-weight: bold;
 	font-style: italic;
@@ -135,13 +134,14 @@ blockquote {
 
 .simple-quotes blockquote{
 	float: none;
-	width: auto;
+	margin: auto;
 }
 
-@media only screen and (min-width : 500px) {
+@media only screen and (min-width: $breakpoint-xs) {
 	blockquote {
 		max-width: 33vw;
 		float: right;
+		margin-right: 15vw;
 	}
 }
 
@@ -151,7 +151,7 @@ pre {
 
 
 footer {
-	//font-size: .8rem;
+	font-size: $small-text-size;
 	a, a:visited, a:hover, a:focus {
 		margin-right: .5rem;
 		color: white;
@@ -161,15 +161,20 @@ footer {
 	}
 }
 
+
 .post {
 	.top {
 		text-align: center;
 		h1, h2 { margin: 0 0 .3rem; }
-		.subhead { color: $text-color-lite;}
-		// .meta { margin: .5em 0; }
+		.subhead { color: $text-color-lite;}		
 	}
 
 	.text {
+		> p:first-of-type {
+			margin-top: 1rem;
+			font-size: 120%;
+		}
+	
 		p {
 			margin-left: auto;
 			margin-right: auto;
@@ -177,18 +182,20 @@ footer {
 		ul, ol {
 			max-width: 33rem;
 			margin: .75rem auto;
+			li {
+				margin-bottom: 1em;
+			} 
 		}
+		h1 {text-align: center;}
 		h1, h2, h3, h4 {
-			//text-align: center;
 			max-width: 33rem;
 			margin-left: auto;
 			margin-right: auto;
 		}
 		.caption {
-			//font-family: 'cooper_hewitt_light', sans-serif;
 			text-align: center;
 			color: $text-color-lite;
-			//font-size: .9rem;
+			margin-top: .5rem;
 		}
 	}
 	table {
@@ -202,7 +209,6 @@ footer {
 	 }
 	td, th { 
 		padding: .25rem .75rem ;
-		//font-size: 80%;
 	}
 	tr:nth-child(even) {
 	  background: #eee;
@@ -210,11 +216,8 @@ footer {
 }
 
 nav.next {
-	// margin: 3rem 0 0;
-	// border: 1px $border-color solid;
 	border-left: none;
 	border-right: none;
-	// padding: 1rem 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;

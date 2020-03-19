@@ -2,19 +2,19 @@
 
 .flex { display: flex }
 
-@media only screen and ($breakpoint-xs) {
+@media only screen and (min-width: $breakpoint-xs) {
   .xs-flex { display: flex }
 }
 
-@media only screen and ($breakpoint-sm) {
+@media only screen and (min-width: $breakpoint-sm) {
   .sm-flex { display: flex }
 }
 
-@media only screen and ($breakpoint-md) {
+@media only screen and (min-width: $breakpoint-md) {
   .md-flex { display: flex }
 }
 
-@media only screen and ($breakpoint-lg) {
+@media only screen and (min-width: $breakpoint-lg) {
   .lg-flex { display: flex }
 }
 

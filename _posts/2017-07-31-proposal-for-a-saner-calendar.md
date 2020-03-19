@@ -8,6 +8,7 @@ date:   2017-07-31
 categories: other calendar ideas popular
 js-include: date-convert.js
 css-include: calendar.css
+order: 2
 ---
 
 What is your first memory of the metric system? I remember learning about it in elementary school. It struck me that the units for measuring distance —centimeters, meters, kilometers— just made much better sense than the Imperial system, with 12 inches to a foot, 3 feet to a yard, and 5280 feet to a mile. Our system suddenly seemed so arbitrary compared to the base 10 rationality of the metric system.

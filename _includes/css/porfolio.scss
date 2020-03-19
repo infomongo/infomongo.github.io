@@ -34,6 +34,12 @@
 	margin-top: 2rem;
 }
 
+@media only screen and (min-width: $breakpoint-sm) {
+	.sm-flex.justify-between a {
+		display: block;
+	}
+}
+
 @media only screen and (min-width  : 760px) {
 	.retina img {
 		max-width: 320px;

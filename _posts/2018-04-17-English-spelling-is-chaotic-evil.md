@@ -3,7 +3,8 @@ layout: post
 title: English Spelling is Chaotic Evil
 description: The system of English spelling is a chaotic mess, long overdu for reform.
 author: John Phillips
-categories: other
+categories: other popular
+order: 5
 ---
 
 English spelling is a yard sale. It is highly irregular. The way words are written bears little relationship to how they are pronounced. This makes learning to read more difficult, and spelling a challenge.

@@ -1,21 +1,32 @@
 $text-color: #333;
 $text-color-lite:#999;
 $text-color-dark:#222;
-$dark-section-color: #0A6161;
+// $dark-section-color: #616162; // was #999
+$dark-section-color: #354144; // from tara donovan orig img
+
+//$dark-section-color: #0A6161; dark green
 $bg-color: #fff;
 $bg-color-footer: $dark-section-color;
-$main-color: #FF8000;
+// $main-color: #FF8000; // oramnge
+// $main-color: #730069; // purple
+$main-color: #C1453C; // orange from photo
+$header-color:#101615; // from tara donovan orig img
+
 $main-color-border: #FF9933;
-$link-color: #0F9595;
+$link-color: $main-color;
+// $link-color: #0F9595; green
 // $link-color-visited: #0A6161;
-$link-color-visited: #730069;
+$link-color-visited: $text-color-lite;
+// $link-color-visited: #730069; purple
 $border-color: #ccc;
 
-$small-text-size: .85rem;
+// text properties
+$small-text-size: .8rem;
+$lite-font-weight: 300;
 
 // breakpoints
-$breakpoint-xs: "min-width: 40em"; // 640px 
-$breakpoint-sm: "min-width: 52em"; // 832px
-$breakpoint-md: "min-width: 64em"; // 1024px
-$breakpoint-lg: "min-width: 80em"; // 1280px
-$breakpoint-xl: "min-width: 90em"; // 1440px
+$breakpoint-xs: "40em"; // 640px 
+$breakpoint-sm: "52em"; // 832px
+$breakpoint-md: "64em"; // 1024px
+$breakpoint-lg: "80em"; // 1280px
+$breakpoint-xl: "90em"; // 1440px

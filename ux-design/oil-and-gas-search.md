@@ -10,7 +10,7 @@ class:
 		
 # Oil & Gas Search Application
 
-<p class="meta">User Research, Interaction Design, Wireframes</p>
+<div class="meta">User Research, Interaction Design, Wireframes</div>
 
 An oil & gas data company contracted with [Acclaro Design][2] to help design a new feature for their desktop app. The project took place in February and March of 2019.
 

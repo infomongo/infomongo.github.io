@@ -1,0 +1,28 @@
+{% comment %}
+<!-- 		<ul>		
+{% for post in site.categories['popular'] limit:7 %}
+	<li>
+	  <a class="post-link" href="{{ post.url}}">{{ post.title | escape }}</a>
+	  <span class="date">{{post.date | date: "%B %d, %Y"}}</span>
+	</li>
+{% endfor %}
+</ul> -->
+{% endcomment %}
+
+{% assign popular_items = site.categories.popular %}
+{% for post in site.posts %}
+	{% if page.categories contains "popular" %}
+		{% assign popular_items = popular_items | push: page %}
+	{% endif %}
+{% endfor %}
+
+{% assign popular_items = popular_items | sort: "order" %}
+
+<ol class="popular">
+{% for item in popular_items %}
+	<li>
+	  <a class="post-link" href="{{ item.url}}">{{ item.title | escape }}</a>
+	  <span class="date">{{item.date | date: "%B %d, %Y"}}</span>
+	</li>
+{% endfor %}
+</ol>

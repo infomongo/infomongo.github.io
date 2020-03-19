@@ -1,3 +1,5 @@
+@import "variables";
+
 * { box-sizing: border-box;}
 
 body {
@@ -8,51 +10,32 @@ body {
 
 main {
 	flex: 1 1 0;
-	//background-color: white;
 }
 
 header, main, footer,  {
 	width: 100%;
 }
 
+
 section {
-	padding: 1rem 3vw;
-}
-
-.wrap {
-	padding: 0 3vw;
+    padding: 1rem .5rem;
 }
 
 
-
-@media only screen and (min-width  : 800px) {
-	.wrap {
-		padding: 0 6vw;
-	}
-	section {
-		padding: 1rem 6vw;
-	}
+.margin-bottom {
+	margin-bottom: 1rem;
 }
 
-@media only screen and (min-width : 1050px) {
-	.wrap {
-			padding: 0 10vw;
-	}
-	section {
-		padding: 1rem 10vw;
-	}
+@media only screen and (min-width: $breakpoint-md) {
+	header nav, .wrap {
+		max-width: 58rem;
+		margin-left: auto;
+		margin-right: auto;
+	} 
 }
 
-@media only screen and (min-width : 1200px) {
-	.wrap {
-			padding: 0 15vw;
-	}
-	section {
-		padding: 1rem 15vw;
-	}
-}
 
-@media only screen and (min-width : 600px) {
+@media only screen and (min-width : $breakpoint-xs) {
 	.columns {
 		column-width: 15rem;
 		column-count: 3;
@@ -60,6 +43,35 @@ section {
 			-webkit-column-break-inside: avoid;
 			page-break-inside: avoid;
 			break-inside: avoid;
+		}
+	}
+}
+
+footer {
+	background-color: $bg-color-footer;
+	color: white;
+	padding: 1rem 0;
+	margin-top: 1rem;
+	nav {
+		padding-left: .5rem;
+	}
+}
+
+@media only screen and (min-width: 1180px) {
+	footer nav {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: $breakpoint-xs) {
+	footer {
+		.wrap {
+			column-count: 2;
+			line-height: 2;
+			a {
+				display: block;
+				margin-left: .25rem;
+			}
 		}
 	}
 }

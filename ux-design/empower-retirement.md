@@ -10,16 +10,16 @@ class:
 		
 # Empower Retirement
 
-<p class="meta">Interaction Design, Information Architecture, Wireframes</p>
+<div class="meta">Interaction Design, Information Architecture, Wireframes</div>
 
-[Empower Retirement][1] contracted with [Acclaro Design][2] to updated their website. The wireframes and information architecture took place in October of 2019, followed by UI design in November, with development starting in December.
+[Empower Retirement][1] contracted with [Acclaro Design][2] to update their website. The wireframes and information architecture took place in October of 2019, followed by UI design in November, with development starting in December.
 
 [1]: https://www.empower-retirement.com
 [2]: https://acclarodesign.com
 
 ## The Brief
 
-Empower had three main goals for this project: to move the site off the servers where it was hosted, update the design and fix some problems with the information architecture. The site was hosted and maintained by the IT department of a sister company, and it had been built without a CMS. Both of which made it difficult and time-consuming to update the site. One last constraint: we weren’t rewriting any of the text on the site. Doing so would require a legal review of any changes and there wasn’t time in the schedule.
+Empower had three main goals for this project: to move the site off the servers where it was hosted, update the design and fix some problems with the information architecture. The site was hosted and maintained by the IT department of a sister company, and it had been built without a CMS. Both of which made it difficult and time-consuming to update. One last constraint: we weren’t rewriting any of the text on the site. Doing so would require a legal review, and there wasn’t time for this.
 
 </div>
 </section>	
@@ -114,7 +114,7 @@ There were pages that had **very little content other than these navigational �
 
 ## Wireframes
 
-I developed **twelve different navigational schemes**, before we landed on the one we selected. Most of them we reviewed internally and discarded. We showed maybe five or six version to Empower.
+I developed **twelve different navigational schemes**, before we landed on the one we selected. Most of them we reviewed internally and discarded. We showed maybe five or six to Empower.
 
 <div class="">
 	<img src="/img/portfolio/emp-new-mega-ind.png" alt="the new individuals mega menu" class="full-width border">

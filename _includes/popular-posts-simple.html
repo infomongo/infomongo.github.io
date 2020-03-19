@@ -1,0 +1,15 @@
+{% assign popularItems = site.categories.popular %}
+{% for post in site.posts %}
+	{% if page.categories contains "popular" %}
+		{% assign popularItems = popularItems | push: page %}
+	{% endif %}
+{% endfor %}
+
+{% assign popularItems = popularItems | sort: "order" %}
+
+<p> My most popular posts are: 
+{% for item in popularItems %}
+{% if forloop.last == true %} & {% endif %}<a href="{{ item.url}}">{{ item.title | escape }}</a>{% if forloop.last == true %}. {% else %}, 
+{% endif %}
+{% endfor %}
+</p>

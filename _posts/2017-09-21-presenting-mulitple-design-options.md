@@ -6,13 +6,14 @@ author: John Phillips
 categories: ux popular options featured
 date:   2017-09-21 
 twitter-image: /img/many-doors.jpg
+order: 4
 ---
 
 <div class="main wide">
 	<img src="/img/many-doors.jpg" class="full-width" alt="Hallway showing multiple doors">
 </div>
 
-Interaction design begins with research. You need to understand who is going to use the product and what they want to accomplish. You need to understand their background. What applications they use and like. How they currently solve the problem the product will make easier. What are the broad demographics of these users? How comfortable are they with technology?
+Interaction design begins with research. **You need to understand who is going to use the product and what they want to accomplish.** You need to understand their background. What applications they use and like. How they currently solve this problem, the one that your product solves more completely. What are the broad demographics of these users? How comfortable are they with technology?
 
 You also need to understand the technical limitations and the business goals of the project, but user research makes up the bulk of this initial phase.
 

@@ -1,122 +1,39 @@
 @import "variables";
 
 header {
-	padding: 1rem 0;
-	.wrap {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-	a {
-		font-family: 'roboto_condensed_bold', sans-serif;
-		font-size: calc(13px + .5vw);
-		color: $text-color-dark;
-		&:visited, &:hover  {
-		   color: $text-color-dark;
-		   text-decoration: none;
-		}
-		&:focus {
-			outline: none;
-			text-decoration: none;
-		}
-	}
-	nav a {
-		//background-color: #ccc;
-		border-radius: 1em;
-		padding: 1px .7em;
-		border: 2px white solid;
-		&:hover {
-			color: $text-color-dark;
-			border-color: $main-color-border;
-		}
-		&:focus {
-			color: $text-color-dark;
-			border-color: $main-color-border;
-		}
-	}
-	.logo {
-		//background-color: #eee;
-		display: flex;
-		align-items: center;
-		padding: 4px;
-		border: 2px white solid;
-		border-radius: 1em;
-		margin-left: -6px;
-		svg {
-			width: 16px;
-			height: 16px;
-			margin-right: .25em;
-			#bg-shape {
-				fill: $main-color;
+	
+	nav {
+		border-top: 5px $main-color solid;
+		// border-bottom: 2px $main-color solid;
+		// background-image: url('/img/mca-tara-donovan-3.jpg');
+		// background-size: cover;
+		
+		padding: .5rem;
+		a {
+			padding: 2px;
+			margin-right: 1rem;
+			$color: link-color;
+			
+			&:visited {
+				color: $main-color;
 			}
-		}
-		&:hover {
-			//border-color: #ddd;
-		}
-		&:focus, &:hover  {
-			border-color: $main-color-border;
+			&:hover {
+			}
+			&:focus {
+			}
 		}
 	}
 }
 
 .home .work, .portfolio .work, .writing .posts, .about a.about {
-	// border-bottom: 2px $text-color solid;
-	background-color: $main-color;
-	border-color: $main-color;
-	color: white;
- 	&:hover {
-		background-color: $text-color-dark;
-		border-color: $text-color-dark;
-	}
-	&:focus, &:hover  {
-		background-color: white;
-		color: $text-color-dark;
-		border-color: $main-color-border;
-	}
+	color: $dark-section-color;
+	font-weight: 800;	
 }
 
-footer {
-	background-color: $bg-color-footer;
-	color: white;
-	padding: 1rem 0;
-	margin-top: 2rem;
-}
-
-@media only screen and (min-width : 500px) {
+@media only screen and (min-width: 1161px) {
 	header {
-		padding: calc(1rem + 1vh) 0;
-		a {
-			font-size: calc(16px + .5vw)
-		}
-		nav a {
-			margin-left: .5rem;
-		}
-		.logo {
-
-		}
-		.logo svg {
-			width: 36px;
-			height: 36px;
-		}
-	}
-	footer {
-		span {
-			float: right;
-		}
-	}
-	
-
-}
-
-@media only screen and (max-width : 500px) {
-	footer {
-		.wrap {
-			column-count: 2;
-			line-height: 2;
-			a {
-				display: block;
-				margin-left: 0;
-			}
+		nav {
+			padding-left: 0;
 		}
 	}
 }

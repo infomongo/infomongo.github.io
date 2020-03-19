@@ -6,9 +6,11 @@ description: In 1958, Ted Kaczynski took part in an immoral psychological experi
 author: John Phillips
 categories: other TV unabomber research popular
 date:   2017-10-09
+order: 1
 ---
-
+<div>
 <img class="full-width" src="/img/manhunt-unabomber.jpg" alt="Manhunt: Unabomber logo from Tv series">
+</div>
 
 I binge-watched [Manhunt: Unabomber][1] on Netflix recently. It’s a dramatic retelling of the FBI’s hunt for the Unabomber. I enjoyed the show, but it was obvious that they took liberties with the facts. Which made me curious about the actual events. So I did some research. Much of what I’m covering here comes from the [search warrant][2] that the FBI obtained to search Ted Kaczynski’s cabin.
 

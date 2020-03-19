@@ -6,6 +6,7 @@ author: John Phillips
 categories: other tech-support popular featured
 date:   2018-03-01
 twitter-image: /img/roku-promo.png
+order: 3
 ---
 
 I just got a [Roku Streaming Stick+][r] and so far, I dig it. I bought it to replace an older Roku 2, that was starting to make a death rattle: channels would take a long time to open and sometimes streaming would get glitchy and require a restart. HBO NOW, I’m looking at you. Seemed like an “older hardware, newer software” problem. I chose this model based on the low price and the [Wirecutter][w] review.

@@ -9,7 +9,7 @@ description: A interaction detail used on local search sites
 	
 # Map Pin Interaction
 
-<p class="meta">An interaction detail used on local search sites.</p>
+<div class="meta">An interaction detail used on local search sites.</div>
 
 Most local search sites plot locations on a map. Each location is marked with a pin. Usually clicking a pin displays a "balloon" with more information about that location.
 

@@ -15,11 +15,11 @@ img{
 		float: left;
 		margin: 0 .5rem .5rem 0;
 	}
-	&.about {
-		max-width: 40%;
-		float: right;
-		margin: 1rem 0 .5rem .5rem;
-		border-radius: 5%;
+	&.round {
+		border-radius: 50%;
+	}
+	&.rounded {
+		border-radius: 10%;
 	}
 }
 
@@ -29,7 +29,7 @@ img.center {
 }
 
 
-@media only screen and ($breakpoint-sm) {
+@media only screen and (min-width: $breakpoint-sm) {
 	img{
 		&.full-width {
 			margin: 0 auto;

@@ -2,29 +2,76 @@
 @import "flex";
 
 
-li {
-	max-width: 33rem;
-}
-
-.intro {
-	margin-bottom: 2rem;
-}
-
-.images {
+.img {
 	img {
-		max-width: 100%;
-	}
-	a strong {
-		display: block;
+		max-width: 68px;
+		margin-right: 1rem;
+		margin-top: .25rem;
 	}
 }
 
-.meta {
-	margin-bottom: 1rem;
+h1 {
+	margin-bottom: .5rem;
 }
 
-@media only screen and ($breakpoint-md) {
+h2 {
+	margin-top: 1.4rem;
+}
+
+.writing {
+	li {
+		margin-bottom: .5rem;
+	}
+}
+
+.ux-design {
+	.flex {
+		width: 100%;
+		margin-bottom: 1rem;
+		img {
+			max-width: 67px;
+			margin-right: 1rem;
+		}
+		h3 {
+			margin: 0;
+		}
+	}
+}
+
+@media only screen and (min-width:  $breakpoint-sm) {
+
 	.intro {
-		margin-left: 2rem;
+		max-width: 25em;
 	}
+	
+	.writing {
+		p, li {
+			font-size: $small-text-size;
+		}
+	}
+	
+	.img img {
+		max-width: 136px;
+		margin-top: 0;
+		
+	}
+	
+	.ux-design {
+		//max-width: 65%;
+		//margin-left: 5%;
+		padding-right: 2rem;
+		.flex {
+			align-items: center;
+			img {
+				max-width: 134px;
+			}
+		}
+	}
+	
+	.writing {
+		margin-left: 5%;
+		max-width: 30%;
+	}
+
+	
 }
