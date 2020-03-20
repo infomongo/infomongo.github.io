@@ -14,9 +14,6 @@ h1 {
 	margin-bottom: .5rem;
 }
 
-h2 {
-	margin-top: 1.4rem;
-}
 
 .writing {
 	li {
@@ -38,7 +35,23 @@ h2 {
 	}
 }
 
+@media only screen and (max-width:  $breakpoint-sm) {
+	h2 {
+		margin-top: 1.4rem;
+	}
+}
+
+
 @media only screen and (min-width:  $breakpoint-sm) {
+
+	.top.flex {
+		align-items: center;
+		justify-content: center;
+		img {
+			max-width: 100px;
+			margin-top: -.25rem;
+		}
+	}
 
 	.intro {
 		max-width: 25em;
@@ -49,21 +62,18 @@ h2 {
 			font-size: $small-text-size;
 		}
 	}
-	
-	.img img {
-		max-width: 136px;
-		margin-top: 0;
-		
-	}
+
 	
 	.ux-design {
-		//max-width: 65%;
-		//margin-left: 5%;
+		h3 {
+			font-size: 1.4em;
+		}
+	
 		padding-right: 2rem;
 		.flex {
 			align-items: center;
 			img {
-				max-width: 134px;
+				max-width: 90px;
 			}
 		}
 	}
