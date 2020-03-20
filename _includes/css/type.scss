@@ -6,6 +6,7 @@ html {
   line-height: 1.388;
   color: $text-color;
   background-color: $bg-color;
+  
 }
 
 @media only screen and ( min-width: $breakpoint-xs) {
@@ -78,7 +79,6 @@ a {
     &:focus {
 	    outline: none;
 	    text-decoration: underline;
-	    //background: #ddd;
 	    img {
 		    border: 1px $link-color solid;
 	    }

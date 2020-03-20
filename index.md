@@ -9,17 +9,18 @@ class: home
 ---
 
 
-<section class="white">
+<section class="white" markdown="1">
    <div class="top flex wrap">
       <div class="img">
          <img src="/img/john-phillips-bg-blur.jpg" alt="Photo of John Phillips on the banks of the Seine in Paris" class="home round border">
       </div>
-      <div class="intro">
-         <h1>Hi, I'm John Phillips.</h1>
-         
-            <p>I design software <em>for people</em>. Tools that work like you expect. I've been doing this for <a href="/about/">more than fifteen years</a>.
+<div class="intro" markdown="1">
 
-      </div>
+# Hi, I'm John Phillips.
+         
+I design software *for people*. Tools that work like you expect. I've been doing this for [more than fifteen years](/about/).
+
+</div>
    </div>
 
    <div class="sm-flex wrap">
@@ -66,27 +67,30 @@ class: home
             </div>
          </div>
       </div>
-      <div class="writing">
-            <h2>Writing</h2>
-            <h3 class="lite">Technical Writing</h3>
-               
-               <p>I write developer documentation for APIs.</p>
-               
-               <ul class="api">
-                  <li><a href="https://apidocs.shotzr.com">Shotzr Developer Portal</a> 
-                     <span class="date">both <a href="https://apidocs.shotzr.com/v2.0/docs">v2</a> and <a href="https://apidocs.shotzr.com/v3.0/docs">v3</a> – Ongoing</span>
-                  </li>
-                  <li><a href="https://tendril.readme.io/">Tendril APIs Developer Hub</a>
-                     <span class="date">v1 July, 2018</span>
-                  </li>
-               </ul>
-               
-               <p>For <a href="https://shotzr.com">Shotzr</a> I also help with product management and API design.</p>
-               
-               <p>For <a href="https://www.tendrilinc.com/">Tendril</a> <em>(since renamed <a href="https://uplight.com/press/simple-energy-and-tendril-merge-to-accelerate-the-clean-energy-ecosystem/">Uplight</a>),</em> I helped them pick <a href="https://readme.io">readme.io</a> as the platform host the site. Both of the sites are on readme, and I recommend it.</p>
-            
+<div class="writing" markdown="1">
+## Writing
+<h3 class="lite">Technical Writing</h3>
 
-            </div>      
+I write developer documentation for APIs.
+
+<ul class="api">
+   <li><a href="https://apidocs.shotzr.com">Shotzr Developer Portal</a> 
+      <span class="date">both <a href="https://apidocs.shotzr.com/v2.0/docs">v2</a> and <a href="https://apidocs.shotzr.com/v3.0/docs">v3</a> – Ongoing</span>
+   </li>
+   <li><a href="https://tendril.readme.io/">Tendril APIs Developer Hub</a>
+      <span class="date">v1 July, 2018</span>
+   </li>
+</ul>
+I help with product management and API design at [Shotzr][shotzr]. 
+ 
+I helped [Tendril][ten] *(since renamed[Uplight][up]0*, pick [readme.io][read] as the platform host the site. *Both sites use readme and I generally recommend it*.
+
+[shotzr]: https://shotzr.com
+[ten]: https://www.tendrilinc.com/
+[up]: https://uplight.com/press/simple-energy-and-tendril-merge-to-accelerate-the-clean-energy-ecosystem/
+[read]: https://readme.io
+
+</div>      
    </div>
    
    <div class="wrap">
