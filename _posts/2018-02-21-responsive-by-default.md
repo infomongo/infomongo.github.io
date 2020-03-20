@@ -14,7 +14,7 @@ I was learning more about [flex box][0], when I came across an interesting artic
 [0]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 [1]: https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/
 
-I’m gonna focus on flex layouts, rather than grid. I know grid is the new hotness, but for now, I’m sticking with flex because the [browser support][2] for it is better than for [grid][3]. 
+I’m gonna focus on flex layouts, rather than grid. I know [grid][3] is the new hotness, but for now, I’m sticking with flex because the [browser support][2]  is better. 
 
 [2]: https://caniuse.com/#feat=flexbox
 [3]: https://caniuse.com/#feat=css-grid
@@ -26,10 +26,10 @@ Have a look at this <a href="responsive-flex-layout.html" target="_blank">sample
 
 
 <div class="wide center" markdown="0">
-<img src="/img/flex-row.png" class="full-width inline" alt="">
+<img src="/img/flex-row.png" class="full-width border" alt="">
 <p class="caption">iPhone 8 in landscape, window is 736 pixels wide</p>
 
-<img src="/img/flex-wrap.png" class="full-width inline" alt="">
+<img src="/img/flex-wrap.png" class="full-width border" alt="">
 <p class="caption">iPhone 8 in portrait, window is 414 pixels wide</p>
 
 </div>
