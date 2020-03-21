@@ -10,7 +10,7 @@ description: A SaaS application, aimed at brands with hundreds or thousands of l
 
 # Placeable Workbench
 
-<div class="meta">Interaction Design, Wireframes, Prototyping, UI Design, Frontend Development</div>
+<div class="meta">interaction design, wireframes, prototyping, ui design, frontend development</div>
 
 I was the lead UX designer at Placeable when we built Workbench, starting in 2013. Development of the product was continuous, and I led the design efforts until I left the company in October of 2014.
 

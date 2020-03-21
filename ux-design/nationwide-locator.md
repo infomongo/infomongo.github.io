@@ -9,7 +9,7 @@ description: An agent locator for Nationwide Insurance.
 
 # Nationwide Agent Locator
 
-<div class="meta">Interaction Design, Wireframes</div>
+<div class="meta">interaction design, wireframes</div>
 
 Nationwide was a key client for Placeable in 2012. We were a small company with fewer than 25 employees, and they were a huge national brand. Maybe you have seen one of their television ads featuring that plucky up-and-comer Peyton Manning?
 

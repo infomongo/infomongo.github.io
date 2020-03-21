@@ -10,7 +10,7 @@ class:
 
 # Physician Locator
 
-<div class="meta">Interaction Design, Wireframes, UI Design, Frontend Development</div>
+<div class="meta">interaction design, wireframes, ui design, frontend development</div>
 
 In July of 2015 [Moonsault][1] was approached about building a physician locator for a large healthcare company. The project had an aggressive timeline. Design started in mid July, with wireframes and comps completed in early August. Development was initially set to be complete by the end of August, in time for a September first launch. Development ended up being extended two weeks, at the request of the client. They needed the extra time to complete development of the data API that the app used.
 

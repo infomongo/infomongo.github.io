@@ -25,9 +25,9 @@ I design software *for people*. Tools that work like you expect. I've been doing
 
    <div class="sm-flex wrap">
       <div class="ux-design">
-         <h2>UX Design</h2>
+         <h2>I (helped) design these:</h2>
          
-         <p>My UX work is focused on user research, interaction design, wireframes and prototyping.</p>
+       <!--   <p>My UX work is focused on user research, interaction design, wireframes and prototyping.</p> -->
          
       
          
@@ -37,8 +37,9 @@ I design software *for people*. Tools that work like you expect. I've been doing
             </a>
             <div class="">
                <h3><a href="/ux-design/oil-and-gas-search" class="">Oil &amp; Gas Search Application</a></h3>
+               <p>a desktop app, built with web tech (<a href="https://www.electronjs.org">electron</a>)</p>
                <div class="meta">
-                   User Research, Interaction Design, Wireframes
+                   user research, interaction design, wireframes
                </div>
             </div>
          </div>
@@ -49,8 +50,9 @@ I design software *for people*. Tools that work like you expect. I've been doing
             </a>
             <div class="">
                <h3><a href="/ux-design/empower-retirement" class="">Empower Retirement</a></h3>
+               <p>una página web</p>
                <div class="meta">
-                  Interaction Design, Information Architecture, Wireframes
+                  interaction design, information architecture, wireframes
                </div>
             </div>
          </div>
@@ -61,8 +63,9 @@ I design software *for people*. Tools that work like you expect. I've been doing
             </a>
             <div class="">
                <h3><a href="/ux-design/physician-locator" class="">Physician Locator</a></h3>
+               <p>a mobile first web app</p>
                <div class="meta">
-                  Interaction Design, Wireframes, UI Design, Frontend Dev
+                  interaction design, wireframes, ui design, frontend dev
                </div>
             </div>
          </div>
@@ -71,7 +74,7 @@ I design software *for people*. Tools that work like you expect. I've been doing
 ## Writing
 <h3 class="lite">Technical Writing</h3>
 
-I write developer documentation for APIs.
+I write developer documentation. Behold! Two APIs I wrote the docs for:
 
 <ul class="api">
    <li><a href="https://apidocs.shotzr.com">Shotzr Developer Portal</a> 
@@ -81,7 +84,7 @@ I write developer documentation for APIs.
       <span class="date">v1 July, 2018</span>
    </li>
 </ul>
-I help with product management and API design at [Shotzr][shotzr]. 
+I also help with product management and API design at [Shotzr][shotzr]. 
  
 I helped [Tendril][ten] *(since renamed[Uplight][up]0*, pick [readme.io][read] as the platform host the site. *Both sites use readme and I generally recommend it*.
 

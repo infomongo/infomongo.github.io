@@ -10,7 +10,7 @@ class:
 		
 # Empower Retirement
 
-<div class="meta">Interaction Design, Information Architecture, Wireframes</div>
+<div class="meta">interaction design, information architecture, wireframes</div>
 
 [Empower Retirement][1] contracted with [Acclaro Design][2] to update their website. The wireframes and information architecture took place in October of 2019, followed by UI design in November, with development starting in December.
 
