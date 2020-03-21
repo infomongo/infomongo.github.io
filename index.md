@@ -25,7 +25,7 @@ I design software *for people*. Tools that work like you expect. I've been doing
 
    <div class="sm-flex wrap">
       <div class="ux-design">
-         <h2>I (helped) design these:</h2>
+         <h2>I (helped) design:</h2>
          
        <!--   <p>My UX work is focused on user research, interaction design, wireframes and prototyping.</p> -->
          
