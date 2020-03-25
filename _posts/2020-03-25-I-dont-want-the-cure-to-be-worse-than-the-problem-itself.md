@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I don’t want the cure to be worse than the problem itself 
-description: It seemed to me that Donald Trump and Brexit would re-animate punk rock. 
+description:  The economy can recover. The dead will not. 
 author: John Phillips
 categories: other politics pandemic featured
 twitter-image: /img/new-US-cases.png
