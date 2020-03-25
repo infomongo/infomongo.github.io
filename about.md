@@ -10,11 +10,11 @@ css-include:
 <section class="white sm-flex justify-center" markdown="1">
 	
 <div class="picture">
-   <img src="/img/john-phillips-bg-blur.jpg" alt="Photo of John Phillips on the banks of the Seine in Paris" class="about round border">
+   <img src="/img/john-phillips-bg-blur.jpg" alt="Photo of John Phillips on the banks of the Seine in Paris" class="about rounded border">
 </div>	
 <div class="" markdown="1">
 
-# About Me	
+# About John	
 	
 I’m John Phillips, a UX designer and writer. [I have been designing products for more than fifteen years][ux]. I design web and mobile apps, and desktop software. 
 
@@ -37,8 +37,8 @@ My [LinkedIn profile][li] shows my work history and recommendations.
 
 ## Contact John
 
-You can reach me at
-<a href="&#x6D;&#97;&#105;l&#116;&#x6F;:&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;">&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;</a>. As long as you aren't a Nigerian Prince who needs help with a wire transfer, I will respond within a couple of days.
+Email
+<a href="&#x6D;&#97;&#105;l&#116;&#x6F;:&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;">&#106;&#111;&#x68;&#x6E;&#64;&#x69;&#x6E;f&#111;&#x6D;&#x6F;&#110;&#x67;&#111;&#46;&#x63;&#111;&#109;</a>. Unless you’re a nigerian prince who needs help with a wire transfer, I’ll respond pretty quickly.
 
 </div>
 

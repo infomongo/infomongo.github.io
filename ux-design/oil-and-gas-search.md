@@ -35,7 +35,7 @@ Our client wanted to add a new type of search to the product, one that allowed u
 
 ## Our Process
 
-**We started with research.** We conducted five user interviews, each about an hour, in February. Our client recruited the participants, who came from a wide variety of backgrounds and different size companies. Each participant used the product differently, as each company had different take on the market, different holdings and divergent ideas about how to make money.
+We conducted five user interviews, each about an hour, in February. Our client recruited the participants, who came from a wide variety of backgrounds and different size companies. Each participant used the product differently, as each company had different take on the market, different holdings and divergent ideas about how to make money.
 
 I was the lead researcher and developed the questions we asked, but all the sessions were also attended by Jeff Davenport, a colleague who did the UI design for the project. We had the participants share their screens with us, and show us who they used the product. All the sessions were recorded. The session were a mix of our questions and open-ended conversation about how they used the product.
 
@@ -50,9 +50,9 @@ At the beginning of March we met with the client, including representatives from
 
 ## What We Learned 
 
-The key learning from the interviews were that **searches could be slow, and that they often returned a lot of records**, often more than could be mapped. (Result sets with more than 50,000 records can not be mapped in the application, to keep memory and CPU usage with reasonable bounds.)
+The key learnings from the interviews were that **searches could be slow, and that they often returned a lot of records**, often more than could be mapped. (Result sets with more than 50,000 records can not be mapped in the application, to keep memory and CPU usage with reasonable bounds.)
 
-These two problems were interrelated. The larger the result set, the longer it would take to load. **Users had internalized this constraints and were working around them.** They talked about searching the largest area possible, or querying shorter time frames than they ideally would, to limit the number of records returned and speed up the process. 
+These two problems were related. The larger the result set, the slower it would load. **Users had internalized these constraints and were working around them.** They talked about searching "the largest area possible", or querying shorter time frames than they ideally would, to limit the number of records returned and speed up the process. 
 
 When searching an area on the map, then results are not added to the map immediately. Instead they load into a spreadsheet-like view first. In this view users can filter the data, and then map it. But this process was also a bit time consuming. Often the user would have to wait for the initial data to finish before filtering.
 

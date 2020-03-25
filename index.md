@@ -37,7 +37,7 @@ I design software *for people*. Tools that work like you expect. I've been doing
             </a>
             <div class="">
                <h3><a href="/ux-design/oil-and-gas-search" class="">Oil &amp; Gas Search Application</a></h3>
-               <p>a desktop app, built with web tech (<a href="https://www.electronjs.org">electron</a>)</p>
+               <p>a desktop app, built with <a href="https://www.electronjs.org">electron</a> </p>
                <div class="meta">
                    user research, interaction design, wireframes
                </div>
