@@ -15,8 +15,11 @@ twitter-image: /img/new-US-cases.png
 At a Fox News Virtual Town Hall on March 24, the President said:
 
 <div class="lite" markdown="1">
-"I don’t want the cure to be worse than the problem itself — the problem being, obviously, the problem.  And you know, you can destroy a country this way, by closing it down, where it literally goes from being the most prosperous — I mean, we had the best economy in the history of our country three weeks ago.  And then all of a sudden, we’re supposed to shut it down." <!--more--><a name="jump"></a> [source](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-fox-news-virtual-town-hall/)
+"I don’t want the cure to be worse than the problem itself — the problem being, obviously, the problem.  And you know, you can destroy a country this way, by closing it down, where it literally goes from being the most prosperous — I mean, we had the best economy in the history of our country three weeks ago.  And then all of a sudden, we’re supposed to shut it down." [source](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-fox-news-virtual-town-hall/)
 </div>
+
+<!--more--> 
+<a name="jump"></a>
 
 I find this point of view troubling. **Either we save lives, or we save the economy**. But, this is America. We can dance and chew gum at the same time. **We can do both. We have to do both**. 
 
