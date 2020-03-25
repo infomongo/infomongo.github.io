@@ -21,7 +21,7 @@ At a Fox News Virtual Town Hall on March 24, the President said:
 <!--more--> 
 <a name="jump"></a>
 
-I find this point of view troubling. **Either we save lives, or we save the economy**. But, this is America. We can dance and chew gum at the same time. **We can do both. We have to do both**. 
+I find this point of view troubling. **Either we save lives, or we save the economy**. But, this is America. **We can do both. We have to do both**. 
 
 Later in the town hall, he said:
 
