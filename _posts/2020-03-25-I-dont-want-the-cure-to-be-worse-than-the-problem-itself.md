@@ -15,7 +15,7 @@ twitter-image: /img/new-US-cases.png
 At a Fox News Virtual Town Hall on March 24, the President said:
 
 <div class="lite" markdown="1">
-"I don’t want the cure to be worse than the problem itself — the problem being, obviously, the problem.  And you know, you can destroy a country this way, by closing it down, where it literally goes from being the most prosperous — I mean, we had the best economy in the history of our country three weeks ago.  And then all of a sudden, we’re supposed to shut it down." [source](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-fox-news-virtual-town-hall/)
+**"I don’t want the cure to be worse than the problem itself — the problem being, obviously, the problem.  And you know, you can destroy a country this way, by closing it down, where it literally goes from being the most prosperous — I mean, we had the best economy in the history of our country three weeks ago.  And then all of a sudden, we’re supposed to shut it down."** [source](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-fox-news-virtual-town-hall/)
 </div>
 
 <!--more--> 
@@ -27,10 +27,9 @@ Later in the town hall, he said:
 
 <div class="lite" markdown="1">
 
-"Well, you have to make the decision.  Look, we lose thousands — I brought some numbers here.  We lose thousands and thousands of people a year to the flu.  We don’t turn the country off — I mean, every year.
+**"Well, you have to make the decision.  Look, we lose thousands — I brought some numbers here.  We lose thousands and thousands of people a year to the flu.  We don’t turn the country off — I mean, every year.**
 
-Now, when I heard the number — you know we average 37,000 people a year.  Can you believe that?  And actually, this year we’re having a bad flu season.  But we lose thousands of people a year to the flu. We never turn the country off."
-
+**Now, when I heard the number — you know we average 37,000 people a year.  Can you believe that?  And actually, this year we’re having a bad flu season.  But we lose thousands of people a year to the flu. We never turn the country off."**
 </div>
 
 ## This is scary & wrong
