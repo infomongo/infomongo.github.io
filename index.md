@@ -74,8 +74,8 @@ I design software *for people*. Tools that work like you expect. I've been doing
 ## Writing
 <h3 class="lite">Technical Writing</h3>
 
-I write developer documentation. Behold! Two APIs I wrote the docs for:
-
+ Behold! I document APIs:
+ 
 <ul class="api">
    <li><a href="https://apidocs.shotzr.com">Shotzr Developer Portal</a> 
       <span class="date">both <a href="https://apidocs.shotzr.com/v2.0/docs">v2</a> and <a href="https://apidocs.shotzr.com/v3.0/docs">v3</a> – Ongoing</span>
@@ -86,7 +86,7 @@ I write developer documentation. Behold! Two APIs I wrote the docs for:
 </ul>
 I also help with product management and API design at [Shotzr][shotzr]. 
  
-I helped [Tendril][ten] *(since renamed[Uplight][up]0*, pick [readme.io][read] as the platform host the site. *Both sites use readme and I generally recommend it*.
+I helped [Tendril][ten] *(since renamed[Uplight][up])*, pick [readme.io][read] as the platform host the site. *Both sites use readme and I generally recommend it*.
 
 [shotzr]: https://shotzr.com
 [ten]: https://www.tendrilinc.com/
