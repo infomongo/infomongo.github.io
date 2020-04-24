@@ -80,6 +80,14 @@ The site used mega menus for navigation, **but they didn’t perform very well**
 
 <p class="caption">the plan sponsors mega menu</p>
 
+
+<div class="">
+	<img src="/img/portfolio/emp-mega-ind-section.png" alt="individuals mega menu" class="full-width border">
+</div>
+
+<p class="caption">the planning for your future mega menu, in the idividuals section</p>
+
+
 These menus looked and worked more like small pages. They had too much text, and too few links. **They were difficult to scan**.
 
 ### Inflexible Navigation Pattern
@@ -92,7 +100,7 @@ Other than the text links, the only navigation used on the site were boxes that 
 
 <p class="caption">navigational “boxes”</p>
 
-This wasn’t very flexible, and it was poorly designed or implemented. **Only the "learn more" links were clickable**. Neither the photos nor the headlines, the white text on transparent red, were clickable.
+This wasn’t very flexible, and it was poorly designed or implemented. **Only the "learn more" links were clickable**. A better design would have made the whole box clickable, or at least the photo and headline.
 
 ### Pages Without Useful Content
 
