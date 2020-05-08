@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It’s like they don’t really want to distribute the money 
-description:  How to get you relief money, maybe
+description:  How to get your coronavirus relief money, maybe
 author: John Phillips
 categories: featured other IRS incompetence 
 twitter-image: /img/get-my-payment.png
