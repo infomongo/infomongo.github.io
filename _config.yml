@@ -14,5 +14,5 @@ markdown: kramdown
 plugins: 
 - jekyll-paginate
 - jekyll-redirect-from
-permalink: /posts/:title
+permalink: /posts/:title/
 url: http://infomongo.com

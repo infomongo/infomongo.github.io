@@ -12,13 +12,13 @@ class: home
 <section class="white" markdown="1">
    <div class="top flex wrap">
       <div class="img">
-         <img src="/img/john-phillips-bg-blur.jpg" alt="Photo of John Phillips on the banks of the Seine in Paris" class="home round border">
+         <img src="/img/john-phillips-bg-blur.jpg" alt="Photo of John Phillips on the banks of the Seine in Paris" class="home rounded border">
       </div>
 <div class="intro" markdown="1">
 
 # Hi, I'm John Phillips.
          
-I design software *for people*. Tools that work like you expect. I've been doing this for [more than fifteen years](/about/).
+I design software *for people*. Tools that work as you expect. I've been at it [a while](/about/).
 
 </div>
    </div>
@@ -32,11 +32,11 @@ I design software *for people*. Tools that work like you expect. I've been doing
       
          
          <div class="flex items-start">
-            <a href="/ux-design/oil-and-gas-search" class="">
+            <a href="/ux-design/oil-and-gas-search/" class="">
                <img src="/img/portfolio/cover-sm-oil-gas.png" class="border rounded">
             </a>
             <div class="">
-               <h3><a href="/ux-design/oil-and-gas-search" class="">An Oil &amp; Gas Search Application</a></h3>
+               <h3><a href="/ux-design/oil-and-gas-search/" class="">An Oil &amp; Gas Search Application</a></h3>
                <p>a desktop app, built with <a href="https://www.electronjs.org">electron</a> </p>
                <div class="meta">
                    user research, interaction design, wireframes
@@ -45,11 +45,11 @@ I design software *for people*. Tools that work like you expect. I've been doing
          </div>
          
          <div class="flex items-start">
-            <a href="/ux-design/empower-retirement" class="">
+            <a href="/ux-design/empower-retirement/" class="">
                <img src="/img/portfolio/cover-sm-empower.png" class="border rounded">
             </a>
             <div class="">
-               <h3><a href="/ux-design/empower-retirement" class="">Empower Retirement</a></h3>
+               <h3><a href="/ux-design/empower-retirement/" class="">Empower Retirement</a></h3>
                <p>una página web</p>
                <div class="meta">
                   interaction design, information architecture, wireframes
@@ -58,11 +58,11 @@ I design software *for people*. Tools that work like you expect. I've been doing
          </div>
          
          <div class="flex items-start">
-            <a href="/ux-design/physician-locator" class="">
+            <a href="/ux-design/physician-locator/" class="">
                <img src="/img/portfolio/cover-sm-physician-locator.png" class="border rounded">
             </a>
             <div class="">
-               <h3><a href="/ux-design/physician-locator" class="">Physician Locator</a></h3>
+               <h3><a href="/ux-design/physician-locator/" class="">Physician Locator</a></h3>
                <p>a mobile first web app</p>
                <div class="meta">
                   interaction design, wireframes, ui design, frontend dev
@@ -99,9 +99,9 @@ I helped [Tendril][ten] *(since renamed [Uplight][up])*, pick [readme.io][read] 
    <div class="wrap">
       <h4 class="lite">More Projects</h4>
       <ul class="plain sm-flex justify-between">
-         <li><a href="/ux-design/nationwide-locator">Nationwide Locator</a></li>
-         <li><a href="/ux-design/map-pins">Map Pin Interaction</a></li>
-         <li><a href="/ux-design/workbench">Placeable Workbench</a></li>
+         <li><a href="/ux-design/nationwide-locator/">Nationwide Locator</a></li>
+         <li><a href="/ux-design/map-pins/">Map Pin Interaction</a></li>
+         <li><a href="/ux-design/workbench/">Placeable Workbench</a></li>
       </ul>   
 </div>
 </section>

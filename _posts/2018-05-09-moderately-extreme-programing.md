@@ -71,7 +71,7 @@ The milestone is some set of features that were promised to a customer, to “th
 
 However, this ignores a fundamental reality of software development. It’s a “scope, schedule or quality, choose two” kind of world. *(People talk about budget, schedule and scope, but I have never worked on a project that could be delivered faster by increasing the budget. The cost of bringing new people up to speed outweighs the benefits of adding them over the short term.)* If the set of features is set in stone, well then scope is fixed. And often, the date was promised too, so there’s your schedule. This is pretty much a ticket to long hours, poor quality and low morale.
 
-Here a test to determine if your team is actually practicing agile development or just going thru the motions.
+Here's a test to determine if your team is actually practicing agile development or just going thru the motions:
 
 ### Has the scope been reduced or the schedule extended in the last two months?
 
@@ -84,4 +84,4 @@ If your team doesn’t have a legitimate way to address these discoveries, then 
 
 [quark]: http://www.quark.com/
 [wiki]: https://en.wikipedia.org/wiki/QuarkXPress#Version_history
-[tokens]: /ux-design/tokens
+[tokens]: /ux-design/tokens/

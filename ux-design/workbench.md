@@ -43,7 +43,7 @@ Brands with a lot of locations would typically hire an agency with experience in
 
 **We wanted to change the way companies managed their location data.** We didn’t want to design a better tool for the local SEO agencies. We wanted to empower brands to manage their own location data. We didn’t really have a group of users to interview about their wants and needs, because we were trying to enable them to do something new, something that they were currently outsourcing.
 
-Our CEO and product management had a vision for how the product should work, and we had a lot of local SEO expertise in house. While we were building Workbench, we were acting as the local SEO agency for our clients, like [Nationwide Insurance](nationwide-locator). Management had a vision of what the MVP looked like, and this was the foundation of the first release.
+Our CEO and product management had a vision for how the product should work, and we had a lot of local SEO expertise in house. While we were building Workbench, we were acting as the local SEO agency for our clients, like [Nationwide Insurance](../nationwide-locator/). Management had a vision of what the MVP looked like, and this was the foundation of the first release.
 
 I worked closely with product management to design features. I built an HTML prototype to validate the concept and guide development. I created wireframes, comps, and also did some front-end development. The process was interative. After releasing the first version, we started rolling out new features. Some of these were based on our roadmap, while others were added based on customer or sales feedback.
 

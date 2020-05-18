@@ -13,6 +13,9 @@ Faced with mounting unemployment from the coronavirus, the U.S. government rolle
 
 The initial message was that if you had paid taxes in 2018 or 2019, and the IRS had your bank account info, you’d get a direct deposit. Otherwise they’d mail you a check. After hearing from friends that got their money, I start checking my bank account.  Nope. Nada. Nothing. No check in the mail.
 
+<!--more--> 
+<a name="jump"></a>
+
 An email from the Washington Post, their daily coronavirus update I think, explains that you will only get a direct deposit if you got refund. If you owed taxes, you’ll get a check. I paid my year’s taxes via direct deposit, by providing my bank account and routing numbers. This is the exact information The IRS needs to make a direct deposit, but they can’t. Because government, I guess. 
 
 To get my payment quickly, electronically, I would need to visit [a site the IRS has set up](https://www.irs.gov/coronavirus/get-my-payment). Clicking Get My Payment eventually displays this form, after a stern warning that this is for official business only. 
@@ -54,7 +57,7 @@ After submitting my bank account info, I just have to wait another week. Then I 
 
 ## Yeah fine no rush. It’s not an emergency.
 
-Luckily, it isn’t an emergency for me. But for many people it is. They may not be able to make rent, or put food on the table. So good work. Instead of putting his name on the check, Trump should have put his name on this website. Because it is a total fiasco. It it were pale orange, it would be Trump incarnated as a web form, incompetent and hostile. 
+Luckily, it isn’t an emergency for me. But for many people it is. They may not be able to make rent, or put food on the table. So good work. Instead of putting his name on the check, Trump should have put his name on this website. Because it is a total fiasco, incompetent and hostile. 
 
 
 

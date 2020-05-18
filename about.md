@@ -3,6 +3,7 @@ layout: default
 title: 'About John Phillips'
 description: 'John Phillips is a UX designer and writer who lives in Denver, CO.'
 class: about
+redirect_from: /about.html
 css-include: 
    - about.css
 ---
@@ -27,8 +28,8 @@ My [LinkedIn profile][li] shows my work history and recommendations.
 [li]: https://www.linkedin.com/in/johnphillipsdenver/
 [ux]: /
 [w]: /posts/
-[nw]: /ux-design/nationwide-locator
-[loc]: /ux-design/map-pins
+[nw]: /ux-design/nationwide-locator/
+[loc]: /ux-design/map-pins/
 [q]: http://www.quark.com
 
 [I write about UX Design and other topics][w]. 

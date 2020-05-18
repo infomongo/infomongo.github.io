@@ -75,14 +75,14 @@ Arp, Baw, Cor, Dur, Ell, Fen, Gam, Hob, Isp, Jom, Kro, Lem, Mog and Non
 
 ### Holidays
 
-Since each 28 day month begins on a Sunday and ends on a Saturday, the Holidays always fall on the same day of the week.  So where do they fall?
+Since each 28 day month begins on a Sunday and ends on a Saturday, the Holidays always fall on the same day of the week. But which days?
 
 **New Years Day** – Sunday, Arp 1st (1/1)
 
 **Martin Luther King Jr Day** – Monday, Arp 16 (1/16)
 
 **Valentine’s Day** – Saturday, Baw 14th (2/14)  
-If you wanted this to fall on the same day as the current calendar, it would be Tuesday Baw 17, since Arp is 3 days shorter than January. But if we keep it on the 14th it’s part of a 3 day weekend becuase of…
+If you wanted this to fall on the same day as the current calendar, it would be Tuesday Baw 17, since Arp is 3 days shorter than January. But if we keep it on the 14th it’s part of a 3 day weekend because of…
 
 **President’s Day** – Monday Baw 16th (2/16)
 
@@ -110,42 +110,4 @@ Mog 23 is the same day of the year as December 25 in the current calendar. I ass
 These are essentially extra weekend days, since they fall between the last Saturday of the year and the new year, which starts on Sunday.
 
 
-### Some Example Dates 
-
-In the U.S., the dates are written month, day, year. The fourteenth day of the third month would be Cor 14 or  3/14.  Other parts of the world would keep using the day, month, year format, so the same date is written 14 Cor or 14/03 .
-
-For the rest of the examples, I’m going to show the U.S. format.
-
-**Thursday, Baw 12, 2020**  
-Thu, Baw 12, 2020  
-Baw 12, 2020  
-Baw 12  
-2/12  
-2/12/20  
-2/12/2020  
-02/12/2020  
-2020-02-12
-
-**Sunday, Dur 8, 2020**  
-Sun, Dur 8, 2020  
-Dur 8, 2020  
-Dur 8  
-4/8  
-4/8/20  
-4/8/2020  
-04/08/2020  
-2020-04-08
-
-**Monday, Mog 23, 2020**  
-Mon, Mog 23, 2020  
-Mog 23, 2020  
-Mog 23  
-13/23  
-13/23/20  
-13/23/2020  
-2020-13-23
-
-### Other Considerations
-
-This proposal doesn’t move the start of the year. Arp 1 falls on January 1. This means the new calendar has no relation to the seasons, same as the current calendar. If you wanted to fix this, you could have the year start on the first day of spring, the spring equinox, which is March 20 in the northern hemisphere. The seasons are reversed in the southern hemisphere, and March 20 is the autumnal equinox. In the southern hemisphere the spring equinox is on September 22.
 
