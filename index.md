@@ -25,12 +25,10 @@ I design software *for people*. Tools that work as you expect. I've been at it [
 
    <div class="sm-flex wrap">
       <div class="ux-design">
-         <h2>I (helped) design:</h2>
+         <h2>Featured Projects</h2>
          
        <!--   <p>My UX work is focused on user research, interaction design, wireframes and prototyping.</p> -->
-         
-      
-         
+
          <div class="flex items-start">
             <a href="/ux-design/oil-and-gas-search/" class="">
                <img src="/img/portfolio/cover-sm-oil-gas.png" class="border rounded">
@@ -71,8 +69,8 @@ I design software *for people*. Tools that work as you expect. I've been at it [
          </div>
       </div>
 <div class="writing" markdown="1">
-## Writing
-<h3 class="lite">Technical Writing</h3>
+## Technical Writing
+
 
  Behold! I document APIs:
  
