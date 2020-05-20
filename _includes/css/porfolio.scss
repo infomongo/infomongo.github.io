@@ -1,26 +1,5 @@
 @import "variables";
 
-.dark {
-	background-color: $dark-section-color;
-	color: white;
-	h1, h2, h3, h4 {
-		color: white;
-	}
-	a {
-		color: white;
-		text-decoration: underline;
-		&:visited {
-		   color: white;
-		}
-		&:hover {
-			color: white;
-		}
-		&:focus {
-			outline: 1px dotted white;
-		}
-	}
-}
-
 
 .many {
 	text-align: center;

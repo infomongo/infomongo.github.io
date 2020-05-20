@@ -1,7 +1,7 @@
 @import "variables";
 
 html {
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-family: "BentonSans-Regular", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
   font-weight: normal;
   line-height: 1.388;
   color: $text-color;
@@ -28,6 +28,8 @@ html {
 }
 
 h1, h2, h3, h4{
+	font-family: "BentonSans-Black", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+	font-weight: normal;
 	color: $text-color-dark;
 }
 
@@ -53,21 +55,45 @@ p {
  
 
 strong, b, th, label, .calc, .cta .button {
+	font-family: "BentonSans-Bold", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 	font-weight: bold;
 }
 em, i {
 	font-style: italic;
 }
+
+.dark {
+	background-color: $dark-section-color;
+	color: white;
+	h1, h2, h3, h4 {
+		color: white;
+	}
+	a {
+		color: white;
+		text-decoration: underline;
+		&:visited {
+		   color: white;
+		}
+		&:hover {
+			color: white;
+		}
+		&:focus {
+			outline: 1px dotted white;
+		}
+	}
+}
+
 .lite {color: $text-color-lite;}
 
 .date {
 	display: block;
-	font-weight: $lite-font-weight;
+	color: $text-color-lite;
+	//font-weight: $lite-font-weight;
 }
 
 a {
     color: $link-color;
-    transition: all ease-out 0.3s;
+    //transition: all ease-out 0.3s;
     text-decoration: none;
     &:visited {
        color: $link-color-visited;
@@ -93,7 +119,8 @@ h1, h2, h3 {
 
 h4.lite, h3.lite {
 	font-size: $small-text-size;
-	font-weight: $lite-font-weight;
+	font-weight: normal;
+	//font-weight: $lite-font-weight;
 	text-transform: uppercase;
 	color: $text-color-lite;
 	margin-bottom: .25rem;
@@ -101,7 +128,8 @@ h4.lite, h3.lite {
 }
 
 .meta {
-	font-weight: $lite-font-weight;
+	color: $text-color-lite;
+	//font-weight: $lite-font-weight;
 	max-width: none;
 }
 
@@ -150,6 +178,11 @@ pre {
 	overflow: auto;
 }
 
+
+header {
+	font-family: "BentonSans-Medium", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+	font-weight: normal;
+}
 
 footer {
 	font-size: $small-text-size;
