@@ -41,6 +41,17 @@ section {
 	margin-bottom: 1rem;
 }
 
+footer {
+	background-color: $bg-color-footer;
+	color: white;
+	padding: 1rem 0;
+	margin-top: 1rem;
+	nav {
+		padding-left: .5rem;
+	}
+}
+
+
 @media only screen and (min-width: $breakpoint-md) {
 	header nav, .wrap {
 		max-width: 58rem;
@@ -51,6 +62,8 @@ section {
 	pre {
 		margin: 1rem 10vw;
 	}
+	
+
 }
 
 
@@ -66,19 +79,14 @@ section {
 	}
 }
 
-footer {
-	background-color: $bg-color-footer;
-	color: white;
-	padding: 1rem 0;
-	margin-top: 1rem;
-	nav {
-		padding-left: .5rem;
-	}
-}
 
 @media only screen and (min-width: 1180px) {
 	footer nav {
 		padding-left: 0;
+	}
+	section {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 

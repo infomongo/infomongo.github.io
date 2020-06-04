@@ -14,10 +14,39 @@ h1 {
 	margin-bottom: .5rem;
 }
 
+h2 {
+	margin-top: 1.4rem;
+}
 
 .writing {
 	li {
 		margin-bottom: .5rem;
+	}
+}
+
+.portfolio {
+	max-width: 670px;
+	margin: 0 auto;
+	p {
+		margin-bottom: 0;
+	}
+	h3:first-of-type {
+		margin-top: 0;
+	}
+	img {
+		border: 1px $border-color solid;
+		max-width: 100%;
+	}
+	ol {
+		padding-left: 1rem;
+	}
+}
+
+.recent {
+	max-width: 30rem;
+	margin: 0 auto;
+	h3 {
+		margin-top: 0;
 	}
 }
 
@@ -39,53 +68,22 @@ h1 {
 }
 
 @media only screen and (max-width:  $breakpoint-sm) {
-	h2 {
-		margin-top: 1.4rem;
-	}
+
 }
 
 
 @media only screen and (min-width:  $breakpoint-sm) {
-
-	.top.flex {
-		margin-top: 2rem;
+	.dark.wrap {
+		display: flex;
+		justify-content: center;
+		min-height: 15rem;
 		align-items: center;
-		//justify-content: center;
-		img {
-			max-width: 100px;
-			margin-top: -.25rem;
+		border-radius: 10px;
+		.intro {
+			max-width: 30rem;
 		}
 	}
 
-	.intro {
-		max-width: 25em;
-	}
-	
-	.writing {
-		p, li {
-			font-size: $small-text-size;
-		}
-	}
-
-	
-	.ux-design {
-		h3 {
-			font-size: 1.4em;
-		}
-	
-		padding-right: 2rem;
-		.flex {
-			align-items: center;
-			img {
-				max-width: 90px;
-			}
-		}
-	}
-	
-	.writing {
-		margin-left: 5%;
-		max-width: 30%;
-	}
 
 	
 }
