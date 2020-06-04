@@ -24,7 +24,7 @@ I'm [John Phillips](/about/). I design software for people. Tools that work the 
 <h4 class="lite">Latest Post</h4>
 {% for post in site.categories['featured'] limit:1 %}
 <h3><a href="{{ post.url}}">{{post.title}}</a></h3>
-{{ post.excerpt }}
+{{ post.excerpt }}<a href="{{ post.url}}">more…</a>
 {% endfor %}
 </div>
 </section> 
@@ -62,9 +62,9 @@ interaction design, information architecture, wireframes
 
 <h4 class="lite">More Projects</h4>
 
-1. [Nationwide Locator](/ux-design/nationwide-locator/)
-2. [Map Pin Interaction](/ux-design/map-pins/)
-2. [Placeable Workbench](/ux-design/workbench/)
+- [Nationwide Locator](/ux-design/nationwide-locator/)
+- [Map Pin Interaction](/ux-design/map-pins/)
+- [Placeable Workbench](/ux-design/workbench/)
 
 </div>
 </section>
