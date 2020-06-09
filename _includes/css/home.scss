@@ -45,27 +45,11 @@ h2 {
 .recent {
 	max-width: 30rem;
 	margin: 0 auto;
-	h3 {
+	h2 {
 		margin-top: 0;
 	}
 }
 
-.ux-design {
-	.flex {
-		width: 100%;
-		margin-bottom: 1rem;
-		img {
-			max-width: 67px;
-			margin-right: 1rem;
-		}
-		h3 {
-			margin: 0;
-		}
-		p {
-			margin-bottom: 0;
-		}
-	}
-}
 
 @media only screen and (max-width:  $breakpoint-sm) {
 
