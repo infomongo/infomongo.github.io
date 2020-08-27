@@ -61,7 +61,7 @@ Here is a screen shot of the page containing this infographic.
 
 The Colorado logo is repeated three times at the top of the page, and the key stats are again all in boxes, with identical type treatment given to the numbers and labels. Below this is a line of grayed out graphics that serves as the navigation to see the other data presented. It seems like we are on the Case Summary Page, but we aren’t. We are on the “home” page of this infographic, reachable by clicking the house icon just below the grayed out images.
 
-This navigation is non-standard. It’s not obvious that they grayed out images are clickable. They take up a lot of space, and are visually loud. And the default state isn’t in the main nav, instead it uses a button below.
+This navigation is non-standard. It’s not obvious that the grayed out images are clickable. They take up a lot of space, and are visually loud. And the default state isn’t in the main nav, instead it uses a button below.
 
 The most serious problem with the navigation is slowness. It takes several seconds to load each new state. Anything longer than about half a second feels slow.
 
