@@ -3,7 +3,7 @@ layout: post
 title: We could have been Canada…
 description:  The U.S. pandemic respose six months in.
 author: John Phillips
-categories: featured ux 
+categories: featured  
 twitter-image: /img/deaths-per-million.png
 ---
 
