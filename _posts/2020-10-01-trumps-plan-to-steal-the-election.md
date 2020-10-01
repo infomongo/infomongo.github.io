@@ -28,7 +28,7 @@ Trump has tweeted continuously about vote-by-mail leading to “massive fraud.�
 
 ## Step 2: Suppress the vote
 
-Just today, Republican Texas Governor Greg Abbott issued a proclamation that limits mail ballot drop-off locations to one per county. Harris County, population 4,092,459, includes the Houston area, and typically votes Democratic. It the most populous county in the state, and third most populous in the county, and now it is limited to a single drop-off location. This is a cynical attempt to suppress Democratic votes by a Republican governor.
+Just today, Republican Texas Governor Greg Abbott issued a proclamation that limits mail ballot drop-off locations to one per county. Harris County, population 4,092,459, includes the Houston area, and typically votes Democratic. It the most populous county in the state, and third most populous in the county, and now it is limited to a single ballot drop-off location. "We must take extra care to strengthen ballot security protocols throughout the state," the govennor said. Horeshit. This is a cynical attempt to suppress Democratic votes by a Republican governor. 
 
 In the first debate, Trump said “bad things happen in Philadelphia” and he urged his supporters to “go into the polls and watch very carefully.” Earlier that day, Trump campaign staff were [blocked by local officials][phi] from monitoring newly opened election offices. Philadelphia law requires poll watchers to have a certificate issued by the city, and none have been issued yet, because the city does not consider these offices to be polling places. They allow people to register to vote, and request or return mail-in ballots.
 
@@ -82,9 +82,9 @@ Trump won’t concede. Only losers concede. So rather than a peaceful transfer o
 
 ## What to do about this?
 
-I’m not sure what actions we should be taking. 
+I’m not sure what actions we should be taking to combat this. My main goal for this post, is simply to be on the record predicting this before the election.
 
-I’m glad I live in Colorado, where we have universal vote-by-mail. Every registered voter is mailed a ballot in early October. These can be returned by mail, placed in a drop-off box, or handed to an election judge at a drive-thru drop-off. And if you lose you ballot, make a mistake, or just want to vote in person, you can go to polling place on election day. [More about voting by mail in Colorado][co]
+I’m glad I live in Colorado, where we have universal vote-by-mail. Every registered voter is mailed a ballot in early October. These can be returned by mail, placed in a drop-off box, or handed to an election worker at a drive-thru drop-off. And if you lose your ballot, make a mistake, or just want to vote in person, you can go to your polling place on election day. [More about voting by mail in Colorado][co]
 
 [co]: https://www.cpr.org/2020/09/17/how-to-vote-mail-in-voting-colorado/
 
