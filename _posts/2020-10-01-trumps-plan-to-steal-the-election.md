@@ -34,7 +34,7 @@ During the first debate, Trump said “bad things happen in Philadelphia” and 
 
 In response, Thea McDonald, a spokeswoman for the Trump campaign, said “Democrats have proven their lack of trustworthiness time and again this election cycle.” Neither McDonald nor Trump provided any evidence of Democratic wrong-doing.
 
-What will happen if Trump calls for the “Proud Boys” or some other armed white-nationalist militia to “monitor the polls” in majority Black cities? Will people feel safe to vote? How will the police respond? The closer we get to the election, with Trump trailing Biden in the polls, the more desperate he will get. I wouldn't rule anything out.
+What will happen if Trump calls for the “Proud Boys” or some other armed white-nationalist militia to “monitor the polls” in majority Black cities? Or barring that, maybe the Justice Department deploys unmarked troops, like they did in Portland, to “secure the election.” The closer we get to the election, with Trump trailing Biden in the polls, the more desperate he will get. I wouldn't rule anything out.
 
 <div>
 <img src="/img/boogaloo.jpg" class="full-width border" alt="militia members">
