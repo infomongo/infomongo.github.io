@@ -12,7 +12,7 @@ twitter-image: /img/this-fucking-asshole.jpg
 <p>&nbsp;</p>
 </div>
 
-This article in The Atlantic, [The Election That Could Break America][atl], crystalized some thoughts for me. (The article sparked a lot of debate, and it is fairly terrifying.) Initially, I thought Trump was trying to undermine our faith in the election, to excuse a defeat, should he lose. But now, I think he has a plan to try to steal the election.
+This article in The Atlantic, [The Election That Could Break America][atl], crystalized some of my thoughts. Initially, I thought Trump was simply trying to undermine our faith in the election, to excuse a defeat. But now, I think he has a plan to steal the election.
 
 [atl]: https://www.theatlantic.com/magazine/archive/2020/11/what-if-trump-refuses-concede/616424/
 
@@ -26,7 +26,9 @@ Trump has tweeted continuously about vote-by-mail leading to “massive fraud.�
 
 [ap]: https://apnews.com/article/election-2020-virus-outbreak-voting-politics-joe-biden-3d8b70cc5c9114ec214a3b9d7981bde3 
 
-## Step 2: Deploy partisan “poll watchers” to suppress the vote
+## Step 2: Suppress the vote
+
+Just today, Republican Texas Governor Greg Abbott issued a proclamation that limits mail ballot drop-off locations to one per county. Harris County, population 4,092,459, includes the Houston area, and typically votes Democratic. It the most populous county in the state, and third most populous in the county, and now it is limited to a single drop-off location. This is a cynical attempt to suppress Democratic votes by a Republican governor.
 
 In the first debate, Trump said “bad things happen in Philadelphia” and he urged his supporters to “go into the polls and watch very carefully.” Earlier that day, Trump campaign staff were [blocked by local officials][phi] from monitoring newly opened election offices. Philadelphia law requires poll watchers to have a certificate issued by the city, and none have been issued yet, because the city does not consider these offices to be polling places. They allow people to register to vote, and request or return mail-in ballots.
 
@@ -34,7 +36,12 @@ In the first debate, Trump said “bad things happen in Philadelphia” and he u
 
 In response, Thea McDonald, a spokeswoman for the Trump campaign, said “Democrats have proven their lack of trustworthiness time and again this election cycle.” Neither McDonald nor Trump provided any evidence of Democratic wrong-doing.
 
+It's the Republicans who have proven untrustworthy. [For 35 years, the Republican National Committee operated under a "consent decree"][vote] to limit voter suppression, until it was lifted in 2018. Before the decree, the RNC hired off-duty cops to patrol minority precincts, wearing “National Ballot Security Task Force” armbands. Then as now, the excuse for this "ballot security."
+
+[vote]: https://www.theatlantic.com/politics/archive/2018/01/the-gop-just-received-another-tool-for-suppressing-votes/550052/
+
 What will happen if Trump calls for the “Proud Boys” or some other armed white-nationalist militia to “monitor the polls” in majority Black precincts? Or barring that, maybe order the Justice Department to deploy unmarked troops, as they did in Portland, to “secure the election.” The closer we get to the election, with Trump trailing Biden, the more desperate he will get. I wouldn't rule anything out.
+
 
 <div>
 <img src="/img/boogaloo.jpg" class="full-width border" alt="militia members">
@@ -49,11 +56,11 @@ With more Trump supporters voting in person, the President expects to be leading
 
 In any election, some votes are counted after election day. The late-reporting precincts, un­processed absentee votes, and provisional ballots have to be counted. For the last 20 years, votes tallied after election night have tended to favor Democrats. 
 
-In Arizona, Republican Martha McSally had a lead of 15,403 votes on the morning after the election in 2018. But the Democrat, Kyrsten Sinema, ended up winning by 71,303 votes after all the votes were tallied. That same year both the governor’s race and the senate race in Florida were close enough to trigger automatic recounts. Both Republicans, Ron DeSantis and Rick Scott, had leads that narrowed during the recount, and both were eventually elected.
+In Arizona, Republican Martha McSally had a lead of 15,403 votes on the morning after the election in 2018. But the Democrat, Kyrsten Sinema, ended up winning by 71,303 votes after all the votes were tallied. That same year both the governor’s race and the senate race in Florida were close enough to trigger automatic recounts. Both Republicans, Ron DeSantis and Rick Scott, had leads that narrowed during the recount, but both were eventually elected.
 
-On Nov 12, while votes were still be tallied in Florida, [Trump tweeted][twt]:
+On November 12th, while votes were still be tallied in Florida, [Trump tweeted][twt]:
 
-“The Florida Election should be called in favor of Rick Scott and Ron DeSantis in that large numbers of new ballots showed up out of nowhere, and many ballots are missing or forged. An honest vote count is no longer possible-ballots massively infected. Must go with Election Night!”
+#### “The Florida Election should be called in favor of Rick Scott and Ron DeSantis in that large numbers of new ballots showed up out of nowhere, and many ballots are missing or forged. An honest vote count is no longer possible-ballots massively infected. Must go with Election Night!”
 
 [twt]: https://twitter.com/realdonaldtrump/status/1061962869376540672?lang=en
 
