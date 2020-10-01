@@ -12,7 +12,7 @@ twitter-image: /img/this-fucking-asshole.jpg
 <p>&nbsp;</p>
 </div>
 
-This article in The Atlantic, [The Election That Could Break America][atl], crystalized some thoughts for me. (The article sparked a lot of debate, and it is fairly terrifying.) Initially, I thought Trump was just generally trying to undermine our faith in the election, to excuse a defeat. But now, I think he has a plan to try to steal the election.
+This article in The Atlantic, [The Election That Could Break America][atl], crystalized some thoughts for me. (The article sparked a lot of debate, and it is fairly terrifying.) Initially, I thought Trump was trying to undermine our faith in the election, to excuse a defeat, should he lose. But now, I think he has a plan to try to steal the election.
 
 [atl]: https://www.theatlantic.com/magazine/archive/2020/11/what-if-trump-refuses-concede/616424/
 
@@ -28,13 +28,13 @@ Trump has tweeted continuously about vote-by-mail leading to “massive fraud.�
 
 ## Step 2: Deploy partisan “poll watchers” to suppress the vote
 
-During the first debate, Trump said “bad things happen in Philadelphia” and he urged his supporters to “go into the polls and watch very carefully.” Earlier that day, Trump campaign staff were [blocked by local officials][phi] from monitoring newly opened election offices. Philadelphia law requires poll watchers to have a certificate issued by the city, and none have been issued yet, because the city does not consider these offices to be polling places. They allow people to register to vote, and request or return mail-in ballots.
+In the first debate, Trump said “bad things happen in Philadelphia” and he urged his supporters to “go into the polls and watch very carefully.” Earlier that day, Trump campaign staff were [blocked by local officials][phi] from monitoring newly opened election offices. Philadelphia law requires poll watchers to have a certificate issued by the city, and none have been issued yet, because the city does not consider these offices to be polling places. They allow people to register to vote, and request or return mail-in ballots.
 
 [phi]: https://whyy.org/articles/trump-campaign-says-it-plans-to-sue-over-poll-watchers-in-philly-satellite-offices/
 
 In response, Thea McDonald, a spokeswoman for the Trump campaign, said “Democrats have proven their lack of trustworthiness time and again this election cycle.” Neither McDonald nor Trump provided any evidence of Democratic wrong-doing.
 
-What will happen if Trump calls for the “Proud Boys” or some other armed white-nationalist militia to “monitor the polls” in majority Black cities? Or barring that, maybe the Justice Department deploys unmarked troops, like they did in Portland, to “secure the election.” The closer we get to the election, with Trump trailing Biden in the polls, the more desperate he will get. I wouldn't rule anything out.
+What will happen if Trump calls for the “Proud Boys” or some other armed white-nationalist militia to “monitor the polls” in majority Black precincts? Or barring that, maybe order the Justice Department to deploy unmarked troops, as they did in Portland, to “secure the election.” The closer we get to the election, with Trump trailing Biden, the more desperate he will get. I wouldn't rule anything out.
 
 <div>
 <img src="/img/boogaloo.jpg" class="full-width border" alt="militia members">
