@@ -195,6 +195,11 @@ footer {
 	}
 }
 
+.caption {
+	text-align: center;
+	color: $text-color-lite;
+	margin-top: .5rem;
+}
 
 .post {
 	.top {
@@ -225,11 +230,6 @@ footer {
 			max-width: 33rem;
 			margin-left: auto;
 			margin-right: auto;
-		}
-		.caption {
-			text-align: center;
-			color: $text-color-lite;
-			margin-top: .5rem;
 		}
 	}
 	table {
