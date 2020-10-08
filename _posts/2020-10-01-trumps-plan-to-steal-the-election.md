@@ -3,12 +3,12 @@ layout: post
 title: Trump’s Plan to Steal the Election
 description:  From the dept. of dirty tricks
 author: John Phillips
-categories:   
+categories: resist
 twitter-image: /img/this-fucking-asshole.jpg
 ---
 
 <div>
-<img src="/img/this-fucking-asshole.jpg" class="full-width border" alt="Trump is an Asshole">
+<img src="/img/this-fucking-asshole.jpg" class="full-width border" alt="This fucking asshole">
 <p>&nbsp;</p>
 </div>
 
@@ -27,9 +27,11 @@ Trump has tweeted continuously about vote-by-mail leading to “massive fraud.�
 [ap]: https://apnews.com/article/election-2020-virus-outbreak-voting-politics-joe-biden-3d8b70cc5c9114ec214a3b9d7981bde3 
 
 <div>
+<a href="https://twitter.com/realdonaldtrump/status/1309455713882828802">
 <img src="/img/trump-tweet.png" class="full-width border" alt="Donald J. Trump
 @realDonaldTrump Sep 25, 2020
 RINO Governor Charlie Baker of Massachusetts is unsuccessfully trying to defend Mail In Ballots, when there is fraud being found all over the place. Just look at some of the recent races, or the Trump Ballots in Pennsylvania that were thrown into the garbage. Wrong Charlie!">
+</a>
 </div>
 
 
@@ -67,9 +69,15 @@ In any election, some votes are counted after election day. The late-reporting p
 
 In 2018, Arizona Republican senate candidate Martha McSally had a narrow lead of 15,403 votes the morning after the election. But the Democrat, Kyrsten Sinema, ended up winning by 71,303 votes after the final tally. That same year, both the senate and governor's races in Florida were close enough to trigger recounts, recounts that the Republicans would win. While the recount was underway, [Trump tweeted][twt]:
 
-#### “The Florida Election should be called in favor of Rick Scott and Ron DeSantis in that large numbers of new ballots showed up out of nowhere, and many ballots are missing or forged. An honest vote count is no longer possible-ballots massively infected. Must go with Election Night!”
 
-[twt]: https://twitter.com/realdonaldtrump/status/1061962869376540672?lang=en
+<div>
+<a href="https://twitter.com/realdonaldtrump/status/1061962869376540672">
+<img src="/img/trump-tweet-2.png" class="full-width border" alt="Donald J. Trump @realDonaldTrump Nov 12, 2018
+The Florida Election should be called in favor of Rick Scott and Ron DeSantis in that large numbers of new ballots showed up out of nowhere, and many ballots are missing or forged. An honest vote count is no longer possible-ballots massively infected. Must go with Election Night!">
+</a>
+<p></p>
+</div>
+
 
 That’s his strategy for 2020. Declare without evidence that legitimate ballots tallied after election night are “new” and “forged,” and try to exclude them.
 
@@ -109,14 +117,29 @@ The state with the highest likelihood of dirty tricks favoring Trump is Florida,
 
 Both Pennsylvania and Wisconsin were extremely tight races in 2016. Last election Trump won Wisconsin by 22,748 votes out of 2,787,820, which is about 0.8%. And he carried Pennsylvania by an even slimmer margin of 44,292 votes out of more than 6,000,000 cast, a difference of 0.72%. Biden is up by 6 points in polls of both states. But then, Hillary Clinton was ahead by a similar margin in Wisconsin in 2016, and by 4 points in Pennsylvania. So keep an eye on these states as well.
 
+
 ## What to do about this?
 
-I’m not sure what actions we should be taking to combat this. My main goal for this post is simply to be on the record predicting this before the election.
+<h4 class="lite">Update: Oct 8, 2020</h4>
 
-I’m glad I live in Colorado, where we have universal vote-by-mail. Every registered voter is mailed a ballot in early October. These can be returned by mail, placed in a drop-off box, or handed to an election worker at a drive-thru drop-off. And if you lose your ballot, make a mistake, or just want to vote in person, you can go to your polling place on election day. [More about voting by mail in Colorado][co]
+This morning Republican senator Mike Lee from Utah tweeted:
 
-[co]: https://www.cpr.org/2020/09/17/how-to-vote-mail-in-voting-colorado/
+<div>
+<a href="https://twitter.com/SenMikeLee/status/1314089207875371008">
+<img src="/img/lee-tweet.png" class="full-width border" alt="Mike Lee @SenMikeLee  Oct 8, 2020
+Democracy isn’t the objective; liberty, peace, and prospefity are.  We want the human condition to flourish.  Rank democracy can thwart that.">
+</a>
+<p></p>
+</div>
+
+This clarified my thinking about how to respond.
+
+<h3>“Do you hear the thunder?  <br>
+It's the sound of strength in numbers.”</h3>
 
 
+If the Republicans think they can steal this election and our civil liberties without a fight, they are in for a surprise. I will exercise my second amendment right to defend "the security of a free State."
+
+I don’t think I’ll be alone.
 
 
