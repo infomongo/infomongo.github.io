@@ -122,7 +122,7 @@ Both Pennsylvania and Wisconsin were extremely tight races in 2016. Last electio
 
 <h4 class="lite">Update: Oct 8, 2020</h4>
 
-This morning Republican senator Mike Lee from Utah tweeted:
+This morning Republican Senator Mike Lee from Utah tweeted:
 
 <div>
 <a href="https://twitter.com/SenMikeLee/status/1314089207875371008">
