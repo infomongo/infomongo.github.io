@@ -21,14 +21,14 @@ In Colorado, we’ve had universal vote-by-mail since 2013. It’s convenient an
 
 <a name="jump"></a>
 
-**Here’s how it works**:
+### Here’s how it works:
 
 - Every registered voter is mailed a ballot in October. *(This year, ballots will be mailed out starting October 9.)*
 - You can mail it back, put it in a drop box, or take it to your polling place and hand it to an election judge.
 
 If you'd rather vote in person, you can do that too. *(Polling places will be open starting October 9th, [find yours](https://www.sos.state.co.us/pubs/elections/VIP.html).)*
 
-**Every Colorado ballot has three parts**:
+### Every Colorado ballot has three parts:
 
 - The actual ballot, with the candidates and issues listed. You vote by filling in little bubbles, like the SAT or any standardized test.
 - A “secrecy” envelope. It’s really a privacy envelope, so election workers can't see how you voted as they process your ballot. 
@@ -42,42 +42,60 @@ If you'd rather vote in person, you can do that too. *(Polling places will be op
 - Ballots are collected from drop boxes daily, by a bipartisan team.
 - Once the ballots reach a county’s election division, they are kept in rooms with tamper-evident locks and 24/7 video surveillance.
 - During the count, ballots are counted by high-speed scanners and tabulated on computers that aren't connected to the internet.
-- Every election worker in ballot processing rooms must wear a coordinating vest, identification badge, and party affiliation button.
 - Bipartisan teams are responsible for verifying signatures, and processing ballots.
-- After the votes are tabulated, an audit is performed on randomly selected ballots, to verify that the ballot matches the recorded vote.
+- After the votes are tabulated, an audit is performed on randomly selected ballots.
 - All video recordings and ballots are kept for 25 months after the election. The entire vote can be recounted if there are concerns about a miscount or tampering.
 
 ## Duplicate Votes
 
 If you make a mistake on your ballot, or lose it it, you can go to your polling center and request a new one. **What prevents voters from voting more than once?** 
 
-Colorado maintains a database registered voters and every ballot has a barcode, printed on the return envelope, that uniquely identifies an individual voter. One of the first steps in processing ballots is to check the voter’s record in the database. When a ballot is accepted, the voter’s record is updated to indicate that their ballot has been received. Both the signature and the voter info must match the voter identified by the barcode. *The barcode is the primary key in a voter lookup. It's a code  that uniquely identifies a single voter.*
+Colorado maintains a database registered voters and every ballot has a barcode, printed on the return envelope, that uniquely identifies an individual voter. One of the first steps in processing ballots is to check the voter’s record in the database. When a ballot is accepted, the voter’s record is updated to indicate that their ballot has been received. Both the signature and the voter info must match the voter identified by the barcode. *The barcode is the primary key in a voter lookup, that uniquely identifies one person.*
 
 If a voter mails in a ballot, and then shows up to vote in person, only the first ballot received will be counted. *(It’s a crime to vote twice. The clerk will notify the district attorney of any duplicate votes.)*
 
 ### Isn’t my vote private?
 
-Only the the outer envelope has a barcode. After the voter’s signature is verified, and the database is checked, the ballot and privacy envelope are removed from the outer envelope. Then the ballot is processed in a separate room, devoid of any identifying information. The voter database contains a record that a ballot was received, but no indication of how that individual voted.
+Only the the outer envelope has a barcode. After the voter’s signature is verified, and the database is checked, the ballot and privacy envelope are removed from the outer envelope. Then the ballot, devoid of any identifying information,  is processed in a separate room. **The voter database contains a record that a ballot was received from a specific person, but no indication of how they voted.**
 
 ## What about foreign interference?
 
-**Couldn't Russia send in a bunch of fake ballots and flood the system?** If they mail the ballots in, or drop them off, they’d need to reverse engineer the barcodes used to identify voters, and convincingly fake thousands of voter signatures. And each county has a different system, uses different machines and takes a different approach toward verifying signatures.
+**Couldn't Russia send in a bunch of fake ballots and flood the system?** If they mail in the ballots, or drop them off, they’d need to reverse engineer the barcodes used to identify voters, and convincingly fake thousands of voter signatures. And each county has a different system, uses different machines and uses a different approach to verifying signatures. 
 
 Even if they could bypass this step, maybe with inside assistance, and somehow evade the video surveillance, card keys, tamper-proof locks, and the bipartisan teams overseeing the count, at best **all they could do is invalidate the election**, not pick a candidate. 
 
-If someone were to introduce a bunch of ballots for one candidate, the total number of votes counted wouldn’t match the number of ballots received and accepted. It wouldn’t survive the audit. They'd need to introduce a bunch of fake ballots and hack the voter database, too. And do it in a way that introduces enough ballots to have an effect without being caught by the audit. 
+If someone were to introduce a bunch of ballots for one candidate, the total number of votes counted wouldn’t match the number of ballots accepted. It wouldn’t survive the audit. They'd need to introduce a bunch of fake ballots and hack the voter database, too. And do it in a way that introduces enough ballots to have an effect without being caught by the audit. 
 
 ## Dead Man Voting
 
-This certainly happens. I’m sure people vote the ballots of their recently deceased spouses. One of the tasks of the voter database is to remove people who die, move out of state, or otherwise become ineligible. And I’m sure the government doesn’t always remove the right people from the voter roles. **But it doesn’t matter.** There aren’t enough recently dead registered voters to flip an election. To [rig an election](/posts/trumps-plan-to-steal-the-election/) you need to manipulate a significant percentage of the total votes. You'd need to get ahold of their ballots, prevent them from being marked as dead in the database, and successfully forge their signatures. If this is starting to sound like a shitty plan, then you get it. **Dead end**.
+There are [a few cases of ballots cast by dead people][ded1] in Colorado. In every case, it turns out that a family member was submitting the ballot of a deceased relative. In El Paso County, [a woman submitted ballots for both her dead parents in several elections][ded2]. These are voting crimes of opportunity. And they occur in in [very small numbers][fraud].
+
+[ded1]: https://denver.cbslocal.com/2016/09/22/cbs4-investigation-finds-dead-voters-casting-ballots-in-colorado/
+[ded2]: https://www.thedenverchannel.com/news/politics/colorado-woman-charged-with-voter-fraud-accused-of-forging-dead-parents-signatures
+[fraud]: https://www.denverpost.com/2017/09/15/colorado-2016-improper-voting-study/
+
+To turn this into an election rigging scheme, you’d need to systematically collect the ballots of dead people who are still registered, and forge their signatures. There is no evidence that anyone has made this work at scale.
 
 ## What about hackers on the internet?
 
-**None of the machines involved in scanning ballots, or tabulating votes are connected to the internet.** This is what is known as an [air-gapped network][air]. In Denver county, the tabulated results are copied to an external drive, which is used to update the Election Division’s website with the results. This is done starting at 7PM on election night with regualr updates until the count is complete.
+**None of the machines involved in scanning ballots, or tabulating votes are connected to the internet.** This is what is known as an [air-gapped network][air]. 
 
-Hackers can target the internet connected bits, like the elections website or the voter database, but the can't effect vote counts or totals. A successful effort could sow chaos, but it couldn’t affect the count. It wouldn’t survive the audit, and at best might trigger a recount of the paper ballots. **And this itself paper trail itself offers more security that most electronic voting systems.**  
+Hackers can target the internet connected bits, like the elections website reporting results, or the voter database, but they can't effect vote counts or totals. A successful effort could sow chaos, but it wouldn’t affect the count. It wouldn’t survive the audit, and at best might trigger a recount of the paper ballots. **And this itself paper trail itself offers more security that most electronic voting systems.**  
 
 [air]: https://www.wired.com/2014/12/hacker-lexicon-air-gap/
+
+### The post election audit
+
+According to the Colorado Secretary of State’s website, there are two kinds of the audits performed:
+
+*“After all of the ballots have been tabulated, audit boards made up of county residents are tasked with finding a random sample of specific ballots and reporting the markings on that ballot. If what the audit board reports matches how the voting system tabulated the ballots, the audit concludes. If there are discrepancies, additional ballots are randomly selected to compare until the outcome has been confirmed. If the wrong outcome was reported eventually all of the ballots will be examined and a new outcome will be determined.”*
+
+And 
+
+*“After all of the ballots have been tabulated, audit boards made up of county residents are tasked with finding a random sample of specific ballots and reporting the markings on that ballot. If a sufficient proportion of the sample conforms with the reported winner, the audit concludes. If not, additional ballots are randomly selected. If the wrong outcome was reported, eventually all of the ballots will be examined and a new outcome will be determined.”*
+
+
+[audit]: https://www.sos.state.co.us/pubs/elections/RLA/faqs.html
 
 ## Signatures & Rejected Ballots
 
