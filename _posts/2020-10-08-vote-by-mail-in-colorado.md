@@ -28,10 +28,11 @@ In Colorado, we’ve had universal vote-by-mail since 2013. It’s convenient an
 
 If you'd rather vote in person, you can do that too. *(Polling places will be open starting October 9th, [find yours](https://www.sos.state.co.us/pubs/elections/VIP.html).)*
 
-### Every Colorado ballot has three parts:
+### Every Colorado ballot has <del>three</del>, er, two parts:
 
 - The actual ballot, with the candidates and issues listed. You vote by filling in little bubbles, like the SAT or any standardized test.
-- A “secrecy” envelope. It’s really a privacy envelope, so election workers can't see how you voted as they process your ballot. 
+- <del>A “secrecy” envelope. It’s really a privacy envelope, so election workers can't see how you voted as they process your ballot.</del>  
+I just received my 2020 ballot for Denver County, and there is no secrecy envelope. I think some counties still have them, and we used to, but not this year.
 - A return envelope, that you sign and date. This also has a barcode, that provides a key bit of security. 
 
 ## What security measures are in place?
@@ -56,7 +57,7 @@ If a voter mails in a ballot, and then shows up to vote in person, only the firs
 
 ### Isn’t my vote private?
 
-Only the the outer envelope has a barcode. After the voter’s signature is verified, and the database is checked, the ballot and privacy envelope are removed from the outer envelope. Then the ballot, devoid of any identifying information,  is processed in a separate room. **The voter database contains a record that a ballot was received from a specific person, but no indication of how they voted.**
+Only the the outer envelope has a barcode. After the voter’s signature is verified, and the database is checked, the ballot is removed from the outer envelope. Then the ballot, devoid of any identifying information,  is processed in a separate room. **The voter database contains a record that a ballot was received from a specific person, but no indication of how they voted.**
 
 ## What about foreign interference?
 
