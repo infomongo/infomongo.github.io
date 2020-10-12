@@ -26,7 +26,7 @@ In Colorado, we’ve had universal vote-by-mail since 2013. It’s convenient an
 - Every registered voter is mailed a ballot in October. *(This year, ballots will be mailed out starting October 9.)*
 - You can mail it back, put it in a drop box, or take it to your polling place and hand it to an election judge.
 
-If you'd rather vote in person, you can do that too. *(Polling places will be open starting October 9th, [find yours](https://www.sos.state.co.us/pubs/elections/VIP.html).)*
+If you'd rather vote in person, you can do that too. *([find your polling place](https://www.sos.state.co.us/pubs/elections/VIP.html).)*
 
 ### Every Colorado ballot has <del>three</del>, er, two parts:
 
