@@ -69,7 +69,7 @@ Trump’s lawyers, and those of State GOP organizations, are filing any lawsuit 
 
 But the vote, it ain’t that close. Georgia has the closest margin at 12,291 votes or .25%, followed by Pennsylvania at 46,256 (.68%) and Nevada at 36,186 or (2.71%). Arizona is closer at 14,746 votes or .44%. 
 
-Courts are, so far, throwing these cases out like flaming turds, bcause there is no credible evidence of fraud. 
+Courts are, so far, throwing these cases out like flaming turds, because there is no credible evidence of fraud. 
 
 
 ## So that’s where we are now
