@@ -20,15 +20,6 @@ Tools that work as expected.
 </div> 
 </section>
 
-<section class="white">
-<div class="recent">
-<h4 class="lite">Latest Post</h4>
-{% for post in site.categories['featured'] limit:1 %}
-<h2><a href="{{ post.url}}">{{post.title}}</a></h2>
-{{ post.excerpt }}<a href="{{ post.url}}">more…</a>
-{% endfor %}
-</div>
-</section> 
 
 
 <section class="white" markdown="1">
@@ -70,3 +61,12 @@ interaction design, information architecture, wireframes
 </div>
 </section>
 
+<section class="white">
+<div class="recent">
+<h4 class="lite">Latest Post</h4>
+{% for post in site.categories['featured'] limit:1 %}
+<h2><a href="{{ post.url}}">{{post.title}}</a></h2>
+{{ post.excerpt }}<a href="{{ post.url}}">more…</a>
+{% endfor %}
+</div>
+</section> 
