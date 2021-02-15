@@ -26,7 +26,7 @@ The fatal flaw in impeachment is the idea of an impartial jury made of Senators,
 
 The January 6 Insurrection was driven by the **“big lie”** that Trump won the election. Trump repeated this ad nauseum between the election and the coup attempt. This lie was also spread by numerous GOP Senators. 
 
-On January 6th, after the violence, there were objections to counting the electoral college votes of both Arizona and Pennsylvania. *(The intial objection to Arizon took place during the attack, but both Senate votes below took place after they reconvened.)*
+On January 6th, after the violence, there were objections to counting the electoral college votes of both Arizona and Pennsylvania. *(The intial objection to Arizona took place during the attack, but both Senate votes below took place after they reconvened.)*
 
 * Objecting to Arizona’s vote were Ted Cruz (R-TX), Josh Hawley (R-MO), John Kennedy (R-LA), Cindy Hyde-Smith (R-MS), and Roger Marshall (R-KS). 
 
