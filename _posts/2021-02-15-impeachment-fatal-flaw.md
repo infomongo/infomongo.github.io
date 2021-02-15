@@ -50,7 +50,7 @@ The [Constitution Annotated](https://constitution.congress.gov/browse/essay/artI
 
 Before Trump’s first impeachment, numerous Republicans including Senate Majority leader, and Yertle the Turtle impersonator, Mitch McConnell said, “I'm not an impartial juror. This is a political process. There's not anything judicial about it.”
 
-During the second impeachment, Republican Senators Lindsey Graham, Mike Lee, and Ted Cruz met privately with Trump’s defense team, both before and during the trial. Senator Rand Paul could also be seen talking to defense during the trial.
+During the second impeachment, Republican Senators Lindsey Graham, Mike Lee, and Ted Cruz met privately with Trump’s defense team, both before and during the trial. Senator Rand Paul could also be seen talking to the defense during the trial.
 
 
 If Lindsey Graham (R-SC) and Mike Lee (R-UT) were excluded for meeting with the defense team prior to the trial,  only 90 Senators would reamin on the jury and only 60 would be needed to convict. Maybe three other GOP Senators would have voted to convict, if this were the case. *And maybe rainbows will fly out of my butt.*
