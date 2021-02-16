@@ -20,13 +20,13 @@ I have feelings about this, that I’ll detail in a future post, but this is the
 
 ## The Fatal Flaw
 
-There are only seven people in history who have voted to impeach a President from their own party, the seven who voted to convict Trump in his second impeachment. Mitt Romney was previously the only Senator ever to vote to impeach a President from his own party.
+There are only seven people in history who have voted to impeach a President from their own party: the seven who voted to convict Trump in his second impeachment. Mitt Romney was previously the only Senator ever to do so.
 
-The fatal flaw in impeachment is the idea of an impartial jury made of Senators, many from the Presidents’s own party. There is no impartiality. There isn’t even a pretense. 
+The fatal flaw in impeachment is the idea of an impartial jury. A jury made-up of Senators, half from from the President’s own party. There is no impartiality. There isn’t even the pretense. 
 
 ## The Oath is a Sham
 
-The Senators take an oath before the trial. The Constitution says “When sitting for that Purpose, they shall be on Oath or Affirmation.” Since 1798, some variation “I will do impartial justice according to the Constitution and laws: so help me God,” has been used.
+The Senators take an oath before the trial. The Constitution says “When sitting for that Purpose, they shall be on Oath or Affirmation.” Since 1798, some variation of “I will do impartial justice according to the Constitution and laws: so help me God,” has been used.
 
 Before Trump’s first impeachment, numerous Republicans including Senate Majority leader, and Yertle the Turtle impersonator, Mitch McConnell said, “I'm not an impartial juror. This is a political process. There's not anything judicial about it.”
 
@@ -42,7 +42,7 @@ On January 6th, after the violence, there were objections to counting the electo
 
 * Objecting to Arizona’s vote were Ted Cruz (R-TX), Josh Hawley (R-MO), John Kennedy (R-LA), Cindy Hyde-Smith (R-MS), and Roger Marshall (R-KS). 
 
-* Objecting to Pennsylvania’s vote were Senators Ted Cruz (R-TX), Josh Hawley (R-MO), Cindy Hyde-Smith (R-MS), Cynthia Lummis (R-WY), Rick Scott (FL), Roger Marshall (R-KS), and Tommy Tuberville (R-AL). 
+* Objecting to Pennsylvania’s vote were Senators Ted Cruz (R-TX), Josh Hawley (R-MO), Cindy Hyde-Smith (R-MS), Cynthia Lummis (R-WY), Rick Scott (R-FL), Roger Marshall (R-KS), and Tommy Tuberville (R-AL). 
 
 Altogether, eight Republican Senators voted in objection. Should they have been allowed to sit on the jury? If they were excluded, only 61 votes would have been needed to convict. 
 
