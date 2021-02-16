@@ -155,13 +155,11 @@ ol.popular  {
 
 blockquote {
 	max-width: 33rem;
-	border-left: .25rem $text-color-lite solid;
+	border-left: .25rem $main-color solid;
 	padding-left: .75rem;
-	color: $text-color-lite;
 	margin: 0 auto;
-	h4 {
-		color: $text-color-lite;
-	}
+	//color: $text-color-dark;
+	font-family: "BentonSans-Medium", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;;
 }
 
 
