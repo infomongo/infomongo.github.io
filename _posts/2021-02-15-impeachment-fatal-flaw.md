@@ -99,7 +99,7 @@ Since several Judges have been impeached after resigning, it would seem that rem
 
 * On February 9, 2021, the Senate voted on the motion “Is Former President Donald John Trump Subject to a Court of Impeachment for Acts Committed While President?” The vote passed 56–44. 
 
-Bill Cassidy is the guy who changed vote, if you are wondering. After hearing evidence in the impeachment trial, he said he was persuaded. This is the precedent they set: a President can be impeached after leaving office. It happened in 2021.
+Bill Cassidy is the guy who changed his vote, if you are wondering. After hearing evidence in the impeachment trial, he said he was persuaded. This is the precedent they set: a President can be impeached after leaving office. It happened in 2021.
 
 ## How likely is a conviction?
 
@@ -109,7 +109,7 @@ Bill Cassidy is the guy who changed vote, if you are wondering. After hearing ev
 
 * Trump 1 involved election tampering, but without any overtly illegal actions. Just one “perfect” call. Gangstery, but dull. Two stars. A conviction would have saved lives, tho. 
 
-* Trump 2 involved an attempted coup and a cop was killed. A butt-load of crime this time. Cops getting beat with American flags and Trump flags, probably Blues Mater flags, too. Also, Trump looks likely to face prosecution for his attempts to strong-arm Georgia Secretary of State Brad Raffensperger, to “find 11,780 votes.” Another “perfect call.” Drain the swamp. 
+* Trump 2 involved an attempted coup and a cop was killed. A butt-load of crime this time. Cops getting beat with American flags and Trump flags, probably Blue Lives Matter flags, too. Also, Trump looks likely to face prosecution for his attempts to strong-arm Georgia Secretary of State Brad Raffensperger, to “find 11,780 votes.” Another “perfect call.” Drain the swamp. 
 
 ### Sadly, the odds of conviction depend entirely on the partisan make-up of the Senate.
 
