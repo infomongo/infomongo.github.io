@@ -103,7 +103,7 @@ Bill Cassidy is the guy who changed vote, if you are wondering. After hearing ev
 
 ## How likely is a conviction?
 
-* Nixon was messing with the election, and it evolved an actual break-in and illegal wiretapping. He would have been impeached, and probably removed, had it gone to a vote.
+* Nixon was messing with the election, and it evolved an actual break-in and illegal wiretapping. He would have been impeached, and probably removed.
 
 * Clinton was impeached for lying to Congress. The closest vote was on the article of obstruction of justice, a 50 – 50 vote. No crime was alleged. Hilary didn’t even drop him. Everyone owes Monica Lewinsky an Apology. Sorry, Monica. Bill never apologized and America treated you badly. Jay Leno owes you a car.
 
