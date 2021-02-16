@@ -77,7 +77,7 @@ Richard Nixon was never formally impeached. Three articles of impeachment, obstr
 
 * Trump’s first impeachment was based on the charge that he solicited foreign interference in the 2020 election. He tried to strong-arm Ukrainian president Volodymyr Zelensky to dig up dirt on Hunter Biden and Joe Biden, who was the presumptive Democratic nominee. His friend, Rudy, also made some calls. 
 
-* Trump’s second impeachment arose out of the attack on the Capitol. A crowd of Trump Supporters assembled at the Save America rally and then headed to the Capitol, where the killed a cop, injured 140 others, broke-in and chanted "Hang Mike Pence" and "Where's Nancy."
+* Trump’s second impeachment arose out of the attack on the Capitol. A crowd of Trump Supporters assembled at the Save America rally and then headed to the Capitol, where they killed a cop, injured 140 others, broke-in and chanted "Hang Mike Pence" and "Where's Nancy."
 
 ### Election-rigging and coup-throwing will get you impeached.
 
