@@ -14,8 +14,7 @@ class: home
 
 # this is infomongo
 
-I'm [John Phillips](/about/). I design software for people.  
-Tools that work as expected.  
+I'm [John Phillips](/about/). I practice user-centered design. I design tools that people like to use.
 
 </div> 
 </section>
@@ -61,12 +60,4 @@ interaction design, information architecture, wireframes
 </div>
 </section>
 
-<section class="white">
-<div class="recent">
-<h4 class="lite">Latest Post</h4>
-{% for post in site.categories['featured'] limit:1 %}
-<h2><a href="{{ post.url}}">{{post.title}}</a></h2>
-{{ post.excerpt }}<a href="{{ post.url}}">more…</a>
-{% endfor %}
-</div>
-</section> 
+
