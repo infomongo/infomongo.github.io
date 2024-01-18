@@ -51,6 +51,11 @@ h2 {
 }
 
 
+.home .dark.wrap {
+	background: url("/img/art-bg-dark.jpeg") no-repeat center;
+	background-size: cover;
+}
+
 @media only screen and (max-width:  $breakpoint-sm) {
 
 }
